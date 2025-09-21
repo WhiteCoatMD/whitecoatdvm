@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Owner Portal - WhiteCoat DVM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header portal-header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="public/whitecoatdvmlogo.png" alt="WhiteCoat DVM Logo" class="logo-img">
+                </div>
+                <div class="portal-nav">
+                    <span class="user-welcome">Welcome, <span id="userName">Pet Owner</span></span>
+                    <button class="btn-outline" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Portal Dashboard -->
+    <main class="portal-main">
+        <div class="container">
+            <div class="portal-sidebar">
+                <ul class="sidebar-menu">
+                    <li><a href="#dashboard" class="active" onclick="showSection('dashboard')">Dashboard</a></li>
+                    <li><a href="#consultation" onclick="showSection('consultation')">Start Consultation</a></li>
+                    <li><a href="#pets" onclick="showSection('pets')">My Pets</a></li>
+                    <li><a href="#history" onclick="showSection('history')">Consultation History</a></li>
+                    <li><a href="#account" onclick="showSection('account')">Account Settings</a></li>
+                    <li><a href="#billing" onclick="showSection('billing')">Billing</a></li>
+                </ul>
+            </div>
+
+            <div class="portal-content">
+                <!-- Dashboard Section -->
+                <section id="dashboard" class="portal-section active">
+                    <h1>Dashboard</h1>
+                    
+                    <div class="dashboard-cards">
+                        <div class="dashboard-card">
+                            <h3>Quick Consultation</h3>
+                            <p>Connect with a veterinarian right now</p>
+                            <button class="btn-primary" onclick="showSection('consultation')">Start Now</button>
+                        </div>
+                        
+                        <div class="dashboard-card">
+                            <h3>My Pets</h3>
+                            <p><span id="petCount">0</span> pets registered</p>
+                            <button class="btn-outline" onclick="showSection('pets')">Manage Pets</button>
+                        </div>
+                        
+                        <div class="dashboard-card">
+                            <h3>Recent Consultations</h3>
+                            <p><span id="consultationCount">0</span> consultations this month</p>
+                            <button class="btn-outline" onclick="showSection('history')">View History</button>
+                        </div>
+                    </div>
+
+                    <div class="recent-activity">
+                        <h2>Recent Activity</h2>
+                        <div class="activity-list" id="activityList">
+                            <p class="no-activity">No recent activity</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Consultation Section -->
+                <section id="consultation" class="portal-section">
+                    <h1>Start Consultation</h1>
+                    
+                    <div class="consultation-form">
+                        <div class="form-group">
+                            <label for="consultationPet">Select Pet *</label>
+                            <select id="consultationPet" required>
+                                <option value="">Choose a pet</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="consultationType">Consultation Type *</label>
+                            <select id="consultationType" required>
+                                <option value="">Select type</option>
+                                <option value="general">General Health Question</option>
+                                <option value="behavior">Behavioral Concern</option>
+                                <option value="symptoms">Symptoms Assessment</option>
+                                <option value="followup">Follow-up Care</option>
+                                <option value="medication">Medication Question</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="consultationDescription">Describe Your Concern *</label>
+                            <textarea id="consultationDescription" rows="5" placeholder="Please describe your pet's symptoms, behavior, or your question in detail..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="urgency">Urgency Level</label>
+                            <select id="urgency">
+                                <option value="routine">Routine - Not urgent</option>
+                                <option value="moderate">Moderate - Within a few hours</option>
+                                <option value="urgent">Urgent - Need help soon</option>
+                            </select>
+                            <small>For emergencies, contact your local emergency vet immediately</small>
+                        </div>
+
+                        <button class="btn-primary large" onclick="requestConsultation()">Request Consultation</button>
+                    </div>
+                </section>
+
+                <!-- Pets Section -->
+                <section id="pets" class="portal-section">
+                    <div class="section-header">
+                        <h1>My Pets</h1>
+                        <button class="btn-primary" onclick="showAddPetForm()">Add New Pet</button>
+                    </div>
+                    
+                    <div class="pets-grid" id="petsGrid">
+                        <!-- Pets will be loaded here -->
+                    </div>
+
+                    <!-- Add Pet Form Modal -->
+                    <div id="addPetModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Add New Pet</h2>
+                                <span class="close" onclick="closeAddPetForm()">&times;</span>
+                            </div>
+                            <form class="pet-form">
+                                <div class="form-group">
+                                    <label for="newPetName">Pet Name *</label>
+                                    <input type="text" id="newPetName" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="newPetType">Pet Type *</label>
+                                    <select id="newPetType" required>
+                                        <option value="">Select type</option>
+                                        <option value="dog">Dog</option>
+                                        <option value="cat">Cat</option>
+                                        <option value="bird">Bird</option>
+                                        <option value="rabbit">Rabbit</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="newPetBreed">Breed</label>
+                                    <input type="text" id="newPetBreed">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="newPetAge">Age Range *</label>
+                                    <select id="newPetAge" required>
+                                        <option value="">Select age</option>
+                                        <option value="puppy">Puppy/Kitten (0-1 year)</option>
+                                        <option value="young">Young (1-3 years)</option>
+                                        <option value="adult">Adult (3-7 years)</option>
+                                        <option value="senior">Senior (7+ years)</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="newPetWeight">Weight (lbs)</label>
+                                    <input type="number" id="newPetWeight">
+                                </div>
+                                
+                                <div class="form-buttons">
+                                    <button type="button" class="btn-outline" onclick="closeAddPetForm()">Cancel</button>
+                                    <button type="button" class="btn-primary" onclick="addPet()">Add Pet</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- History Section -->
+                <section id="history" class="portal-section">
+                    <h1>Consultation History</h1>
+                    
+                    <div class="history-filters">
+                        <select id="historyFilter">
+                            <option value="all">All Consultations</option>
+                            <option value="completed">Completed</option>
+                            <option value="pending">Pending</option>
+                        </select>
+                    </div>
+                    
+                    <div class="history-list" id="historyList">
+                        <p class="no-history">No consultations yet</p>
+                    </div>
+                </section>
+
+                <!-- Account Section -->
+                <section id="account" class="portal-section">
+                    <h1>Account Settings</h1>
+                    
+                    <div class="account-form">
+                        <h2>Personal Information</h2>
+                        
+                        <div class="form-group">
+                            <label for="accountFirstName">First Name</label>
+                            <input type="text" id="accountFirstName">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="accountLastName">Last Name</label>
+                            <input type="text" id="accountLastName">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="accountEmail">Email Address</label>
+                            <input type="email" id="accountEmail">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="accountPhone">Phone Number</label>
+                            <input type="tel" id="accountPhone">
+                        </div>
+                        
+                        <button class="btn-primary" onclick="updateAccount()">Save Changes</button>
+                    </div>
+                </section>
+
+                <!-- Billing Section -->
+                <section id="billing" class="portal-section">
+                    <h1>Billing & Subscription</h1>
+                    
+                    <div class="billing-info">
+                        <div class="subscription-card">
+                            <h2>Current Plan</h2>
+                            <div class="plan-details">
+                                <p class="plan-name">Monthly Plan</p>
+                                <p class="plan-price">$24.99/month</p>
+                                <p class="next-billing">Next billing: <span id="nextBilling">--</span></p>
+                            </div>
+                            <button class="btn-outline">Change Plan</button>
+                        </div>
+                        
+                        <div class="billing-history">
+                            <h2>Billing History</h2>
+                            <div class="history-item">
+                                <span>No billing history available</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="portal.js"></script>
+</body>
+</html>

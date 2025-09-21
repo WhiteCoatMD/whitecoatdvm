@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - WhiteCoat DVM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="public/whitecoatdvmlogo.png" alt="WhiteCoat DVM Logo" class="logo-img">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html" class="btn-outline">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Registration Form -->
+    <section class="registration-section">
+        <div class="container">
+            <div class="registration-container">
+                <div class="registration-header">
+                    <h1>Create Your Account</h1>
+                    <p>Get started with WhiteCoat DVM TeleVet services</p>
+                </div>
+
+                <form id="registrationForm" class="registration-form">
+                    <div class="form-step active" id="step1">
+                        <h2>Account Information</h2>
+                        
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" name="password" required>
+                            <small>Minimum 8 characters, include letters and numbers</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password *</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        </div>
+
+                        <button type="button" class="btn-primary large" onclick="nextStep()">Next: Pet Information</button>
+                    </div>
+
+                    <div class="form-step" id="step2">
+                        <h2>Pet Information</h2>
+                        <p>Add your first pet (you can add up to 6 pets total)</p>
+                        
+                        <div class="form-group">
+                            <label for="petName">Pet Name *</label>
+                            <input type="text" id="petName" name="petName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="petType">Pet Type *</label>
+                            <select id="petType" name="petType" required>
+                                <option value="">Select pet type</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="bird">Bird</option>
+                                <option value="rabbit">Rabbit</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="petBreed">Breed</label>
+                            <input type="text" id="petBreed" name="petBreed" placeholder="e.g., Golden Retriever, Mixed">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="petAge">Age *</label>
+                            <select id="petAge" name="petAge" required>
+                                <option value="">Select age range</option>
+                                <option value="puppy">Puppy/Kitten (0-1 year)</option>
+                                <option value="young">Young (1-3 years)</option>
+                                <option value="adult">Adult (3-7 years)</option>
+                                <option value="senior">Senior (7+ years)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="petWeight">Weight (lbs)</label>
+                            <input type="number" id="petWeight" name="petWeight" placeholder="e.g., 25">
+                        </div>
+
+                        <div class="form-buttons">
+                            <button type="button" class="btn-outline" onclick="prevStep()">Back</button>
+                            <button type="button" class="btn-primary large" onclick="nextStep()">Next: Plan Selection</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="step3">
+                        <h2>Choose Your Plan</h2>
+                        
+                        <div class="plan-selection">
+                            <div class="plan-card" data-plan="monthly">
+                                <div class="plan-header">
+                                    <h3>Monthly Plan</h3>
+                                    <div class="price">$24.99/month</div>
+                                    <p class="plan-note">First month only $5</p>
+                                </div>
+                                <ul>
+                                    <li>Unlimited consultations</li>
+                                    <li>Up to 6 pets</li>
+                                    <li>On-demand access</li>
+                                </ul>
+                            </div>
+
+                            <div class="plan-card popular" data-plan="quarterly">
+                                <div class="popular-badge">Most Popular</div>
+                                <div class="plan-header">
+                                    <h3>90-Day Plan</h3>
+                                    <div class="price">$39.99/90 days</div>
+                                    <p class="plan-note">Save $35 vs monthly</p>
+                                </div>
+                                <ul>
+                                    <li>Unlimited consultations</li>
+                                    <li>Up to 6 pets</li>
+                                    <li>On-demand access</li>
+                                    <li>Priority support</li>
+                                </ul>
+                            </div>
+
+                            <div class="plan-card" data-plan="biannual">
+                                <div class="plan-header">
+                                    <h3>6-Month Plan</h3>
+                                    <div class="price">$69.99/6 months</div>
+                                    <p class="plan-note">Save $80 vs monthly</p>
+                                </div>
+                                <ul>
+                                    <li>Unlimited consultations</li>
+                                    <li>Up to 6 pets</li>
+                                    <li>On-demand access</li>
+                                    <li>Priority support</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="form-buttons">
+                            <button type="button" class="btn-outline" onclick="prevStep()">Back</button>
+                            <button type="submit" class="btn-primary large" id="submitBtn">Create Account</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="success">
+                        <div class="success-message">
+                            <h2>Welcome to WhiteCoat DVM!</h2>
+                            <p>Your account has been created successfully. Check your email for verification instructions.</p>
+                            <a href="portal.html" class="btn-primary large">Access Your Portal</a>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="progress-bar">
+                    <div class="progress-step active">1</div>
+                    <div class="progress-step">2</div>
+                    <div class="progress-step">3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="registration.js"></script>
+</body>
+</html>
