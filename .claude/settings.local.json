@@ -8,7 +8,9 @@
       "Bash(git remote add:*)",
       "Bash(git push:*)",
       "Bash(python:*)",
-      "Bash(vercel:*)"
+      "Bash(vercel:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []
