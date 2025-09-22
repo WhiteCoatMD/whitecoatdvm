@@ -258,6 +258,21 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.service-icon {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon svg {
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-icon svg {
+    transform: scale(1.1);
+}
+
 .service-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
