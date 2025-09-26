@@ -835,3 +835,50 @@ body {
 .remove-discount:hover {
     background: #c82333;
 }
+
+/* Plan Selection Layout - Override portal.css */
+.plan-selection {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    gap: 20px !important;
+    margin-bottom: 30px !important;
+    max-width: 1200px !important;
+    margin: 0 auto 30px auto !important;
+}
+
+.plan-card {
+    border: 2px solid #e9ecef !important;
+    border-radius: 12px !important;
+    padding: 25px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    position: relative !important;
+    background: white !important;
+}
+
+.plan-card:hover {
+    border-color: #3498db !important;
+    background: #f8fafc !important;
+}
+
+.plan-card.selected {
+    border-color: #3498db !important;
+    background: #f8fafc !important;
+}
+
+.plan-card.popular {
+    border-color: #3498db !important;
+    background: #f8fafc !important;
+}
+
+.plan-card .popular-badge {
+    position: absolute !important;
+    top: -10px !important;
+    right: 20px !important;
+    background: #3498db !important;
+    color: white !important;
+    padding: 5px 15px !important;
+    border-radius: 15px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
