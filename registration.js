@@ -200,7 +200,9 @@ async function submitToGoogleSheets(data) {
             // Handle iframe load (indicates form submission complete)
             iframe.onload = function() {
                 console.log('Form submitted successfully to Google Sheets');
-                document.body.removeChild(form);
+                if (document.body.contains(form)) {
+                    document.body.removeChild(form);
+                }
                 resolve({ success: true });
             };
 
