@@ -34,7 +34,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.plan-card').forEach(card => {
         card.addEventListener('click', function() {
             console.log('Plan card clicked:', this.dataset.plan);
-            document.querySelectorAll('.plan-card').forEach(c => c.classList.remove('selected'));
+            document.querySelectorAll('.plan-card').forEach(c => {
+                c.classList.remove('selected');
+                // Remove popular highlighting when other plan is selected
+                c.classList.remove('popular');
+            });
             this.classList.add('selected');
             selectedPlan = this.dataset.plan;
             console.log('Selected plan updated to:', selectedPlan);
@@ -270,9 +274,34 @@ function getPlanData(plan) {
     return plans[plan];
 }
 
+// Define available discount codes
+const DISCOUNT_CODES = {
+    'WELCOME10': {
+        id: 'welcome10',
+        description: '10% off first month',
+        type: 'percentage',
+        value: 10,
+        durationDescription: 'for first month'
+    },
+    'SAVE20': {
+        id: 'save20',
+        description: '20% off first month',
+        type: 'percentage',
+        value: 20,
+        durationDescription: 'for first month'
+    },
+    'NEWPET': {
+        id: 'newpet',
+        description: '$5 off first month',
+        type: 'amount',
+        value: 500, // in cents
+        durationDescription: 'for first month'
+    }
+};
+
 // Discount code functions
 async function applyDiscount() {
-    const discountCode = document.getElementById('discountCode').value.trim();
+    const discountCode = document.getElementById('discountCode').value.trim().toUpperCase();
     const messageElement = document.getElementById('discount-message');
 
     if (!discountCode) {
@@ -286,18 +315,11 @@ async function applyDiscount() {
     applyButton.disabled = true;
     applyButton.textContent = 'Applying...';
 
-    try {
-        const response = await fetch('/api/validate-coupon', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ couponCode: discountCode })
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-            appliedCoupon = result.coupon;
-            messageElement.innerHTML = `<span class="success">✓ ${result.coupon.description} ${result.coupon.durationDescription}</span>`;
+    // Simulate API delay
+    setTimeout(() => {
+        if (DISCOUNT_CODES[discountCode]) {
+            appliedCoupon = DISCOUNT_CODES[discountCode];
+            messageElement.innerHTML = `<span class="success">✓ ${appliedCoupon.description} ${appliedCoupon.durationDescription}</span>`;
 
             // Update plan summary to show discount
             updatePlanSummary();
@@ -307,18 +329,12 @@ async function applyDiscount() {
             applyButton.textContent = 'Applied';
 
         } else {
-            messageElement.innerHTML = `<span class="error">${result.error}</span>`;
+            messageElement.innerHTML = '<span class="error">Invalid discount code</span>';
             appliedCoupon = null;
             applyButton.disabled = false;
             applyButton.textContent = 'Apply';
         }
-    } catch (error) {
-        console.error('Discount validation error:', error);
-        messageElement.innerHTML = '<span class="error">Failed to validate code. Please try again.</span>';
-        appliedCoupon = null;
-        applyButton.disabled = false;
-        applyButton.textContent = 'Apply';
-    }
+    }, 500);
 }
 
 function removeDiscount() {
