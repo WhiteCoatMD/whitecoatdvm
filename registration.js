@@ -151,7 +151,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
 // Google Sheets integration function
 async function submitToGoogleSheets(data) {
-    const GOOGLE_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwpqiLoH6RJ3f6QDH0RxsPaGjHt3w-jXT25SK_AIfLVHvz3z5GkqDoekezhlP1CpICH/exec';
     
     try {
         const response = await fetch(GOOGLE_SCRIPT_URL, {
