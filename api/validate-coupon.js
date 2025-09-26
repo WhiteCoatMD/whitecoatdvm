@@ -18,6 +18,11 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: 'Method not allowed' });
     }
 
+    // Debug logging
+    console.log('API called with method:', req.method);
+    console.log('Request body:', req.body);
+    console.log('Stripe secret key exists:', !!process.env.STRIPE_SECRET_API);
+
     try {
         const { couponCode } = req.body;
 
@@ -78,6 +83,9 @@ export default async function handler(req, res) {
 
     } catch (error) {
         console.error('Coupon validation error:', error);
+        console.error('Error type:', error.type);
+        console.error('Error code:', error.code);
+        console.error('Error message:', error.message);
 
         // Handle specific Stripe errors
         if (error.type === 'StripeInvalidRequestError') {
@@ -87,9 +95,17 @@ export default async function handler(req, res) {
             });
         }
 
+        if (!process.env.STRIPE_SECRET_API) {
+            return res.status(500).json({
+                success: false,
+                error: 'Stripe configuration error'
+            });
+        }
+
         return res.status(500).json({
             success: false,
-            error: 'Failed to validate discount code'
+            error: 'Failed to validate discount code',
+            debug: error.message
         });
     }
 }
