@@ -2,7 +2,7 @@
 const Stripe = require('stripe');
 
 // Initialize Stripe with your secret key
-const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
+const stripe = Stripe(process.env.STRIPE_SECRET_API);
 
 export default async function handler(req, res) {
     // Set CORS headers

@@ -1,7 +1,7 @@
 // Vercel serverless function to validate Stripe coupons
 const Stripe = require('stripe');
 
-const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
+const stripe = Stripe(process.env.STRIPE_SECRET_API);
 
 export default async function handler(req, res) {
     // Set CORS headers
