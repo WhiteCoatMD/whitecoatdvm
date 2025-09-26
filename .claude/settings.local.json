@@ -14,7 +14,8 @@
       "Read(//c/Users/13183//**)",
       "Bash(start index.html)",
       "Bash(explorer:*)",
-      "Bash(cmd //c start index.html)"
+      "Bash(cmd //c start index.html)",
+      "WebFetch(domain:www.whitecoatdvm.com)"
     ],
     "deny": [],
     "ask": []

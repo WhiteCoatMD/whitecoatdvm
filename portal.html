@@ -49,7 +49,7 @@
                         <div class="dashboard-card">
                             <h3>Quick Consultation</h3>
                             <p>Connect with a veterinarian right now</p>
-                            <button class="btn-primary" onclick="showSection('consultation')">Start Now</button>
+                            <a href="https://care-web.teletails.com/WCPDVM" target="_blank" class="btn-primary">Start Vet Consultation</a>
                         </div>
                         
                         <div class="dashboard-card">
@@ -76,8 +76,31 @@
                 <!-- Consultation Section -->
                 <section id="consultation" class="portal-section">
                     <h1>Start Consultation</h1>
-                    
-                    <div class="consultation-form">
+
+                    <div class="consultation-access">
+                        <div class="consultation-link-card">
+                            <h2>🏥 Access Veterinary Consultations</h2>
+                            <p>Connect with licensed veterinarians 24/7 through our partner platform TeleTails.</p>
+                            <a href="https://care-web.teletails.com/WCPDVM" target="_blank" class="consultation-link-button">
+                                <span class="link-icon">🔗</span>
+                                <span class="link-text">Start Vet Consultation</span>
+                                <span class="link-arrow">→</span>
+                            </a>
+                            <p class="link-note">Opens in a new window. Use your WhiteCoat DVM credentials when prompted.</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-info">
+                        <h3>Before Your Consultation</h3>
+                        <ul>
+                            <li>Have your pet's information ready</li>
+                            <li>Prepare a list of symptoms or concerns</li>
+                            <li>Take photos/videos if helpful for assessment</li>
+                            <li>Have your pet nearby for the consultation</li>
+                        </ul>
+                    </div>
+
+                    <div class="consultation-form" style="display: none;">
                         <div class="form-group">
                             <label for="consultationPet">Select Pet *</label>
                             <select id="consultationPet" required>
@@ -258,5 +281,40 @@
     </main>
 
     <script src="portal.js"></script>
+    <script>
+    // Check authentication on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        const session = localStorage.getItem('whitecoat_session');
+        const user = localStorage.getItem('whitecoat_user');
+
+        if (!session || !user) {
+            // No valid session, redirect to login
+            window.location.href = 'login.html';
+            return;
+        }
+
+        try {
+            const userData = JSON.parse(user);
+            // Update welcome message
+            const userNameElement = document.getElementById('userName');
+            if (userNameElement && userData.firstName) {
+                userNameElement.textContent = userData.firstName;
+            }
+        } catch (error) {
+            console.error('Error parsing user data:', error);
+            // Invalid data, redirect to login
+            localStorage.removeItem('whitecoat_session');
+            localStorage.removeItem('whitecoat_user');
+            window.location.href = 'login.html';
+        }
+    });
+
+    // Logout function
+    function logout() {
+        localStorage.removeItem('whitecoat_session');
+        localStorage.removeItem('whitecoat_user');
+        window.location.href = 'login.html';
+    }
+    </script>
 </body>
 </html>

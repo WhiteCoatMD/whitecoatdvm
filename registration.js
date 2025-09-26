@@ -408,9 +408,18 @@ async function processPayment() {
         // Store user data locally for portal
         localStorage.setItem('whitecoat_user', JSON.stringify(formData));
 
+        // Create session token for auto-login
+        const sessionToken = Buffer.from(`${formData.email}:${Date.now()}`).toString('base64');
+        localStorage.setItem('whitecoat_session', sessionToken);
+
         // Show success step
         currentStep = 5;
         updateStepDisplay();
+
+        // Auto-redirect to portal after 3 seconds
+        setTimeout(() => {
+            window.location.href = 'portal.html';
+        }, 3000);
 
     } catch (error) {
         console.error('Payment error:', error);

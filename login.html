@@ -75,38 +75,44 @@
     </section>
 
     <script>
-        document.getElementById('loginForm').addEventListener('submit', function(e) {
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-            
+
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
-            
-            // For demo - in production, this would authenticate with your backend
-            const storedUser = localStorage.getItem('whitecoat_user');
-            
-            if (storedUser) {
-                const userData = JSON.parse(storedUser);
-                if (userData.email === email) {
-                    // Successful login
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+
+            // Show loading state
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Signing In...';
+
+            try {
+                const response = await fetch('/api/authenticate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, password })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    // Store session info
+                    localStorage.setItem('whitecoat_session', result.sessionToken);
+                    localStorage.setItem('whitecoat_user', JSON.stringify(result.user));
+
+                    // Redirect to portal
                     window.location.href = 'portal.html';
-                    return;
+                } else {
+                    alert(result.error || 'Login failed. Please check your credentials.');
                 }
-            }
-            
-            // Demo login for any email/password combination
-            if (email && password) {
-                // Create demo user data
-                const demoUser = {
-                    firstName: 'Demo',
-                    lastName: 'User',
-                    email: email,
-                    phone: '(555) 123-4567'
-                };
-                
-                localStorage.setItem('whitecoat_user', JSON.stringify(demoUser));
-                window.location.href = 'portal.html';
-            } else {
-                alert('Please enter your email and password');
+            } catch (error) {
+                console.error('Login error:', error);
+                alert('Login failed. Please try again.');
+            } finally {
+                // Reset button state
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
             }
         });
         
