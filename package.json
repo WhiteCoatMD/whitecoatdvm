@@ -1,0 +1,15 @@
+{
+  "name": "whitecoat-dvm",
+  "version": "1.0.0",
+  "description": "WhiteCoat DVM TeleVet Services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0"
+  },
+  "author": "WhiteCoat DVM",
+  "license": "MIT"
+}

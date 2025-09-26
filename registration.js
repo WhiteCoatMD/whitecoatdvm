@@ -5,8 +5,17 @@ let currentStep = 1;
 let selectedPlan = 'quarterly'; // Default to most popular
 let formData = {};
 
-// Stripe configuration - REPLACE WITH YOUR PUBLISHABLE KEY
-const STRIPE_PUBLISHABLE_KEY = 'pk_test_YOUR_STRIPE_PUBLISHABLE_KEY_HERE';
+// Stripe configuration
+const STRIPE_PUBLISHABLE_KEY = 'pk_test_51SBbwJBVZoTUglHtqwQUpgyrSh6dwETblcLwvREvJDzH1Yer6wRAMaGqpqcDReOmFH4bTbuVMRmWmeEh3bA1C7o300QpuhfDo7';
+
+// Stripe Price IDs
+const STRIPE_PRICES = {
+    monthly: 'price_1SBcNuBguaMiV0x31aP7EFPq',
+    monthlySpecial: 'price_1SBcNuBguaMiV0x31aP7EFPq', // Using same price for now, you'll need the $5 price ID
+    quarterly: 'price_1SBcNrBguaMiV0x3wjStmi81',
+    yearly: 'price_1SBcNoBguaMiV0x3hTNEDc7J'
+};
+
 let stripe;
 let elements;
 let cardElement;
@@ -284,14 +293,8 @@ async function processPayment() {
             throw new Error(error.message);
         }
 
-        // Process payment based on plan type
-        if (selectedPlan === 'monthly') {
-            // Create subscription for monthly plan
-            await createSubscription(paymentMethod.id, planData);
-        } else {
-            // Create one-time payment for quarterly/yearly
-            await createOneTimePayment(paymentMethod.id, planData);
-        }
+        // Create subscription for all plans (now all are recurring)
+        await createSubscription(paymentMethod.id, planData, selectedPlan);
 
         // If we get here, payment was successful
         // Save registration data
@@ -314,25 +317,39 @@ async function processPayment() {
     }
 }
 
-// Create subscription for monthly plan
-async function createSubscription(paymentMethodId, planData) {
-    // This would typically call your backend to create a Stripe subscription
-    // For now, we'll simulate the process
-    console.log('Creating subscription for:', paymentMethodId, planData);
+// Create subscription for all plans (monthly, quarterly, yearly)
+async function createSubscription(paymentMethodId, planData, plan) {
+    console.log('Creating subscription for:', plan, paymentMethodId);
 
-    // TODO: Implement backend endpoint for subscription creation
-    // const response = await fetch('/create-subscription', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify({
-    //         paymentMethodId,
-    //         plan: selectedPlan,
-    //         customerData: formData
-    //     })
-    // });
+    try {
+        const response = await fetch('/api/create-subscription', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                paymentMethodId,
+                priceId: STRIPE_PRICES[plan],
+                plan: plan,
+                customerData: {
+                    name: `${formData.firstName} ${formData.lastName}`,
+                    email: formData.email,
+                    phone: formData.phone,
+                    petName: formData.petName,
+                    petType: formData.petType
+                }
+            })
+        });
 
-    // For demo purposes, we'll resolve immediately
-    return Promise.resolve({ success: true });
+        if (!response.ok) {
+            throw new Error(`Subscription creation failed: ${response.statusText}`);
+        }
+
+        const result = await response.json();
+        console.log('Subscription created:', result);
+        return result;
+    } catch (error) {
+        console.error('Subscription creation error:', error);
+        throw error;
+    }
 }
 
 // Create one-time payment for quarterly/yearly plans
