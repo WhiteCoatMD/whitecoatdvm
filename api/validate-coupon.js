@@ -18,6 +18,7 @@ module.exports = async function handler(req, res) {
         console.log('API called with method:', req.method);
         console.log('Request body:', req.body);
         console.log('Stripe secret key exists:', !!process.env.STRIPE_SECRET_API);
+        console.log('Stripe key starts with:', process.env.STRIPE_SECRET_API?.substring(0, 8) + '...');
 
         // Initialize Stripe inside the function to avoid import issues
         const Stripe = require('stripe');
