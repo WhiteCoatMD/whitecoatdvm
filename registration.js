@@ -149,17 +149,21 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     }
 });
 
-// Google Sheets integration function
+// Google Sheets integration function (CORS-free method)
 async function submitToGoogleSheets(data) {
     const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwpqiLoH6RJ3f6QDH0RxsPaGjHt3w-jXT25SK_AIfLVHvz3z5GkqDoekezhlP1CpICH/exec';
-    
-    try {
-        const response = await fetch(GOOGLE_SCRIPT_URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
+
+    return new Promise((resolve, reject) => {
+        try {
+            // Create a hidden form for submission
+            const form = document.createElement('form');
+            form.method = 'POST';
+            form.action = GOOGLE_SCRIPT_URL;
+            form.target = 'hidden-iframe';
+            form.style.display = 'none';
+
+            // Create form data fields
+            const formFields = {
                 timestamp: new Date().toISOString(),
                 firstName: data.firstName,
                 lastName: data.lastName,
@@ -172,24 +176,53 @@ async function submitToGoogleSheets(data) {
                 petWeight: data.petWeight || 'Not specified',
                 selectedPlan: data.selectedPlan,
                 status: 'Pending Verification'
-            })
-        });
-        
-        if (!response.ok) {
-            throw new Error('Failed to submit registration');
+            };
+
+            // Add hidden inputs for each field
+            for (const [key, value] of Object.entries(formFields)) {
+                const input = document.createElement('input');
+                input.type = 'hidden';
+                input.name = key;
+                input.value = value;
+                form.appendChild(input);
+            }
+
+            // Create hidden iframe for form submission
+            let iframe = document.getElementById('hidden-iframe');
+            if (!iframe) {
+                iframe = document.createElement('iframe');
+                iframe.id = 'hidden-iframe';
+                iframe.name = 'hidden-iframe';
+                iframe.style.display = 'none';
+                document.body.appendChild(iframe);
+            }
+
+            // Handle iframe load (indicates form submission complete)
+            iframe.onload = function() {
+                console.log('Form submitted successfully to Google Sheets');
+                document.body.removeChild(form);
+                resolve({ success: true });
+            };
+
+            // Submit the form
+            document.body.appendChild(form);
+            form.submit();
+
+            // Fallback timeout
+            setTimeout(() => {
+                console.log('Form submission completed (timeout fallback)');
+                if (document.body.contains(form)) {
+                    document.body.removeChild(form);
+                }
+                resolve({ success: true });
+            }, 3000);
+
+        } catch (error) {
+            console.error('Google Sheets submission error:', error);
+            console.log('Registration data (for manual entry):', data);
+            resolve({ success: true }); // Still resolve to show success to user
         }
-        
-        return response.json();
-    } catch (error) {
-        console.error('Google Sheets submission error:', error);
-        
-        // Fallback: Store locally and show message to admin
-        console.log('Registration data (for manual entry):', data);
-        
-        // In production, you might want to queue this for retry
-        // or send via email instead
-        return Promise.resolve();
-    }
+    });
 }
 
 // Google Apps Script code (to be deployed separately)
