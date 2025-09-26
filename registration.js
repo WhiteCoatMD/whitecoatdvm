@@ -5,11 +5,20 @@ let currentStep = 1;
 let selectedPlan = 'quarterly'; // Default to most popular
 let formData = {};
 
+// Stripe configuration - REPLACE WITH YOUR PUBLISHABLE KEY
+const STRIPE_PUBLISHABLE_KEY = 'pk_test_YOUR_STRIPE_PUBLISHABLE_KEY_HERE';
+let stripe;
+let elements;
+let cardElement;
+
 // Initialize registration form
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize Stripe
+    initializeStripe();
+
     // Set default plan selection
     document.querySelector(`[data-plan="${selectedPlan}"]`).classList.add('selected');
-    
+
     // Add plan selection listeners
     document.querySelectorAll('.plan-card').forEach(card => {
         card.addEventListener('click', function() {
@@ -19,6 +28,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Initialize Stripe
+function initializeStripe() {
+    if (STRIPE_PUBLISHABLE_KEY.includes('YOUR_STRIPE')) {
+        console.warn('Please replace STRIPE_PUBLISHABLE_KEY with your actual Stripe publishable key');
+        return;
+    }
+
+    stripe = Stripe(STRIPE_PUBLISHABLE_KEY);
+    elements = stripe.elements();
+
+    // Create card element
+    cardElement = elements.create('card', {
+        style: {
+            base: {
+                fontSize: '16px',
+                color: '#424770',
+                '::placeholder': {
+                    color: '#aab7c4',
+                },
+            },
+        },
+    });
+}
 
 function nextStep() {
     console.log('nextStep() called, current step:', currentStep);
@@ -105,10 +138,15 @@ function updateStepDisplay() {
     document.querySelectorAll('.form-step').forEach(step => {
         step.classList.remove('active');
     });
-    
+
     // Show current step
-    if (currentStep <= 3) {
+    if (currentStep <= 4) {
         document.getElementById(`step${currentStep}`).classList.add('active');
+
+        // Initialize payment step when reached
+        if (currentStep === 4) {
+            initializePaymentStep();
+        }
     } else {
         document.getElementById('success').classList.add('active');
     }
@@ -124,30 +162,199 @@ function updateProgressBar() {
     });
 }
 
+// Initialize payment step
+function initializePaymentStep() {
+    if (!cardElement) {
+        console.warn('Stripe not initialized');
+        return;
+    }
+
+    // Mount card element
+    cardElement.mount('#card-element');
+
+    // Handle real-time validation errors from the card Element
+    cardElement.on('change', function(event) {
+        const displayError = document.getElementById('card-errors');
+        if (event.error) {
+            displayError.textContent = event.error.message;
+        } else {
+            displayError.textContent = '';
+        }
+    });
+
+    // Update plan summary
+    updatePlanSummary();
+}
+
+function updatePlanSummary() {
+    const planSummary = document.getElementById('planSummary');
+    const planData = getPlanData(selectedPlan);
+
+    planSummary.innerHTML = `
+        <div class="plan-details">
+            <h4>${planData.name}</h4>
+            <div class="plan-price">${planData.price}</div>
+            <p class="plan-billing">${planData.billing}</p>
+        </div>
+    `;
+}
+
+function getPlanData(plan) {
+    const plans = {
+        monthly: {
+            name: 'Monthly Plan',
+            price: '$24.99/month',
+            billing: 'Recurring monthly billing • First month only $5',
+            amount: 2499, // in cents
+            firstAmount: 500 // first month special price
+        },
+        quarterly: {
+            name: '90-Day Plan',
+            price: '$39.99/90 days',
+            billing: 'One-time payment • Save $35 vs monthly',
+            amount: 3999
+        },
+        biannual: {
+            name: '6-Month Plan',
+            price: '$69.99/6 months',
+            billing: 'One-time payment • Save $80 vs monthly',
+            amount: 6999
+        }
+    };
+    return plans[plan];
+}
+
 // Handle form submission
 document.getElementById('registrationForm').addEventListener('submit', function(e) {
     e.preventDefault();
-    
-    if (validateCurrentStep()) {
-        saveCurrentStepData();
-        formData.selectedPlan = selectedPlan;
-        
-        // Submit to Google Sheets
-        submitToGoogleSheets(formData)
-            .then(() => {
-                // Store user data locally for portal
-                localStorage.setItem('whitecoat_user', JSON.stringify(formData));
-                
-                // Show success step
-                currentStep = 4;
-                updateStepDisplay();
-            })
-            .catch(error => {
-                console.error('Registration error:', error);
-                alert('Registration failed. Please try again.');
-            });
+
+    if (currentStep === 4) {
+        // Process payment
+        processPayment();
+    } else {
+        // Regular form validation
+        if (validateCurrentStep()) {
+            saveCurrentStepData();
+            formData.selectedPlan = selectedPlan;
+
+            // Submit to Google Sheets
+            submitToGoogleSheets(formData)
+                .then(() => {
+                    // Store user data locally for portal
+                    localStorage.setItem('whitecoat_user', JSON.stringify(formData));
+
+                    // Show success step
+                    currentStep = 5;
+                    updateStepDisplay();
+                })
+                .catch(error => {
+                    console.error('Registration error:', error);
+                    alert('Registration failed. Please try again.');
+                });
+        }
     }
 });
+
+// Process payment with Stripe
+async function processPayment() {
+    if (!stripe || !cardElement) {
+        alert('Payment system not initialized. Please refresh and try again.');
+        return;
+    }
+
+    const planData = getPlanData(selectedPlan);
+    const submitButton = document.getElementById('submitBtn');
+
+    // Disable submit button and show loading
+    submitButton.disabled = true;
+    submitButton.textContent = 'Processing Payment...';
+
+    try {
+        // Create payment method
+        const {error, paymentMethod} = await stripe.createPaymentMethod({
+            type: 'card',
+            card: cardElement,
+            billing_details: {
+                name: `${formData.firstName} ${formData.lastName}`,
+                email: formData.email,
+            },
+        });
+
+        if (error) {
+            throw new Error(error.message);
+        }
+
+        // Process payment based on plan type
+        if (selectedPlan === 'monthly') {
+            // Create subscription for monthly plan
+            await createSubscription(paymentMethod.id, planData);
+        } else {
+            // Create one-time payment for quarterly/biannual
+            await createOneTimePayment(paymentMethod.id, planData);
+        }
+
+        // If we get here, payment was successful
+        // Save registration data
+        await submitToGoogleSheets(formData);
+
+        // Store user data locally for portal
+        localStorage.setItem('whitecoat_user', JSON.stringify(formData));
+
+        // Show success step
+        currentStep = 5;
+        updateStepDisplay();
+
+    } catch (error) {
+        console.error('Payment error:', error);
+        document.getElementById('card-errors').textContent = error.message;
+    } finally {
+        // Re-enable submit button
+        submitButton.disabled = false;
+        submitButton.textContent = 'Complete Registration & Pay';
+    }
+}
+
+// Create subscription for monthly plan
+async function createSubscription(paymentMethodId, planData) {
+    // This would typically call your backend to create a Stripe subscription
+    // For now, we'll simulate the process
+    console.log('Creating subscription for:', paymentMethodId, planData);
+
+    // TODO: Implement backend endpoint for subscription creation
+    // const response = await fetch('/create-subscription', {
+    //     method: 'POST',
+    //     headers: { 'Content-Type': 'application/json' },
+    //     body: JSON.stringify({
+    //         paymentMethodId,
+    //         plan: selectedPlan,
+    //         customerData: formData
+    //     })
+    // });
+
+    // For demo purposes, we'll resolve immediately
+    return Promise.resolve({ success: true });
+}
+
+// Create one-time payment for quarterly/biannual plans
+async function createOneTimePayment(paymentMethodId, planData) {
+    // This would typically call your backend to create a Stripe PaymentIntent
+    // For now, we'll simulate the process
+    console.log('Creating one-time payment for:', paymentMethodId, planData);
+
+    // TODO: Implement backend endpoint for one-time payment
+    // const response = await fetch('/create-payment', {
+    //     method: 'POST',
+    //     headers: { 'Content-Type': 'application/json' },
+    //     body: JSON.stringify({
+    //         paymentMethodId,
+    //         amount: planData.amount,
+    //         customerData: formData
+    //     })
+    // });
+
+    // For demo purposes, we'll resolve immediately
+    return Promise.resolve({ success: true });
+}
 
 // Google Sheets integration function (CORS-free method)
 async function submitToGoogleSheets(data) {

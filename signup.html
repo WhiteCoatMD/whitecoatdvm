@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="portal.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
     <!-- Header -->
@@ -170,7 +171,29 @@
 
                         <div class="form-buttons">
                             <button type="button" class="btn-outline" onclick="prevStep()">Back</button>
-                            <button type="submit" class="btn-primary large" id="submitBtn">Create Account</button>
+                            <button type="button" class="btn-primary large" onclick="nextStep()">Continue to Payment</button>
+                        </div>
+                    </div>
+
+                    <div class="form-step" id="step4">
+                        <h2>Payment Information</h2>
+                        <div class="payment-summary">
+                            <h3>Order Summary</h3>
+                            <div class="selected-plan-summary" id="planSummary">
+                                <!-- Plan details will be populated here -->
+                            </div>
+                        </div>
+
+                        <div class="payment-form">
+                            <div id="card-element">
+                                <!-- Stripe Elements will create form elements here -->
+                            </div>
+                            <div id="card-errors" role="alert"></div>
+                        </div>
+
+                        <div class="form-buttons">
+                            <button type="button" class="btn-outline" onclick="prevStep()">Back</button>
+                            <button type="submit" class="btn-primary large" id="submitBtn">Complete Registration & Pay</button>
                         </div>
                     </div>
 
@@ -187,6 +210,7 @@
                     <div class="progress-step active">1</div>
                     <div class="progress-step">2</div>
                     <div class="progress-step">3</div>
+                    <div class="progress-step">4</div>
                 </div>
             </div>
         </div>

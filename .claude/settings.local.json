@@ -10,7 +10,11 @@
       "Bash(python:*)",
       "Bash(vercel:*)",
       "Bash(cat:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Read(//c/Users/13183//**)",
+      "Bash(start index.html)",
+      "Bash(explorer:*)",
+      "Bash(cmd //c start index.html)"
     ],
     "deny": [],
     "ask": []

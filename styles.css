@@ -697,3 +697,53 @@ body {
         font-size: 48px;
     }
 }
+
+/* Payment Form Styles */
+.payment-summary {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.payment-summary h3 {
+    margin-bottom: 1rem;
+    color: #2d3748;
+}
+
+.plan-details h4 {
+    color: #3498db;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.plan-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.plan-billing {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.payment-form {
+    margin-bottom: 2rem;
+}
+
+#card-element {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 1rem;
+}
+
+#card-errors {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
