@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     }
 
     try {
-        const { paymentMethodId, priceId, plan, customerData } = req.body;
+        const { paymentMethodId, priceId, plan, customerData, couponId } = req.body;
 
         if (!paymentMethodId || !priceId || !customerData) {
             return res.status(400).json({
@@ -28,7 +28,7 @@ export default async function handler(req, res) {
             });
         }
 
-        console.log('Creating subscription for:', { plan, priceId, customerData: customerData.email });
+        console.log('Creating subscription for:', { plan, priceId, customerData: customerData.email, couponId });
 
         // Create or retrieve customer
         const customer = await stripe.customers.create({
@@ -46,8 +46,8 @@ export default async function handler(req, res) {
             },
         });
 
-        // Create subscription
-        const subscription = await stripe.subscriptions.create({
+        // Create subscription with optional coupon
+        const subscriptionData = {
             customer: customer.id,
             items: [{
                 price: priceId,
@@ -62,7 +62,15 @@ export default async function handler(req, res) {
                 save_default_payment_method: 'on_subscription',
             },
             expand: ['latest_invoice.payment_intent'],
-        });
+        };
+
+        // Add coupon if provided
+        if (couponId) {
+            subscriptionData.coupon = couponId;
+            console.log('Applying coupon to subscription:', couponId);
+        }
+
+        const subscription = await stripe.subscriptions.create(subscriptionData);
 
         console.log('Subscription created:', subscription.id);
 

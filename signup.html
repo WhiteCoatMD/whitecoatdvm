@@ -185,6 +185,17 @@
                             </div>
                         </div>
 
+                        <div class="discount-section">
+                            <div class="form-group">
+                                <label for="discountCode">Discount Code (Optional)</label>
+                                <div class="discount-input-group">
+                                    <input type="text" id="discountCode" name="discountCode" placeholder="Enter discount code">
+                                    <button type="button" class="btn-outline small" onclick="applyDiscount()">Apply</button>
+                                </div>
+                                <div id="discount-message" class="discount-message"></div>
+                            </div>
+                        </div>
+
                         <div class="payment-form">
                             <div id="card-element">
                                 <!-- Stripe Elements will create form elements here -->

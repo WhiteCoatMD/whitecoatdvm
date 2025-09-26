@@ -4,6 +4,7 @@ console.log('Registration.js loaded successfully');
 let currentStep = 1;
 let selectedPlan = 'quarterly'; // Default to most popular
 let formData = {};
+let appliedCoupon = null;
 
 // Stripe configuration
 const STRIPE_PUBLISHABLE_KEY = 'pk_test_51SBbwJBVZoTUglHtqwQUpgyrSh6dwETblcLwvREvJDzH1Yer6wRAMaGqpqcDReOmFH4bTbuVMRmWmeEh3bA1C7o300QpuhfDo7';
@@ -199,13 +200,28 @@ function updatePlanSummary() {
     const planSummary = document.getElementById('planSummary');
     const planData = getPlanData(selectedPlan);
 
-    planSummary.innerHTML = `
+    let summaryHTML = `
         <div class="plan-details">
             <h4>${planData.name}</h4>
             <div class="plan-price">${planData.price}</div>
             <p class="plan-billing">${planData.billing}</p>
         </div>
     `;
+
+    // Add discount information if applied
+    if (appliedCoupon) {
+        summaryHTML += `
+            <div class="discount-applied">
+                <div class="discount-info">
+                    <span class="discount-label">Discount Applied:</span>
+                    <span class="discount-details">${appliedCoupon.description} - ${appliedCoupon.durationDescription}</span>
+                </div>
+                <button type="button" class="remove-discount" onclick="removeDiscount()">Remove</button>
+            </div>
+        `;
+    }
+
+    planSummary.innerHTML = summaryHTML;
 }
 
 function getPlanData(plan) {
@@ -231,6 +247,70 @@ function getPlanData(plan) {
         }
     };
     return plans[plan];
+}
+
+// Discount code functions
+async function applyDiscount() {
+    const discountCode = document.getElementById('discountCode').value.trim();
+    const messageElement = document.getElementById('discount-message');
+
+    if (!discountCode) {
+        messageElement.innerHTML = '<span class="error">Please enter a discount code</span>';
+        return;
+    }
+
+    // Show loading state
+    messageElement.innerHTML = '<span class="loading">Validating code...</span>';
+    const applyButton = document.querySelector('.discount-input-group button');
+    applyButton.disabled = true;
+    applyButton.textContent = 'Applying...';
+
+    try {
+        const response = await fetch('/api/validate-coupon', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ couponCode: discountCode })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            appliedCoupon = result.coupon;
+            messageElement.innerHTML = `<span class="success">✓ ${result.coupon.description} ${result.coupon.durationDescription}</span>`;
+
+            // Update plan summary to show discount
+            updatePlanSummary();
+
+            // Disable the input and button
+            document.getElementById('discountCode').disabled = true;
+            applyButton.textContent = 'Applied';
+
+        } else {
+            messageElement.innerHTML = `<span class="error">${result.error}</span>`;
+            appliedCoupon = null;
+            applyButton.disabled = false;
+            applyButton.textContent = 'Apply';
+        }
+    } catch (error) {
+        console.error('Discount validation error:', error);
+        messageElement.innerHTML = '<span class="error">Failed to validate code. Please try again.</span>';
+        appliedCoupon = null;
+        applyButton.disabled = false;
+        applyButton.textContent = 'Apply';
+    }
+}
+
+function removeDiscount() {
+    appliedCoupon = null;
+    document.getElementById('discountCode').value = '';
+    document.getElementById('discountCode').disabled = false;
+    document.getElementById('discount-message').innerHTML = '';
+
+    const applyButton = document.querySelector('.discount-input-group button');
+    applyButton.disabled = false;
+    applyButton.textContent = 'Apply';
+
+    updatePlanSummary();
 }
 
 // Handle form submission
@@ -329,6 +409,7 @@ async function createSubscription(paymentMethodId, planData, plan) {
                 paymentMethodId,
                 priceId: STRIPE_PRICES[plan],
                 plan: plan,
+                couponId: appliedCoupon ? appliedCoupon.id : null,
                 customerData: {
                     name: `${formData.firstName} ${formData.lastName}`,
                     email: formData.email,

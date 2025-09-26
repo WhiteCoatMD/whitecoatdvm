@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - WhiteCoat DVM Discount Codes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .admin-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .admin-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #8b1538;
+        }
+        .discount-form {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: #333;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .stripe-command {
+            background: #f1f3f4;
+            padding: 1rem;
+            border-radius: 4px;
+            border-left: 4px solid #8b1538;
+            font-family: monospace;
+            font-size: 0.9rem;
+            margin: 1rem 0;
+            white-space: pre-wrap;
+        }
+        .example-codes {
+            background: #e8f5e8;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+        .example-codes h3 {
+            color: #2d5a2d;
+            margin-bottom: 1rem;
+        }
+        .code-example {
+            background: white;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 0.5rem;
+            border-left: 3px solid #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <div class="admin-header">
+            <h1>🏥 WhiteCoat DVM Admin</h1>
+            <h2>Discount Code Management</h2>
+        </div>
+
+        <div class="discount-form">
+            <h3>Create New Discount Code</h3>
+            <p>Use this form to generate Stripe CLI commands for creating discount codes:</p>
+
+            <form id="discountForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="couponId">Coupon Code ID *</label>
+                        <input type="text" id="couponId" placeholder="e.g., SHELTER6MONTHS" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="couponName">Display Name</label>
+                        <input type="text" id="couponName" placeholder="e.g., Shelter Adoption Special">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="discountType">Discount Type *</label>
+                        <select id="discountType" required onchange="toggleDiscountInput()">
+                            <option value="">Select discount type</option>
+                            <option value="percent">Percentage Off</option>
+                            <option value="amount">Fixed Amount Off</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="discountValue">Discount Value *</label>
+                        <input type="number" id="discountValue" placeholder="e.g., 100 for 100% or 2500 for $25" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="duration">Duration *</label>
+                        <select id="duration" required onchange="toggleDurationMonths()">
+                            <option value="">Select duration</option>
+                            <option value="once">One-time use (first payment only)</option>
+                            <option value="repeating">Repeating (for X months)</option>
+                            <option value="forever">Forever</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="durationMonthsGroup" style="display: none;">
+                        <label for="durationMonths">Number of Months</label>
+                        <input type="number" id="durationMonths" placeholder="e.g., 6" min="1" max="12">
+                    </div>
+                </div>
+
+                <button type="button" class="btn-primary" onclick="generateStripeCommand()">Generate Stripe Command</button>
+            </form>
+
+            <div id="stripeCommandOutput" style="display: none;">
+                <h4>Stripe CLI Command:</h4>
+                <div class="stripe-command" id="commandText"></div>
+                <p><strong>Copy and run this command in your terminal with Stripe CLI installed.</strong></p>
+            </div>
+        </div>
+
+        <div class="example-codes">
+            <h3>📋 Example Discount Codes</h3>
+
+            <div class="code-example">
+                <strong>SHELTER6MONTHS</strong> - 100% off for 6 months (Shelter adoption special)
+                <div class="stripe-command">stripe coupons create --id=SHELTER6MONTHS --name="Shelter Adoption Special" --percent-off=100 --duration=repeating --duration-in-months=6</div>
+            </div>
+
+            <div class="code-example">
+                <strong>FIRSTTIME50</strong> - 50% off first month only
+                <div class="stripe-command">stripe coupons create --id=FIRSTTIME50 --name="First Time Customer" --percent-off=50 --duration=once</div>
+            </div>
+
+            <div class="code-example">
+                <strong>RESCUE25</strong> - $25 off forever (Rescue organization)
+                <div class="stripe-command">stripe coupons create --id=RESCUE25 --name="Rescue Organization Discount" --amount-off=2500 --currency=usd --duration=forever</div>
+            </div>
+
+            <div class="code-example">
+                <strong>STUDENT20</strong> - 20% off for 12 months (Student discount)
+                <div class="stripe-command">stripe coupons create --id=STUDENT20 --name="Student Discount" --percent-off=20 --duration=repeating --duration-in-months=12</div>
+            </div>
+        </div>
+
+        <div style="margin-top: 2rem; padding: 1rem; background: #fff3cd; border-radius: 4px; border-left: 4px solid #ffc107;">
+            <h4>📝 Instructions:</h4>
+            <ol>
+                <li>Fill out the form above to generate Stripe CLI commands</li>
+                <li>Install Stripe CLI and authenticate: <code>stripe login</code></li>
+                <li>Run the generated command to create the coupon</li>
+                <li>The discount code will be immediately available for use</li>
+                <li>Test the code on your registration form</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        function toggleDiscountInput() {
+            const discountType = document.getElementById('discountType').value;
+            const valueInput = document.getElementById('discountValue');
+
+            if (discountType === 'percent') {
+                valueInput.placeholder = 'e.g., 50 for 50% off';
+            } else if (discountType === 'amount') {
+                valueInput.placeholder = 'e.g., 2500 for $25.00 off';
+            }
+        }
+
+        function toggleDurationMonths() {
+            const duration = document.getElementById('duration').value;
+            const monthsGroup = document.getElementById('durationMonthsGroup');
+
+            if (duration === 'repeating') {
+                monthsGroup.style.display = 'block';
+                document.getElementById('durationMonths').required = true;
+            } else {
+                monthsGroup.style.display = 'none';
+                document.getElementById('durationMonths').required = false;
+            }
+        }
+
+        function generateStripeCommand() {
+            const couponId = document.getElementById('couponId').value;
+            const couponName = document.getElementById('couponName').value;
+            const discountType = document.getElementById('discountType').value;
+            const discountValue = document.getElementById('discountValue').value;
+            const duration = document.getElementById('duration').value;
+            const durationMonths = document.getElementById('durationMonths').value;
+
+            if (!couponId || !discountType || !discountValue || !duration) {
+                alert('Please fill in all required fields');
+                return;
+            }
+
+            let command = `stripe coupons create --id=${couponId}`;
+
+            if (couponName) {
+                command += ` --name="${couponName}"`;
+            }
+
+            if (discountType === 'percent') {
+                command += ` --percent-off=${discountValue}`;
+            } else {
+                command += ` --amount-off=${discountValue} --currency=usd`;
+            }
+
+            command += ` --duration=${duration}`;
+
+            if (duration === 'repeating' && durationMonths) {
+                command += ` --duration-in-months=${durationMonths}`;
+            }
+
+            document.getElementById('commandText').textContent = command;
+            document.getElementById('stripeCommandOutput').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
