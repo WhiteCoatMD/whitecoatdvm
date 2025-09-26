@@ -14,6 +14,7 @@ const STRIPE_PRICES = {
     monthly: 'price_1SBcNuBguaMiV0x31aP7EFPq',
     monthlySpecial: 'price_1SBcNuBguaMiV0x31aP7EFPq', // Using same price for now, you'll need the $5 price ID
     quarterly: 'price_1SBcNrBguaMiV0x3wjStmi81',
+    sixmonth: 'price_1SBdONBguaMiV0x3Q81xB0s9',
     yearly: 'price_1SBcNoBguaMiV0x3hTNEDc7J'
 };
 
@@ -236,13 +237,19 @@ function getPlanData(plan) {
         quarterly: {
             name: '90-Day Plan',
             price: '$49.99/90 days',
-            billing: 'One-time payment • Save $25 vs monthly',
+            billing: 'Recurring every 90 days • Save $25 vs monthly',
             amount: 4999
+        },
+        sixmonth: {
+            name: '6-Month Plan',
+            price: '$69.99/6 months',
+            billing: 'Recurring every 6 months • Save $80 vs monthly',
+            amount: 6999
         },
         yearly: {
             name: 'Yearly Plan',
             price: '$79.99/year',
-            billing: 'One-time payment • Save $220 vs monthly • Best value!',
+            billing: 'Recurring yearly • Save $220 vs monthly • Best value!',
             amount: 7999
         }
     };
