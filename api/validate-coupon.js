@@ -1,8 +1,4 @@
 // Vercel serverless function to validate Stripe coupons
-const Stripe = require('stripe');
-
-const stripe = Stripe(process.env.STRIPE_SECRET_API);
-
 module.exports = async function handler(req, res) {
     // Set CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -18,12 +14,15 @@ module.exports = async function handler(req, res) {
         return res.status(405).json({ error: 'Method not allowed' });
     }
 
-    // Debug logging
-    console.log('API called with method:', req.method);
-    console.log('Request body:', req.body);
-    console.log('Stripe secret key exists:', !!process.env.STRIPE_SECRET_API);
-
     try {
+        console.log('API called with method:', req.method);
+        console.log('Request body:', req.body);
+        console.log('Stripe secret key exists:', !!process.env.STRIPE_SECRET_API);
+
+        // Initialize Stripe inside the function to avoid import issues
+        const Stripe = require('stripe');
+        const stripe = Stripe(process.env.STRIPE_SECRET_API);
+
         const { couponCode } = req.body;
 
         if (!couponCode) {
