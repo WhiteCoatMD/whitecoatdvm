@@ -33,9 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add plan selection listeners
     document.querySelectorAll('.plan-card').forEach(card => {
         card.addEventListener('click', function() {
+            console.log('Plan card clicked:', this.dataset.plan);
             document.querySelectorAll('.plan-card').forEach(c => c.classList.remove('selected'));
             this.classList.add('selected');
             selectedPlan = this.dataset.plan;
+            console.log('Selected plan updated to:', selectedPlan);
         });
     });
 });
