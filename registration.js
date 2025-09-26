@@ -1,4 +1,5 @@
 // Registration Form JavaScript
+console.log('Registration.js loaded successfully');
 
 let currentStep = 1;
 let selectedPlan = 'quarterly'; // Default to most popular
@@ -20,11 +21,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function nextStep() {
+    console.log('nextStep() called, current step:', currentStep);
     if (validateCurrentStep()) {
+        console.log('Validation passed, moving to next step');
         saveCurrentStepData();
         currentStep++;
         updateStepDisplay();
         updateProgressBar();
+    } else {
+        console.log('Validation failed');
     }
 }
 
@@ -37,41 +42,50 @@ function prevStep() {
 }
 
 function validateCurrentStep() {
+    console.log('validateCurrentStep() called for step:', currentStep);
     const currentStepElement = document.getElementById(`step${currentStep}`);
     const requiredFields = currentStepElement.querySelectorAll('input[required], select[required]');
-    
+
+    console.log('Required fields found:', requiredFields.length);
+
     let isValid = true;
+    let emptyFields = [];
+
     requiredFields.forEach(field => {
+        console.log('Checking field:', field.name, 'value:', field.value);
         if (!field.value.trim()) {
             field.style.borderColor = '#e74c3c';
+            emptyFields.push(field.previousElementSibling ? field.previousElementSibling.textContent : field.name);
             isValid = false;
+            console.log('Field invalid:', field.name);
         } else {
             field.style.borderColor = '#e9ecef';
         }
     });
-    
+
     // Additional validation for step 1 (passwords)
     if (currentStep === 1) {
         const password = document.getElementById('password').value;
         const confirmPassword = document.getElementById('confirmPassword').value;
-        
-        if (password !== confirmPassword) {
+
+        if (password && confirmPassword && password !== confirmPassword) {
             document.getElementById('confirmPassword').style.borderColor = '#e74c3c';
             alert('Passwords do not match');
             isValid = false;
         }
-        
-        if (password.length < 8) {
+
+        if (password && password.length < 8) {
             document.getElementById('password').style.borderColor = '#e74c3c';
             alert('Password must be at least 8 characters long');
             isValid = false;
         }
     }
-    
-    if (!isValid) {
-        alert('Please fill in all required fields correctly');
+
+    if (!isValid && emptyFields.length > 0) {
+        alert(`Please fill in the following required fields: ${emptyFields.join(', ')}`);
     }
-    
+
+    console.log('Validation result:', isValid);
     return isValid;
 }
 
