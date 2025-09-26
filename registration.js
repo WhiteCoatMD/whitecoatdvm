@@ -214,10 +214,10 @@ function getPlanData(plan) {
             billing: 'One-time payment • Save $25 vs monthly',
             amount: 4999
         },
-        biannual: {
-            name: '6-Month Plan',
-            price: '$79.99/6 months',
-            billing: 'One-time payment • Save $70 vs monthly',
+        yearly: {
+            name: 'Yearly Plan',
+            price: '$79.99/year',
+            billing: 'One-time payment • Save $220 vs monthly • Best value!',
             amount: 7999
         }
     };
@@ -289,7 +289,7 @@ async function processPayment() {
             // Create subscription for monthly plan
             await createSubscription(paymentMethod.id, planData);
         } else {
-            // Create one-time payment for quarterly/biannual
+            // Create one-time payment for quarterly/yearly
             await createOneTimePayment(paymentMethod.id, planData);
         }
 
@@ -335,7 +335,7 @@ async function createSubscription(paymentMethodId, planData) {
     return Promise.resolve({ success: true });
 }
 
-// Create one-time payment for quarterly/biannual plans
+// Create one-time payment for quarterly/yearly plans
 async function createOneTimePayment(paymentMethodId, planData) {
     // This would typically call your backend to create a Stripe PaymentIntent
     // For now, we'll simulate the process
