@@ -7,7 +7,7 @@ let formData = {};
 let appliedCoupon = null;
 
 // Stripe configuration
-const STRIPE_PUBLISHABLE_KEY = 'pk_test_51SBbwJBVZoTUglHtqwQUpgyrSh6dwETblcLwvREvJDzH1Yer6wRAMaGqpqcDReOmFH4bTbuVMRmWmeEh3bA1C7o300QpuhfDo7';
+const STRIPE_PUBLISHABLE_KEY = 'pk_live_51SBbw8BguaMiV0x3vTgW8lLNIQ7sHxpk2np6pFP4LkXesK7gSpDnpBjHNdQ24XXUDX3cR7AAPgCYmy0K4VNTW3l700D6oSXDnX';
 
 // Stripe Price IDs
 const STRIPE_PRICES = {
