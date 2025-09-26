@@ -78,12 +78,15 @@ module.exports = async function handler(req, res) {
         console.log('Subscription created:', subscription.id);
 
         // Return subscription details
+        const clientSecret = subscription.latest_invoice?.payment_intent?.client_secret || null;
+
         return res.status(200).json({
             success: true,
             subscriptionId: subscription.id,
             customerId: customer.id,
-            clientSecret: subscription.latest_invoice.payment_intent.client_secret,
-            status: subscription.status
+            clientSecret: clientSecret,
+            status: subscription.status,
+            requiresAction: subscription.latest_invoice?.payment_intent?.status === 'requires_action'
         });
 
     } catch (error) {
