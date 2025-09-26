@@ -210,15 +210,15 @@ function getPlanData(plan) {
         },
         quarterly: {
             name: '90-Day Plan',
-            price: '$39.99/90 days',
-            billing: 'One-time payment • Save $35 vs monthly',
-            amount: 3999
+            price: '$49.99/90 days',
+            billing: 'One-time payment • Save $25 vs monthly',
+            amount: 4999
         },
         biannual: {
             name: '6-Month Plan',
-            price: '$69.99/6 months',
-            billing: 'One-time payment • Save $80 vs monthly',
-            amount: 6999
+            price: '$79.99/6 months',
+            billing: 'One-time payment • Save $70 vs monthly',
+            amount: 7999
         }
     };
     return plans[plan];
