@@ -127,6 +127,18 @@ function validateCurrentStep() {
         }
     }
 
+    // Additional validation for step 3 (plan selection)
+    if (currentStep === 3) {
+        const selectedCard = document.querySelector('.plan-card.selected');
+        if (!selectedCard) {
+            alert('Please select a plan to continue');
+            isValid = false;
+            console.log('Plan selection validation failed - no plan selected');
+        } else {
+            console.log('Plan selection validation passed - selected plan:', selectedPlan);
+        }
+    }
+
     if (!isValid && emptyFields.length > 0) {
         alert(`Please fill in the following required fields: ${emptyFields.join(', ')}`);
     }
