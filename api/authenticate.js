@@ -26,42 +26,84 @@ module.exports = async function handler(req, res) {
 
         console.log('Authentication attempt for:', email);
 
-        // Google Sheets API URL for the specific sheet
+        // Google Sheets public CSV URL (requires sheet to be shared publicly)
         const SHEET_ID = '1ClY3AWIrUZlW4E8KoZd_bayMXr_NYu0afGOoDh25Yhc';
-        const SHEET_NAME = 'Additions';
-        const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
+        const SHEET_GID = '0'; // Default first sheet GID
 
-        if (!API_KEY) {
-            console.error('Google Sheets API key not configured');
-            return res.status(500).json({
-                success: false,
-                error: 'Authentication service not configured'
-            });
+        // Try CSV export first (doesn't require API key)
+        const csvUrl = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${SHEET_GID}`;
+
+        console.log('Fetching from Google Sheets CSV export...');
+        let sheetsResponse = await fetch(csvUrl);
+        let rows = [];
+
+        if (sheetsResponse.ok) {
+            console.log('Successfully accessed sheet via CSV export');
+            const csvText = await sheetsResponse.text();
+
+            // Better CSV parsing to handle quoted fields and commas
+            rows = csvText.split('\n').map(row => {
+                const cells = [];
+                let current = '';
+                let inQuotes = false;
+
+                for (let i = 0; i < row.length; i++) {
+                    const char = row[i];
+                    if (char === '"') {
+                        inQuotes = !inQuotes;
+                    } else if (char === ',' && !inQuotes) {
+                        cells.push(current.trim());
+                        current = '';
+                    } else {
+                        current += char;
+                    }
+                }
+                cells.push(current.trim());
+                return cells;
+            }).filter(row => row.length > 1 && row[0]); // Filter empty rows
+        } else {
+            console.log('CSV export failed, trying API method...');
+
+            // Fallback to API method
+            const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
+            if (!API_KEY) {
+                console.error('Google Sheets API key not configured');
+                return res.status(500).json({
+                    success: false,
+                    error: 'Authentication service not configured'
+                });
+            }
+
+            const SHEET_NAME = 'Additions';
+            const sheetsUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
+
+            sheetsResponse = await fetch(sheetsUrl);
+
+            if (!sheetsResponse.ok) {
+                const errorText = await sheetsResponse.text();
+                console.error('Google Sheets API error:', sheetsResponse.status, errorText);
+                return res.status(500).json({
+                    success: false,
+                    error: 'Unable to access user database'
+                });
+            }
+
+            const sheetsData = await sheetsResponse.json();
+            rows = sheetsData.values || [];
         }
-
-        // Construct Google Sheets API URL
-        const sheetsUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
-
-        console.log('Fetching from Google Sheets...');
-        const sheetsResponse = await fetch(sheetsUrl);
-
-        if (!sheetsResponse.ok) {
-            console.error('Google Sheets API error:', sheetsResponse.status);
-            return res.status(500).json({
-                success: false,
-                error: 'Unable to verify credentials'
-            });
-        }
-
-        const sheetsData = await sheetsResponse.json();
-        const rows = sheetsData.values || [];
 
         console.log('Found', rows.length, 'rows in sheet');
 
         // Find header row to locate email and password columns
         const headers = rows[0] || [];
+        console.log('Sheet headers:', headers);
+
         const emailIndex = headers.findIndex(header =>
-            header.toLowerCase().includes('email')
+            header.toLowerCase().includes('email') ||
+            header.toLowerCase().includes('user email') ||
+            header.toLowerCase().includes('user emai') ||
+            header.toLowerCase() === 'email' ||
+            header.toLowerCase().startsWith('user emai')
         );
         const passwordIndex = headers.findIndex(header =>
             header.toLowerCase().includes('password')

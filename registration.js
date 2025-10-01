@@ -578,7 +578,7 @@ function doPost(e) {
     // Add headers if first row
     if (sheet.getLastRow() === 0) {
       sheet.appendRow([
-        'Timestamp', 'First Name', 'Last Name', 'Email', 'Phone',
+        'Timestamp', 'First Name', 'Last Name', 'User Email', 'Phone',
         'Pet Name', 'Pet Type', 'Pet Breed', 'Pet Age', 'Pet Weight',
         'Selected Plan', 'Status'
       ]);
