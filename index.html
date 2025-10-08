@@ -17,6 +17,11 @@
                 <div class="logo">
                     <img src="public/WhiteCoatdvmlogo.png" alt="WhiteCoat DVM Logo" class="logo-img">
                 </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <ul class="nav-menu">
                     <li><a href="#services">Services</a></li>
                     <li><a href="#pricing">Pricing</a></li>
@@ -29,6 +34,22 @@
             </div>
         </nav>
     </header>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.mobile-menu-toggle').classList.remove('active');
+                document.querySelector('.nav-menu').classList.remove('active');
+            });
+        });
+    </script>
 
     <!-- Hero Section -->
     <section class="hero">

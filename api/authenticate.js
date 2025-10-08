@@ -28,7 +28,7 @@ module.exports = async function handler(req, res) {
 
         // Google Sheets public CSV URL (requires sheet to be shared publicly)
         const SHEET_ID = '1ClY3AWIrUZlW4E8KoZd_bayMXr_NYu0afGOoDh25Yhc';
-        const SHEET_GID = '0'; // Default first sheet GID
+        const SHEET_GID = '1887508718'; // Sign Up Info sheet GID
 
         // Try CSV export first (doesn't require API key)
         const csvUrl = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${SHEET_GID}`;
@@ -74,7 +74,7 @@ module.exports = async function handler(req, res) {
                 });
             }
 
-            const SHEET_NAME = 'Additions';
+            const SHEET_NAME = 'Sign Up Info';
             const sheetsUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
 
             sheetsResponse = await fetch(sheetsUrl);
