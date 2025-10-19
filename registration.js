@@ -408,8 +408,8 @@ async function processPayment() {
         // Store user data locally for portal
         localStorage.setItem('whitecoat_user', JSON.stringify(formData));
 
-        // Create session token for auto-login
-        const sessionToken = Buffer.from(`${formData.email}:${Date.now()}`).toString('base64');
+        // Create session token for auto-login (using browser-native btoa for base64 encoding)
+        const sessionToken = btoa(`${formData.email}:${Date.now()}`);
         localStorage.setItem('whitecoat_session', sessionToken);
 
         // Show success step
