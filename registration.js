@@ -399,10 +399,35 @@ async function processPayment() {
         }
 
         // Create subscription for all plans (now all are recurring)
-        await createSubscription(paymentMethod.id, planData, selectedPlan);
+        const subscriptionResult = await createSubscription(paymentMethod.id, planData, selectedPlan);
 
-        // If we get here, payment was successful
-        // Save registration data
+        // Check if payment was successful
+        if (!subscriptionResult.success) {
+            throw new Error('Payment failed. Please check your payment details and try again.');
+        }
+
+        // Handle additional authentication if required (3D Secure)
+        if (subscriptionResult.requiresAction && subscriptionResult.clientSecret) {
+            console.log('Payment requires additional authentication (3D Secure)');
+            submitButton.textContent = 'Authenticating Payment...';
+
+            const {error: confirmError, paymentIntent} = await stripe.confirmCardPayment(
+                subscriptionResult.clientSecret
+            );
+
+            if (confirmError) {
+                throw new Error(confirmError.message);
+            }
+
+            if (paymentIntent.status !== 'succeeded') {
+                throw new Error('Payment authentication failed. Please try again.');
+            }
+
+            console.log('Payment authenticated successfully');
+        }
+
+        // Only save to Google Sheets if payment was successful
+        submitButton.textContent = 'Saving Registration...';
         await submitToGoogleSheets(formData);
 
         // Store user data locally for portal
@@ -423,7 +448,19 @@ async function processPayment() {
 
     } catch (error) {
         console.error('Payment error:', error);
-        document.getElementById('card-errors').textContent = error.message;
+
+        // Show user-friendly error message
+        let errorMessage = error.message;
+        if (errorMessage.includes('insufficient')) {
+            errorMessage = 'Your card has insufficient funds. Please use a different payment method.';
+        } else if (errorMessage.includes('declined')) {
+            errorMessage = 'Your card was declined. Please check your card details or use a different card.';
+        } else if (errorMessage.includes('expired')) {
+            errorMessage = 'Your card has expired. Please use a different payment method.';
+        }
+
+        document.getElementById('card-errors').textContent = errorMessage;
+        alert(errorMessage);
     } finally {
         // Re-enable submit button
         submitButton.disabled = false;
