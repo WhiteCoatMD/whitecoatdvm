@@ -501,12 +501,13 @@ async function submitToGoogleSheets(data) {
             form.target = 'hidden-iframe';
             form.style.display = 'none';
 
-            // Create form data fields
+            // Create form data fields - ORDER MUST MATCH GOOGLE SHEETS COLUMNS
             const formFields = {
                 timestamp: new Date().toISOString(),
+                userEmail: data.email,  // Changed from 'email' to 'userEmail' to match Google Sheets header
+                password: data.password,  // Include password field as expected by Google Sheets
                 firstName: data.firstName,
                 lastName: data.lastName,
-                email: data.email,
                 phone: data.phone,
                 petName: data.petName,
                 petType: data.petType,
