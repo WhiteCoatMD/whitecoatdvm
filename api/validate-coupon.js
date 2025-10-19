@@ -35,8 +35,43 @@ module.exports = async function handler(req, res) {
 
         console.log('Validating coupon:', couponCode);
 
-        // Retrieve coupon from Stripe
-        const coupon = await stripe.coupons.retrieve(couponCode);
+        let coupon;
+        let couponId = couponCode;
+
+        // Try to retrieve as promotion code first (for customer-facing codes like HAPPYPET)
+        try {
+            console.log('Attempting to retrieve as promotion code...');
+            const promotionCodes = await stripe.promotionCodes.list({
+                code: couponCode,
+                limit: 1
+            });
+
+            if (promotionCodes.data.length > 0) {
+                const promoCode = promotionCodes.data[0];
+                console.log('Found promotion code:', promoCode.id);
+
+                // Check if promotion code is active
+                if (!promoCode.active) {
+                    return res.status(400).json({
+                        success: false,
+                        error: 'This discount code is no longer active'
+                    });
+                }
+
+                // Get the associated coupon
+                coupon = promoCode.coupon;
+                couponId = coupon.id;
+                console.log('Associated coupon:', couponId);
+            } else {
+                // Not a promotion code, try as direct coupon ID
+                console.log('Not found as promotion code, trying as coupon ID...');
+                coupon = await stripe.coupons.retrieve(couponCode);
+            }
+        } catch (promoError) {
+            // If promotion code lookup fails, try as direct coupon
+            console.log('Promotion code lookup failed, trying as coupon:', promoError.message);
+            coupon = await stripe.coupons.retrieve(couponCode);
+        }
 
         // Check if coupon is valid
         if (!coupon.valid) {
@@ -48,9 +83,9 @@ module.exports = async function handler(req, res) {
 
         // Calculate discount information
         let discountInfo = {
-            id: coupon.id,
+            id: couponId,
             valid: true,
-            name: coupon.name || coupon.id,
+            name: coupon.name || couponId,
             duration: coupon.duration,
             duration_in_months: coupon.duration_in_months
         };
