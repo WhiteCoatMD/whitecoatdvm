@@ -5,9 +5,18 @@
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'Build complete'"
+    "build": "echo 'Build complete'",
+    "scrape": "node tools/shelter-scraper.js",
+    "scrape:state": "node tools/shelter-scraper.js",
+    "scrape:all": "node tools/scrape-all-states.js",
+    "outreach": "node tools/send-outreach.js",
+    "outreach:send": "node tools/send-outreach.js --send",
+    "bot": "node tools/daily-outreach-bot.js",
+    "bot:force": "node tools/daily-outreach-bot.js --force"
   },
   "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "dotenv": "^17.2.4",
     "stripe": "^14.0.0"
   },
   "author": "WhiteCoat DVM",
