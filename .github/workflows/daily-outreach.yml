@@ -2,12 +2,12 @@ name: Daily Shelter Outreach
 
 on:
   schedule:
-    # Runs every hour Mon-Fri from 7am-4pm Central Time (13:00-22:00 UTC)
-    - cron: '0 13-22 * * 1-5'
+    # Runs once per day at 7am Central Time (13:00 UTC) Mon-Fri
+    - cron: '0 13 * * 1-5'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
-  send-outreach:
+  scrape-and-send:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,15 +24,41 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Get day of week for state rotation
+        id: day
+        run: echo "day=$(date +%u)" >> $GITHUB_OUTPUT
+
+      - name: Scrape shelters (rotating states)
+        run: |
+          # Rotate through different states each day of the week
+          case ${{ steps.day.outputs.day }} in
+            1) STATES="TX FL" ;;  # Monday
+            2) STATES="CA NY" ;;  # Tuesday
+            3) STATES="PA OH" ;;  # Wednesday
+            4) STATES="IL GA" ;;  # Thursday
+            5) STATES="NC MI" ;;  # Friday
+          esac
+
+          echo "Scraping states: $STATES"
+
+          for STATE in $STATES; do
+            echo "--- Scraping $STATE ---"
+            node tools/shelter-scraper-v2.js $STATE || true
+            sleep 5
+          done
+
+      - name: Combine and clean shelter data
+        run: node tools/combine-and-clean.js
+
       - name: Run outreach bot
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: node tools/daily-outreach-bot.js --force
 
-      - name: Commit updated sent log
+      - name: Commit updates
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add tools/output/ || true
-          git diff --staged --quiet || git commit -m "Update outreach sent log [skip ci]"
+          git diff --staged --quiet || git commit -m "Auto: scrape shelters and send outreach [skip ci]"
           git push || true

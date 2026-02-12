@@ -15,7 +15,11 @@
       "Bash(start index.html)",
       "Bash(explorer:*)",
       "Bash(cmd //c start index.html)",
-      "WebFetch(domain:www.whitecoatdvm.com)"
+      "WebFetch(domain:www.whitecoatdvm.com)",
+      "Bash(npm install:*)",
+      "Bash(node tools/send-test.js:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(node -e:*)"
     ],
     "deny": [],
     "ask": []

@@ -33,7 +33,7 @@ const CONFIG = {
     workingDays: [1, 2, 3, 4, 5], // Mon-Fri
 
     // Files
-    sheltersCsv: path.join(__dirname, 'output', 'CLEAN_shelters_2026-02-04.csv'),
+    outputDir: path.join(__dirname, 'output'),
     sentLogFile: path.join(__dirname, 'output', 'sent_emails.json'),
     dailyLogDir: path.join(__dirname, 'output', 'daily_logs'),
 
@@ -140,6 +140,16 @@ https://whitecoatdvm.com`,
 // ============================================
 // HELPERS
 // ============================================
+
+function findLatestCleanCsv() {
+    const files = fs.readdirSync(CONFIG.outputDir)
+        .filter(f => f.startsWith('CLEAN_') && f.endsWith('.csv'))
+        .sort()
+        .reverse();
+
+    if (files.length === 0) return null;
+    return path.join(CONFIG.outputDir, files[0]);
+}
 
 function isWithinWorkingHours() {
     const now = new Date();
@@ -274,8 +284,15 @@ async function main() {
 
     console.log(`📊 Previously sent: ${sentEmails.size} emails`);
 
-    // Load all shelters from CSV
-    const allShelters = parseCSV(CONFIG.sheltersCsv);
+    // Find and load latest shelter CSV
+    const sheltersCsv = findLatestCleanCsv();
+    if (!sheltersCsv) {
+        console.log(`❌ No CLEAN_*.csv file found. Run the scraper first.`);
+        return;
+    }
+    console.log(`📂 Loading: ${path.basename(sheltersCsv)}`);
+
+    const allShelters = parseCSV(sheltersCsv);
     console.log(`📋 Total shelters in database: ${allShelters.length}`);
 
     // Filter out already-sent emails
