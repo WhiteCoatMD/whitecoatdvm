@@ -24,22 +24,38 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Get day of week for state rotation
-        id: day
-        run: echo "day=$(date +%u)" >> $GITHUB_OUTPUT
-
-      - name: Scrape shelters (rotating states)
+      - name: Check if scraping needed
+        id: check
         run: |
-          # Rotate through different states each day of the week
-          case ${{ steps.day.outputs.day }} in
-            1) STATES="TX FL" ;;  # Monday
-            2) STATES="CA NY" ;;  # Tuesday
-            3) STATES="PA OH" ;;  # Wednesday
-            4) STATES="IL GA" ;;  # Thursday
-            5) STATES="NC MI" ;;  # Friday
-          esac
+          # Count unsent shelters
+          UNSENT=$(node -e "
+            const fs = require('fs');
+            const sent = fs.existsSync('tools/output/sent_emails.json')
+              ? JSON.parse(fs.readFileSync('tools/output/sent_emails.json')).emails.length
+              : 0;
+            const csvFiles = fs.readdirSync('tools/output').filter(f => f.startsWith('CLEAN_') && f.endsWith('.csv'));
+            if (csvFiles.length === 0) { console.log(0); process.exit(); }
+            const csv = fs.readFileSync('tools/output/' + csvFiles.sort().reverse()[0], 'utf-8');
+            const total = csv.split('\n').filter(l => l.includes('@')).length;
+            console.log(Math.max(0, total - sent));
+          ")
+          echo "Unsent shelters: $UNSENT"
+          echo "unsent=$UNSENT" >> $GITHUB_OUTPUT
 
-          echo "Scraping states: $STATES"
+      - name: Scrape shelters (only if queue < 20)
+        if: steps.check.outputs.unsent < 20
+        run: |
+          echo "Queue low (${{ steps.check.outputs.unsent }} unsent) - scraping new shelters..."
+
+          # Rotate through different states each day
+          DAY=$(date +%u)
+          case $DAY in
+            1) STATES="TX FL" ;;
+            2) STATES="CA NY" ;;
+            3) STATES="PA OH" ;;
+            4) STATES="IL GA" ;;
+            5) STATES="NC MI" ;;
+          esac
 
           for STATE in $STATES; do
             echo "--- Scraping $STATE ---"
@@ -47,8 +63,8 @@ jobs:
             sleep 5
           done
 
-      - name: Combine and clean shelter data
-        run: node tools/combine-and-clean.js
+          # Combine new data
+          node tools/combine-and-clean.js
 
       - name: Run outreach bot
         env:
