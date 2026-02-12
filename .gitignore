@@ -2,7 +2,6 @@
 .env*.local
 
 # Scraped data (keep essential files for bot)
-tools/output/daily_logs/
 tools/logo_base64.txt
-!tools/output/sent_emails.json
-!tools/output/CLEAN_*.csv
+!tools/output/
+!tools/output/**
