@@ -12,7 +12,8 @@
     "outreach": "node tools/send-outreach.js",
     "outreach:send": "node tools/send-outreach.js --send",
     "bot": "node tools/daily-outreach-bot.js",
-    "bot:force": "node tools/daily-outreach-bot.js --force"
+    "bot:force": "node tools/daily-outreach-bot.js --force",
+    "stats": "node tools/stats.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^8.1.6",
