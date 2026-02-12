@@ -5,3 +5,4 @@
 tools/logo_base64.txt
 !tools/output/
 !tools/output/**
+node_modules/
