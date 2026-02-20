@@ -1,0 +1,533 @@
+[
+  {
+    "name": "Aberdeen Animal Shelter",
+    "email": "aberdeenshelter@att.net",
+    "phone": "662-369-2188",
+    "city": "Aberdeen",
+    "state": "MS",
+    "zip": "39730",
+    "website": ""
+  },
+  {
+    "name": "American Brussels Griffon Rescue Alliance",
+    "email": "affengriffonrescue@msn.com",
+    "phone": "",
+    "city": "Jackson",
+    "state": "MS",
+    "zip": "39201",
+    "website": ""
+  },
+  {
+    "name": "Arkabutla Rescue Rehabilitation and Foster - ARRF",
+    "email": "arrfdog@yahoo.com",
+    "phone": "",
+    "city": "Coldwater",
+    "state": "MS",
+    "zip": "38618",
+    "website": ""
+  },
+  {
+    "name": "Big River Animal Society, Inc.",
+    "email": "bigriveranimalsociety@gmail.com",
+    "phone": "9014917474",
+    "city": "Olive Branch",
+    "state": "MS",
+    "zip": "38654",
+    "website": ""
+  },
+  {
+    "name": "Bless Their Hearts Animal Rescue",
+    "email": "blesstheirheartsrescue@gmail.com",
+    "phone": "6626409505",
+    "city": "Becker",
+    "state": "MS",
+    "zip": "38825",
+    "website": ""
+  },
+  {
+    "name": "Central MS Turtle Rescue",
+    "email": "turtlerescuems.adoptions@gmail.com",
+    "phone": "(601) 642-1418",
+    "city": "Florence",
+    "state": "MS",
+    "zip": "39073",
+    "website": ""
+  },
+  {
+    "name": "Charlie's Crusaders Pet Rescue",
+    "email": "charliescrusaders@gmail.com",
+    "phone": "(901) 496-1962",
+    "city": "Horn Lake",
+    "state": "MS",
+    "zip": "38637",
+    "website": ""
+  },
+  {
+    "name": "Cheshire Abbey",
+    "email": "cheshireabbey@gmail.com",
+    "phone": "",
+    "city": "Jackson",
+    "state": "MS",
+    "zip": "39236",
+    "website": ""
+  },
+  {
+    "name": "Cleveland/Bolivar County Animal Shelter",
+    "email": "jamie.grant@cityofclevelandms.com",
+    "phone": "662-846-1155",
+    "city": "Cleveland",
+    "state": "MS",
+    "zip": "38732",
+    "website": ""
+  },
+  {
+    "name": "Columbus-Lowndes Humane Society",
+    "email": "kjohnwick@yahoo.com",
+    "phone": "(662) 327-3107",
+    "city": "Columbus",
+    "state": "MS",
+    "zip": "39703",
+    "website": ""
+  },
+  {
+    "name": "Community Animal Rescue & Adoption, Inc. (CARA)",
+    "email": "admin@carams.org",
+    "phone": "(601) 922-7575",
+    "city": "Jackson",
+    "state": "MS",
+    "zip": "39209",
+    "website": ""
+  },
+  {
+    "name": "Copiah Animal Shelter",
+    "email": "copiahanimalshelter@yahoo.com",
+    "phone": "(601) 954-6447",
+    "city": "Crystal Springs",
+    "state": "MS",
+    "zip": "39059",
+    "website": ""
+  },
+  {
+    "name": "Corinth/Alcorn Animal Shelter",
+    "email": "alcornpets@gmail.com",
+    "phone": "(662) 284-5800",
+    "city": "Corinth",
+    "state": "MS",
+    "zip": "38834",
+    "website": ""
+  },
+  {
+    "name": "DeSoto Animal Rescue Society",
+    "email": "info@desotoanimalrescue.org",
+    "phone": "662-342-9448",
+    "city": "Horn Lake",
+    "state": "MS",
+    "zip": "38637",
+    "website": ""
+  },
+  {
+    "name": "DeSoto County Animal Shelter",
+    "email": "msparks@desotocountyms.gov",
+    "phone": "(662) 469-8004",
+    "city": "Nesbit",
+    "state": "MS",
+    "zip": "38651",
+    "website": ""
+  },
+  {
+    "name": "Dixie Adoptables",
+    "email": "info@dixieadoptables.org",
+    "phone": "",
+    "city": "Lucedale",
+    "state": "MS",
+    "zip": "39452",
+    "website": ""
+  },
+  {
+    "name": "East Mississippi Animal Rescue",
+    "email": "bkochsfs@bellsouth.net",
+    "phone": "(601) 553-3060",
+    "city": "Meridian",
+    "state": "MS",
+    "zip": "39303",
+    "website": ""
+  },
+  {
+    "name": "Forever Home 4 Dogs Rescue",
+    "email": "foreverhome4dogs@aol.com",
+    "phone": "(228) 217-5571",
+    "city": "Pascagoula",
+    "state": "MS",
+    "zip": "39567",
+    "website": ""
+  },
+  {
+    "name": "Friends of Horn Lake Animal Shelter",
+    "email": "hlshelter@yahoo.com",
+    "phone": "662-393-5857",
+    "city": "Horn Lake",
+    "state": "MS",
+    "zip": "38637",
+    "website": ""
+  },
+  {
+    "name": "Friends of Jackson County Animal Shelter Pets",
+    "email": "friendsofjcas@gmail.com",
+    "phone": "228-324-3847",
+    "city": "Ocean Springs",
+    "state": "MS",
+    "zip": "39564",
+    "website": ""
+  },
+  {
+    "name": "Friends of the Animal Shelter in Hancock County",
+    "email": "hcasms@yahoo.com",
+    "phone": "228-466-4516",
+    "city": "Bay St. Louis",
+    "state": "MS",
+    "zip": "39520",
+    "website": ""
+  },
+  {
+    "name": "Grace Rescue for Southern Paws, Inc.",
+    "email": "dmoore2003@bellsouth.net",
+    "phone": "(901) 299-9191",
+    "city": "Holly Springs",
+    "state": "MS",
+    "zip": "38635",
+    "website": ""
+  },
+  {
+    "name": "Grassroots Animal Rescue",
+    "email": "grassrootsanimalrescue@gmail.com",
+    "phone": "(662) 508-0612",
+    "city": "Starkville",
+    "state": "MS",
+    "zip": "39759",
+    "website": ""
+  },
+  {
+    "name": "Happy Healthy Pet Adoption, Inc",
+    "email": "hhpaoffice@hhpa4pets.com",
+    "phone": "601-764-3535",
+    "city": "Bay Springs",
+    "state": "MS",
+    "zip": "39422",
+    "website": ""
+  },
+  {
+    "name": "Hoovers Hause All Dog Rescue",
+    "email": "sharonrunkel@yahoo.com",
+    "phone": "(901) 598-1487",
+    "city": "Crenshaw",
+    "state": "MS",
+    "zip": "38621",
+    "website": ""
+  },
+  {
+    "name": "Hub City Humane Society",
+    "email": "hubcityhumsoc@aol.com",
+    "phone": "601-596-2206",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "zip": "39402",
+    "website": ""
+  },
+  {
+    "name": "Jackson County Animal Shelter",
+    "email": "marion_mallette@co.jackson.ms.us",
+    "phone": "228-497-6350",
+    "city": "Gautier",
+    "state": "MS",
+    "zip": "39553",
+    "website": ""
+  },
+  {
+    "name": "Jackson Friends of Animal Shelter",
+    "email": "lpc310@yahoo.com",
+    "phone": "",
+    "city": "Jackson",
+    "state": "MS",
+    "zip": "39205",
+    "website": ""
+  },
+  {
+    "name": "Jethro's Anipal Sanctuary, Inc.",
+    "email": "anipalsanctuary@aol.com",
+    "phone": "please e-mail",
+    "city": "Diamondhead",
+    "state": "MS",
+    "zip": "39525",
+    "website": ""
+  },
+  {
+    "name": "Leflore County Humane Society",
+    "email": "leflorehumanesociety@yahoo.com",
+    "phone": "662-453-8085",
+    "city": "Greenwood",
+    "state": "MS",
+    "zip": "38930",
+    "website": ""
+  },
+  {
+    "name": "Legacy German Shepherd Rescue",
+    "email": "pstidmon@gmail.com",
+    "phone": "Please email",
+    "city": "Nesbit",
+    "state": "MS",
+    "zip": "38671",
+    "website": ""
+  },
+  {
+    "name": "Marshall County Humane Society",
+    "email": "dogsncats11@gmail.com",
+    "phone": "(662) 564-2900",
+    "city": "Holly Springs",
+    "state": "MS",
+    "zip": "38635",
+    "website": ""
+  },
+  {
+    "name": "Mercer Animal Rescue",
+    "email": "merceranimalrescue@gmail.com",
+    "phone": "901-651-6322",
+    "city": "Olive Branch",
+    "state": "MS",
+    "zip": "38654",
+    "website": ""
+  },
+  {
+    "name": "Oktoc Animal Rescue, Inc.",
+    "email": "oktocanimalrescue@gmail.com",
+    "phone": "",
+    "city": "Starkville",
+    "state": "MS",
+    "zip": "39759",
+    "website": ""
+  },
+  {
+    "name": "Olive Branch Animal Shelter",
+    "email": "lucy.massey@obms.us",
+    "phone": "(662) 895-4582",
+    "city": "Olive Branch",
+    "state": "MS",
+    "zip": "38654",
+    "website": ""
+  },
+  {
+    "name": "Oxford Lafayette Humane Society",
+    "email": "info@oxfordpets.com",
+    "phone": "(662) 236-7631",
+    "city": "Oxford",
+    "state": "MS",
+    "zip": "38655",
+    "website": ""
+  },
+  {
+    "name": "Paws Rescue",
+    "email": "pawsrescuepets@gmail.com",
+    "phone": "601-529-1535",
+    "city": "Vicksburg",
+    "state": "MS",
+    "zip": "39180",
+    "website": ""
+  },
+  {
+    "name": "Pearl River County SPCA",
+    "email": "prcspca@prcspca.org",
+    "phone": "601-798-8000",
+    "city": "Picayune",
+    "state": "MS",
+    "zip": "39466",
+    "website": ""
+  },
+  {
+    "name": "Project Paws",
+    "email": "projectpawsms@aol.com",
+    "phone": "",
+    "city": "Holly Springs",
+    "state": "MS",
+    "zip": "38635",
+    "website": ""
+  },
+  {
+    "name": "Remo's Rescue",
+    "email": "remosrescue@gmail.com",
+    "phone": "601-325-6178",
+    "city": "Carthage",
+    "state": "MS",
+    "zip": "39051",
+    "website": ""
+  },
+  {
+    "name": "Rescue Revolution of Mississippi",
+    "email": "rrofms@gmail.com",
+    "phone": "",
+    "city": "Jackson",
+    "state": "MS",
+    "zip": "39236",
+    "website": ""
+  },
+  {
+    "name": "Save1Pet",
+    "email": "save1pet@yahoo.com",
+    "phone": "(662) 890-7299",
+    "city": "Olive Branch",
+    "state": "MS",
+    "zip": "38654",
+    "website": ""
+  },
+  {
+    "name": "Second Chances",
+    "email": "secondchancespontotoc@gmail.com",
+    "phone": "",
+    "city": "Randolph",
+    "state": "MS",
+    "zip": "38864",
+    "website": ""
+  },
+  {
+    "name": "Senatobia-Tate Co. Animal Shelter",
+    "email": "stcpets@att.net",
+    "phone": "662-562-0070",
+    "city": "Senatobia",
+    "state": "MS",
+    "zip": "38668",
+    "website": ""
+  },
+  {
+    "name": "Shaw Pit Bull Rescue, Inc.",
+    "email": "shawpitbullrescue@gmail.com",
+    "phone": "(662) 386-7429",
+    "city": "Columbus",
+    "state": "MS",
+    "zip": "39702",
+    "website": ""
+  },
+  {
+    "name": "Snowden Grove Animal Hospital",
+    "email": "snowdengrovevet@yahoo.com",
+    "phone": "snowdengrovevet@yahoo.com",
+    "city": "Southaven",
+    "state": "MS",
+    "zip": "38671",
+    "website": ""
+  },
+  {
+    "name": "Southaven Animal Shelter",
+    "email": "pmason@southaven.org",
+    "phone": "662-796-2491",
+    "city": "Southaven",
+    "state": "MS",
+    "zip": "38671",
+    "website": ""
+  },
+  {
+    "name": "Southern Friends Animal Society",
+    "email": "sfanimalsociety@gmail.com",
+    "phone": "",
+    "city": "Nesbit",
+    "state": "MS",
+    "zip": "38651",
+    "website": ""
+  },
+  {
+    "name": "Southern Jewel Dog Rescue",
+    "email": "lovedogs.rescue@gmail.com",
+    "phone": "",
+    "city": "Olive Branch",
+    "state": "MS",
+    "zip": "38654",
+    "website": ""
+  },
+  {
+    "name": "Southern Magnolia Boxer Rescue",
+    "email": "adoptaboxer@gmail.com",
+    "phone": "",
+    "city": "Amory",
+    "state": "MS",
+    "zip": "38821",
+    "website": ""
+  },
+  {
+    "name": "Southern Pines Animal Shelter",
+    "email": "info@southernpinesanimalshelter.org",
+    "phone": "(601) 544-6632",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "zip": "39401",
+    "website": ""
+  },
+  {
+    "name": "The Homeward Bound Project of MS",
+    "email": "homewardboundkitties@gmail.com",
+    "phone": "",
+    "city": "Mississippi State",
+    "state": "MS",
+    "zip": "39762",
+    "website": ""
+  },
+  {
+    "name": "Tired Dog Rescue",
+    "email": "tdradoptions@gmail.com",
+    "phone": "",
+    "city": "Gulfport",
+    "state": "MS",
+    "zip": "39503",
+    "website": ""
+  },
+  {
+    "name": "Tunica Humane Society",
+    "email": "tmke1@aol.com",
+    "phone": "(662) 895-4201",
+    "city": "Tunica",
+    "state": "MS",
+    "zip": "38676",
+    "website": ""
+  },
+  {
+    "name": "Tupelo-Lee Humane Society",
+    "email": "info@tupeloleehumane.org",
+    "phone": "(662) 841-6500",
+    "city": "Tupelo",
+    "state": "MS",
+    "zip": "38801",
+    "website": ""
+  },
+  {
+    "name": "Union County Humane Society",
+    "email": "uchsofms@gmail.com",
+    "phone": "",
+    "city": "New Albany",
+    "state": "MS",
+    "zip": "38652",
+    "website": ""
+  },
+  {
+    "name": "Vicksburg-Warren Humane Society",
+    "email": "vwhs@bellsouth.net",
+    "phone": "601-636-6631",
+    "city": "Vicksburg",
+    "state": "MS",
+    "zip": "39182",
+    "website": ""
+  },
+  {
+    "name": "Volunteers of the Hernando Animal Shelter",
+    "email": "hernandomsanimalshelter@gmail.com",
+    "phone": "(601) 259-0374",
+    "city": "Hernando",
+    "state": "MS",
+    "zip": "38632",
+    "website": ""
+  },
+  {
+    "name": "West Point Clay County Animal Shelter",
+    "email": "wpccanimalshelter@gmail.com",
+    "phone": "662-524-4430",
+    "city": "West Point",
+    "state": "MS",
+    "zip": "39773",
+    "website": ""
+  }
+]

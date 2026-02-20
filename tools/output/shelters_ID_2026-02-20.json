@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Animal Shelter of Wood River Valley",
+    "email": "info@animalshelterwrv.org",
+    "phone": "(208) 788-4351",
+    "city": "Hailey",
+    "state": "ID",
+    "zip": "83333",
+    "website": ""
+  },
+  {
+    "name": "Animals Need Help of Bear Lake",
+    "email": "kjfam@dcdi.net",
+    "phone": "(208) 339-0130",
+    "city": "Montpelier",
+    "state": "ID",
+    "zip": "83254",
+    "website": ""
+  },
+  {
+    "name": "Bannock Humane Society",
+    "email": "bhsfosterprogram@gmail.com",
+    "phone": "(208) 232-0371",
+    "city": "Pocatello",
+    "state": "ID",
+    "zip": "83204",
+    "website": ""
+  },
+  {
+    "name": "Boise Bully Breed Rescue",
+    "email": "cathleen.catti@gmail.com",
+    "phone": "",
+    "city": "Eagle",
+    "state": "ID",
+    "zip": "83616",
+    "website": ""
+  },
+  {
+    "name": "Bonneville Humane Society",
+    "email": "bsociety@qwestoffice.net",
+    "phone": "(208) 529-9725",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "zip": "83403",
+    "website": ""
+  },
+  {
+    "name": "Boxer Lovers Rescue",
+    "email": "adopt@boxer-rescue.net",
+    "phone": "(208) 779-2114",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83714",
+    "website": ""
+  },
+  {
+    "name": "Chubbuck Animal Control Facility",
+    "email": "animalcontrol@cityofchubbuck.us",
+    "phone": "(208) 239-3249",
+    "city": "Chubbuck",
+    "state": "ID",
+    "zip": "83202",
+    "website": ""
+  },
+  {
+    "name": "City of Rexburg Animal Shelter",
+    "email": "animalshelter@rexburg.org",
+    "phone": "208-359-3005",
+    "city": "Rexburg",
+    "state": "ID",
+    "zip": "83440",
+    "website": ""
+  },
+  {
+    "name": "Clearwater Humane Society",
+    "email": "clearwaterhumanesociety@gmail.com",
+    "phone": "208-476-9823",
+    "city": "Orofino",
+    "state": "ID",
+    "zip": "83544",
+    "website": ""
+  },
+  {
+    "name": "Double J Dog Ranch, Inc.",
+    "email": "doublejdogranch@aol.com",
+    "phone": "208-457-8600",
+    "city": "Hauser",
+    "state": "ID",
+    "zip": "83854",
+    "website": ""
+  },
+  {
+    "name": "FOR THE LOVE OF PETS FOUNDATION",
+    "email": "straighttalkidaho@yahoo.com",
+    "phone": "208-662-5808",
+    "city": "Hamer",
+    "state": "ID",
+    "zip": "83425",
+    "website": ""
+  },
+  {
+    "name": "Four Paws Pet Adoptions Inc.",
+    "email": "fourpawspetadoptions@hotmail.com",
+    "phone": "208 356 3717",
+    "city": "Rexburg",
+    "state": "ID",
+    "zip": "83440",
+    "website": ""
+  },
+  {
+    "name": "Fuzzy Pawz Rescue",
+    "email": "rescue@fuzzypawzrescue.com",
+    "phone": "208-546-9020",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83706",
+    "website": ""
+  },
+  {
+    "name": "Happy Jack Cats, Inc.",
+    "email": "happyjackcats@gmail.com",
+    "phone": "2089918520",
+    "city": "Meridian",
+    "state": "ID",
+    "zip": "83680",
+    "website": ""
+  },
+  {
+    "name": "Heart of Idaho Animal Sanctuary",
+    "email": "info@heartofidahoanimalrescue.com",
+    "phone": "(208) 879-6500",
+    "city": "Challis",
+    "state": "ID",
+    "zip": "83226",
+    "website": ""
+  },
+  {
+    "name": "Help Every Little Paw",
+    "email": "helpeverylittlepaw@hotmail.com",
+    "phone": "(208) 446-6500",
+    "city": "Coeur D Alene",
+    "state": "ID",
+    "zip": "83814",
+    "website": ""
+  },
+  {
+    "name": "Helping Hands Rescue, Inc.",
+    "email": "info@helpinghandsrescue.com",
+    "phone": "(208) 743-3157",
+    "city": "Lewiston",
+    "state": "ID",
+    "zip": "83501",
+    "website": ""
+  },
+  {
+    "name": "Hope's Haven Animal Shelter",
+    "email": "hopeshaven@smgazette.com",
+    "phone": "(208) 245-7387",
+    "city": "St. Maries",
+    "state": "ID",
+    "zip": "83861",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of the Palouse",
+    "email": "information@humanesocietyofthepalouse.org",
+    "phone": "(208) 883-1166",
+    "city": "Moscow",
+    "state": "ID",
+    "zip": "83843",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of the Upper Valley",
+    "email": "hsuv@hsuv.org",
+    "phone": "208-681-4788",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "zip": "83405",
+    "website": ""
+  },
+  {
+    "name": "Idaho Domestic Animal Welfare Group",
+    "email": "findadog@hotmail.com",
+    "phone": "208-283-9513",
+    "city": "Nampa",
+    "state": "ID",
+    "zip": "83652",
+    "website": ""
+  },
+  {
+    "name": "Idaho Falls Animal Shelter",
+    "email": "ifanimalshelter@idahofallsidaho.gov",
+    "phone": "208-612-8670",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "zip": "83401",
+    "website": ""
+  },
+  {
+    "name": "Idaho Saint Bernard Rescue",
+    "email": "flutterby214@hotmail.com",
+    "phone": "208-703-1727",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83706",
+    "website": ""
+  },
+  {
+    "name": "Kootenai Humane Society",
+    "email": "contactkhs@kootenaihumanesociety.com",
+    "phone": "(208) 772-4019",
+    "city": "Hayden",
+    "state": "ID",
+    "zip": "83835",
+    "website": ""
+  },
+  {
+    "name": "Lemhi County Humane Society Inc.",
+    "email": "salmonanimalshelter@gmail.com",
+    "phone": "(208) 756-4100",
+    "city": "Salmon",
+    "state": "ID",
+    "zip": "83467",
+    "website": ""
+  },
+  {
+    "name": "Lewis Clark Animal Shelter",
+    "email": "lauren.profitt@lcshelter.org",
+    "phone": "208-746-1623",
+    "city": "Lewiston",
+    "state": "ID",
+    "zip": "83501",
+    "website": ""
+  },
+  {
+    "name": "Magicats, Inc.",
+    "email": "magicats@filertel.com",
+    "phone": "208 431 2954",
+    "city": "Buhl",
+    "state": "ID",
+    "zip": "83316",
+    "website": ""
+  },
+  {
+    "name": "MCPAWS Regional Animal Shelter",
+    "email": "frontdesk@mcpaws.org",
+    "phone": "(208)634-3647",
+    "city": "McCall",
+    "state": "ID",
+    "zip": "83638",
+    "website": ""
+  },
+  {
+    "name": "Meridian Canine Rescue",
+    "email": "adopt@meridianrescue.org",
+    "phone": "(208) 794-0944",
+    "city": "Meridian",
+    "state": "ID",
+    "zip": "83642",
+    "website": ""
+  },
+  {
+    "name": "MISFIT Rescue",
+    "email": "misfitrescue@gmail.com",
+    "phone": "2086807904",
+    "city": "Blackfoot",
+    "state": "ID",
+    "zip": "83221",
+    "website": ""
+  },
+  {
+    "name": "Panhandle Animal Shelter",
+    "email": "info@pasidaho.org",
+    "phone": "(208)265-PAWS (7297)",
+    "city": "Ponderay",
+    "state": "ID",
+    "zip": "83852",
+    "website": ""
+  },
+  {
+    "name": "Pet Adoption League",
+    "email": "bc2268@yahoo.com",
+    "phone": "208-365-1359",
+    "city": "Emmett",
+    "state": "ID",
+    "zip": "83617",
+    "website": ""
+  },
+  {
+    "name": "Pocatello Animal Shelter",
+    "email": "kvelman@pocatello.us",
+    "phone": "(208) 234-6156",
+    "city": "Pocatello",
+    "state": "ID",
+    "zip": "83205",
+    "website": ""
+  },
+  {
+    "name": "Power of the Paw",
+    "email": "info@powerofthepaw.org",
+    "phone": "208-771-6032",
+    "city": "Post Falls",
+    "state": "ID",
+    "zip": "83877",
+    "website": ""
+  },
+  {
+    "name": "Priest River Animal Rescue",
+    "email": "pranimalhouse@hotmail.com",
+    "phone": "(208) 448-0699",
+    "city": "Priest River",
+    "state": "ID",
+    "zip": "83856",
+    "website": ""
+  },
+  {
+    "name": "Remembering Ruby Rabbit Rescue",
+    "email": "idahorabbitrescue@gmail.com",
+    "phone": "",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "zip": "83404",
+    "website": ""
+  },
+  {
+    "name": "Second Chance Animal Adoption",
+    "email": "secondchanceanimaladoption@hotmail.com",
+    "phone": "208-267-7504",
+    "city": "Bonners Ferry",
+    "state": "ID",
+    "zip": "83805",
+    "website": ""
+  },
+  {
+    "name": "Second Chance Pet Rescue",
+    "email": "idahocoondog@yahoo.com",
+    "phone": "(208) 664-4106",
+    "city": "COEUR D ALENE",
+    "state": "ID",
+    "zip": "83814",
+    "website": ""
+  },
+  {
+    "name": "Shoshone Pet Rescue (SPR)",
+    "email": "shoshonepetrescue@yahoo.com",
+    "phone": "(208) 512-3401",
+    "city": "Kellogg",
+    "state": "ID",
+    "zip": "83837",
+    "website": ""
+  },
+  {
+    "name": "Silver Valley Cat Wranglers, Inc.",
+    "email": "silvervalleycatwranglers@gmail.com",
+    "phone": "",
+    "city": "Kellogg",
+    "state": "ID",
+    "zip": "83837",
+    "website": ""
+  },
+  {
+    "name": "Simply Cats",
+    "email": "info@simplycats.org",
+    "phone": "208-343-7177",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83707",
+    "website": ""
+  },
+  {
+    "name": "Snake River Animal Shelter",
+    "email": "kenneltech@snakeriveranimalshelter.org",
+    "phone": "2085234219",
+    "city": "Idaho Falls",
+    "state": "ID",
+    "zip": "83402",
+    "website": ""
+  },
+  {
+    "name": "Southwest Idaho Pug Rescue",
+    "email": "stacy@swiprescue.com",
+    "phone": "",
+    "city": "Meridian",
+    "state": "ID",
+    "zip": "83680",
+    "website": ""
+  },
+  {
+    "name": "Take Me Home Dog Rescue",
+    "email": "takemehomedogrescue@gmail.com",
+    "phone": "(208) 866-2402",
+    "city": "Eagle",
+    "state": "ID",
+    "zip": "83616",
+    "website": ""
+  },
+  {
+    "name": "Teton Valley Community Animal Shelter",
+    "email": "manager@tvshelter.org",
+    "phone": "(208) 354-3499",
+    "city": "Driggs",
+    "state": "ID",
+    "zip": "83422",
+    "website": ""
+  },
+  {
+    "name": "The Furry Farm Rescue",
+    "email": "ffr@thefurryfarmrescue.org",
+    "phone": "(208) 755-0879",
+    "city": "Rathdrum",
+    "state": "ID",
+    "zip": "83858",
+    "website": ""
+  },
+  {
+    "name": "West Valley Humane Society",
+    "email": "jessica@westvalleyhumanesociety.org",
+    "phone": "(208) 455-5920",
+    "city": "Caldwell",
+    "state": "ID",
+    "zip": "83607",
+    "website": ""
+  },
+  {
+    "name": "Western States English Setter Rescue",
+    "email": "k40moore@cableone.net",
+    "phone": "208-869-4065",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83704",
+    "website": ""
+  }
+]

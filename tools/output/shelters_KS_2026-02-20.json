@@ -1,0 +1,893 @@
+[
+  {
+    "name": "Abilene Animal Hospital",
+    "email": "brankin@aahpa.com",
+    "phone": "(785) 263-2301",
+    "city": "Abilene",
+    "state": "KS",
+    "zip": "67410",
+    "website": ""
+  },
+  {
+    "name": "Akbash Dogs International",
+    "email": "straughie@comcast.net",
+    "phone": "510 410-0149",
+    "city": "Wellsville",
+    "state": "KS",
+    "zip": "66092",
+    "website": ""
+  },
+  {
+    "name": "Alex's House",
+    "email": "vicki@alexshouse.org",
+    "phone": "(785) 819-5138",
+    "city": "Rosalia",
+    "state": "KS",
+    "zip": "67132",
+    "website": ""
+  },
+  {
+    "name": "Allen County Animal Rescue Facility",
+    "email": "adoptions@acarf.org",
+    "phone": "620-496-3647",
+    "city": "La Harpe",
+    "state": "KS",
+    "zip": "66751",
+    "website": ""
+  },
+  {
+    "name": "Anns Angels Canine Rescue",
+    "email": "leonbash@cableone.net",
+    "phone": "(620) 433-2452",
+    "city": "Chanute",
+    "state": "KS",
+    "zip": "66720",
+    "website": ""
+  },
+  {
+    "name": "Autumn Acres",
+    "email": "adoptashelterpet@hotmail.com",
+    "phone": "",
+    "city": "Kansas City",
+    "state": "KS",
+    "zip": "66212",
+    "website": ""
+  },
+  {
+    "name": "Barkin Dogs Rescue",
+    "email": "barkindogs1@aol.com",
+    "phone": "(816) 898-5646",
+    "city": "Overland Park",
+    "state": "KS",
+    "zip": "66224",
+    "website": ""
+  },
+  {
+    "name": "Basset and Beagle Rescue of the Heartland",
+    "email": "bbrh@bassetandbeagle.org",
+    "phone": "402-490-4938",
+    "city": "Shawnee Mission",
+    "state": "KS",
+    "zip": "66225",
+    "website": ""
+  },
+  {
+    "name": "Beagles and More Rescue",
+    "email": "beaglesandmore@yahoo.com",
+    "phone": "(913) 485-8825",
+    "city": "Overland Park",
+    "state": "KS",
+    "zip": "66213",
+    "website": ""
+  },
+  {
+    "name": "Beak n' Wings, Inc.",
+    "email": "admin@beaknwings.org",
+    "phone": "913-322-3398",
+    "city": "Shawnee Mission",
+    "state": "KS",
+    "zip": "66201",
+    "website": ""
+  },
+  {
+    "name": "Bonner Animal Rescue, Inc.",
+    "email": "bonnerrescue@yahoo.com",
+    "phone": "913-449-7328",
+    "city": "Bonner Springs",
+    "state": "KS",
+    "zip": "66012",
+    "website": ""
+  },
+  {
+    "name": "Brown County Humane Society",
+    "email": "brcohs66434@yahoo.com",
+    "phone": "(785) 742-1976",
+    "city": "Hiawatha",
+    "state": "KS",
+    "zip": "66434",
+    "website": ""
+  },
+  {
+    "name": "Burlingame Road Animal Hospital",
+    "email": "contact@brahvet.com",
+    "phone": "785-267-1012",
+    "city": "Topeka",
+    "state": "KS",
+    "zip": "66609",
+    "website": ""
+  },
+  {
+    "name": "Burlington Animal Shelter",
+    "email": "bfoster@burlingtonkansas.gov",
+    "phone": "(620) 490-0416",
+    "city": "Burlington",
+    "state": "KS",
+    "zip": "66839",
+    "website": ""
+  },
+  {
+    "name": "Caring Hearts Humane Society",
+    "email": "pottcty.hs@gmail.com",
+    "phone": "785 313-3194",
+    "city": "Wamego",
+    "state": "KS",
+    "zip": "66547",
+    "website": ""
+  },
+  {
+    "name": "Cat Association of Topeka",
+    "email": "cats@topekacat.org",
+    "phone": "785-272-4735",
+    "city": "Topeka",
+    "state": "KS",
+    "zip": "66604",
+    "website": ""
+  },
+  {
+    "name": "Cattails Feline Rescue",
+    "email": "thisisdnn@gmail.com",
+    "phone": "785-565-2433",
+    "city": "Manhattan",
+    "state": "KS",
+    "zip": "66502",
+    "website": ""
+  },
+  {
+    "name": "Chanute Animal Shelter",
+    "email": "bpenner@chanute.org",
+    "phone": "(620) 433-7559",
+    "city": "Chanute",
+    "state": "KS",
+    "zip": "66720",
+    "website": ""
+  },
+  {
+    "name": "Chasing Tails Rescue",
+    "email": "chasingtailsrescue@cox.net",
+    "phone": "(620) 797-0430",
+    "city": "Great Bend",
+    "state": "KS",
+    "zip": "67530",
+    "website": ""
+  },
+  {
+    "name": "City of Concordia -- OConnor Animal Shelter",
+    "email": "animalcontrol@concordiaks.org",
+    "phone": "785-243-3131",
+    "city": "Concordia",
+    "state": "KS",
+    "zip": "66901",
+    "website": ""
+  },
+  {
+    "name": "City of El Dorado Animal Shelter",
+    "email": "dsharp@eldoks.com",
+    "phone": "316-322-8844",
+    "city": "El Dorado",
+    "state": "KS",
+    "zip": "67042",
+    "website": ""
+  },
+  {
+    "name": "Clay County Animal Rescue and Education Center Inc",
+    "email": "ccareshelter@gmail.com",
+    "phone": "(785) 777-2522",
+    "city": "Clay Center",
+    "state": "KS",
+    "zip": "67432",
+    "website": ""
+  },
+  {
+    "name": "Colonel Potter Cairn Rescue Network - Heartland",
+    "email": "cpcrn@cairnrescue.com",
+    "phone": "",
+    "city": "Topeka",
+    "state": "KS",
+    "zip": "66614",
+    "website": ""
+  },
+  {
+    "name": "Corgi Connection of Kansas",
+    "email": "jeanette@corgiconnection.com",
+    "phone": "",
+    "city": "Milford",
+    "state": "KS",
+    "zip": "66514",
+    "website": ""
+  },
+  {
+    "name": "Country Cats, Inc.",
+    "email": "countrycatsrescue@gmail.com",
+    "phone": "316-775-2288",
+    "city": "Andover",
+    "state": "KS",
+    "zip": "67002",
+    "website": ""
+  },
+  {
+    "name": "Cowley County Humane Society INC",
+    "email": "ccasdirector@skyerock.net",
+    "phone": "(620) 221-1698",
+    "city": "Winfield",
+    "state": "KS",
+    "zip": "67156",
+    "website": ""
+  },
+  {
+    "name": "Dawgs Without Borders",
+    "email": "dawgswithoutborders@gmail.com",
+    "phone": "785-844-3236",
+    "city": "Westmoreland",
+    "state": "KS",
+    "zip": "66549",
+    "website": ""
+  },
+  {
+    "name": "Divapets Cat Rescue",
+    "email": "taniddsn@yahoo.com",
+    "phone": "(816) 589-6994",
+    "city": "Merriam",
+    "state": "KS",
+    "zip": "66202",
+    "website": ""
+  },
+  {
+    "name": "Dog N' Bone Rescue",
+    "email": "dognbonerescue@yahoo.com",
+    "phone": "(316) 207-5166",
+    "city": "Wichita",
+    "state": "KS",
+    "zip": "67204",
+    "website": ""
+  },
+  {
+    "name": "Emporia Kansas Animal Shelter",
+    "email": "emporiakansasanimalshelter@gmail.com",
+    "phone": "(620) 340-6345",
+    "city": "Emporia",
+    "state": "KS",
+    "zip": "66801",
+    "website": ""
+  },
+  {
+    "name": "FMA Animal Hospital",
+    "email": "fmapetvet@aol.com",
+    "phone": "913-262-1600",
+    "city": "Westwood",
+    "state": "KS",
+    "zip": "66205",
+    "website": ""
+  },
+  {
+    "name": "Ford County Humane Society",
+    "email": "fordcohs@yahoo.com",
+    "phone": "(620) 225-1481(answering machine only)",
+    "city": "Dodge City",
+    "state": "KS",
+    "zip": "67801",
+    "website": ""
+  },
+  {
+    "name": "Fort Leavenworth Stray Facility",
+    "email": "lampphotog@yahoo.com",
+    "phone": "(913) 684-4939",
+    "city": "Fort Leavenworth",
+    "state": "KS",
+    "zip": "66027",
+    "website": ""
+  },
+  {
+    "name": "Fort Riley Stray Animal Shelter",
+    "email": "nicole.p.storm.naf@mail.mil",
+    "phone": "(785) 239-6183",
+    "city": "Fort Riley",
+    "state": "KS",
+    "zip": "66531",
+    "website": ""
+  },
+  {
+    "name": "Friends of Animals Rice County, Inc.",
+    "email": "arkvetclinic01@gmail.com",
+    "phone": "(620) 278-3623",
+    "city": "Sterling",
+    "state": "KS",
+    "zip": "67579",
+    "website": ""
+  },
+  {
+    "name": "Furever Friends",
+    "email": "dognme62@gmail.com",
+    "phone": "",
+    "city": "Madison",
+    "state": "KS",
+    "zip": "66860",
+    "website": ""
+  },
+  {
+    "name": "Golden Belt Humane Society",
+    "email": "directorgoldenbelt@gmail.com",
+    "phone": "620-792-4297",
+    "city": "Great Bend",
+    "state": "KS",
+    "zip": "67530",
+    "website": ""
+  },
+  {
+    "name": "Great Plains SPCA",
+    "email": "adoptions@greatplainsspca.org",
+    "phone": "(913) 808-3335",
+    "city": "Merriam",
+    "state": "KS",
+    "zip": "66202",
+    "website": ""
+  },
+  {
+    "name": "H. Dale Buck Animal Welfare Memorial Fund Inc.",
+    "email": "thebuckfund@hotmail.com",
+    "phone": "620-343-3377",
+    "city": "Emporia",
+    "state": "KS",
+    "zip": "66801",
+    "website": ""
+  },
+  {
+    "name": "Hands of Hope Rescue",
+    "email": "handsofhopegb@cox.net",
+    "phone": "",
+    "city": "Great Bend",
+    "state": "KS",
+    "zip": "67530",
+    "website": ""
+  },
+  {
+    "name": "Happy Tails Farm",
+    "email": "happytailsfarms@yahoo.com",
+    "phone": "(620) 875-0280",
+    "city": "Pittsburg",
+    "state": "KS",
+    "zip": "66762",
+    "website": ""
+  },
+  {
+    "name": "Heart of Jackson Humane Society, Inc.",
+    "email": "heartofjackson@gmail.com",
+    "phone": "785-364-5156",
+    "city": "Holton",
+    "state": "KS",
+    "zip": "66436",
+    "website": ""
+  },
+  {
+    "name": "Heartstrings Animal Advocates",
+    "email": "heartstringsanimaladvocates@gmail.com",
+    "phone": "",
+    "city": "Leon",
+    "state": "KS",
+    "zip": "67074",
+    "website": ""
+  },
+  {
+    "name": "Helping Hands Humane Society",
+    "email": "adopt@hhhstopeka.org",
+    "phone": "785-233-7325",
+    "city": "Topeka",
+    "state": "KS",
+    "zip": "66604",
+    "website": ""
+  },
+  {
+    "name": "Hoisington Veterinary Clinic",
+    "email": "hoisingtonvet@gmail.com",
+    "phone": "(620) 653-2862",
+    "city": "Hoisington",
+    "state": "KS",
+    "zip": "67544",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of the High Plains",
+    "email": "hshp_hays@hotmail.com",
+    "phone": "(785) 625-5252",
+    "city": "Hays",
+    "state": "KS",
+    "zip": "67601",
+    "website": ""
+  },
+  {
+    "name": "Hutchinson Animal Shelter",
+    "email": "animalshelter@hutchgov.com",
+    "phone": "620-694-1924",
+    "city": "Hutchinson",
+    "state": "KS",
+    "zip": "67504",
+    "website": ""
+  },
+  {
+    "name": "Jefferson County Humane Society Inc",
+    "email": "jfcountypets@gmail.com",
+    "phone": "785-945-6600",
+    "city": "Valley Falls",
+    "state": "KS",
+    "zip": "66088",
+    "website": ""
+  },
+  {
+    "name": "Junction City/Geary County Animal Shelter",
+    "email": "vlalt@jcks-law.com",
+    "phone": "(785) 238-1359",
+    "city": "Junction City",
+    "state": "KS",
+    "zip": "66441",
+    "website": ""
+  },
+  {
+    "name": "Kansas City English Bulldog Rescue",
+    "email": "kcbulldogrescue@hotmail.com",
+    "phone": "",
+    "city": "Lenexa",
+    "state": "KS",
+    "zip": "66219",
+    "website": ""
+  },
+  {
+    "name": "Kansas City Kansas Animal Control",
+    "email": "jstewart@kckpd.org",
+    "phone": "(913) 321-1445",
+    "city": "Kansas City",
+    "state": "KS",
+    "zip": "66102",
+    "website": ""
+  },
+  {
+    "name": "Kansas City Sheltie Rescue",
+    "email": "kcsheltierescue@gmail.com",
+    "phone": "(913) 384-0366",
+    "city": "Mission",
+    "state": "KS",
+    "zip": "66201",
+    "website": ""
+  },
+  {
+    "name": "Kansas Humane Society of Wichita",
+    "email": "adoptions@kshumane.org",
+    "phone": "(316) 524-9196",
+    "city": "Wichita",
+    "state": "KS",
+    "zip": "67219",
+    "website": ""
+  },
+  {
+    "name": "Kansas K-9 ResQ Inc.",
+    "email": "adoptadog@ksk9resq.org",
+    "phone": "(316) 295-6534",
+    "city": "Wichita",
+    "state": "KS",
+    "zip": "67201",
+    "website": ""
+  },
+  {
+    "name": "Kansas Second Time Around Animal Rescue",
+    "email": "llo@ksu.edu",
+    "phone": "(785) 482-3452",
+    "city": "Dwight",
+    "state": "KS",
+    "zip": "66849",
+    "website": ""
+  },
+  {
+    "name": "Kingman County Humane Society",
+    "email": "kchs@kingmancountyhumanesociety.org",
+    "phone": "620-532-5544",
+    "city": "Kingman",
+    "state": "KS",
+    "zip": "67068",
+    "website": ""
+  },
+  {
+    "name": "Kitty City Kansas Rescue",
+    "email": "kittycityks@aol.com",
+    "phone": "913-971-0101",
+    "city": "Shawnee",
+    "state": "KS",
+    "zip": "66226",
+    "website": ""
+  },
+  {
+    "name": "Lawrence Humane Society",
+    "email": "adoptions@lawrencehumane.org",
+    "phone": "785-843-6835",
+    "city": "Lawrence",
+    "state": "KS",
+    "zip": "66046",
+    "website": ""
+  },
+  {
+    "name": "Leavenworth Animal Control Shelter",
+    "email": "phill@firstcity.org",
+    "phone": "(913) 682-0268",
+    "city": "Leavenworth",
+    "state": "KS",
+    "zip": "66048",
+    "website": ""
+  },
+  {
+    "name": "Leavenworth County Humane Society, Inc.",
+    "email": "lvncohs@live.com",
+    "phone": "(913) 250-0506",
+    "city": "Lansing",
+    "state": "KS",
+    "zip": "66043",
+    "website": ""
+  },
+  {
+    "name": "Lucky Dog Program - Friends of Animals in Need",
+    "email": "rlvshollowell@hotmail.com",
+    "phone": "620-727-0205",
+    "city": "Hutchinson",
+    "state": "KS",
+    "zip": "67502",
+    "website": ""
+  },
+  {
+    "name": "Mary Ann Robinson Spay Neuter Assistance Program",
+    "email": "marsnap2@gmail.com",
+    "phone": "(620) 245-0763",
+    "city": "McPherson",
+    "state": "KS",
+    "zip": "67460",
+    "website": ""
+  },
+  {
+    "name": "McPherson Animal Shelter",
+    "email": "sonial@mcpas.kscoxmail.com",
+    "phone": "(620) 245-2583",
+    "city": "McPherson",
+    "state": "KS",
+    "zip": "67460",
+    "website": ""
+  },
+  {
+    "name": "McPherson County Humane Society",
+    "email": "mcphersonhumanesociety@hotmail.com",
+    "phone": "620-241-3682",
+    "city": "McPherson",
+    "state": "KS",
+    "zip": "67460",
+    "website": ""
+  },
+  {
+    "name": "Mid-America Bully Breed Rescue",
+    "email": "mabbr@mabbr.org",
+    "phone": "",
+    "city": "Lansing",
+    "state": "KS",
+    "zip": "66043",
+    "website": ""
+  },
+  {
+    "name": "Midwest Pug Rescue",
+    "email": "luvforpugs@aol.com",
+    "phone": "(913) 530-7689",
+    "city": "Overland Park",
+    "state": "KS",
+    "zip": "66213",
+    "website": ""
+  },
+  {
+    "name": "Min Pins & More Rescue, Inc-KS",
+    "email": "equisetteracres@yahoo.com",
+    "phone": "",
+    "city": "Berryton",
+    "state": "KS",
+    "zip": "66409",
+    "website": ""
+  },
+  {
+    "name": "Mo/Kan Boxer Rescue",
+    "email": "mokanboxerrescue@earthlink.net",
+    "phone": "785-979-2679",
+    "city": "Topeka",
+    "state": "KS",
+    "zip": "66047",
+    "website": ""
+  },
+  {
+    "name": "Northwest Kansas Animal Shelter",
+    "email": "kypawwash@eaglecom.net",
+    "phone": "785-899-4398",
+    "city": "Goodland",
+    "state": "KS",
+    "zip": "67735",
+    "website": ""
+  },
+  {
+    "name": "Olathe Animal Control",
+    "email": "vhudson@olatheks.org",
+    "phone": "913-971-6362",
+    "city": "Olathe",
+    "state": "KS",
+    "zip": "66051",
+    "website": ""
+  },
+  {
+    "name": "Olive's Hope Pet Rescue",
+    "email": "oliveshope@yahoo.com",
+    "phone": "913-735-7040",
+    "city": "Louisburg",
+    "state": "KS",
+    "zip": "66053",
+    "website": ""
+  },
+  {
+    "name": "One Dog at a Time MHK",
+    "email": "onedogmhk@gmail.com",
+    "phone": "",
+    "city": "Manhattan",
+    "state": "KS",
+    "zip": "66502",
+    "website": ""
+  },
+  {
+    "name": "Pawnee County Humane Society",
+    "email": "pchs@pawneehumane.com",
+    "phone": "620.285.8510",
+    "city": "Larned",
+    "state": "KS",
+    "zip": "67550",
+    "website": ""
+  },
+  {
+    "name": "Pawsitive Tails",
+    "email": "info@pawsitivetailskc.org",
+    "phone": "(913) 489-8477",
+    "city": "Olathe",
+    "state": "KS",
+    "zip": "66061",
+    "website": ""
+  },
+  {
+    "name": "Pets Miracle Network",
+    "email": "mms3@dodgecity.net",
+    "phone": "(620)225-6096",
+    "city": "Wright",
+    "state": "KS",
+    "zip": "67801",
+    "website": ""
+  },
+  {
+    "name": "Prairie Paws Animal Shelter",
+    "email": "info@prairiepaws.org",
+    "phone": "(785) 242-2967",
+    "city": "Ottawa",
+    "state": "KS",
+    "zip": "66067",
+    "website": ""
+  },
+  {
+    "name": "Pratt Area Humane Society",
+    "email": "prattareahs@yahoo.com",
+    "phone": "(620)672-6777",
+    "city": "Pratt",
+    "state": "KS",
+    "zip": "67124",
+    "website": ""
+  },
+  {
+    "name": "Proud Animal Lovers Shelter",
+    "email": "pals@wavewls.com",
+    "phone": "620-421-0445",
+    "city": "Parsons",
+    "state": "KS",
+    "zip": "67357",
+    "website": ""
+  },
+  {
+    "name": "Purple Power Animal Welfare Society",
+    "email": "purplepoweraws@gmail.com",
+    "phone": "(785) 844-9199",
+    "city": "Manhattan",
+    "state": "KS",
+    "zip": "66505",
+    "website": ""
+  },
+  {
+    "name": "Purralot Kitty Rescue Inc.",
+    "email": "purralotkittyrescue@gmail.com",
+    "phone": "(620) 412-4907",
+    "city": "Emporia",
+    "state": "KS",
+    "zip": "66801",
+    "website": ""
+  },
+  {
+    "name": "Purrfect Pets Inc.",
+    "email": "info@purrfectpets.org",
+    "phone": "(913) 652-6677",
+    "city": "Overland Park",
+    "state": "KS",
+    "zip": "66214",
+    "website": ""
+  },
+  {
+    "name": "Rescue K-911",
+    "email": "rescuek911@yahoo.com",
+    "phone": "(913) 543-1364",
+    "city": "Merriam",
+    "state": "KS",
+    "zip": "66203",
+    "website": ""
+  },
+  {
+    "name": "Riley County Humane Society",
+    "email": "info@rchsks.org",
+    "phone": "(785) 776-8433",
+    "city": "Manhattan",
+    "state": "KS",
+    "zip": "66505",
+    "website": ""
+  },
+  {
+    "name": "Rockin' Paw Rescue & Adoption Network, Inc.",
+    "email": "rockinpawrescueinc@live.com",
+    "phone": "(620) 340-2749",
+    "city": "Emporia",
+    "state": "KS",
+    "zip": "66801",
+    "website": ""
+  },
+  {
+    "name": "Safe Harbor for Pets (Safe Harbor Prison Dog Adoption Program)",
+    "email": "safeharborprisondogs@yahoo.com",
+    "phone": "(913) 634-5955",
+    "city": "Kansas City",
+    "state": "KS",
+    "zip": "66109",
+    "website": ""
+  },
+  {
+    "name": "Saving Death Row Dogs",
+    "email": "charminbluepaige@yahoo.com",
+    "phone": "",
+    "city": "Topeka",
+    "state": "KS",
+    "zip": "66614",
+    "website": ""
+  },
+  {
+    "name": "Second Chance Homeless Pet Society",
+    "email": "secondchancepets1@yahoo.com",
+    "phone": "785-877-5219",
+    "city": "Norton",
+    "state": "KS",
+    "zip": "67654",
+    "website": ""
+  },
+  {
+    "name": "Sheltie Shack Rescue",
+    "email": "sheltieshackrescue@gmail.com",
+    "phone": "4178588581",
+    "city": "Wamego",
+    "state": "KS",
+    "zip": "66547",
+    "website": ""
+  },
+  {
+    "name": "SRL - Save, Rescue, Love that dog!",
+    "email": "savethatdog@hotmail.com",
+    "phone": "(913) 744-7040",
+    "city": "Minneapolis",
+    "state": "KS",
+    "zip": "67467",
+    "website": ""
+  },
+  {
+    "name": "T. Russell Reitz Regional Animal Shelter",
+    "email": "animalshelter@ci.manhattan.ks.us",
+    "phone": "785-587-2783",
+    "city": "Manhattan",
+    "state": "KS",
+    "zip": "66502",
+    "website": ""
+  },
+  {
+    "name": "The Animal Hospital",
+    "email": "theanimalhospitalks@gmail.com",
+    "phone": "(785) 434-7222",
+    "city": "Plainville",
+    "state": "KS",
+    "zip": "67663",
+    "website": ""
+  },
+  {
+    "name": "The Pet Connection Inc.",
+    "email": "kelso463@gmail.com",
+    "phone": "(913) 671-7387",
+    "city": "Lenexa",
+    "state": "KS",
+    "zip": "66215",
+    "website": ""
+  },
+  {
+    "name": "The Rescue Project",
+    "email": "kcpetfinder@hotmail.com",
+    "phone": "9137068883",
+    "city": "Overland Park",
+    "state": "KS",
+    "zip": "66225",
+    "website": ""
+  },
+  {
+    "name": "Unleashed Pet Rescue and Adoption",
+    "email": "unleashedadoptions@gmail.com",
+    "phone": "(913) 831-7387",
+    "city": "Mission",
+    "state": "KS",
+    "zip": "66202",
+    "website": ""
+  },
+  {
+    "name": "Western Plains Animal Refuge",
+    "email": "westernplainsanimalrefuge@gmail.com",
+    "phone": "(785) 301-2364",
+    "city": "Hays",
+    "state": "KS",
+    "zip": "67601",
+    "website": ""
+  },
+  {
+    "name": "Wichita Animal Action League",
+    "email": "adoptions@waalrescue.org",
+    "phone": "",
+    "city": "Wichita",
+    "state": "KS",
+    "zip": "67208",
+    "website": ""
+  },
+  {
+    "name": "Wichita Pug Rescue",
+    "email": "wichitapugrescueks@gmail.com",
+    "phone": "316-778-1171",
+    "city": "Benton",
+    "state": "KS",
+    "zip": "67017",
+    "website": ""
+  },
+  {
+    "name": "Wigglebutts Aussie Rescue, Inc.",
+    "email": "wigglebuttsrescue@yahoo.com",
+    "phone": "(816) 809-0217",
+    "city": "Parker",
+    "state": "KS",
+    "zip": "66072",
+    "website": ""
+  },
+  {
+    "name": "Yates Center Animal Shelter",
+    "email": "yatescityhall@kscable.com",
+    "phone": "620-625-2118",
+    "city": "Yates Center",
+    "state": "KS",
+    "zip": "66783",
+    "website": ""
+  }
+]

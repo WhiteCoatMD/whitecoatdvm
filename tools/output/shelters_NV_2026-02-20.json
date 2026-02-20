@@ -1,0 +1,632 @@
+[
+  {
+    "name": "A Home 4 Spot",
+    "email": "ahome4spot@gmail.com",
+    "phone": "(702) 239-7986",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89103",
+    "website": ""
+  },
+  {
+    "name": "Adopt A Rescue Pet",
+    "email": "dogrescuelv@hotmail.com",
+    "phone": "(702)798-8663/591-6469",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89121",
+    "website": ""
+  },
+  {
+    "name": "All the Same Wild and Tame",
+    "email": "wildandtamefound@aol.com",
+    "phone": "1-866-88-Fleas",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89101",
+    "website": ""
+  },
+  {
+    "name": "Animal Adoptions Ltd.",
+    "email": "teresa@animaladoptionsltd.org",
+    "phone": "(702) 361-2484",
+    "city": "Henderson",
+    "state": "NV",
+    "zip": "89009",
+    "website": ""
+  },
+  {
+    "name": "Animal Network",
+    "email": "adoptmetodayan@aol.com",
+    "phone": "702-582-7534",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89147",
+    "website": ""
+  },
+  {
+    "name": "Animal Rescue Group of Northern Nevada",
+    "email": "argonn@argonn.org",
+    "phone": "(775) 229-3708",
+    "city": "Fernley",
+    "state": "NV",
+    "zip": "89408",
+    "website": ""
+  },
+  {
+    "name": "Aussie Border Collie Rescue of Northern Nevada",
+    "email": "abcrescue@ymail.com",
+    "phone": "775-267-4068",
+    "city": "Minden",
+    "state": "NV",
+    "zip": "89423",
+    "website": ""
+  },
+  {
+    "name": "Basenji Club of Southern Nevada",
+    "email": "basenjiclubofsouthernnevada@gmail.com",
+    "phone": "(702) 631-1780",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89130",
+    "website": ""
+  },
+  {
+    "name": "Big Paw Rescue",
+    "email": "virginia@bigpawrescue.org",
+    "phone": "(702) 635-2760",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89104",
+    "website": ""
+  },
+  {
+    "name": "Boxers and Buddies",
+    "email": "info@boxersandbuddies.com",
+    "phone": "775-342-5789",
+    "city": "Reno",
+    "state": "NV",
+    "zip": "89704",
+    "website": ""
+  },
+  {
+    "name": "Canine Rehabilitation Center and Sanctuary",
+    "email": "info@crcsdogs.com",
+    "phone": "(775) 800-1906",
+    "city": "Washoe Valley",
+    "state": "NV",
+    "zip": "89704",
+    "website": ""
+  },
+  {
+    "name": "CARES Coalition",
+    "email": "carescoalition@yahoo.com",
+    "phone": "(702) 875-3800",
+    "city": "Jean",
+    "state": "NV",
+    "zip": "89019",
+    "website": ""
+  },
+  {
+    "name": "Carson Tahoe SPCA",
+    "email": "info@carsontahoespca.org",
+    "phone": "(775) 885-7766",
+    "city": "Carson City",
+    "state": "NV",
+    "zip": "89702",
+    "website": ""
+  },
+  {
+    "name": "Catmandu",
+    "email": "momcat@catmanducc.org",
+    "phone": "775-297-3419",
+    "city": "Carson City",
+    "state": "NV",
+    "zip": "89701",
+    "website": ""
+  },
+  {
+    "name": "Churchill Animal Protection Society (CAPS)",
+    "email": "caps@cccomm.net",
+    "phone": "(775) 423-7500",
+    "city": "Fallon",
+    "state": "NV",
+    "zip": "89406",
+    "website": ""
+  },
+  {
+    "name": "City of Elko Animal Shelter",
+    "email": "shelter@elkocitynv.gov",
+    "phone": "(775) 777-7333",
+    "city": "Elko",
+    "state": "NV",
+    "zip": "89801",
+    "website": ""
+  },
+  {
+    "name": "City of Mesquite Animal Shelter",
+    "email": "mesquitenvshelter@gmail.com",
+    "phone": "(702) 346-5268",
+    "city": "Mesquite",
+    "state": "NV",
+    "zip": "89027",
+    "website": ""
+  },
+  {
+    "name": "City-County Animal Control Center - Winnemucca, NV",
+    "email": "winnemuccashelter@gmail.com",
+    "phone": "(775) 623-6403",
+    "city": "Winnemucca",
+    "state": "NV",
+    "zip": "89445",
+    "website": ""
+  },
+  {
+    "name": "Desert Haven Animal Society",
+    "email": "deserthavenanimalsociety@gmail.com",
+    "phone": "(775) 751-7020",
+    "city": "Pahrump",
+    "state": "NV",
+    "zip": "89060",
+    "website": ""
+  },
+  {
+    "name": "Doberman Rescue of Nevada",
+    "email": "info@drnv.org",
+    "phone": "(702) 672-7204",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89118",
+    "website": ""
+  },
+  {
+    "name": "Dog Town Canine Rescue",
+    "email": "dogtownmutts@gmail.com",
+    "phone": "775-230-3703",
+    "city": "Carson City",
+    "state": "NV",
+    "zip": "89702",
+    "website": ""
+  },
+  {
+    "name": "Doggie Rescue LV/Animal Help Alliance",
+    "email": "doggierescuelv@yahoo.com",
+    "phone": "",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89147",
+    "website": ""
+  },
+  {
+    "name": "Douglas Animal Welfare Group",
+    "email": "organizations@dawgrescue.com",
+    "phone": "775-267-7325",
+    "city": "Gardnerville",
+    "state": "NV",
+    "zip": "89410",
+    "website": ""
+  },
+  {
+    "name": "Fallon Animal Welfare Group",
+    "email": "fawgnv@gmail.com",
+    "phone": "775 423-8650",
+    "city": "Fallon",
+    "state": "NV",
+    "zip": "89406",
+    "website": ""
+  },
+  {
+    "name": "Foreclosed Upon Pets, Inc. (FUPI)",
+    "email": "forecloseduponpets@hotmail.com",
+    "phone": "(702) 272-0010",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89101",
+    "website": ""
+  },
+  {
+    "name": "Forgotten Fosters",
+    "email": "shannasfurbies@gmail.com",
+    "phone": "(702) 205-1234",
+    "city": "North Las Vegas",
+    "state": "NV",
+    "zip": "89032",
+    "website": ""
+  },
+  {
+    "name": "Furgotten Friends Dog Rescue",
+    "email": "furgottenfriendsdogrescue@yahoo.com",
+    "phone": "775-751-0853",
+    "city": "Pahrump",
+    "state": "NV",
+    "zip": "89048",
+    "website": ""
+  },
+  {
+    "name": "Happy Home Animal Sanctuary",
+    "email": "info@happyhomeanimalsanctuary.org",
+    "phone": "702-203-4134",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89123",
+    "website": ""
+  },
+  {
+    "name": "Hearts Alive Village Las Vegas",
+    "email": "christy.stevens@havlv.com",
+    "phone": "702-595-0644",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89103",
+    "website": ""
+  },
+  {
+    "name": "Heaven Can Wait Animal Society",
+    "email": "dogs@hcws.org",
+    "phone": "702-227-5555",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89113",
+    "website": ""
+  },
+  {
+    "name": "Homeward Bound Cat Adoptions",
+    "email": "homewardboundcats@hotmail.com",
+    "phone": "(702) 533-3440",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89169",
+    "website": ""
+  },
+  {
+    "name": "KiSS 4 Homeless Animals",
+    "email": "kim@tixcorp.com",
+    "phone": "",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89119",
+    "website": ""
+  },
+  {
+    "name": "L.E.A.N.",
+    "email": "allvegashorses@gmail.com",
+    "phone": "702-533-4656",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89136",
+    "website": ""
+  },
+  {
+    "name": "Las Vegas Doberman Pinscher and Dachshund Rescue",
+    "email": "lvdobesanddoxies@aol.com",
+    "phone": "(702) 596-9293",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89145",
+    "website": ""
+  },
+  {
+    "name": "Las Vegas Valley Humane Society",
+    "email": "lvvhs@cox.net",
+    "phone": "(702) 434-2009",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89146",
+    "website": ""
+  },
+  {
+    "name": "Lone Woof Rescue",
+    "email": "info@lonewoofrescue.org",
+    "phone": "(702) 469-1913",
+    "city": "Jean",
+    "state": "NV",
+    "zip": "89019",
+    "website": ""
+  },
+  {
+    "name": "Louisa's New Leash On  Life Rescue",
+    "email": "info@louisaleash.com",
+    "phone": "702.406.9550",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89145",
+    "website": ""
+  },
+  {
+    "name": "LV Hot-Diggity Dachshund Club and Rescue",
+    "email": "leilani@lvhddcr.com",
+    "phone": "",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89130",
+    "website": ""
+  },
+  {
+    "name": "Mayte's Rescue",
+    "email": "miamorinc@mayte.com",
+    "phone": "(702) 333-5781",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89103",
+    "website": ""
+  },
+  {
+    "name": "Mineral County Animal Shelter",
+    "email": "danbrogden@att.net",
+    "phone": "775-945-0701",
+    "city": "Hawthorne",
+    "state": "NV",
+    "zip": "89415",
+    "website": ""
+  },
+  {
+    "name": "Nevada Humane Society",
+    "email": "info@nevadahumanesociety.org",
+    "phone": "(775) 856-2000 ext. 302",
+    "city": "Reno",
+    "state": "NV",
+    "zip": "89502",
+    "website": ""
+  },
+  {
+    "name": "On My Way Home Rescue",
+    "email": "savethedoxies@gmail.com",
+    "phone": "",
+    "city": "Henderson",
+    "state": "NV",
+    "zip": "89015",
+    "website": ""
+  },
+  {
+    "name": "Palomino Valley Pet Rescue Inc.",
+    "email": "pvpr02@gmail.com",
+    "phone": "(775) 358-5527",
+    "city": "Sparks",
+    "state": "NV",
+    "zip": "89431",
+    "website": ""
+  },
+  {
+    "name": "Paws 4 Love Pet Rescue Inc.",
+    "email": "pdambroz@outloook.com",
+    "phone": "(702) 622-3092",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89122",
+    "website": ""
+  },
+  {
+    "name": "Pekes Paws and Tails",
+    "email": "pekespawsandtails@gmail.com",
+    "phone": "(760) 880-5280",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89139",
+    "website": ""
+  },
+  {
+    "name": "Pet Network Humane Society",
+    "email": "adoption@petnetwork.org",
+    "phone": "775-832-4404",
+    "city": "Incline Village",
+    "state": "NV",
+    "zip": "89451",
+    "website": ""
+  },
+  {
+    "name": "Pets Are Worth Saving  PAWS",
+    "email": "pahrumppaws@gmail.com",
+    "phone": "",
+    "city": "Pahrump",
+    "state": "NV",
+    "zip": "89048",
+    "website": ""
+  },
+  {
+    "name": "Pits to Pets Rescue",
+    "email": "pitstopets@gmail.com",
+    "phone": "(702) 540-4657",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89131",
+    "website": ""
+  },
+  {
+    "name": "Reno Tahoe Rescue Society",
+    "email": "rtadoptapet@gmail.com",
+    "phone": "775-815-9363",
+    "city": "Carson City",
+    "state": "NV",
+    "zip": "89703",
+    "website": ""
+  },
+  {
+    "name": "Res-Que",
+    "email": "karen@res-que.org",
+    "phone": "775-771-0293",
+    "city": "Reno",
+    "state": "NV",
+    "zip": "89506",
+    "website": ""
+  },
+  {
+    "name": "Safe Haven Rescue Kennel",
+    "email": "barkdogsinfo@gmail.com",
+    "phone": "(775) 463-1842",
+    "city": "YERINGTON",
+    "state": "NV",
+    "zip": "89447",
+    "website": ""
+  },
+  {
+    "name": "Saints Of The West",
+    "email": "rescue@saintsofthewest.com",
+    "phone": "(775) 475-0420",
+    "city": "Sparks",
+    "state": "NV",
+    "zip": "89436",
+    "website": ""
+  },
+  {
+    "name": "Sin City Saint Rescue",
+    "email": "rescuesaints@gmail.com",
+    "phone": "(702) 896-1049",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89012",
+    "website": ""
+  },
+  {
+    "name": "Southern Nevada Beagle Rescue Foundation",
+    "email": "info@southernnevadabeaglerescue.com",
+    "phone": "702-493-9779",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89123",
+    "website": ""
+  },
+  {
+    "name": "Southern Nevada Boston Terrier Rescue",
+    "email": "info@snbtr.com",
+    "phone": "",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89120",
+    "website": ""
+  },
+  {
+    "name": "Southern Nevada Schnauzer Rescue",
+    "email": "dawnbeuth@aol.com",
+    "phone": "(702) 203-7439",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89101",
+    "website": ""
+  },
+  {
+    "name": "SPCA of Northern Nevada",
+    "email": "info@spcanevada.org",
+    "phone": "775-324-7773",
+    "city": "Reno",
+    "state": "NV",
+    "zip": "89512",
+    "website": ""
+  },
+  {
+    "name": "Springer Spaniel Rescue, Inc.",
+    "email": "marys111@earthlink.net",
+    "phone": "(702) 300-2808",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89134",
+    "website": ""
+  },
+  {
+    "name": "The Animal Foundation",
+    "email": "adoptions@animalfoundation.com",
+    "phone": "702-384-3333  ext.131",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89101",
+    "website": ""
+  },
+  {
+    "name": "The Churchill Foundation",
+    "email": "info@thechurchillfoundation.org",
+    "phone": "(702) 970-4823",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89104",
+    "website": ""
+  },
+  {
+    "name": "The Samadhi Legacy Foundation- a 501 (c) (3)",
+    "email": "kathy@samadhilegacy.org",
+    "phone": "7028083763",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89135",
+    "website": ""
+  },
+  {
+    "name": "Those Left Behind Foundation",
+    "email": "rae@tlbfoundation.org",
+    "phone": "(702) 768-8523",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89129",
+    "website": ""
+  },
+  {
+    "name": "Two Dog Farms, Inc.",
+    "email": "info@twodogfarms.com",
+    "phone": "7756360036",
+    "city": "Minden",
+    "state": "NV",
+    "zip": "89423",
+    "website": ""
+  },
+  {
+    "name": "Vegas Shepherd Rescue",
+    "email": "tammy@vegasdogrescue.com",
+    "phone": "702-706-7437",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89128",
+    "website": ""
+  },
+  {
+    "name": "VegasPigPets",
+    "email": "info@vegaspigpets.org",
+    "phone": "Email",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89146",
+    "website": ""
+  },
+  {
+    "name": "Wagging Tails Rescue",
+    "email": "waggingtailsrescuelv@gmail.com",
+    "phone": "",
+    "city": "Henderson",
+    "state": "NV",
+    "zip": "89052",
+    "website": ""
+  },
+  {
+    "name": "We Care for Animals",
+    "email": "wcfanv@gmail.com",
+    "phone": "702-346-3326",
+    "city": "Mesquite",
+    "state": "NV",
+    "zip": "89024",
+    "website": ""
+  },
+  {
+    "name": "Willows Change Pet Rescue Network",
+    "email": "willowschange@charter.net",
+    "phone": "(775) 971-9547",
+    "city": "Reno",
+    "state": "NV",
+    "zip": "89506",
+    "website": ""
+  },
+  {
+    "name": "Wylie Animal Rescue Foundation (WARF)",
+    "email": "tahoepet@yahoo.com",
+    "phone": "(775) 833-2319",
+    "city": "Incline Village",
+    "state": "NV",
+    "zip": "89450",
+    "website": ""
+  },
+  {
+    "name": "You Gotta Love Them, Inc.",
+    "email": "yougottalovethemincorporated@gmail.com",
+    "phone": "(702) 502-2992",
+    "city": "Las Vegas",
+    "state": "NV",
+    "zip": "89146",
+    "website": ""
+  }
+]

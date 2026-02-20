@@ -1,0 +1,812 @@
+[
+  {
+    "name": "Animal League of Washington County",
+    "email": "animalleaguewc@gmail.com",
+    "phone": "479-263-7058",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72702",
+    "website": ""
+  },
+  {
+    "name": "AR*RUFF",
+    "email": "krun11@sbcglobal.net",
+    "phone": "(501) 316-7247",
+    "city": "Benton",
+    "state": "AR",
+    "zip": "72019",
+    "website": ""
+  },
+  {
+    "name": "ARFA",
+    "email": "info@arfarkansas.com",
+    "phone": "",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72260",
+    "website": ""
+  },
+  {
+    "name": "ArkanPaws Animal Rescue",
+    "email": "arkanpaws@gmail.com",
+    "phone": "",
+    "city": "Conway",
+    "state": "AR",
+    "zip": "72034",
+    "website": ""
+  },
+  {
+    "name": "Arkansans Assisting Homeless Animals",
+    "email": "aaha.adoptions@gmail.com",
+    "phone": "",
+    "city": "Cabot",
+    "state": "AR",
+    "zip": "72023",
+    "website": ""
+  },
+  {
+    "name": "Arkansas German Shorthaired Pointer Rescue",
+    "email": "makgsprescue@gmail.com",
+    "phone": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72701",
+    "website": ""
+  },
+  {
+    "name": "Arkansas Pet Rabbit Network",
+    "email": "bradforde81@hotmail.com",
+    "phone": "",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72211",
+    "website": ""
+  },
+  {
+    "name": "Arkansas Southern Dog Rescue",
+    "email": "savinglives@arsoutherndogrescue.org",
+    "phone": "",
+    "city": "Ward",
+    "state": "AR",
+    "zip": "72176",
+    "website": ""
+  },
+  {
+    "name": "Arkansas Weimaraner Rescue",
+    "email": "arweimrescue@gmail.com",
+    "phone": "(479) 530-0330",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72701",
+    "website": ""
+  },
+  {
+    "name": "Bella Vista Animal Shelter",
+    "email": "bvas@sbcglobal.net",
+    "phone": "479-855-6020",
+    "city": "Bella Vista",
+    "state": "AR",
+    "zip": "72714",
+    "website": ""
+  },
+  {
+    "name": "Big Paws of the Ozarks",
+    "email": "bigpawsoftheozarks@gmail.com",
+    "phone": "479-422-9005",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72703",
+    "website": ""
+  },
+  {
+    "name": "Blue Moon Cat Sanctuary",
+    "email": "bluemooncatsanctuary@gmail.com",
+    "phone": "479-677-3021",
+    "city": "Witter",
+    "state": "AR",
+    "zip": "72776",
+    "website": ""
+  },
+  {
+    "name": "Blytheville Humane Society",
+    "email": "pam_ford@att.net",
+    "phone": "870-838-5512",
+    "city": "Blytheville",
+    "state": "AR",
+    "zip": "72315",
+    "website": ""
+  },
+  {
+    "name": "Bryant Animal Control & Adoption Center",
+    "email": "animalcontrol@cityofbryant.com",
+    "phone": "(501) 943-0489",
+    "city": "Bryant",
+    "state": "AR",
+    "zip": "72022",
+    "website": ""
+  },
+  {
+    "name": "Cabot Animal Control",
+    "email": "vetspet80@yahoo.com",
+    "phone": "(501) 843-2021",
+    "city": "Cabot",
+    "state": "AR",
+    "zip": "72023",
+    "website": ""
+  },
+  {
+    "name": "Camden City Pound",
+    "email": "tshadden@camdenpolice.com",
+    "phone": "870-836-5755",
+    "city": "Camden",
+    "state": "AR",
+    "zip": "71701",
+    "website": ""
+  },
+  {
+    "name": "Central Arkansas SPCA",
+    "email": "reneas34@aol.com",
+    "phone": "501-366-1293",
+    "city": "Jacksonville",
+    "state": "AR",
+    "zip": "72076",
+    "website": ""
+  },
+  {
+    "name": "Charleston Dog Shelter",
+    "email": "shayes@tigersmail.org",
+    "phone": "(479) 965-3591",
+    "city": "Charleston",
+    "state": "AR",
+    "zip": "72933",
+    "website": ""
+  },
+  {
+    "name": "City of Gentry Animal Services",
+    "email": "mark.smithson@cityofgentry.com",
+    "phone": "(479) 212-0632",
+    "city": "Gentry",
+    "state": "AR",
+    "zip": "72734",
+    "website": ""
+  },
+  {
+    "name": "City of Hot Springs Animal Services",
+    "email": "mlstone@cityhs.net",
+    "phone": "(501) 262-2091",
+    "city": "Hot Springs",
+    "state": "AR",
+    "zip": "71901",
+    "website": ""
+  },
+  {
+    "name": "City of Mena Animal Control",
+    "email": "mellodydolly@gmail.com",
+    "phone": "",
+    "city": "Mena",
+    "state": "AR",
+    "zip": "71953",
+    "website": ""
+  },
+  {
+    "name": "City of Rogers-Animal Services",
+    "email": "dschumacher@rogersar.gov",
+    "phone": "479-621-1197",
+    "city": "Rogers",
+    "state": "AR",
+    "zip": "72758",
+    "website": ""
+  },
+  {
+    "name": "City of Springdale Animal Services",
+    "email": "ckremer@springdalear.gov",
+    "phone": "479-750-8166",
+    "city": "Springdale",
+    "state": "AR",
+    "zip": "72764",
+    "website": ""
+  },
+  {
+    "name": "Community Cats of Central AR",
+    "email": "contact@mycommunitycats.com",
+    "phone": "(801) 508-4070",
+    "city": "Jacksonville",
+    "state": "AR",
+    "zip": "72078",
+    "website": ""
+  },
+  {
+    "name": "Conway Animal Welfare Unit",
+    "email": "shona.osborne@cityofconway.org",
+    "phone": "501-450-6160",
+    "city": "Conway",
+    "state": "AR",
+    "zip": "72032",
+    "website": ""
+  },
+  {
+    "name": "Crystal Creek Animal Rescue League",
+    "email": "cats@crystalcreekrescue.com",
+    "phone": "202-4212777",
+    "city": "Bentonville",
+    "state": "AR",
+    "zip": "72712",
+    "website": ""
+  },
+  {
+    "name": "Cynder Creek Animal Rescue and Sanctuary Inc",
+    "email": "alphadogspunkyk@gmail.com",
+    "phone": "(501) 442-6818",
+    "city": "North Little Rock",
+    "state": "AR",
+    "zip": "72118",
+    "website": ""
+  },
+  {
+    "name": "Decatur Animal Shelter",
+    "email": "rickeyburke2@gmail.com",
+    "phone": "(479) 752-7235",
+    "city": "Decatur",
+    "state": "AR",
+    "zip": "72722",
+    "website": ""
+  },
+  {
+    "name": "Fabulous Felines NWA",
+    "email": "fabulousfelinesnwa@gmail.com",
+    "phone": "479-273-9217",
+    "city": "Bentonville",
+    "state": "AR",
+    "zip": "72712",
+    "website": ""
+  },
+  {
+    "name": "Fayetteville Animal Shelter",
+    "email": "animal_services@ci.fayetteville.ar.us",
+    "phone": "479-444-3456",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72701",
+    "website": ""
+  },
+  {
+    "name": "Forrest City Area Humane Society",
+    "email": "ravfcahs@gmail.com",
+    "phone": "870-633-7036",
+    "city": "Forrest City",
+    "state": "AR",
+    "zip": "72335",
+    "website": ""
+  },
+  {
+    "name": "Friends of Horseshoe Bend Animals",
+    "email": "friendsofhba@yahoo.com",
+    "phone": "(870) 373-2649",
+    "city": "Horseshoe Bend",
+    "state": "AR",
+    "zip": "72512",
+    "website": ""
+  },
+  {
+    "name": "Gails Pets Second Chance",
+    "email": "gailspets@hotmail.com",
+    "phone": "870-431-8229",
+    "city": "Oakland",
+    "state": "AR",
+    "zip": "72661",
+    "website": ""
+  },
+  {
+    "name": "Glenwood Animal Control Shelter",
+    "email": "cynsan@windstream.net",
+    "phone": "870-223-2995",
+    "city": "Glenwood",
+    "state": "AR",
+    "zip": "71943",
+    "website": ""
+  },
+  {
+    "name": "Good Shepherd Humane Society",
+    "email": "goodshepherd6486@gmail.com",
+    "phone": "4792539188",
+    "city": "Eureka Springs",
+    "state": "AR",
+    "zip": "72632",
+    "website": ""
+  },
+  {
+    "name": "Greener Days Ahead Rescue",
+    "email": "gdarescue@gmail.com",
+    "phone": "",
+    "city": "mount vernon",
+    "state": "AR",
+    "zip": "72111",
+    "website": ""
+  },
+  {
+    "name": "Guardian Angels Cat Rescue and Adoption Shelter",
+    "email": "gacr@att.net",
+    "phone": "(501) 623-3484",
+    "city": "Hot Springs",
+    "state": "AR",
+    "zip": "71901",
+    "website": ""
+  },
+  {
+    "name": "H&P Animal Alliance",
+    "email": "hpanimalalliance@gmail.com",
+    "phone": "870-234-3131",
+    "city": "Magnolia",
+    "state": "AR",
+    "zip": "71753",
+    "website": ""
+  },
+  {
+    "name": "Have a Heart Humane Society",
+    "email": "haveaheartpetshelter@gmail.com",
+    "phone": "(870) 449-7387",
+    "city": "Yellville",
+    "state": "AR",
+    "zip": "72687",
+    "website": ""
+  },
+  {
+    "name": "Heavenly Paws NWA",
+    "email": "heavenlypawsrescuebv@gmail.com",
+    "phone": "(479) 366-1419",
+    "city": "Gravette",
+    "state": "AR",
+    "zip": "72736",
+    "website": ""
+  },
+  {
+    "name": "Heber Springs Humane Society",
+    "email": "heberspringshumanesociety@yahoo.com",
+    "phone": "501 362 7322",
+    "city": "Heber Springs",
+    "state": "AR",
+    "zip": "72543",
+    "website": ""
+  },
+  {
+    "name": "Helping Hands For Little Paws",
+    "email": "helpinghandsforlittlepaws@yahoo.com",
+    "phone": "501-888-2702",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72203",
+    "website": ""
+  },
+  {
+    "name": "Homeless Pets Lifeline",
+    "email": "dogtiredjanet@hotmail.com",
+    "phone": "(479) 216-6044",
+    "city": "Waldron",
+    "state": "AR",
+    "zip": "72958",
+    "website": ""
+  },
+  {
+    "name": "Hot Springs Village Animal Welfare League",
+    "email": "adoptions@hsvawl.org",
+    "phone": "",
+    "city": "Hot Springs Village",
+    "state": "AR",
+    "zip": "71909",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of Independence County",
+    "email": "hsicshelteroffice@yahoo.com",
+    "phone": "(870) 793-0090",
+    "city": "Batesville",
+    "state": "AR",
+    "zip": "72503",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of Marion County",
+    "email": "humanesocietyyellville@yahoo.com",
+    "phone": "870-416-3428",
+    "city": "Yellville",
+    "state": "AR",
+    "zip": "72687",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of North Central Arkansas",
+    "email": "hsnca@centurytel.net",
+    "phone": "(870) 425-9221",
+    "city": "Mountain Home",
+    "state": "AR",
+    "zip": "72653",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of Pulaski County",
+    "email": "hspc.ar.volunteers@gmail.com",
+    "phone": "(501) 227-6166",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72210",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of Saline County",
+    "email": "wehelpanimals@aol.com",
+    "phone": "501-557-5518",
+    "city": "Bauxite",
+    "state": "AR",
+    "zip": "72011",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of the Delta",
+    "email": "adoptionshsdelta@gmail.com",
+    "phone": "(870) 753-2119",
+    "city": "Helena",
+    "state": "AR",
+    "zip": "72342",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of the Ouachitas",
+    "email": "tinasball@aol.com",
+    "phone": "479-394-5682",
+    "city": "Mena",
+    "state": "AR",
+    "zip": "71953",
+    "website": ""
+  },
+  {
+    "name": "Izard County Animal Rescue Effort (ICARE)",
+    "email": "icare_ark@yahoo.com",
+    "phone": "(870) 368-5000",
+    "city": "Melbourne",
+    "state": "AR",
+    "zip": "72556",
+    "website": ""
+  },
+  {
+    "name": "Jackson County Humane Society",
+    "email": "arkansasjchs@yahoo.com",
+    "phone": "870-217-5878",
+    "city": "Newport",
+    "state": "AR",
+    "zip": "72112",
+    "website": ""
+  },
+  {
+    "name": "Jacksonville Animal Shelter",
+    "email": "animalshelter@cityofjacksonville.net",
+    "phone": "(501) 982-2916",
+    "city": "Jacksonville",
+    "state": "AR",
+    "zip": "72076",
+    "website": ""
+  },
+  {
+    "name": "Lester C. Howick Animal Shelter of Washington County",
+    "email": "ashelter@co.washington.ar.us",
+    "phone": "479-695-3450",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72704",
+    "website": ""
+  },
+  {
+    "name": "Little Rock Animal Services (LRAS)",
+    "email": "troark@littlerock.org",
+    "phone": "501-376-3067",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72206",
+    "website": ""
+  },
+  {
+    "name": "Liz E.'s Pekingese Rescue and Sanctuary",
+    "email": "lizethedog@yahoo.com",
+    "phone": "",
+    "city": "Benton",
+    "state": "AR",
+    "zip": "72019",
+    "website": ""
+  },
+  {
+    "name": "Lone Pine Ranch Animal Shelter",
+    "email": "lonepineshelter@yahoo.com",
+    "phone": "479-795-2709",
+    "city": "Centerton",
+    "state": "AR",
+    "zip": "72719",
+    "website": ""
+  },
+  {
+    "name": "Lost Love Animal Rescue",
+    "email": "lostloveanimalrescue@hotmail.com",
+    "phone": "",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72701",
+    "website": ""
+  },
+  {
+    "name": "Lowell Animal Shelter",
+    "email": "animalcontrol@lowellarkansas.gov",
+    "phone": "479-770-0166 opt1",
+    "city": "Lowell",
+    "state": "AR",
+    "zip": "72745",
+    "website": ""
+  },
+  {
+    "name": "Maumelle Friends of the Animals",
+    "email": "jeanwheelerlewis@gmail.com",
+    "phone": "(501) 851-7114",
+    "city": "Maumelle",
+    "state": "AR",
+    "zip": "72113",
+    "website": ""
+  },
+  {
+    "name": "Morning Meadow Animal Rescue",
+    "email": "mmarcatdog@yahoo.com",
+    "phone": "870-917-7034",
+    "city": "Fordyce",
+    "state": "AR",
+    "zip": "71742",
+    "website": ""
+  },
+  {
+    "name": "Muttley Crew German Shepherd Rescue",
+    "email": "mcrgsd@yahoo.com",
+    "phone": "",
+    "city": "Fouke",
+    "state": "AR",
+    "zip": "71837",
+    "website": ""
+  },
+  {
+    "name": "NEA Humane Society",
+    "email": "adoptions@neahs.org",
+    "phone": "(870) 932-5185",
+    "city": "Jonesboro",
+    "state": "AR",
+    "zip": "72401",
+    "website": ""
+  },
+  {
+    "name": "Needy Paws Animal Shelter",
+    "email": "needypawsanimalshelter@yahoo.com",
+    "phone": "479-754-4200",
+    "city": "Clarksville",
+    "state": "AR",
+    "zip": "72830",
+    "website": ""
+  },
+  {
+    "name": "Northwest Arkansas Rescue of Canines, Inc.",
+    "email": "northwestarkrescue@gmail.com",
+    "phone": "870-350-0813",
+    "city": "Harrison",
+    "state": "AR",
+    "zip": "72601",
+    "website": ""
+  },
+  {
+    "name": "NovaStar Animal Rescue",
+    "email": "novastarrescue@gmail.com",
+    "phone": "(501) 920-7311",
+    "city": "Ola",
+    "state": "AR",
+    "zip": "72853",
+    "website": ""
+  },
+  {
+    "name": "Out Of The Woods Animal Rescue",
+    "email": "contact@ootwrescue.org",
+    "phone": "",
+    "city": "Little Rock",
+    "state": "AR",
+    "zip": "72207",
+    "website": ""
+  },
+  {
+    "name": "Ozark Dogs Rescue Organization",
+    "email": "ozarkdogs@yahoo.com",
+    "phone": "(870) 508-4814",
+    "city": "Mountain Home",
+    "state": "AR",
+    "zip": "72653",
+    "website": ""
+  },
+  {
+    "name": "Ozark Humane Society",
+    "email": "ohsshelter@gmail.com",
+    "phone": "(870) 741-3050",
+    "city": "Harrison",
+    "state": "AR",
+    "zip": "72601",
+    "website": ""
+  },
+  {
+    "name": "Paragould Animal Welfare Society",
+    "email": "pawsar@att.net",
+    "phone": "870-240-0997",
+    "city": "Paragould",
+    "state": "AR",
+    "zip": "72450",
+    "website": ""
+  },
+  {
+    "name": "Paws & Claws Pet Shelter",
+    "email": "pawsandclawspetshelter@gmail.com",
+    "phone": "(479) 738-1505",
+    "city": "Huntsville",
+    "state": "AR",
+    "zip": "72740",
+    "website": ""
+  },
+  {
+    "name": "Paws and Claws Rescue",
+    "email": "info@pawsandclawsrescue.org",
+    "phone": "",
+    "city": "Hot Springs",
+    "state": "AR",
+    "zip": "71903",
+    "website": ""
+  },
+  {
+    "name": "Paws To Love Me",
+    "email": "chris@pawstoloveme.org",
+    "phone": "479.876.PAWS",
+    "city": "Bella VIsta",
+    "state": "AR",
+    "zip": "72714",
+    "website": ""
+  },
+  {
+    "name": "Perry's Orphans Sanctuary Inc.",
+    "email": "perrysorphans@gmail.com",
+    "phone": "(870) 431-8354",
+    "city": "Oakland",
+    "state": "AR",
+    "zip": "72661",
+    "website": ""
+  },
+  {
+    "name": "Pit Bull Ambassador of Northwest Arkansas",
+    "email": "adoptionpbanwa@yahoo.com",
+    "phone": "",
+    "city": "Springdale",
+    "state": "AR",
+    "zip": "72762",
+    "website": ""
+  },
+  {
+    "name": "Pug Rescue of Northwest Arkansas",
+    "email": "pugrescuenwa@yahoo.com",
+    "phone": "",
+    "city": "Bentonville",
+    "state": "AR",
+    "zip": "72712",
+    "website": ""
+  },
+  {
+    "name": "Purr Catfe",
+    "email": "info@purrnwa.com",
+    "phone": "(479) 301-0993",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72701",
+    "website": ""
+  },
+  {
+    "name": "Russellville Animal Shelter",
+    "email": "tcase@rsvlar.org",
+    "phone": "479-968-1944",
+    "city": "Russellville",
+    "state": "AR",
+    "zip": "72802",
+    "website": ""
+  },
+  {
+    "name": "Siloam Springs Animal Services",
+    "email": "animalcontrol@siloamsprings.com",
+    "phone": "(479) 524-6535",
+    "city": "Siloam Springs",
+    "state": "AR",
+    "zip": "72761",
+    "website": ""
+  },
+  {
+    "name": "Small K9 Rescue",
+    "email": "patkellim@live.com",
+    "phone": "please Email",
+    "city": "Paragould",
+    "state": "AR",
+    "zip": "72450",
+    "website": ""
+  },
+  {
+    "name": "Spenser's Legacy Animal Rescue",
+    "email": "contact@spenserslegacy.org",
+    "phone": "479-601-7202",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72704",
+    "website": ""
+  },
+  {
+    "name": "Stone County Humane Society Inc.",
+    "email": "schs@yelcot.net",
+    "phone": "(870) 269-5200",
+    "city": "Mountain View",
+    "state": "AR",
+    "zip": "72560",
+    "website": ""
+  },
+  {
+    "name": "Stop Animal Cruelty in Hot Spring County",
+    "email": "mataft@netscape.com",
+    "phone": "(501) 276-2385",
+    "city": "Malvern",
+    "state": "AR",
+    "zip": "72104",
+    "website": ""
+  },
+  {
+    "name": "Stray Central",
+    "email": "blueskat@aol.com",
+    "phone": "(479) 300-6226",
+    "city": "Farmington",
+    "state": "AR",
+    "zip": "72730",
+    "website": ""
+  },
+  {
+    "name": "The Animal Farm",
+    "email": "greenecountyanimalfarm@yahoo.com",
+    "phone": "870-240-8117",
+    "city": "Paragould",
+    "state": "AR",
+    "zip": "72450",
+    "website": ""
+  },
+  {
+    "name": "The Humane Society of Searcy",
+    "email": "hss@cablelynx.com",
+    "phone": "501-268-3535",
+    "city": "Searcy",
+    "state": "AR",
+    "zip": "72143",
+    "website": ""
+  },
+  {
+    "name": "The Humane Society of the Ozarks",
+    "email": "animalservices@hsozarks.com",
+    "phone": "(479) 444-7387",
+    "city": "Fayetteville",
+    "state": "AR",
+    "zip": "72701",
+    "website": ""
+  },
+  {
+    "name": "Warm Hearts Humane Society Inc,",
+    "email": "warmhearts@earthlink.net",
+    "phone": "870-490-0883",
+    "city": "Mount Ida",
+    "state": "AR",
+    "zip": "71957",
+    "website": ""
+  },
+  {
+    "name": "Wynne Friends of Animals",
+    "email": "kakn6755@gmail.com",
+    "phone": "870-238-9663",
+    "city": "Wynne",
+    "state": "AR",
+    "zip": "72396",
+    "website": ""
+  }
+]

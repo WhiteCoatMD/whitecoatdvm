@@ -1,0 +1,551 @@
+[
+  {
+    "name": "4 Paws Rescue",
+    "email": "4pawsutah@gmail.com",
+    "phone": "(435) 512-3415",
+    "city": "Willard",
+    "state": "UT",
+    "zip": "84340",
+    "website": ""
+  },
+  {
+    "name": "A New Beginning Animal Rescue",
+    "email": "adoptions@anbrescue.org",
+    "phone": "801-916-3924",
+    "city": "Layton",
+    "state": "UT",
+    "zip": "84041",
+    "website": ""
+  },
+  {
+    "name": "American Brittany Rescue - UT/ID",
+    "email": "abr.ut@americanbrittanyrescue.org",
+    "phone": "(866) 274-8911",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84106",
+    "website": ""
+  },
+  {
+    "name": "Arctic Breeds Rescue",
+    "email": "adopt@arcticrescue.com",
+    "phone": "",
+    "city": "Provo",
+    "state": "UT",
+    "zip": "84604",
+    "website": ""
+  },
+  {
+    "name": "Ashley Valley Community Cats",
+    "email": "avcommunitycats@gmail.com",
+    "phone": "8015570420",
+    "city": "Vernal",
+    "state": "UT",
+    "zip": "84078",
+    "website": ""
+  },
+  {
+    "name": "Because Animals Matter (BAM)",
+    "email": "admin@becauseanimalsmatter.com",
+    "phone": "(435) 773-5209",
+    "city": "Hurricane",
+    "state": "UT",
+    "zip": "84737",
+    "website": ""
+  },
+  {
+    "name": "Best Friends Animal Society",
+    "email": "kristi@bestfriends.org",
+    "phone": "(435) 644-2001",
+    "city": "Kanab",
+    "state": "UT",
+    "zip": "84741",
+    "website": ""
+  },
+  {
+    "name": "Black Dog Walk",
+    "email": "michael.collins7@comcast.net",
+    "phone": "801-710-4984",
+    "city": "Ogden",
+    "state": "UT",
+    "zip": "84412",
+    "website": ""
+  },
+  {
+    "name": "Blu's Ranch and Rescue",
+    "email": "blusrandr@gmail.com",
+    "phone": "",
+    "city": "Lehi",
+    "state": "UT",
+    "zip": "84043",
+    "website": ""
+  },
+  {
+    "name": "Bulldog Club of Utah/Rescue",
+    "email": "eviltwin9@q.com",
+    "phone": "8017500587",
+    "city": "Herriman",
+    "state": "UT",
+    "zip": "84096",
+    "website": ""
+  },
+  {
+    "name": "Cache Humane Society",
+    "email": "dogs@cachehumane.org",
+    "phone": "(435) 792-3920",
+    "city": "Logan",
+    "state": "UT",
+    "zip": "84323",
+    "website": ""
+  },
+  {
+    "name": "Canines With a Cause",
+    "email": "adopt@canineswithacause.org",
+    "phone": "801-792-1737",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84116",
+    "website": ""
+  },
+  {
+    "name": "Cavalier Crazy Rescue",
+    "email": "cavaliercrazyrescue@gmail.com",
+    "phone": "",
+    "city": "Midvale",
+    "state": "UT",
+    "zip": "84047",
+    "website": ""
+  },
+  {
+    "name": "CEDAR ANIMAL RESCUE",
+    "email": "caretaker@infowest.com",
+    "phone": "435-586-0899",
+    "city": "Cedar City",
+    "state": "UT",
+    "zip": "84720",
+    "website": ""
+  },
+  {
+    "name": "Celestial Zoo Pet Rescue",
+    "email": "celestialzooutah@gmail.com",
+    "phone": "",
+    "city": "Eagle Mountain",
+    "state": "UT",
+    "zip": "84005",
+    "website": ""
+  },
+  {
+    "name": "Community Animal Welfare Society (CAWS)",
+    "email": "adopt@caws.org",
+    "phone": "801-328-4731",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84117",
+    "website": ""
+  },
+  {
+    "name": "Danate Rescue Group",
+    "email": "danaterescuepf@gmail.com",
+    "phone": "",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84115",
+    "website": ""
+  },
+  {
+    "name": "Davis County Animal Services",
+    "email": "emckinnon@co.davis.ut.us",
+    "phone": "(801) 444-2200",
+    "city": "Fruit Heights",
+    "state": "UT",
+    "zip": "84037",
+    "website": ""
+  },
+  {
+    "name": "Doggie Mannerz",
+    "email": "doggiemannerz@gmail.com",
+    "phone": "801-580-7007",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84106",
+    "website": ""
+  },
+  {
+    "name": "Duchesne County Animal Control",
+    "email": "rvcarda@ubtanet.com",
+    "phone": "(435) 738 2015",
+    "city": "Duchesne",
+    "state": "UT",
+    "zip": "84021",
+    "website": ""
+  },
+  {
+    "name": "Friends of Community-Cats Rescue",
+    "email": "friendsofcommunity-cats@outlook.com",
+    "phone": "(801) 882-0813",
+    "city": "Centerville",
+    "state": "UT",
+    "zip": "84014",
+    "website": ""
+  },
+  {
+    "name": "Fullmer Menagerie Animal Rescue",
+    "email": "info@fullmermenagerieanimalrescue.org",
+    "phone": "435-406-6779",
+    "city": "Salina",
+    "state": "UT",
+    "zip": "84654",
+    "website": ""
+  },
+  {
+    "name": "Furever Buddys Dog Rescue",
+    "email": "furever_buddys@yahoo.com",
+    "phone": "435-733-0870",
+    "city": "Roosevelt",
+    "state": "UT",
+    "zip": "84066",
+    "website": ""
+  },
+  {
+    "name": "Furever Friends Animal Oasis",
+    "email": "fureverfriendsut@yahoo.com",
+    "phone": "",
+    "city": "Harrisville",
+    "state": "UT",
+    "zip": "84404",
+    "website": ""
+  },
+  {
+    "name": "Hearts 4 Paws",
+    "email": "hearts4pawsdogs@gmail.com",
+    "phone": "801-867-9564",
+    "city": "West Valley",
+    "state": "UT",
+    "zip": "84120",
+    "website": ""
+  },
+  {
+    "name": "Herding Haven",
+    "email": "kathie@herdinghaven.org",
+    "phone": "801-583-1021",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84108",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of Northern Utah",
+    "email": "1adoptions@gmail.com",
+    "phone": "(801) 648-2719",
+    "city": "Farr West",
+    "state": "UT",
+    "zip": "84404",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of Utah",
+    "email": "adoptions@utahhumane.org",
+    "phone": "(801) 261-2919 option 4",
+    "city": "Murray",
+    "state": "UT",
+    "zip": "84157",
+    "website": ""
+  },
+  {
+    "name": "Iggy Palace Sighthound Rescue",
+    "email": "iggypalacerescue@gmail.com",
+    "phone": "(435) 494-1146",
+    "city": "Willard",
+    "state": "UT",
+    "zip": "84340",
+    "website": ""
+  },
+  {
+    "name": "Iron County Animal Shelter",
+    "email": "ironcountyshelter@gmail.com",
+    "phone": "435-867-7618",
+    "city": "Cedar City",
+    "state": "UT",
+    "zip": "84721",
+    "website": ""
+  },
+  {
+    "name": "Ivins Animal Shelter & Adoption Center serving Ivins and Santa Clara",
+    "email": "strujillo@ivins.com",
+    "phone": "435-628-1049",
+    "city": "Ivins",
+    "state": "UT",
+    "zip": "84738",
+    "website": ""
+  },
+  {
+    "name": "LaVerkin Animal Shelter",
+    "email": "patti.dekker@laverkincity.org",
+    "phone": "435-772-5441",
+    "city": "La Verkin",
+    "state": "UT",
+    "zip": "84745",
+    "website": ""
+  },
+  {
+    "name": "Moab City Animal Shelter",
+    "email": "janette@moabcity.org",
+    "phone": "(435) 259-0199",
+    "city": "Moab",
+    "state": "UT",
+    "zip": "84532",
+    "website": ""
+  },
+  {
+    "name": "OC Small Paws",
+    "email": "soutocsp@hotmail.com",
+    "phone": "435-215-9282",
+    "city": "Hurricane",
+    "state": "UT",
+    "zip": "84737",
+    "website": ""
+  },
+  {
+    "name": "One More Chance CATS/DOGS",
+    "email": "onemorechance@infowest.com",
+    "phone": "",
+    "city": "St. George",
+    "state": "UT",
+    "zip": "84790",
+    "website": ""
+  },
+  {
+    "name": "Pack N' Pounce",
+    "email": "bcousi@gmail.com",
+    "phone": "(801) 710-4105",
+    "city": "Ogden",
+    "state": "UT",
+    "zip": "84404",
+    "website": ""
+  },
+  {
+    "name": "Parowan Animal Shelter/Parowan Animal Assistance League",
+    "email": "hanleymr@gmail.com",
+    "phone": "(435)  559-1122",
+    "city": "Parowan",
+    "state": "UT",
+    "zip": "84761",
+    "website": ""
+  },
+  {
+    "name": "Pet Samaritan Fund",
+    "email": "petsamaritan@gmail.com",
+    "phone": "See phone number in bio",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84109",
+    "website": ""
+  },
+  {
+    "name": "Providing Animals With Support (PAWS)",
+    "email": "info@dixiepaws.org",
+    "phone": "435 688-9748",
+    "city": "Saint George",
+    "state": "UT",
+    "zip": "84790",
+    "website": ""
+  },
+  {
+    "name": "Rescue Rovers Dog Adoptions",
+    "email": "rescuerovers@gmail.com",
+    "phone": "(435) 565-4031",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84171",
+    "website": ""
+  },
+  {
+    "name": "RSQ DOGS",
+    "email": "rsqdogsutah@gmail.com",
+    "phone": "(800) 897-1136",
+    "city": "St. George",
+    "state": "UT",
+    "zip": "84790",
+    "website": ""
+  },
+  {
+    "name": "Ruff Patch Rescue",
+    "email": "adoptions@ruffpatchrescue.com",
+    "phone": "(801) 205-9149",
+    "city": "West Jordan",
+    "state": "UT",
+    "zip": "84084",
+    "website": ""
+  },
+  {
+    "name": "Salt Lake County Animal Services",
+    "email": "adoptions@slco.org",
+    "phone": "(385) 468-7387",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84123",
+    "website": ""
+  },
+  {
+    "name": "Samoyed Rescue of Utah",
+    "email": "samylady@live.com",
+    "phone": "Please e-mail",
+    "city": "Ogden",
+    "state": "UT",
+    "zip": "84412",
+    "website": ""
+  },
+  {
+    "name": "Second Chance for Homeless Pets",
+    "email": "adopt@utahpetadoptions.org",
+    "phone": "801-590-8999",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84107",
+    "website": ""
+  },
+  {
+    "name": "Sheltie Rescue of Utah",
+    "email": "barbaraedelberg@xmission.com",
+    "phone": "(801) 942-4762",
+    "city": "Sandy",
+    "state": "UT",
+    "zip": "84093",
+    "website": ""
+  },
+  {
+    "name": "South Jordan Animal Services",
+    "email": "prasmussen@sjc.utah.gov",
+    "phone": "801-254-4708",
+    "city": "South Jordan",
+    "state": "UT",
+    "zip": "84095",
+    "website": ""
+  },
+  {
+    "name": "Summit County Animal Control",
+    "email": "animalcontrol@summitcounty.org",
+    "phone": "435-336-3985",
+    "city": "Coalville",
+    "state": "UT",
+    "zip": "84017",
+    "website": ""
+  },
+  {
+    "name": "Uintah Animal Shelter",
+    "email": "uintahacsssd@ubtanet.com",
+    "phone": "(435) 781-7297",
+    "city": "Vernal",
+    "state": "UT",
+    "zip": "84078",
+    "website": ""
+  },
+  {
+    "name": "Utah Animal Adoption Center",
+    "email": "info@utahanimals.org",
+    "phone": "(801) 355-7387",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84116",
+    "website": ""
+  },
+  {
+    "name": "Utah Animal Advocacy Foundation",
+    "email": "jennc@mac.com",
+    "phone": "801-467-8610",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84165",
+    "website": ""
+  },
+  {
+    "name": "Utah Critter Sanctuary & Ferret & Parrot Rescue Shelter inc.",
+    "email": "utahcrittersanctuary@yahoo.com",
+    "phone": "801-808-1145",
+    "city": "Layton",
+    "state": "UT",
+    "zip": "84041",
+    "website": ""
+  },
+  {
+    "name": "Utah Friends of Basset Hounds",
+    "email": "adopt@utahbassethoundrescue.com",
+    "phone": "801/466-2639",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84108",
+    "website": ""
+  },
+  {
+    "name": "Utah Labrador and Newfoundland Rescue",
+    "email": "ulnrescue@gmail.com",
+    "phone": "(801) 836-2508",
+    "city": "West Jordan",
+    "state": "UT",
+    "zip": "84084",
+    "website": ""
+  },
+  {
+    "name": "Utah Valley Animal Rescue, Inc.",
+    "email": "utahvalleyanimalrescue@gmail.com",
+    "phone": "385-355-4738",
+    "city": "Spanish Fork",
+    "state": "UT",
+    "zip": "84660",
+    "website": ""
+  },
+  {
+    "name": "Utah's Perfect Pointers",
+    "email": "utahsperfectpointers@yahoo.com",
+    "phone": "",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84108",
+    "website": ""
+  },
+  {
+    "name": "Wasatch Animal Rescue",
+    "email": "warescue@live.com",
+    "phone": "",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "zip": "84105",
+    "website": ""
+  },
+  {
+    "name": "Washington City Animal Shelter",
+    "email": "khustead@washingtoncity.org",
+    "phone": "435-673-7194",
+    "city": "Washington",
+    "state": "UT",
+    "zip": "84780",
+    "website": ""
+  },
+  {
+    "name": "West Jordan Animal Shelter",
+    "email": "dane@wjordan.com",
+    "phone": "(801) 282-3951",
+    "city": "West Jordan",
+    "state": "UT",
+    "zip": "84081",
+    "website": ""
+  },
+  {
+    "name": "West Valley Animal Services",
+    "email": "westvalleyshelter@gmail.com",
+    "phone": "801-965-5800",
+    "city": "West Valley City",
+    "state": "UT",
+    "zip": "84044",
+    "website": ""
+  },
+  {
+    "name": "Y-Not Save A Sam Rescue",
+    "email": "ynotasam@gmail.com",
+    "phone": "(435) 752-4005",
+    "city": "Logan",
+    "state": "UT",
+    "zip": "84321",
+    "website": ""
+  }
+]

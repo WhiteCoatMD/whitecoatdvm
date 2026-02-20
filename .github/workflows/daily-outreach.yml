@@ -44,23 +44,24 @@ jobs:
 
       - name: Scrape shelters (only if queue < 20)
         if: steps.check.outputs.unsent < 20
+        env:
+          RESCUEGROUPS_API_KEY: ${{ secrets.RESCUEGROUPS_API_KEY }}
         run: |
           echo "Queue low (${{ steps.check.outputs.unsent }} unsent) - scraping new shelters..."
 
           # Rotate through different states each day
           DAY=$(date +%u)
           case $DAY in
-            1) STATES="TX FL" ;;
-            2) STATES="CA NY" ;;
-            3) STATES="PA OH" ;;
-            4) STATES="IL GA" ;;
-            5) STATES="NC MI" ;;
+            1) STATES="TX FL GA SC AL" ;;
+            2) STATES="CA NY PA NJ CT" ;;
+            3) STATES="OH IL NC VA MD" ;;
+            4) STATES="MI WA AZ CO MN" ;;
+            5) STATES="MA TN IN MO OR" ;;
           esac
 
           for STATE in $STATES; do
-            echo "--- Scraping $STATE ---"
-            node tools/shelter-scraper-v2.js $STATE || true
-            sleep 5
+            echo "--- Loading $STATE shelters ---"
+            node tools/shelter-scraper.js $STATE 200 || true
           done
 
           # Combine new data

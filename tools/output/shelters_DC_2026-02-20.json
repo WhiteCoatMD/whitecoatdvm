@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Alley Cat Allies",
+    "email": "esiebenhar@alleycat.org",
+    "phone": "(240) 482-1980",
+    "city": "Bethesda",
+    "state": "DC",
+    "zip": "20009",
+    "website": ""
+  },
+  {
+    "name": "Capital Cats",
+    "email": "info@capitalcats.org",
+    "phone": "",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20003",
+    "website": ""
+  },
+  {
+    "name": "Capitol Canines",
+    "email": "contact@capitolcanines.org",
+    "phone": "",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20008",
+    "website": ""
+  },
+  {
+    "name": "City Dogs Rescue & City Kitties",
+    "email": "info@citydogsrescuedc.org",
+    "phone": "",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20008",
+    "website": ""
+  },
+  {
+    "name": "DC PAWS Rescue",
+    "email": "dcpawsrescue@gmail.com",
+    "phone": "",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20026",
+    "website": ""
+  },
+  {
+    "name": "Humane Rescue Alliance",
+    "email": "adopt@humanerescuealliance.org",
+    "phone": "(202)7277369",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20002",
+    "website": ""
+  },
+  {
+    "name": "K-9 Lifesavers",
+    "email": "adopt@k-9lifesavers.org",
+    "phone": "(202) 263-1990",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20007",
+    "website": ""
+  },
+  {
+    "name": "Lucky Dog Animal Rescue",
+    "email": "info@luckydoganimalrescue.org",
+    "phone": "(202) 741-5428",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20007",
+    "website": ""
+  },
+  {
+    "name": "OneDogAtATimeDC",
+    "email": "tamarabelden@gmail.com",
+    "phone": "240-994-2573",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20012",
+    "website": ""
+  },
+  {
+    "name": "Westie Rescue USA",
+    "email": "info@westierescue.com",
+    "phone": "A Rescue Cooperative",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20026",
+    "website": ""
+  }
+]

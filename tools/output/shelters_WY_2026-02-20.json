@@ -1,0 +1,263 @@
+[
+  {
+    "name": "3 Dog Rescue",
+    "email": "kathy@3dogrescue.com",
+    "phone": "(307)587-4794",
+    "city": "Cody",
+    "state": "WY",
+    "zip": "82414",
+    "website": ""
+  },
+  {
+    "name": "Animal Adoption Center",
+    "email": "adopt@animaladoptioncenter.org",
+    "phone": "307-739-1881",
+    "city": "Jackson",
+    "state": "WY",
+    "zip": "83002",
+    "website": ""
+  },
+  {
+    "name": "Animal Humane Association of Star Valley",
+    "email": "luckysplace307@gmail.com",
+    "phone": "(307) 883-7387",
+    "city": "Thayne",
+    "state": "WY",
+    "zip": "83127",
+    "website": ""
+  },
+  {
+    "name": "Black Dog Animal Rescue",
+    "email": "bdar@bdar.org",
+    "phone": "307-214-6600",
+    "city": "Cheyenne",
+    "state": "WY",
+    "zip": "82009",
+    "website": ""
+  },
+  {
+    "name": "Cheyenne Animal Shelter",
+    "email": "info@caswy.org",
+    "phone": "(307) 632-6655",
+    "city": "Cheyenne",
+    "state": "WY",
+    "zip": "82007",
+    "website": ""
+  },
+  {
+    "name": "City/County Animal Shelter",
+    "email": "actl@gillettewy.gov",
+    "phone": "(307) 686-5249",
+    "city": "Gillette",
+    "state": "WY",
+    "zip": "82716",
+    "website": ""
+  },
+  {
+    "name": "Green River Animal Control Shelter",
+    "email": "kwilkins@cityofgreenriver.org",
+    "phone": "307-872-0570",
+    "city": "Green River",
+    "state": "WY",
+    "zip": "82935",
+    "website": ""
+  },
+  {
+    "name": "Happy Endings Animal Rescue",
+    "email": "happyendingsanimalrescue23@gmail.com",
+    "phone": "(307) 360-6000",
+    "city": "Pinedale",
+    "state": "WY",
+    "zip": "82941",
+    "website": ""
+  },
+  {
+    "name": "Herding Rescue Dogs of Wyoming",
+    "email": "wyoasr@gmail.com",
+    "phone": "(307) 752-0812",
+    "city": "Sheridan",
+    "state": "WY",
+    "zip": "82801",
+    "website": ""
+  },
+  {
+    "name": "Jackson/Teton County Animal Shelter",
+    "email": "animalshelter@ci.jackson.wy.us",
+    "phone": "307 733-2139",
+    "city": "Jackson",
+    "state": "WY",
+    "zip": "83002",
+    "website": ""
+  },
+  {
+    "name": "Kindness Ranch Animal Sanctuary",
+    "email": "adoptions@kindnessranch.org",
+    "phone": "(307) 331-0445",
+    "city": "Hartville",
+    "state": "WY",
+    "zip": "82215",
+    "website": ""
+  },
+  {
+    "name": "Lander Pet Connection Inc.",
+    "email": "adoptions@landerpets.org",
+    "phone": "(307)330-5200",
+    "city": "Lander",
+    "state": "WY",
+    "zip": "82520",
+    "website": ""
+  },
+  {
+    "name": "Laramie Animal Welfare Society",
+    "email": "contact@laramieanimals.org",
+    "phone": "307-745-4586",
+    "city": "Laramie",
+    "state": "WY",
+    "zip": "82073",
+    "website": ""
+  },
+  {
+    "name": "Laramie Peak Humane Society",
+    "email": "laramiepeakhumanesociety@gmail.com",
+    "phone": "(307) 358-6475",
+    "city": "Douglas",
+    "state": "WY",
+    "zip": "82633",
+    "website": ""
+  },
+  {
+    "name": "Metro Animal Services",
+    "email": "rsulzen@cityofcasperwy.com",
+    "phone": "307-235-8398/307-235-8399",
+    "city": "Casper",
+    "state": "WY",
+    "zip": "82601",
+    "website": ""
+  },
+  {
+    "name": "New Hope Humane Society",
+    "email": "newhope@rtconnect.net",
+    "phone": "307-347-2324",
+    "city": "Worland",
+    "state": "WY",
+    "zip": "82401",
+    "website": ""
+  },
+  {
+    "name": "Park County Animal Shelter",
+    "email": "manager@parkcountyanimalshelter.com",
+    "phone": "(307) 587-5110",
+    "city": "Cody",
+    "state": "WY",
+    "zip": "82414",
+    "website": ""
+  },
+  {
+    "name": "Paws and Claws Animal Adoption and Care Center, Inc.",
+    "email": "pawsandclawsanimals@hotmail.com",
+    "phone": "(307) 723-0070",
+    "city": "Diamondville",
+    "state": "WY",
+    "zip": "83116",
+    "website": ""
+  },
+  {
+    "name": "Paws for Life Animal League and Riverton Animal Adoption Center",
+    "email": "shelter@pawsriverton.com",
+    "phone": "307/857-6002",
+    "city": "Riverton",
+    "state": "WY",
+    "zip": "82501",
+    "website": ""
+  },
+  {
+    "name": "Pet Pals Inc. of Goshen County",
+    "email": "adoptiondepartment@petpalsinc.org",
+    "phone": "307-532-3861",
+    "city": "Hawk Springs",
+    "state": "WY",
+    "zip": "82217",
+    "website": ""
+  },
+  {
+    "name": "Rawlins Rochelle Animal Shelter",
+    "email": "lmanley@rawlins-wyoming.com",
+    "phone": "(307) 328-4534",
+    "city": "Rawlins",
+    "state": "WY",
+    "zip": "82301",
+    "website": ""
+  },
+  {
+    "name": "Red Desert Humane Society",
+    "email": "rshumanesociety@gmail.com",
+    "phone": "(307) 362-1636",
+    "city": "Rock Springs",
+    "state": "WY",
+    "zip": "82901",
+    "website": ""
+  },
+  {
+    "name": "Second Chance Sheridan Cat Rescue",
+    "email": "secondchance@sheridancatrescue.org",
+    "phone": "(307) 461-9555",
+    "city": "Sheridan",
+    "state": "WY",
+    "zip": "82801",
+    "website": ""
+  },
+  {
+    "name": "Sheridan Dog & Cat Shelter Inc.",
+    "email": "dogncat@fiberpipe.net",
+    "phone": "307-674-7694",
+    "city": "Sheridan",
+    "state": "WY",
+    "zip": "82801",
+    "website": ""
+  },
+  {
+    "name": "Small Town Community Cats INC",
+    "email": "stkitties68@yahoo.com",
+    "phone": "(307) 260-6722",
+    "city": "La Barge",
+    "state": "WY",
+    "zip": "83123",
+    "website": ""
+  },
+  {
+    "name": "Town of Pinedale Animal Control",
+    "email": "parriscrooks@townofpinedale.us",
+    "phone": "307-367-3892",
+    "city": "Pinedale",
+    "state": "WY",
+    "zip": "82941",
+    "website": ""
+  },
+  {
+    "name": "Waggin' Tails Shelter",
+    "email": "waggin_tails_shelter@hotmail.com",
+    "phone": "307-532-7001",
+    "city": "Torrington",
+    "state": "WY",
+    "zip": "82240",
+    "website": ""
+  },
+  {
+    "name": "Western Australian Shepherd Rescue",
+    "email": "westernaussierescue@gmail.com",
+    "phone": "",
+    "city": "Sheridan",
+    "state": "WY",
+    "zip": "82801",
+    "website": ""
+  },
+  {
+    "name": "Yola and Boogy Fund",
+    "email": "yolaandboogy@gmail.com",
+    "phone": "(307) 631-3814",
+    "city": "Cheyenne",
+    "state": "WY",
+    "zip": "82009",
+    "website": ""
+  }
+]

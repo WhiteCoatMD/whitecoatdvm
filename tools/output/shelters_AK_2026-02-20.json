@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Gastineau Humane Society",
+    "email": "kennel@ghspets.org",
+    "phone": "(907)789-0260",
+    "city": "Juneau",
+    "state": "AK",
+    "zip": "99801",
+    "website": ""
+  },
+  {
+    "name": "Haines Animal Rescue Kennel",
+    "email": "info@harkalaska.org",
+    "phone": "(907)766-3334",
+    "city": "Haines",
+    "state": "AK",
+    "zip": "99827",
+    "website": ""
+  },
+  {
+    "name": "Southeast Alaska Organization for Animals",
+    "email": "adopt@aksofa.org",
+    "phone": "(907) 957-9059",
+    "city": "Juneau",
+    "state": "AK",
+    "zip": "99803",
+    "website": ""
+  }
+]

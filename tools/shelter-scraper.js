@@ -1,389 +1,303 @@
 /**
  * Shelter Contact Scraper
- * Scrapes publicly available shelter/rescue contact info from Petfinder
- * Usage: node shelter-scraper.js [state] [pages]
- * Example: node shelter-scraper.js TX 5
+ * Pulls shelter contact info from the master database by state
+ * and merges with existing data via combine-and-clean.js
+ *
+ * Usage: node shelter-scraper.js [state] [limit]
+ * Example: node shelter-scraper.js TX 100
+ *
+ * Data source: shelter-database.csv (9,500+ US shelters from Petfinder)
+ * If RESCUEGROUPS_API_KEY is set, also fetches from RescueGroups API
  */
 
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env.local') });
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-// State codes to scrape (can override with CLI arg)
 const DEFAULT_STATE = 'TX';
-const DEFAULT_PAGES = 10;
+const DEFAULT_LIMIT = 200;
 
-// Rate limiting - be respectful
-const DELAY_BETWEEN_REQUESTS = 2000; // 2 seconds
+const STATE_NAMES = {
+    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
+    'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware',
+    'FL': 'Florida', 'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho',
+    'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas',
+    'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
+    'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi',
+    'MO': 'Missouri', 'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada',
+    'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico', 'NY': 'New York',
+    'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio', 'OK': 'Oklahoma',
+    'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+    'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah',
+    'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia',
+    'WI': 'Wisconsin', 'WY': 'Wyoming', 'DC': 'District of Columbia'
+};
 
-class ShelterScraper {
-    constructor(state, maxPages) {
-        this.state = state.toUpperCase();
-        this.maxPages = maxPages;
-        this.shelters = [];
-        this.outputDir = path.join(__dirname, 'output');
-    }
+// ============================================
+// CSV HELPERS
+// ============================================
 
-    // Simple HTTPS GET request
-    fetch(url) {
-        return new Promise((resolve, reject) => {
-            https.get(url, {
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-                }
-            }, (res) => {
-                let data = '';
-                res.on('data', chunk => data += chunk);
-                res.on('end', () => resolve(data));
-            }).on('error', reject);
-        });
-    }
+function parseCSVLine(line) {
+    const values = [];
+    let current = '';
+    let inQuotes = false;
 
-    // Parse shelter listing page
-    parseShelterList(html) {
-        const shelters = [];
-
-        // Match shelter cards - Petfinder uses specific patterns
-        const shelterPattern = /<a[^>]*href="(\/shelters\/[^"]+)"[^>]*>[\s\S]*?<h2[^>]*>([^<]+)<\/h2>/gi;
-        const locationPattern = /<span[^>]*class="[^"]*cityState[^"]*"[^>]*>([^<]+)<\/span>/gi;
-
-        let match;
-        while ((match = shelterPattern.exec(html)) !== null) {
-            shelters.push({
-                url: 'https://www.petfinder.com' + match[1],
-                name: match[2].trim()
-            });
+    for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        if (char === '"') {
+            inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+            values.push(current.trim());
+            current = '';
+        } else {
+            current += char;
         }
-
-        return shelters;
     }
-
-    // Parse individual shelter page for contact details
-    parseShelterDetails(html, shelterUrl) {
-        const details = {
-            url: shelterUrl,
-            name: '',
-            email: '',
-            phone: '',
-            address: '',
-            city: '',
-            state: '',
-            zip: '',
-            website: ''
-        };
-
-        // Extract name
-        const nameMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/i);
-        if (nameMatch) details.name = nameMatch[1].trim();
-
-        // Extract email - look for mailto links or email patterns
-        const emailMatch = html.match(/mailto:([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/i);
-        if (emailMatch) details.email = emailMatch[1];
-
-        // Fallback email pattern
-        if (!details.email) {
-            const emailPattern = html.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
-            if (emailPattern) details.email = emailPattern[0];
-        }
-
-        // Extract phone
-        const phoneMatch = html.match(/tel:([0-9-+() ]+)/i);
-        if (phoneMatch) details.phone = phoneMatch[1].replace(/\D/g, '');
-
-        // Fallback phone pattern
-        if (!details.phone) {
-            const phonePattern = html.match(/\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}/);
-            if (phonePattern) details.phone = phonePattern[0];
-        }
-
-        // Extract address components
-        const addressMatch = html.match(/<address[^>]*>([\s\S]*?)<\/address>/i);
-        if (addressMatch) {
-            const addrText = addressMatch[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-            details.address = addrText;
-
-            // Try to parse city, state, zip
-            const cityStateZip = addrText.match(/([^,]+),\s*([A-Z]{2})\s*(\d{5})?/i);
-            if (cityStateZip) {
-                details.city = cityStateZip[1].trim();
-                details.state = cityStateZip[2].toUpperCase();
-                details.zip = cityStateZip[3] || '';
-            }
-        }
-
-        // Extract website
-        const websiteMatch = html.match(/href="(https?:\/\/(?!www\.petfinder)[^"]+)"[^>]*>.*?(?:website|visit|site)/i);
-        if (websiteMatch) details.website = websiteMatch[1];
-
-        return details;
-    }
-
-    // Delay helper
-    delay(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
-    }
-
-    // Main scraping function
-    async scrape() {
-        console.log(`\n🐾 Starting shelter scraper for state: ${this.state}`);
-        console.log(`   Scraping up to ${this.maxPages} pages...\n`);
-
-        // Ensure output directory exists
-        if (!fs.existsSync(this.outputDir)) {
-            fs.mkdirSync(this.outputDir, { recursive: true });
-        }
-
-        // Step 1: Get shelter listing URLs
-        const shelterUrls = [];
-
-        for (let page = 1; page <= this.maxPages; page++) {
-            const listUrl = `https://www.petfinder.com/animal-shelters-and-rescues/search/?page=${page}&state=${this.state}`;
-            console.log(`📄 Fetching page ${page}...`);
-
-            try {
-                const html = await this.fetch(listUrl);
-                const pageShelters = this.parseShelterList(html);
-
-                if (pageShelters.length === 0) {
-                    console.log(`   No more shelters found. Stopping.`);
-                    break;
-                }
-
-                shelterUrls.push(...pageShelters);
-                console.log(`   Found ${pageShelters.length} shelters`);
-
-                await this.delay(DELAY_BETWEEN_REQUESTS);
-            } catch (err) {
-                console.error(`   Error on page ${page}: ${err.message}`);
-            }
-        }
-
-        console.log(`\n📋 Found ${shelterUrls.length} total shelters. Fetching details...\n`);
-
-        // Step 2: Get details for each shelter
-        for (let i = 0; i < shelterUrls.length; i++) {
-            const shelter = shelterUrls[i];
-            console.log(`🔍 [${i + 1}/${shelterUrls.length}] ${shelter.name || shelter.url}`);
-
-            try {
-                const html = await this.fetch(shelter.url);
-                const details = this.parseShelterDetails(html, shelter.url);
-
-                // Only add if we got meaningful data
-                if (details.name || details.email || details.phone) {
-                    this.shelters.push(details);
-
-                    if (details.email) {
-                        console.log(`   ✅ Email: ${details.email}`);
-                    } else {
-                        console.log(`   ⚠️  No email found`);
-                    }
-                }
-
-                await this.delay(DELAY_BETWEEN_REQUESTS);
-            } catch (err) {
-                console.error(`   ❌ Error: ${err.message}`);
-            }
-        }
-
-        // Step 3: Save results
-        this.saveResults();
-    }
-
-    // Save to CSV and JSON
-    saveResults() {
-        const timestamp = new Date().toISOString().slice(0, 10);
-        const baseFilename = `shelters_${this.state}_${timestamp}`;
-
-        // Save as CSV
-        const csvPath = path.join(this.outputDir, `${baseFilename}.csv`);
-        const csvHeaders = ['Name', 'Email', 'Phone', 'City', 'State', 'Zip', 'Website', 'Petfinder URL'];
-        const csvRows = this.shelters.map(s => [
-            `"${(s.name || '').replace(/"/g, '""')}"`,
-            s.email || '',
-            s.phone || '',
-            `"${(s.city || '').replace(/"/g, '""')}"`,
-            s.state || '',
-            s.zip || '',
-            s.website || '',
-            s.url || ''
-        ].join(','));
-
-        const csvContent = [csvHeaders.join(','), ...csvRows].join('\n');
-        fs.writeFileSync(csvPath, csvContent);
-
-        // Save as JSON
-        const jsonPath = path.join(this.outputDir, `${baseFilename}.json`);
-        fs.writeFileSync(jsonPath, JSON.stringify(this.shelters, null, 2));
-
-        // Summary
-        const withEmail = this.shelters.filter(s => s.email).length;
-        const withPhone = this.shelters.filter(s => s.phone).length;
-
-        console.log(`\n${'='.repeat(50)}`);
-        console.log(`✅ SCRAPING COMPLETE`);
-        console.log(`${'='.repeat(50)}`);
-        console.log(`   Total shelters: ${this.shelters.length}`);
-        console.log(`   With email:     ${withEmail}`);
-        console.log(`   With phone:     ${withPhone}`);
-        console.log(`\n   CSV saved:  ${csvPath}`);
-        console.log(`   JSON saved: ${jsonPath}`);
-        console.log('');
-    }
+    values.push(current.trim());
+    return values;
 }
 
-// Alternative: Use Adopt-a-Pet API (if Petfinder doesn't work well)
-class AdoptAPetScraper {
-    constructor(state, maxPages) {
-        this.state = state.toUpperCase();
-        this.maxPages = maxPages;
-        this.shelters = [];
-        this.outputDir = path.join(__dirname, 'output');
-    }
+function loadDatabase(filepath) {
+    if (!fs.existsSync(filepath)) return [];
 
-    fetch(url) {
-        return new Promise((resolve, reject) => {
-            const protocol = url.startsWith('https') ? https : require('http');
-            protocol.get(url, {
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                    'Accept': 'application/json,text/html'
-                }
-            }, (res) => {
-                let data = '';
-                res.on('data', chunk => data += chunk);
-                res.on('end', () => resolve(data));
-            }).on('error', reject);
+    const content = fs.readFileSync(filepath, 'utf-8');
+    const lines = content.split('\n').filter(l => l.trim());
+    if (lines.length < 2) return [];
+
+    const headers = parseCSVLine(lines[0]).map(h => h.toLowerCase());
+    const rows = [];
+
+    for (let i = 1; i < lines.length; i++) {
+        const values = parseCSVLine(lines[i]);
+        const row = {};
+        headers.forEach((h, idx) => {
+            row[h] = (values[idx] || '').trim();
         });
+        rows.push(row);
     }
 
-    delay(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
+    return rows;
+}
+
+// ============================================
+// DATABASE SCRAPER (local CSV)
+// ============================================
+
+function scrapeFromDatabase(state, limit) {
+    const dbPath = path.join(__dirname, 'shelter-database.csv');
+
+    if (!fs.existsSync(dbPath)) {
+        console.log('   shelter-database.csv not found');
+        return [];
     }
 
-    async scrape() {
-        console.log(`\n🐾 Starting Adopt-a-Pet scraper for state: ${this.state}\n`);
+    console.log('Loading shelter database...');
+    const all = loadDatabase(dbPath);
+    console.log(`   Total in database: ${all.length}`);
 
-        if (!fs.existsSync(this.outputDir)) {
-            fs.mkdirSync(this.outputDir, { recursive: true });
-        }
+    // Filter by state
+    const stateFiltered = all.filter(s =>
+        (s.state || '').toUpperCase() === state.toUpperCase()
+    );
+    console.log(`   Shelters in ${state}: ${stateFiltered.length}`);
 
-        // Adopt-a-Pet shelter search
-        const url = `https://www.adoptapet.com/shelter-search?location=${this.state}&shelter_type=all`;
+    // Only keep those with email
+    const withEmail = stateFiltered.filter(s => s.email && s.email.includes('@'));
+    console.log(`   With email: ${withEmail.length}`);
 
+    // Limit results
+    const results = withEmail.slice(0, limit);
+    console.log(`   Returning: ${results.length}\n`);
+
+    return results.map(s => ({
+        name: s.name || '',
+        email: (s.email || '').toLowerCase(),
+        phone: s.phone || '',
+        city: s.city || '',
+        state: (s.state || '').toUpperCase(),
+        zip: s.zip || '',
+        website: s.website || ''
+    }));
+}
+
+// ============================================
+// RESCUEGROUPS API SCRAPER (optional)
+// ============================================
+
+async function scrapeFromRescueGroups(state, maxPages) {
+    const apiKey = process.env.RESCUEGROUPS_API_KEY;
+    if (!apiKey) {
+        console.log('   RESCUEGROUPS_API_KEY not set, skipping API scrape\n');
+        return [];
+    }
+
+    console.log('Fetching from RescueGroups API...');
+    const stateName = STATE_NAMES[state] || state;
+    const shelters = [];
+
+    for (let page = 1; page <= maxPages; page++) {
         try {
-            console.log(`📄 Fetching shelter list...`);
-            const html = await this.fetch(url);
+            const url = `https://api.rescuegroups.org/v5/public/orgs/search/shelter/?limit=250&page=${page}&sort=orgs.name`;
+            const body = JSON.stringify({
+                data: {
+                    filters: [{
+                        fieldName: 'orgs.state',
+                        operation: 'equal',
+                        criteria: stateName
+                    }]
+                }
+            });
 
-            // Parse shelter links
-            const shelterPattern = /href="(\/adoption_rescue\/\d+-[^"]+)"/gi;
-            const urls = new Set();
-            let match;
+            const data = await apiRequest(url, apiKey, body);
+            const orgs = data.data || [];
 
-            while ((match = shelterPattern.exec(html)) !== null) {
-                urls.add('https://www.adoptapet.com' + match[1]);
-            }
+            if (orgs.length === 0) break;
 
-            console.log(`   Found ${urls.size} shelter pages\n`);
-
-            // Fetch each shelter
-            let count = 0;
-            for (const shelterUrl of urls) {
-                if (count >= this.maxPages * 20) break; // Limit total
-                count++;
-
-                console.log(`🔍 [${count}/${Math.min(urls.size, this.maxPages * 20)}] Fetching...`);
-
-                try {
-                    const shelterHtml = await this.fetch(shelterUrl);
-                    const details = this.parseDetails(shelterHtml, shelterUrl);
-
-                    if (details.name) {
-                        this.shelters.push(details);
-                        console.log(`   ✅ ${details.name} ${details.email ? '(has email)' : ''}`);
-                    }
-
-                    await this.delay(2000);
-                } catch (err) {
-                    console.error(`   ❌ Error: ${err.message}`);
+            for (const org of orgs) {
+                const attrs = org.attributes || {};
+                if (attrs.name && attrs.email) {
+                    const phone = (attrs.phone || '').replace(/\D/g, '');
+                    shelters.push({
+                        name: attrs.name,
+                        email: (attrs.email || '').toLowerCase().trim(),
+                        phone: phone.length === 10
+                            ? `(${phone.slice(0,3)}) ${phone.slice(3,6)}-${phone.slice(6)}`
+                            : '',
+                        city: attrs.city || '',
+                        state: (attrs.state || '').toUpperCase().slice(0, 2),
+                        zip: attrs.postalcode || '',
+                        website: attrs.url || ''
+                    });
                 }
             }
 
-            this.saveResults();
+            console.log(`   Page ${page}: ${orgs.length} orgs found`);
+            const totalPages = data.meta?.pages || maxPages;
+            if (page >= totalPages) break;
+
+            await new Promise(r => setTimeout(r, 500));
         } catch (err) {
-            console.error(`Error: ${err.message}`);
+            console.error(`   API error on page ${page}: ${err.message}`);
+            break;
         }
     }
 
-    parseDetails(html, url) {
-        const details = { url, name: '', email: '', phone: '', city: '', state: '', website: '' };
-
-        const nameMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/i);
-        if (nameMatch) details.name = nameMatch[1].trim();
-
-        const emailMatch = html.match(/mailto:([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/i);
-        if (emailMatch) details.email = emailMatch[1];
-
-        const phoneMatch = html.match(/\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}/);
-        if (phoneMatch) details.phone = phoneMatch[0];
-
-        return details;
-    }
-
-    saveResults() {
-        const timestamp = new Date().toISOString().slice(0, 10);
-        const baseFilename = `shelters_adoptapet_${this.state}_${timestamp}`;
-
-        const csvPath = path.join(this.outputDir, `${baseFilename}.csv`);
-        const csvHeaders = ['Name', 'Email', 'Phone', 'City', 'State', 'Website', 'Source URL'];
-        const csvRows = this.shelters.map(s => [
-            `"${(s.name || '').replace(/"/g, '""')}"`,
-            s.email || '',
-            s.phone || '',
-            `"${(s.city || '').replace(/"/g, '""')}"`,
-            s.state || '',
-            s.website || '',
-            s.url || ''
-        ].join(','));
-
-        fs.writeFileSync(csvPath, [csvHeaders.join(','), ...csvRows].join('\n'));
-        fs.writeFileSync(
-            path.join(this.outputDir, `${baseFilename}.json`),
-            JSON.stringify(this.shelters, null, 2)
-        );
-
-        console.log(`\n✅ Saved ${this.shelters.length} shelters to ${csvPath}\n`);
-    }
+    console.log(`   Total from API: ${shelters.length}\n`);
+    return shelters;
 }
 
-// CLI Entry point
+function apiRequest(url, apiKey, body) {
+    return new Promise((resolve, reject) => {
+        const urlObj = new URL(url);
+        const req = https.request({
+            hostname: urlObj.hostname,
+            path: urlObj.pathname + urlObj.search,
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/vnd.api+json',
+                'Authorization': apiKey
+            }
+        }, (res) => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => {
+                if (res.statusCode >= 400) {
+                    reject(new Error(`HTTP ${res.statusCode}: ${data.slice(0, 200)}`));
+                } else {
+                    try { resolve(JSON.parse(data)); }
+                    catch (e) { reject(new Error('Invalid JSON')); }
+                }
+            });
+        });
+        req.on('error', reject);
+        req.setTimeout(30000, () => { req.destroy(); reject(new Error('Timeout')); });
+        req.write(body);
+        req.end();
+    });
+}
+
+// ============================================
+// MAIN
+// ============================================
+
 async function main() {
     const args = process.argv.slice(2);
-    const state = args[0] || DEFAULT_STATE;
-    const pages = parseInt(args[1]) || DEFAULT_PAGES;
-    const source = args[2] || 'petfinder'; // 'petfinder' or 'adoptapet'
+    const state = (args[0] || DEFAULT_STATE).toUpperCase();
+    const limit = parseInt(args[1]) || DEFAULT_LIMIT;
 
     console.log(`
-╔═══════════════════════════════════════════════════════╗
-║           🐕 Shelter Contact Scraper 🐈              ║
-╠═══════════════════════════════════════════════════════╣
-║  Usage: node shelter-scraper.js [STATE] [PAGES]       ║
-║  Example: node shelter-scraper.js CA 10               ║
-║                                                       ║
-║  Options:                                             ║
-║    STATE  - Two-letter state code (default: TX)       ║
-║    PAGES  - Number of pages to scrape (default: 10)   ║
-╚═══════════════════════════════════════════════════════╝
+================================================
+     Shelter Contact Scraper
+================================================
+  State: ${state} (${STATE_NAMES[state] || state})
+  Limit: ${limit}
+================================================
 `);
 
-    if (source === 'adoptapet') {
-        const scraper = new AdoptAPetScraper(state, pages);
-        await scraper.scrape();
-    } else {
-        const scraper = new ShelterScraper(state, pages);
-        await scraper.scrape();
+    const outputDir = path.join(__dirname, 'output');
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
     }
+
+    // Source 1: Local database (always available)
+    const dbShelters = scrapeFromDatabase(state, limit);
+
+    // Source 2: RescueGroups API (if key available)
+    const apiShelters = await scrapeFromRescueGroups(state, 3);
+
+    // Merge and deduplicate
+    const allShelters = [...dbShelters, ...apiShelters];
+    const seen = new Set();
+    const shelters = [];
+
+    for (const s of allShelters) {
+        const key = s.email.toLowerCase();
+        if (key && !seen.has(key)) {
+            seen.add(key);
+            shelters.push(s);
+        }
+    }
+
+    console.log(`Combined unique shelters: ${shelters.length}`);
+
+    // Save results
+    const timestamp = new Date().toISOString().slice(0, 10);
+    const baseFilename = `shelters_${state}_${timestamp}`;
+
+    // CSV
+    const csvPath = path.join(outputDir, `${baseFilename}.csv`);
+    const csvHeaders = ['Name', 'Email', 'Phone', 'City', 'State', 'Zip', 'Website'];
+    const csvRows = shelters.map(s => [
+        `"${(s.name || '').replace(/"/g, '""')}"`,
+        s.email || '',
+        s.phone || '',
+        `"${(s.city || '').replace(/"/g, '""')}"`,
+        s.state || '',
+        s.zip || '',
+        s.website || ''
+    ].join(','));
+
+    fs.writeFileSync(csvPath, [csvHeaders.join(','), ...csvRows].join('\n'));
+
+    // JSON
+    const jsonPath = path.join(outputDir, `${baseFilename}.json`);
+    fs.writeFileSync(jsonPath, JSON.stringify(shelters, null, 2));
+
+    const withEmail = shelters.filter(s => s.email).length;
+    const withPhone = shelters.filter(s => s.phone).length;
+
+    console.log(`\n${'='.repeat(50)}`);
+    console.log(`SCRAPING COMPLETE`);
+    console.log(`${'='.repeat(50)}`);
+    console.log(`   Total shelters: ${shelters.length}`);
+    console.log(`   With email:     ${withEmail}`);
+    console.log(`   With phone:     ${withPhone}`);
+    console.log(`\n   CSV:  ${csvPath}`);
+    console.log(`   JSON: ${jsonPath}\n`);
 }
 
-main().catch(console.error);
+main().catch(err => {
+    console.error('Fatal error:', err.message);
+    process.exit(1);
+});

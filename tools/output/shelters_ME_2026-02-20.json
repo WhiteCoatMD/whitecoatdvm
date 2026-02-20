@@ -1,0 +1,452 @@
+[
+  {
+    "name": "A Paw in the Door Cat Rescue",
+    "email": "pawinthedoor@gmail.com",
+    "phone": "(207) 751-4131",
+    "city": "Bath",
+    "state": "ME",
+    "zip": "4530",
+    "website": ""
+  },
+  {
+    "name": "Alpha Dog Rescue",
+    "email": "alphadogrescue@gmail.com",
+    "phone": "(603) 781-8876",
+    "city": "Lebanon",
+    "state": "ME",
+    "zip": "4027",
+    "website": ""
+  },
+  {
+    "name": "Animal Rescue of Kennebec",
+    "email": "nataliepatterson.ark@gmail.com",
+    "phone": "",
+    "city": "Augusta",
+    "state": "ME",
+    "zip": "4332",
+    "website": ""
+  },
+  {
+    "name": "Australian Cattle Dog Rescue Association",
+    "email": "info@acdra.org",
+    "phone": "",
+    "city": "Portland",
+    "state": "ME",
+    "zip": "4258",
+    "website": ""
+  },
+  {
+    "name": "Bucksport Animal Shelter",
+    "email": "acojoy@msn.com",
+    "phone": "207-469-7952",
+    "city": "Bucksport",
+    "state": "ME",
+    "zip": "4416",
+    "website": ""
+  },
+  {
+    "name": "Buddy Up Animal Society",
+    "email": "info@buddyupanimalsociety.org",
+    "phone": "",
+    "city": "Portland",
+    "state": "ME",
+    "zip": "4103",
+    "website": ""
+  },
+  {
+    "name": "Catahoula Rescue of New England",
+    "email": "sln2310@yahoo.com",
+    "phone": "(207) 273-1320",
+    "city": "Warren",
+    "state": "ME",
+    "zip": "4864",
+    "website": ""
+  },
+  {
+    "name": "Coastal Humane Society",
+    "email": "info@coastalhumanesociety.org",
+    "phone": "(207) 725-5051",
+    "city": "Brunswick",
+    "state": "ME",
+    "zip": "4011",
+    "website": ""
+  },
+  {
+    "name": "Coastal Maine Great Dane Rescue",
+    "email": "coastaldanes@gmail.com",
+    "phone": "207 729-0679",
+    "city": "Topsham",
+    "state": "ME",
+    "zip": "4086",
+    "website": ""
+  },
+  {
+    "name": "Community Spay-Neuter Clinic",
+    "email": "communityspayneuterclinicmaine@gmail.com",
+    "phone": "207-721-8395",
+    "city": "Topsham",
+    "state": "ME",
+    "zip": "4086",
+    "website": ""
+  },
+  {
+    "name": "Emma's Angels Rescue",
+    "email": "axel1759@aol.com",
+    "phone": "207-676-5599",
+    "city": "North Berwick",
+    "state": "ME",
+    "zip": "3906",
+    "website": ""
+  },
+  {
+    "name": "Ferret Rescue of Maine",
+    "email": "fert_resq@yahoo.com",
+    "phone": "207-727-6905",
+    "city": "Buxton",
+    "state": "ME",
+    "zip": "4093",
+    "website": ""
+  },
+  {
+    "name": "Fetching Hope Rescue",
+    "email": "fetchinghoperescue@gmail.com",
+    "phone": "",
+    "city": "Westbrook",
+    "state": "ME",
+    "zip": "4098",
+    "website": ""
+  },
+  {
+    "name": "Friends of Willow",
+    "email": "info@friendsofwillow.org",
+    "phone": "",
+    "city": "Portland",
+    "state": "ME",
+    "zip": "4104",
+    "website": ""
+  },
+  {
+    "name": "Harvest Hills Animal Shelter",
+    "email": "info@harvesthills.org",
+    "phone": "207-935-4358",
+    "city": "Fryeburg",
+    "state": "ME",
+    "zip": "4037",
+    "website": ""
+  },
+  {
+    "name": "Helping Paws",
+    "email": "helpingpawsme@gmail.com",
+    "phone": "",
+    "city": "South Portland",
+    "state": "ME",
+    "zip": "4106",
+    "website": ""
+  },
+  {
+    "name": "Homeless Animal Rescue Team (HART)",
+    "email": "info@hartofme.com",
+    "phone": "207-829-4116",
+    "city": "Cumberland",
+    "state": "ME",
+    "zip": "4021",
+    "website": ""
+  },
+  {
+    "name": "Hope Harbor Animal Society",
+    "email": "info@hopeharboranimalsociety.org",
+    "phone": "207-283-0283",
+    "city": "Saco",
+    "state": "ME",
+    "zip": "4072",
+    "website": ""
+  },
+  {
+    "name": "IMPS - Internet Miniature Pinscher Service, Inc.",
+    "email": "impsnewengland@gmail.com",
+    "phone": "781-837-1509",
+    "city": "Westbrook",
+    "state": "ME",
+    "zip": "4092",
+    "website": ""
+  },
+  {
+    "name": "Journey Home Dog Rescue",
+    "email": "maureen@journeyhomedogrescue.org",
+    "phone": "",
+    "city": "Freeport",
+    "state": "ME",
+    "zip": "4032",
+    "website": ""
+  },
+  {
+    "name": "Kittery Animal Hospital and Creature Comforts LLC",
+    "email": "adoptionskah@gmail.com",
+    "phone": "(207) 439-4158",
+    "city": "Kittery",
+    "state": "ME",
+    "zip": "3904",
+    "website": ""
+  },
+  {
+    "name": "Lucky Pup Rescue",
+    "email": "luckypuprescue@yahoo.com",
+    "phone": "",
+    "city": "Kennebunkport",
+    "state": "ME",
+    "zip": "4046",
+    "website": ""
+  },
+  {
+    "name": "Maine Greyhound Placement Service",
+    "email": "greyhoundkennel@roadrunner.com",
+    "phone": "(207) 626-2893",
+    "city": "Augusta",
+    "state": "ME",
+    "zip": "4330",
+    "website": ""
+  },
+  {
+    "name": "Maine Sheltie Rescue",
+    "email": "mainesheltierescue@gmail.com",
+    "phone": "(207) 773-6677",
+    "city": "Portland",
+    "state": "ME",
+    "zip": "4102",
+    "website": ""
+  },
+  {
+    "name": "Mainely Rat Rescue",
+    "email": "mrr.adopt@gmail.com",
+    "phone": "",
+    "city": "Falmouth",
+    "state": "ME",
+    "zip": "4105",
+    "website": ""
+  },
+  {
+    "name": "Miracle German Shepherd Dog Rescue of Maine",
+    "email": "miraclegsdmaine@gmail.com",
+    "phone": "207-266-9676",
+    "city": "Searsmont",
+    "state": "ME",
+    "zip": "4973",
+    "website": ""
+  },
+  {
+    "name": "New England Lab Rescue, Inc.",
+    "email": "nelr@newenglandlabrescue.com",
+    "phone": "",
+    "city": "Limerick",
+    "state": "ME",
+    "zip": "4048",
+    "website": ""
+  },
+  {
+    "name": "Old Dogs New Digs",
+    "email": "woof@olddogsnewdigs.com",
+    "phone": "",
+    "city": "Yarmouth",
+    "state": "ME",
+    "zip": "4096",
+    "website": ""
+  },
+  {
+    "name": "Paws and Claws New England",
+    "email": "riopuppy3@gmail.com",
+    "phone": "",
+    "city": "Falmouth",
+    "state": "ME",
+    "zip": "4105",
+    "website": ""
+  },
+  {
+    "name": "PAWS Animal Welfare Society, Inc.",
+    "email": "pawsvalleycathaven@gmail.com",
+    "phone": "(207) 543-7348",
+    "city": "Fort Kent",
+    "state": "ME",
+    "zip": "4743",
+    "website": ""
+  },
+  {
+    "name": "PAWS Brave Hearts",
+    "email": "pawscalais@yahoo.com",
+    "phone": "(207) 454-7662",
+    "city": "Calais",
+    "state": "ME",
+    "zip": "4619",
+    "website": ""
+  },
+  {
+    "name": "Pittie Posse Rescue and Sanctuary",
+    "email": "pittieposse@gmail.com",
+    "phone": "",
+    "city": "South Portland",
+    "state": "ME",
+    "zip": "4106",
+    "website": ""
+  },
+  {
+    "name": "Pope Memorial Humane Society of Knox County",
+    "email": "manager@hskcme.org",
+    "phone": "207-594-2200",
+    "city": "Thomaston",
+    "state": "ME",
+    "zip": "4861",
+    "website": ""
+  },
+  {
+    "name": "Protectors of Animal Lives Society (PALS)",
+    "email": "palsnokillshelter@yahoo.com",
+    "phone": "(207) 395-4274",
+    "city": "Winthrop",
+    "state": "ME",
+    "zip": "4364",
+    "website": ""
+  },
+  {
+    "name": "Puppy Love, Inc.",
+    "email": "ed@puppyloveme.org",
+    "phone": "(207) 833-5199",
+    "city": "Brunswick",
+    "state": "ME",
+    "zip": "4011",
+    "website": ""
+  },
+  {
+    "name": "Responsible Pet Care of Oxford Hills",
+    "email": "responsiblepetcare@yahoo.com",
+    "phone": "(207) 743-8679",
+    "city": "Paris",
+    "state": "ME",
+    "zip": "4271",
+    "website": ""
+  },
+  {
+    "name": "Safe Haven Humane Society",
+    "email": "info@safehavenhumanesociety.org",
+    "phone": "207-646-1611",
+    "city": "Wells",
+    "state": "ME",
+    "zip": "4090",
+    "website": ""
+  },
+  {
+    "name": "Save Our Strays",
+    "email": "info@saveourstraysinmaine.org",
+    "phone": "1-888-772-3162",
+    "city": "Fairfield",
+    "state": "ME",
+    "zip": "4937",
+    "website": ""
+  },
+  {
+    "name": "Second Chance Boxer Rescue - New England",
+    "email": "juliescbr@gmail.com",
+    "phone": "",
+    "city": "Woolwich",
+    "state": "ME",
+    "zip": "4579",
+    "website": ""
+  },
+  {
+    "name": "Somerset Humane Society",
+    "email": "shsanimals.forever@yahoo.com",
+    "phone": "207-474-6493",
+    "city": "Skowhegan",
+    "state": "ME",
+    "zip": "4976",
+    "website": ""
+  },
+  {
+    "name": "Souly Maine Pets Rescue",
+    "email": "soulymainepetsrescue@comcast.net",
+    "phone": "",
+    "city": "Bath",
+    "state": "ME",
+    "zip": "4530",
+    "website": ""
+  },
+  {
+    "name": "SPCA of Hancock County",
+    "email": "info@spcahancockcounty.org",
+    "phone": "(207) 667-8088",
+    "city": "Trenton",
+    "state": "ME",
+    "zip": "4605",
+    "website": ""
+  },
+  {
+    "name": "Tall Tails Beagle Rescue",
+    "email": "info@talltailsbeaglerescue.org",
+    "phone": "(207) 797-5392",
+    "city": "Freeport",
+    "state": "ME",
+    "zip": "4032",
+    "website": ""
+  },
+  {
+    "name": "Tender Touch Rescue",
+    "email": "tendertouchveterinary@yahoo.com",
+    "phone": "207-839-7456",
+    "city": "Scarborough",
+    "state": "ME",
+    "zip": "4074",
+    "website": ""
+  },
+  {
+    "name": "The Grateful Dog Animal Rescue",
+    "email": "thegratefuldoganimalrescue@gmail.com",
+    "phone": "",
+    "city": "York",
+    "state": "ME",
+    "zip": "3909",
+    "website": ""
+  },
+  {
+    "name": "The Green Ark",
+    "email": "info@thegreenark.me",
+    "phone": "",
+    "city": "Portland",
+    "state": "ME",
+    "zip": "4103",
+    "website": ""
+  },
+  {
+    "name": "The Long Journey to a New Begining Animal Rescue",
+    "email": "journeyanimalrescue@gmail.com",
+    "phone": "",
+    "city": "Stow",
+    "state": "ME",
+    "zip": "4037",
+    "website": ""
+  },
+  {
+    "name": "The Pixel Fund",
+    "email": "contactus@thepixelfund.org",
+    "phone": "",
+    "city": "Gorham",
+    "state": "ME",
+    "zip": "4038",
+    "website": ""
+  },
+  {
+    "name": "Thistle Hill",
+    "email": "thistle88@centurytel.net",
+    "phone": "",
+    "city": "Portland",
+    "state": "ME",
+    "zip": "4103",
+    "website": ""
+  },
+  {
+    "name": "Yankee Chihuahua Rescue and Adopt",
+    "email": "stephanie@mttom.com",
+    "phone": "(207) 615-2299",
+    "city": "Westbrook",
+    "state": "ME",
+    "zip": "4092",
+    "website": ""
+  }
+]

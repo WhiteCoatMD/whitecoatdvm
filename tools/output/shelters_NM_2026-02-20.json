@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Action Programs for Animals",
+    "email": "actionprogramsforanimals@yahoo.com",
+    "phone": "575-644-0505",
+    "city": "Las Cruces",
+    "state": "NM",
+    "zip": "88004",
+    "website": ""
+  },
+  {
+    "name": "Albuquerque Animal Welfare - Westside",
+    "email": "cstanley@cabq.gov",
+    "phone": "505-768-1975 Call Center will direct you",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87121",
+    "website": ""
+  },
+  {
+    "name": "Almost Home NM",
+    "email": "adopt@almosthomenm.org",
+    "phone": "",
+    "city": "Peralta",
+    "state": "NM",
+    "zip": "87042",
+    "website": ""
+  },
+  {
+    "name": "Animal Humane New Mexico",
+    "email": "info@animalhumanenm.org",
+    "phone": "505.255.5523",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87108",
+    "website": ""
+  },
+  {
+    "name": "Animal Village NM",
+    "email": "animalvillagenm1@gmail.com",
+    "phone": "575-446-4685",
+    "city": "Alamogordo",
+    "state": "NM",
+    "zip": "88310",
+    "website": ""
+  },
+  {
+    "name": "Bridging The Worlds",
+    "email": "beverly@bridgingtheworlds.org",
+    "phone": "505-501-1887",
+    "city": "Santa Fe",
+    "state": "NM",
+    "zip": "87504",
+    "website": ""
+  },
+  {
+    "name": "Bro and Tracy Animal Welfare",
+    "email": "joycefay@joycefay.com",
+    "phone": "505-463-4553",
+    "city": "Corrales",
+    "state": "NM",
+    "zip": "87048",
+    "website": ""
+  },
+  {
+    "name": "CARMA",
+    "email": "barbaracarma@msn.com",
+    "phone": "(505) 321-6275",
+    "city": "Corrales",
+    "state": "NM",
+    "zip": "87048",
+    "website": ""
+  },
+  {
+    "name": "Cat's Meow Adoption Center",
+    "email": "corella@zianet.com",
+    "phone": "575-639-3036",
+    "city": "Las Cruces",
+    "state": "NM",
+    "zip": "88001",
+    "website": ""
+  },
+  {
+    "name": "Central New Mexico Beagle Rescue",
+    "email": "centralnmbeaglerescue2pam@gmail.com",
+    "phone": "505-385-7422",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87110",
+    "website": ""
+  },
+  {
+    "name": "Central NM German Shepherd Dog Club",
+    "email": "kgonsey@msn.com",
+    "phone": "505-877-7352",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87105",
+    "website": ""
+  },
+  {
+    "name": "Claws and Paws Rescue",
+    "email": "snugglepuffs@hotmail.com",
+    "phone": "(575) 418-8696",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87120",
+    "website": ""
+  },
+  {
+    "name": "Colfax Pet Rescue",
+    "email": "colfaxpetrescue@bacavalley.com",
+    "phone": "575-447-1199",
+    "city": "Miami",
+    "state": "NM",
+    "zip": "87729",
+    "website": ""
+  },
+  {
+    "name": "Companion Animal Action Team",
+    "email": "caatnm2012@gmail.com",
+    "phone": "",
+    "city": "Williamsburg",
+    "state": "NM",
+    "zip": "87942",
+    "website": ""
+  },
+  {
+    "name": "County of Los Alamos Animal Shelter",
+    "email": "police-psa@lacnm.us",
+    "phone": "(505) 662-8179",
+    "city": "Los Alamos",
+    "state": "NM",
+    "zip": "87544",
+    "website": ""
+  },
+  {
+    "name": "Desert Haven Animal Refuge",
+    "email": "wer4pets@gmail.com",
+    "phone": "575-894-1694",
+    "city": "Williamsburg",
+    "state": "NM",
+    "zip": "87901",
+    "website": ""
+  },
+  {
+    "name": "Desert Paws, Inc. Animal Rescue of New Mexico",
+    "email": "desertpawsnm@gmail.com",
+    "phone": "(505) 702-9396",
+    "city": "Pena Blanca",
+    "state": "NM",
+    "zip": "87041",
+    "website": ""
+  },
+  {
+    "name": "Dew Paws Rescue",
+    "email": "infodewpaws@gmail.com",
+    "phone": "505 412-9096",
+    "city": "Santa Fe",
+    "state": "NM",
+    "zip": "87500",
+    "website": ""
+  },
+  {
+    "name": "Edgewood Animal Control",
+    "email": "mring@pd.edgewood-nm.gov",
+    "phone": "(505) 926-9013",
+    "city": "Edgewood",
+    "state": "NM",
+    "zip": "87015",
+    "website": ""
+  },
+  {
+    "name": "Enchanted Gardens Cat Rescue",
+    "email": "gardens@zianet.com",
+    "phone": "575-524-1886",
+    "city": "Las Cruces",
+    "state": "NM",
+    "zip": "88005",
+    "website": ""
+  },
+  {
+    "name": "Enchantment Chihuahua Rescue LTD",
+    "email": "info@enchantmentrescueltd.com",
+    "phone": "505-275-SAVE (7283)",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87199",
+    "website": ""
+  },
+  {
+    "name": "EnchantMutts, Inc.",
+    "email": "info@enchantmutts.org",
+    "phone": "",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87108",
+    "website": ""
+  },
+  {
+    "name": "Espanola Valley Humane Society",
+    "email": "dawgboss@gmail.com",
+    "phone": "505-753-8662",
+    "city": "Espanola",
+    "state": "NM",
+    "zip": "87532",
+    "website": ""
+  },
+  {
+    "name": "Fabulous Felines",
+    "email": "fabulousfelines@comcast.net",
+    "phone": "",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87191",
+    "website": ""
+  },
+  {
+    "name": "Farmington Animal Shelter",
+    "email": "cborquist@fmtn.org",
+    "phone": "(505) 599-1098",
+    "city": "Farmington",
+    "state": "NM",
+    "zip": "87401",
+    "website": ""
+  },
+  {
+    "name": "FAT KATZ",
+    "email": "fatkatzabq@gmail.com",
+    "phone": "(505) 293-2830",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87199",
+    "website": ""
+  },
+  {
+    "name": "Felines & Friends New Mexico",
+    "email": "askfelinesandfriends@yahoo.com",
+    "phone": "505 316 2281",
+    "city": "Santa Fe",
+    "state": "NM",
+    "zip": "87501",
+    "website": ""
+  },
+  {
+    "name": "Forever Homes Animal Rescue",
+    "email": "leesha8896@aol.com",
+    "phone": "",
+    "city": "Alamogordo",
+    "state": "NM",
+    "zip": "88310",
+    "website": ""
+  },
+  {
+    "name": "From The Heart Animal Rescue",
+    "email": "info@fthar.org",
+    "phone": "855-236-7823",
+    "city": "Las Cruces",
+    "state": "NM",
+    "zip": "88001",
+    "website": ""
+  },
+  {
+    "name": "German Shepherd Dog Rescue of Southern New Mexico",
+    "email": "germanshepherdrescue@bajabb.com",
+    "phone": "575-415-0894",
+    "city": "Alamogordo",
+    "state": "NM",
+    "zip": "88310",
+    "website": ""
+  },
+  {
+    "name": "HART Homeless Animal Rescue Team",
+    "email": "carolyntaylor@att.net",
+    "phone": "(505)463-0010",
+    "city": "Los Lunas",
+    "state": "NM",
+    "zip": "87031",
+    "website": ""
+  },
+  {
+    "name": "Hearts of Gold Rescue of NM, Inc.",
+    "email": "heartsofgoldrescueofnm@gmail.com",
+    "phone": "",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87199",
+    "website": ""
+  },
+  {
+    "name": "High Desert Humane Society",
+    "email": "hdhs@gilanet.com",
+    "phone": "575-538-9261",
+    "city": "Silver City",
+    "state": "NM",
+    "zip": "88062",
+    "website": ""
+  },
+  {
+    "name": "House Rabbit Society NM",
+    "email": "kirstin@newmexicohrs.org",
+    "phone": "(505) 435-9916",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87114",
+    "website": ""
+  },
+  {
+    "name": "Humane Society of Lincoln County",
+    "email": "sheltermgr@hslcnm.org",
+    "phone": "(575) 257-9841",
+    "city": "Ruidoso",
+    "state": "NM",
+    "zip": "88345",
+    "website": ""
+  },
+  {
+    "name": "Jemez Valley Animal Amigos",
+    "email": "jvaaadoptions@aol.com",
+    "phone": "(888) 828-5822",
+    "city": "Jemez Springs",
+    "state": "NM",
+    "zip": "87025",
+    "website": ""
+  },
+  {
+    "name": "Junes Senior Cat Rescue",
+    "email": "junescats@q.com",
+    "phone": "(505) 220-3528",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87191",
+    "website": ""
+  },
+  {
+    "name": "Lap Dog Rescue of NM",
+    "email": "lapdogrescue_newmexico@yahoo.com",
+    "phone": "505-934-2202",
+    "city": "Tijeras",
+    "state": "NM",
+    "zip": "87059",
+    "website": ""
+  },
+  {
+    "name": "Lazy S Rescue Ranch, Inc.",
+    "email": "sassyblondnmgirl@aol.com",
+    "phone": "5053199779",
+    "city": "Belen",
+    "state": "NM",
+    "zip": "87002",
+    "website": ""
+  },
+  {
+    "name": "Lordsburg Animal Shelter",
+    "email": "rrandall@cityoflordsburg.org",
+    "phone": "",
+    "city": "Lordsburg",
+    "state": "NM",
+    "zip": "88045",
+    "website": ""
+  },
+  {
+    "name": "Mountainair Animal Control",
+    "email": "tegreene50@gmail.com",
+    "phone": "(505) 705-0099",
+    "city": "Mountainair",
+    "state": "NM",
+    "zip": "87036",
+    "website": ""
+  },
+  {
+    "name": "New Mexico Animal Friends",
+    "email": "petfinder@nmaf.org",
+    "phone": "(505) 881-7297",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87196",
+    "website": ""
+  },
+  {
+    "name": "New Mexico Boston Terrier Rescue",
+    "email": "mitzidhobson@gmail.com",
+    "phone": "505-463-8453",
+    "city": "Corrales",
+    "state": "NM",
+    "zip": "87048",
+    "website": ""
+  },
+  {
+    "name": "NM K-911",
+    "email": "nmk911rescue@yahoo.com",
+    "phone": "(505) 688-6160",
+    "city": "Rio Rancho",
+    "state": "NM",
+    "zip": "87144",
+    "website": ""
+  },
+  {
+    "name": "NMDOG",
+    "email": "info@nmdog.org",
+    "phone": "505-886-1PAW",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87114",
+    "website": ""
+  },
+  {
+    "name": "Northern New Mexico Friends of Animals, Inc.",
+    "email": "hhoward53@yahoo.com",
+    "phone": "575-586-0784",
+    "city": "Questa",
+    "state": "NM",
+    "zip": "87556",
+    "website": ""
+  },
+  {
+    "name": "O.H.C.A.A.T. (One Homeless Cat At A Time)",
+    "email": "ohcaat@yahoo.com",
+    "phone": "(505) 860-0228",
+    "city": "LA PLATA",
+    "state": "NM",
+    "zip": "87418",
+    "website": ""
+  },
+  {
+    "name": "PACA/AAR",
+    "email": "pacacats@aol.com",
+    "phone": "(505) 255-0544",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87154",
+    "website": ""
+  },
+  {
+    "name": "Paws & Claws Animal Rescue of Quay County, Inc.",
+    "email": "pawsandclawsanimalrescue2@gmail.com",
+    "phone": "(505) 235-4338",
+    "city": "Tucumcari",
+    "state": "NM",
+    "zip": "88401",
+    "website": ""
+  },
+  {
+    "name": "Paws and Stripes",
+    "email": "veterandogs@pawsandstripes.org",
+    "phone": "(505) 999-1201",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87110",
+    "website": ""
+  },
+  {
+    "name": "Peace of Mind Rescue of NM",
+    "email": "suzie@peaceofmindrescueofnm.org",
+    "phone": "6097522588",
+    "city": "Cerrillos",
+    "state": "NM",
+    "zip": "87010",
+    "website": ""
+  },
+  {
+    "name": "Pet-a-Bulls Rescue, Inc.",
+    "email": "santafesource@netzero.net",
+    "phone": "505-316-2089",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87184",
+    "website": ""
+  },
+  {
+    "name": "Raton Humane Society",
+    "email": "blazingseven@bacavalley.com",
+    "phone": "(575)445-9328",
+    "city": "Raton",
+    "state": "NM",
+    "zip": "87740",
+    "website": ""
+  },
+  {
+    "name": "Rio Rancho Animal Control",
+    "email": "bgalarneau@rrnm.gov",
+    "phone": "505-891-5075",
+    "city": "Rio Rancho",
+    "state": "NM",
+    "zip": "87124",
+    "website": ""
+  },
+  {
+    "name": "Santa Fe Animal Shelter & Humane Society",
+    "email": "shelter@sfhumanesociety.org",
+    "phone": "(505) 983-4309",
+    "city": "Santa Fe",
+    "state": "NM",
+    "zip": "87507",
+    "website": ""
+  },
+  {
+    "name": "Senior Spaniel Rescue Inc.",
+    "email": "ronnieriner@gmail.com",
+    "phone": "505-350-7510",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87114",
+    "website": ""
+  },
+  {
+    "name": "Sierra Animal Shelter",
+    "email": "sierrashelter@windstream.net",
+    "phone": "(575) 894-2240",
+    "city": "Truth or Consequences",
+    "state": "NM",
+    "zip": "87901",
+    "website": ""
+  },
+  {
+    "name": "Soft Coated Wheaten Terrier Club of America",
+    "email": "nbtrigo@cybermesa.com",
+    "phone": "1-505-433-5009",
+    "city": "Corrales",
+    "state": "NM",
+    "zip": "87048",
+    "website": ""
+  },
+  {
+    "name": "Standard Poodle Rescue of the Southwest",
+    "email": "standardpoodle05@gmail.com",
+    "phone": "(915) 240-8537",
+    "city": "Chaparral",
+    "state": "NM",
+    "zip": "88081",
+    "website": ""
+  },
+  {
+    "name": "Stray Hearts Animal Shelter",
+    "email": "strayheartsoffice@qwestoffice.net",
+    "phone": "(575)758-2981",
+    "city": "Taos",
+    "state": "NM",
+    "zip": "87571",
+    "website": ""
+  },
+  {
+    "name": "Street Cat Hub",
+    "email": "streetcathub@gmail.com",
+    "phone": "(505) 681-4713",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87102",
+    "website": ""
+  },
+  {
+    "name": "Torrance County Animal Shelter",
+    "email": "evrasstaff@gmail.com",
+    "phone": "505-384-5117",
+    "city": "Moriarty",
+    "state": "NM",
+    "zip": "87035",
+    "website": ""
+  },
+  {
+    "name": "Veterinary Medical Clinic",
+    "email": "veterinarymedicalclinic2@hotmail.com",
+    "phone": "5754373063",
+    "city": "Alamogordo",
+    "state": "NM",
+    "zip": "88310",
+    "website": ""
+  },
+  {
+    "name": "Viva! NM Rural Animal Rescue",
+    "email": "adopt.viva@gmail.com",
+    "phone": "",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87105",
+    "website": ""
+  }
+]
