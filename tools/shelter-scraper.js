@@ -138,13 +138,13 @@ async function scrapeFromRescueGroups(state, maxPages) {
 
     for (let page = 1; page <= maxPages; page++) {
         try {
-            const url = `https://api.rescuegroups.org/v5/public/orgs/search/shelter/?limit=250&page=${page}&sort=orgs.name`;
+            const url = `https://api.rescuegroups.org/v5/public/orgs/search/?limit=250&page=${page}&sort=orgs.name`;
             const body = JSON.stringify({
                 data: {
                     filters: [{
                         fieldName: 'orgs.state',
                         operation: 'equal',
-                        criteria: stateName
+                        criteria: state
                     }]
                 }
             });
