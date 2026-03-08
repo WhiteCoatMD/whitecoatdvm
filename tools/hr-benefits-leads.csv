@@ -1,51 +1,67 @@
 name,email,city,state,website,type
-Gallagher Benefit Services,benefits@ajg.com,Rolling Meadows,IL,ajg.com,Benefits Broker
-Mercer,info@mercer.com,New York,NY,mercer.com,Benefits Consulting
-Willis Towers Watson,contact@wtwco.com,Arlington,VA,wtwco.com,Benefits Consulting
-Lockton Companies,info@lockton.com,Kansas City,MO,lockton.com,Benefits Broker
-NFP Corp,info@nfp.com,New York,NY,nfp.com,Benefits Broker
-OneDigital Health and Benefits,info@onedigital.com,Atlanta,GA,onedigital.com,Benefits Broker
-Benefitfocus,info@benefitfocus.com,Charleston,SC,benefitfocus.com,Benefits Platform
-TriNet,info@trinet.com,Dublin,CA,trinet.com,PEO
-Insperity,info@insperity.com,Kingwood,TX,insperity.com,PEO
-Justworks,hello@justworks.com,New York,NY,justworks.com,PEO
-Paychex,info@paychex.com,Rochester,NY,paychex.com,PEO/Payroll
-Rippling,hello@rippling.com,San Francisco,CA,rippling.com,HR Platform
-Gusto,support@gusto.com,San Francisco,CA,gusto.com,HR Platform
-Zenefits,hello@zenefits.com,San Francisco,CA,zenefits.com,HR Platform
-BambooHR,info@bamboohr.com,Lindon,UT,bamboohr.com,HR Platform
-Namely,info@namely.com,New York,NY,namely.com,HR Platform
-Sequoia Consulting Group,info@sequoia.com,San Mateo,CA,sequoia.com,Benefits Consulting
-PerkSpot,partnerships@perkspot.com,Chicago,IL,perkspot.com,Employee Perks
-Fond,hello@fond.co,Portland,OR,fond.co,Employee Perks
-Benepass,hello@benepass.com,San Francisco,CA,benepass.com,Benefits Platform
-Fringe,partnerships@fringe.us,Richmond,VA,fringe.us,Employee Perks
-Compt,hello@compt.io,Boston,MA,compt.io,Employee Perks
-Virgin Pulse,info@virginpulse.com,Providence,RI,virginpulse.com,Corporate Wellness
-Wellable,info@wellable.co,Boston,MA,wellable.co,Corporate Wellness
-Limeade,info@limeade.com,Bellevue,WA,limeade.com,Corporate Wellness
-Wellhub,partnerships@wellhub.com,New York,NY,wellhub.com,Corporate Wellness
-League Inc,hello@league.com,Toronto,ON,league.com,Benefits Platform
-Businessolver,info@businessolver.com,West Des Moines,IA,businessolver.com,Benefits Admin
-PlanSource,info@plansource.com,Orlando,FL,plansource.com,Benefits Admin
-Ease (formerly EaseCentral),hello@ease.com,San Francisco,CA,ease.com,Benefits Admin
-Bernard Health,info@bernardhealth.com,Nashville,TN,bernardhealth.com,Benefits Consulting
-Nava Benefits,hello@navabenefits.com,New York,NY,navabenefits.com,Benefits Broker
-Collective Health,info@collectivehealth.com,San Mateo,CA,collectivehealth.com,Benefits Admin
-Alight Solutions,info@alight.com,Lincolnshire,IL,alight.com,Benefits Admin
-Buck Global,info@buck.com,New York,NY,buck.com,Benefits Consulting
-Segal Group,info@segalgroup.com,New York,NY,segalgroup.com,Benefits Consulting
-CBIZ Benefits,info@cbiz.com,Cleveland,OH,cbiz.com,Benefits Consulting
-USI Insurance Services,info@usi.com,Valhalla,NY,usi.com,Benefits Broker
-Marsh McLennan Agency,info@marshmma.com,New York,NY,marshmma.com,Benefits Broker
-AssuredPartners,info@assuredpartners.com,Lake Mary,FL,assuredpartners.com,Benefits Broker
-HUB International,info@hubinternational.com,Chicago,IL,hubinternational.com,Benefits Broker
-Alera Group,info@aleragroup.com,Deerfield,IL,aleragroup.com,Benefits Broker
-Woodruff Sawyer,info@woodruffsawyer.com,San Francisco,CA,woodruffsawyer.com,Benefits Broker
-IMA Financial Group,info@imacorp.com,Denver,CO,imacorp.com,Benefits Broker
-Hylant,info@hylant.com,Toledo,OH,hylant.com,Benefits Broker
-Conner Strong & Buckelew,info@connerstrong.com,Camden,NJ,connerstrong.com,Benefits Broker
-Higginbotham,info@higginbotham.net,Fort Worth,TX,higginbotham.net,Benefits Broker
-Holmes Murphy,info@holmesmurphy.com,Waukee,IA,holmesmurphy.com,Benefits Broker
-The Plexus Groupe,info@plexusgroupe.com,Deer Park,IL,plexusgroupe.com,Benefits Broker
-Employee Navigator,info@employeenavigator.com,Bethesda,MD,employeenavigator.com,Benefits Admin
+"Gallagher Benefit Services","benefits@ajg.com","Rolling Meadows","IL","ajg.com","Large National Benefits Broker"
+"Mercer","info@mercer.com","New York","NY","mercer.com","Large National Benefits Broker"
+"Willis Towers Watson","contact@wtwco.com","Arlington","VA","wtwco.com","Large National Benefits Broker"
+"Lockton Companies","info@lockton.com","Kansas City","MO","lockton.com","Large National Benefits Broker"
+"NFP Corp","info@nfp.com","New York","NY","nfp.com","Large National Benefits Broker"
+"OneDigital Health and Benefits","info@onedigital.com","Atlanta","GA","onedigital.com","Regional Benefits Consulting"
+"Benefitfocus","partnerships@benefitfocus.com","Charleston","SC","benefitfocus.com","Benefits Administration Platform"
+"TriNet","info@trinet.com","Dublin","CA","trinet.com","PEO"
+"Insperity","info@insperity.com","Kingwood","TX","insperity.com","PEO"
+"Justworks","partnerships@justworks.com","New York","NY","justworks.com","PEO"
+"Paychex","info@paychex.com","Rochester","NY","paychex.com","PEO / Payroll"
+"Rippling","partnerships@rippling.com","San Francisco","CA","rippling.com","HR Platform / Benefits Admin"
+"Gusto","partnerships@gusto.com","San Francisco","CA","gusto.com","HR Platform / Benefits Admin"
+"Zenefits","hello@zenefits.com","San Francisco","CA","zenefits.com","HR Platform / Benefits Admin"
+"BambooHR","partnerships@bamboohr.com","Lindon","UT","bamboohr.com","HR Platform / Benefits Admin"
+"Namely","info@namely.com","New York","NY","namely.com","HR Platform / Benefits Admin"
+"Sequoia Consulting Group","info@sequoia.com","San Mateo","CA","sequoia.com","Benefits Consulting / Brokerage"
+"PerkSpot","partnerships@perkspot.com","Chicago","IL","perkspot.com","Employee Perks Platform"
+"Fond","hello@fond.co","Portland","OR","fond.co","Employee Perks"
+"Benepass","hello@benepass.com","San Francisco","CA","benepass.com","Benefits Platform"
+"Fringe","partnerships@fringe.us","Richmond","VA","fringe.us","Employee Perks Platform"
+"Compt","partnerships@compt.io","Boston","MA","compt.io","Employee Perks Platform"
+"Virgin Pulse","partnerships@virginpulse.com","Providence","RI","virginpulse.com","Corporate Wellness Platform"
+"Wellable","partnerships@wellable.co","Boston","MA","wellable.co","Corporate Wellness Platform"
+"Limeade","info@limeade.com","Bellevue","WA","limeade.com","Corporate Wellness Platform"
+"Wellhub","partnerships@wellhub.com","New York","NY","wellhub.com","Corporate Wellness Platform"
+"League Inc","hello@league.com","Toronto","ON","league.com","Benefits Platform"
+"Businessolver","partnerships@businessolver.com","West Des Moines","IA","businessolver.com","Benefits Administration Platform"
+"PlanSource","partnerships@plansource.com","Orlando","FL","plansource.com","Benefits Administration Platform"
+"Ease (formerly EaseCentral)","hello@ease.com","San Francisco","CA","ease.com","Benefits Admin"
+"Bernard Health","info@bernardhealth.com","Nashville","TN","bernardhealth.com","Benefits Consulting"
+"Nava Benefits","partnerships@navabenefits.com","New York","NY","navabenefits.com","Benefits Consulting / Brokerage"
+"Collective Health","partnerships@collectivehealth.com","San Mateo","CA","collectivehealth.com","Benefits Administration Platform"
+"Alight Solutions","info@alight.com","Lincolnshire","IL","alight.com","Benefits Administration Platform"
+"Buck Global","info@buck.com","New York","NY","buck.com","Benefits Consulting"
+"Segal Group","info@segalgroup.com","New York","NY","segalgroup.com","Benefits Consulting"
+"CBIZ Benefits","info@cbiz.com","Cleveland","OH","cbiz.com","Benefits Consulting / Brokerage"
+"USI Insurance Services","info@usi.com","Valhalla","NY","usi.com","Large National Benefits Broker"
+"Marsh McLennan Agency","info@marshmma.com","New York","NY","marshmma.com","Large National Benefits Broker"
+"AssuredPartners","info@assuredpartners.com","Lake Mary","FL","assuredpartners.com","Benefits Broker"
+"HUB International","info@hubinternational.com","Chicago","IL","hubinternational.com","Large National Benefits Broker"
+"Alera Group","info@aleragroup.com","Deerfield","IL","aleragroup.com","Benefits Broker"
+"Woodruff Sawyer","info@woodruffsawyer.com","San Francisco","CA","woodruffsawyer.com","Benefits Consulting / Brokerage"
+"IMA Financial Group","info@imacorp.com","Denver","CO","imacorp.com","Benefits Broker"
+"Hylant","info@hylant.com","Toledo","OH","hylant.com","Benefits Broker"
+"Conner Strong & Buckelew","info@connerstrong.com","Camden","NJ","connerstrong.com","Benefits Broker"
+"Higginbotham","info@higginbotham.net","Fort Worth","TX","higginbotham.net","Benefits Broker"
+"Holmes Murphy","info@holmesmurphy.com","Waukee","IA","holmesmurphy.com","Benefits Broker"
+"The Plexus Groupe","info@plexusgroupe.com","Deer Park","IL","plexusgroupe.com","Benefits Broker"
+"Employee Navigator","partnerships@employeenavigator.com","Bethesda","MD","employeenavigator.com","Benefits Administration Platform"
+"Aon","info@aon.com","Chicago","IL","https://www.aon.com","Large National Benefits Broker"
+"Brown & Brown Insurance","info@bbrown.com","Daytona Beach","FL","https://www.bbrown.com","Large National Benefits Broker"
+"Alliant Insurance Services","info@alliant.com","Irvine","CA","https://www.alliant.com","Large National Benefits Broker"
+"Acrisure","info@acrisure.com","Grand Rapids","MI","https://www.acrisure.com","Large National Benefits Broker"
+"The MWE Partnership","info@mwepartnership.com","Columbia","MD","https://www.mwepartnership.com","Regional Benefits Consulting"
+"ADP TotalSource","info@adp.com","Roseland","NJ","https://www.adp.com","PEO / Payroll"
+"Paylocity","info@paylocity.com","Schaumburg","IL","https://www.paylocity.com","HR Platform / Benefits Admin"
+"Deel","partnerships@deel.com","San Francisco","CA","https://www.deel.com","HR Platform / Benefits Admin"
+"Benepass","partnerships@getbenepass.com","San Francisco","CA","https://getbenepass.com","Employee Perks Platform"
+"Espresa","partnerships@espresa.com","Palo Alto","CA","https://www.espresa.com","Employee Perks Platform"
+"Forma","partnerships@joinforma.com","San Francisco","CA","https://www.joinforma.com","Employee Perks Platform"
+"Bonusly","partnerships@bonusly.com","Boulder","CO","https://bonusly.com","Employee Perks / Recognition"
+"Awardco","partnerships@awardco.com","Lindon","UT","https://www.awardco.com","Employee Perks / Recognition"
+"Wellness360","info@wellness360.co","New York","NY","https://www.wellness360.co","Corporate Wellness Platform"
+"Empyrean Benefit Solutions","info@goempyrean.com","Houston","TX","https://goempyrean.com","Benefits Administration Platform"
+"Pet Benefit Solutions","info@petbenefits.com","Warwick","RI","https://www.petbenefits.com","Voluntary Benefits Marketplace"
