@@ -38,7 +38,11 @@ const CONFIG = {
     dailyLogDir: path.join(__dirname, 'output', 'daily_logs'),
 
     // Delay between emails (ms)
-    delayBetweenEmails: 3000
+    delayBetweenEmails: 3000,
+
+    // Follow-up sequence
+    followUpDays: [7, 14],  // days after previous email
+    maxWaves: 3             // initial + 2 follow-ups
 };
 
 // ============================================
@@ -73,7 +77,7 @@ Would you have 15 minutes this week to discuss? I can also send over materials y
 Best,
 Mitch Bratton
 WhiteCoat DVM
-https://whitecoatdvm.com`,
+https://whitecoatdvm.com/partners`,
 
         html: `
 <!DOCTYPE html>
@@ -125,11 +129,140 @@ https://whitecoatdvm.com`,
 
         <p class="cta"><strong>Would you have 15 minutes this week to discuss?</strong> I can also send over materials you can share with your community.</p>
 
+        <p style="text-align: center; margin: 25px 0;">
+            <a href="https://whitecoatdvm.com/partners" style="background: #3498db; color: white; padding: 14px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Learn More & Get Started</a>
+        </p>
+
         <div class="signature">
             <p>Best,<br>
             <strong>Mitch Bratton</strong><br>
             WhiteCoat DVM<br>
-            <a href="https://whitecoatdvm.com">whitecoatdvm.com</a></p>
+            <a href="https://whitecoatdvm.com/partners">whitecoatdvm.com/partners</a></p>
+        </div>
+    </div>
+</body>
+</html>`
+    };
+}
+
+// ============================================
+// FOLLOW-UP TEMPLATES
+// ============================================
+
+function getFollowUpTemplate(shelter, wave) {
+    if (wave === 2) {
+        return {
+            subject: `Re: Partnership opportunity for ${shelter.name}`,
+
+            text: `Hi ${shelter.name} Team,
+
+Just bumping my earlier email — wanted to make sure it didn't get buried.
+
+Quick recap: WhiteCoat DVM offers 24/7 virtual vet consultations. You'd earn $10/month for every subscriber you refer. There's no cost to you, and your adopters get affordable vet access anytime.
+
+Would you be open to a quick chat this week?
+
+Best,
+Mitch Bratton
+WhiteCoat DVM
+https://whitecoatdvm.com/partners`,
+
+            html: `
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .highlight { background: #e8f4f8; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .signature { margin-top: 30px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <img src="https://i.imgur.com/t9F7dAa.png" alt="WhiteCoat DVM" style="max-width: 200px; height: auto;">
+        </div>
+
+        <p>Hi ${shelter.name} Team,</p>
+
+        <p>Just bumping my earlier email — wanted to make sure it didn't get buried.</p>
+
+        <div class="highlight">
+            <p><strong>Quick recap:</strong> WhiteCoat DVM offers 24/7 virtual vet consultations. You'd earn <strong>$10/month</strong> for every subscriber you refer. There's no cost to you, and your adopters get affordable vet access anytime.</p>
+        </div>
+
+        <p><strong>Would you be open to a quick chat this week?</strong></p>
+
+        <p style="text-align: center; margin: 20px 0;">
+            <a href="https://whitecoatdvm.com/partners" style="background: #3498db; color: white; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Learn More</a>
+        </p>
+
+        <div class="signature">
+            <p>Best,<br>
+            <strong>Mitch Bratton</strong><br>
+            WhiteCoat DVM<br>
+            <a href="https://whitecoatdvm.com/partners">whitecoatdvm.com/partners</a></p>
+        </div>
+    </div>
+</body>
+</html>`
+        };
+    }
+
+    // Wave 3 — final follow-up
+    return {
+        subject: `Last note from WhiteCoat DVM — ${shelter.name}`,
+
+        text: `Hi ${shelter.name} Team,
+
+I'll keep this brief — this is my last follow-up.
+
+One thing I didn't mention: shelters using virtual vet services see fewer post-adoption returns. When adopters can get quick answers to "is this normal?" questions, they're more confident keeping their new pet.
+
+If the timing isn't right, no worries at all. But if you'd like to explore a partnership that earns your shelter $10/month per subscriber while helping adopters, I'm here.
+
+Wishing you and the animals all the best,
+Mitch Bratton
+WhiteCoat DVM
+https://whitecoatdvm.com/partners`,
+
+        html: `
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .highlight { background: #f0fdf4; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .signature { margin-top: 30px; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <img src="https://i.imgur.com/t9F7dAa.png" alt="WhiteCoat DVM" style="max-width: 200px; height: auto;">
+        </div>
+
+        <p>Hi ${shelter.name} Team,</p>
+
+        <p>I'll keep this brief — this is my last follow-up.</p>
+
+        <div class="highlight">
+            <p>One thing I didn't mention: shelters using virtual vet services see <strong>fewer post-adoption returns</strong>. When adopters can get quick answers to "is this normal?" questions, they're more confident keeping their new pet.</p>
+        </div>
+
+        <p>If the timing isn't right, no worries at all. But if you'd like to explore a partnership that earns your shelter <strong>$10/month per subscriber</strong> while helping adopters, I'm here.</p>
+
+        <p style="text-align: center; margin: 20px 0;">
+            <a href="https://whitecoatdvm.com/partners" style="background: #27ae60; color: white; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">See How It Works</a>
+        </p>
+
+        <div class="signature">
+            <p>Wishing you and the animals all the best,<br>
+            <strong>Mitch Bratton</strong><br>
+            WhiteCoat DVM<br>
+            <a href="https://whitecoatdvm.com/partners">whitecoatdvm.com/partners</a></p>
         </div>
     </div>
 </body>
@@ -164,9 +297,40 @@ function isWithinWorkingHours() {
 
 function loadSentEmails() {
     if (fs.existsSync(CONFIG.sentLogFile)) {
-        return JSON.parse(fs.readFileSync(CONFIG.sentLogFile, 'utf-8'));
+        const raw = JSON.parse(fs.readFileSync(CONFIG.sentLogFile, 'utf-8'));
+
+        // Migrate from old flat array format to structured format
+        if (raw.emails && !raw.shelters) {
+            console.log('📦 Migrating sent_emails.json to structured format...');
+            const shelters = {};
+            const seen = new Set();
+            for (const email of raw.emails) {
+                const lower = email.toLowerCase();
+                if (seen.has(lower)) continue;
+                seen.add(lower);
+                shelters[lower] = {
+                    name: '',
+                    wave: 1,
+                    dates: [raw.lastRun || new Date().toISOString()],
+                    nextFollowUp: addDays(raw.lastRun || new Date().toISOString(), CONFIG.followUpDays[0])
+                };
+            }
+            return { shelters, lastRun: raw.lastRun };
+        }
+
+        return raw;
     }
-    return { emails: [], lastRun: null };
+    return { shelters: {}, lastRun: null };
+}
+
+function addDays(dateStr, days) {
+    const d = new Date(dateStr);
+    d.setDate(d.getDate() + days);
+    return d.toISOString().slice(0, 10);
+}
+
+function todayStr() {
+    return new Date().toISOString().slice(0, 10);
 }
 
 function saveSentEmails(data) {
@@ -223,8 +387,10 @@ function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function sendEmail(shelter) {
-    const template = getEmailTemplate(shelter);
+async function sendEmail(shelter, wave) {
+    const template = wave > 1
+        ? getFollowUpTemplate(shelter, wave)
+        : getEmailTemplate(shelter);
 
     const msg = {
         to: shelter.email,
@@ -278,11 +444,12 @@ async function main() {
         fs.mkdirSync(CONFIG.dailyLogDir, { recursive: true });
     }
 
-    // Load sent emails history
+    // Load sent emails history (auto-migrates old format)
     const sentData = loadSentEmails();
-    const sentEmails = new Set(sentData.emails.map(e => e.toLowerCase()));
+    const shelters = sentData.shelters;
+    const trackedCount = Object.keys(shelters).length;
 
-    console.log(`📊 Previously sent: ${sentEmails.size} emails`);
+    console.log(`📊 Previously contacted: ${trackedCount} shelters`);
 
     // Find and load latest shelter CSV
     const sheltersCsv = findLatestCleanCsv();
@@ -295,49 +462,113 @@ async function main() {
     const allShelters = parseCSV(sheltersCsv);
     console.log(`📋 Total shelters in database: ${allShelters.length}`);
 
-    // Filter out already-sent emails
-    const newShelters = allShelters.filter(s => !sentEmails.has(s.email.toLowerCase()));
-    console.log(`🆕 New shelters to contact: ${newShelters.length}`);
+    // Build send queue: follow-ups first, then new outreach
+    const today = todayStr();
+    const sendQueue = [];
 
-    if (newShelters.length === 0) {
-        console.log(`\n✅ All shelters have been contacted!`);
-        console.log(`   Add more shelters to the CSV or run the scraper.`);
+    // 1. Gather shelters due for follow-up
+    for (const [email, record] of Object.entries(shelters)) {
+        if (record.wave >= CONFIG.maxWaves) continue; // done, no more follow-ups
+        if (!record.nextFollowUp || record.nextFollowUp > today) continue; // not due yet
+
+        // Find shelter details from CSV (for name/template), fall back to record
+        const csvShelter = allShelters.find(s => s.email.toLowerCase() === email);
+        const name = (csvShelter && csvShelter.name) || record.name || email;
+        const nextWave = record.wave + 1;
+
+        sendQueue.push({
+            email,
+            name,
+            wave: nextWave,
+            type: 'follow-up'
+        });
+    }
+
+    console.log(`🔄 Follow-ups due: ${sendQueue.length}`);
+
+    // 2. Fill remaining slots with new outreach
+    const remainingSlots = CONFIG.maxEmailsPerDay - sendQueue.length;
+    if (remainingSlots > 0) {
+        const newShelters = allShelters.filter(s => !shelters[s.email.toLowerCase()]);
+        console.log(`🆕 New shelters available: ${newShelters.length}`);
+
+        const newToSend = newShelters.slice(0, remainingSlots);
+        for (const shelter of newToSend) {
+            sendQueue.push({
+                email: shelter.email,
+                name: shelter.name,
+                wave: 1,
+                type: 'new'
+            });
+        }
+    }
+
+    if (sendQueue.length === 0) {
+        console.log(`\n✅ No emails to send today — all shelters contacted and follow-ups not yet due.`);
         return;
     }
 
-    // Take only up to maxEmailsPerDay
-    const toSend = newShelters.slice(0, CONFIG.maxEmailsPerDay);
-    console.log(`📨 Sending ${toSend.length} emails today\n`);
+    console.log(`📨 Sending ${sendQueue.length} emails today (${sendQueue.filter(s => s.type === 'follow-up').length} follow-ups, ${sendQueue.filter(s => s.type === 'new').length} new)\n`);
 
     // Send emails
     let sent = 0;
     let failed = 0;
     const results = [];
 
-    for (let i = 0; i < toSend.length; i++) {
-        const shelter = toSend[i];
-        console.log(`[${i + 1}/${toSend.length}] ${shelter.name} (${shelter.email})...`);
+    for (let i = 0; i < sendQueue.length; i++) {
+        const item = sendQueue[i];
+        const waveLabel = `wave ${item.wave}/${CONFIG.maxWaves}`;
+        console.log(`[${i + 1}/${sendQueue.length}] ${item.name} (${item.email}) — ${waveLabel}...`);
 
         try {
-            await sendEmail(shelter);
+            await sendEmail({ name: item.name, email: item.email }, item.wave);
             console.log(`   ✅ Sent!`);
             sent++;
 
-            // Add to sent list
-            sentData.emails.push(shelter.email.toLowerCase());
+            // Update shelter record
+            const emailKey = item.email.toLowerCase();
+            const now = new Date().toISOString();
+
+            if (!shelters[emailKey]) {
+                // New shelter
+                shelters[emailKey] = {
+                    name: item.name,
+                    wave: 1,
+                    dates: [now],
+                    nextFollowUp: addDays(now, CONFIG.followUpDays[0])
+                };
+            } else {
+                // Follow-up
+                shelters[emailKey].wave = item.wave;
+                shelters[emailKey].dates.push(now);
+                if (item.name) shelters[emailKey].name = item.name;
+
+                if (item.wave >= CONFIG.maxWaves) {
+                    // Done — no more follow-ups
+                    shelters[emailKey].nextFollowUp = null;
+                } else {
+                    const followUpIndex = item.wave - 1; // wave 2 -> index 1
+                    const daysUntilNext = CONFIG.followUpDays[followUpIndex] || CONFIG.followUpDays[CONFIG.followUpDays.length - 1];
+                    shelters[emailKey].nextFollowUp = addDays(now, daysUntilNext);
+                }
+            }
 
             results.push({
-                name: shelter.name,
-                email: shelter.email,
+                name: item.name,
+                email: item.email,
+                wave: item.wave,
+                type: item.type,
                 status: 'sent',
-                timestamp: new Date().toISOString()
+                timestamp: now
             });
         } catch (err) {
             console.log(`   ❌ Failed: ${err.message}`);
             failed++;
             results.push({
-                name: shelter.name,
-                email: shelter.email,
+                name: item.name,
+                email: item.email,
+                wave: item.wave,
+                type: item.type,
                 status: 'failed',
                 error: err.message,
                 timestamp: new Date().toISOString()
@@ -345,7 +576,7 @@ async function main() {
         }
 
         // Delay between emails
-        if (i < toSend.length - 1) {
+        if (i < sendQueue.length - 1) {
             await delay(CONFIG.delayBetweenEmails);
         }
     }
@@ -359,13 +590,17 @@ async function main() {
     fs.writeFileSync(dailyLogFile, JSON.stringify(results, null, 2));
 
     // Summary
+    const doneCount = Object.values(shelters).filter(s => s.wave >= CONFIG.maxWaves).length;
+    const pendingFollowUps = Object.values(shelters).filter(s => s.wave < CONFIG.maxWaves && s.nextFollowUp).length;
+
     console.log(`\n${'═'.repeat(50)}`);
     console.log(`✅ DAILY RUN COMPLETE`);
     console.log(`${'═'.repeat(50)}`);
-    console.log(`   Sent: ${sent}`);
+    console.log(`   Sent: ${sent} (${results.filter(r => r.status === 'sent' && r.type === 'follow-up').length} follow-ups, ${results.filter(r => r.status === 'sent' && r.type === 'new').length} new)`);
     console.log(`   Failed: ${failed}`);
-    console.log(`   Total sent all-time: ${sentData.emails.length}`);
-    console.log(`   Remaining: ${newShelters.length - toSend.length}`);
+    console.log(`   Total shelters contacted: ${Object.keys(shelters).length}`);
+    console.log(`   Completed sequences: ${doneCount}`);
+    console.log(`   Pending follow-ups: ${pendingFollowUps}`);
     console.log(`   Log: ${dailyLogFile}`);
 }
 

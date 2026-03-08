@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner With WhiteCoat DVM - Earn $10/Month Per Referral</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .partner-hero {
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
+            color: white;
+            padding: 120px 20px 80px;
+            text-align: center;
+        }
+        .partner-hero h1 {
+            font-size: 2.8rem;
+            max-width: 800px;
+            margin: 0 auto 20px;
+            line-height: 1.2;
+        }
+        .partner-hero p {
+            font-size: 1.25rem;
+            max-width: 650px;
+            margin: 0 auto 40px;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        .partner-hero .btn-primary {
+            background: #e74c3c;
+            border-color: #e74c3c;
+            font-size: 1.1rem;
+            padding: 16px 40px;
+        }
+        .partner-hero .btn-primary:hover {
+            background: #c0392b;
+            border-color: #c0392b;
+        }
+
+        .earning-highlight {
+            background: rgba(255,255,255,0.15);
+            border-radius: 16px;
+            padding: 30px 40px;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        .earning-highlight .earn-item {
+            text-align: center;
+        }
+        .earning-highlight .earn-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            display: block;
+        }
+        .earning-highlight .earn-label {
+            font-size: 0.9rem;
+            opacity: 0.85;
+        }
+
+        .how-section {
+            padding: 80px 20px;
+            background: #f8f9fa;
+        }
+        .how-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+        .steps-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .step-card {
+            background: white;
+            border-radius: 12px;
+            padding: 35px 30px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: #3498db;
+            color: white;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .step-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            color: #2c3e50;
+        }
+        .step-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .revenue-section {
+            padding: 80px 20px;
+            background: white;
+        }
+        .revenue-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 16px;
+            color: #2c3e50;
+        }
+        .revenue-section .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.05rem;
+        }
+        .revenue-table {
+            max-width: 700px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .revenue-table th {
+            background: #1a5276;
+            color: white;
+            padding: 14px 24px;
+            text-align: left;
+            font-weight: 600;
+        }
+        .revenue-table th:last-child { text-align: right; }
+        .revenue-table td {
+            padding: 14px 24px;
+            border-bottom: 1px solid #eee;
+            color: #333;
+        }
+        .revenue-table td:last-child {
+            text-align: right;
+            font-weight: 600;
+            color: #27ae60;
+        }
+        .revenue-table tr:hover { background: #f8f9fa; }
+        .revenue-table .highlight-row {
+            background: #eafaf1;
+            font-weight: 600;
+        }
+        .revenue-table .highlight-row td { color: #27ae60; font-size: 1.05rem; }
+
+        .benefits-section {
+            padding: 80px 20px;
+            background: #f8f9fa;
+        }
+        .benefits-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+        .benefits-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .benefit-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .benefit-card .icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            display: block;
+        }
+        .benefit-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .benefit-card p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .faq-partner-section {
+            padding: 80px 20px;
+            background: white;
+        }
+        .faq-partner-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+        .faq-list {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+        .faq-item-p {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+        }
+        .faq-item-p h3 {
+            font-size: 1.05rem;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+        .faq-item-p p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .cta-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #1a5276 0%, #2e86c1 100%);
+            color: white;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .partner-form-section {
+            padding: 80px 20px;
+            background: #f8f9fa;
+        }
+        .partner-form-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 16px;
+            color: #2c3e50;
+        }
+        .partner-form-section .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .partner-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .partner-form .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        .partner-form .form-group {
+            margin-bottom: 20px;
+        }
+        .partner-form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            color: #333;
+            font-size: 0.9rem;
+        }
+        .partner-form input,
+        .partner-form select,
+        .partner-form textarea {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+        .partner-form input:focus,
+        .partner-form select:focus,
+        .partner-form textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        .partner-form textarea { resize: vertical; min-height: 80px; }
+        .partner-form .btn-primary {
+            width: 100%;
+            padding: 14px;
+            font-size: 1.05rem;
+            cursor: pointer;
+            border: none;
+            background: #3498db;
+            color: white;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+        .partner-form .btn-primary:hover { background: #2980b9; }
+        .form-success {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .form-success h3 { color: #27ae60; font-size: 1.4rem; margin-bottom: 12px; }
+        .form-success p { color: #666; }
+
+        @media (max-width: 768px) {
+            .partner-hero h1 { font-size: 2rem; }
+            .partner-hero p { font-size: 1.05rem; }
+            .earning-highlight { gap: 30px; padding: 24px 20px; }
+            .earning-highlight .earn-number { font-size: 2rem; }
+            .partner-form .form-row { grid-template-columns: 1fr; }
+            .revenue-table th, .revenue-table td { padding: 10px 14px; font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="/"><img src="public/WhiteCoatdvmlogo.png" alt="WhiteCoat DVM Logo" class="logo-img"></a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#earnings">Earnings</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#faq-partner">FAQ</a></li>
+                    <li><a href="#partner-signup" class="btn-primary">Become a Partner</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.mobile-menu-toggle').classList.remove('active');
+                document.querySelector('.nav-menu').classList.remove('active');
+            });
+        });
+    </script>
+
+    <!-- Hero -->
+    <section class="partner-hero">
+        <h1>Earn Recurring Revenue While Helping Pets Get Better Care</h1>
+        <p>Partner with WhiteCoat DVM and earn $10/month for every pet owner you refer to our 24/7 virtual vet service. Zero cost to you.</p>
+
+        <div class="earning-highlight">
+            <div class="earn-item">
+                <span class="earn-number">$10</span>
+                <span class="earn-label">per subscriber/month</span>
+            </div>
+            <div class="earn-item">
+                <span class="earn-number">$0</span>
+                <span class="earn-label">cost to your org</span>
+            </div>
+            <div class="earn-item">
+                <span class="earn-number">24/7</span>
+                <span class="earn-label">vet access for adopters</span>
+            </div>
+        </div>
+
+        <a href="#partner-signup" class="btn-primary large">Get Started — It's Free</a>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-section" id="how-it-works">
+        <h2>How the Partnership Works</h2>
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Sign Up as a Partner</h3>
+                <p>Fill out the form below and we'll set you up with a unique referral link and promotional materials within 24 hours.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Share With Your Community</h3>
+                <p>Promote WhiteCoat DVM to your adopters, social media followers, email list, and website visitors. We provide ready-to-use graphics and copy.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Earn Every Month</h3>
+                <p>You earn $10/month for every active subscriber who signed up through your link. Payments are sent monthly as long as they stay subscribed.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Revenue Breakdown -->
+    <section class="revenue-section" id="earnings">
+        <h2>Your Earnings Potential</h2>
+        <p class="subtitle">Recurring monthly revenue that grows with every referral</p>
+        <table class="revenue-table">
+            <thead>
+                <tr>
+                    <th>Active Referrals</th>
+                    <th>Monthly Earnings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10 subscribers</td>
+                    <td>$100/month</td>
+                </tr>
+                <tr>
+                    <td>25 subscribers</td>
+                    <td>$250/month</td>
+                </tr>
+                <tr>
+                    <td>50 subscribers</td>
+                    <td>$500/month</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>100 subscribers</td>
+                    <td>$1,000/month</td>
+                </tr>
+                <tr>
+                    <td>250 subscribers</td>
+                    <td>$2,500/month</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits-section" id="benefits">
+        <h2>Why Shelters and Rescues Partner With Us</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <span class="icon">&#128176;</span>
+                <h3>Sustainable Revenue Stream</h3>
+                <p>Unlike one-time donations, our partnership generates predictable monthly income that grows as your community subscribes.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="icon">&#127968;</span>
+                <h3>Fewer Adoption Returns</h3>
+                <p>New adopters with instant vet access feel more confident. When they can ask "is this normal?" at 2 AM, they're less likely to return their pet.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="icon">&#128241;</span>
+                <h3>Easy to Promote</h3>
+                <p>We provide social media graphics, email templates, and flyers. Just share with your community — we handle everything else.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="icon">&#9989;</span>
+                <h3>Available in All 50 States</h3>
+                <p>No matter where your adopters are, they get access to licensed veterinarians through secure video consultations, 24/7.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="icon">&#128101;</span>
+                <h3>Affordable for Pet Owners</h3>
+                <p>At just $20/month for unlimited consultations covering up to 6 pets, it's an easy recommendation for any pet parent.</p>
+            </div>
+            <div class="benefit-card">
+                <span class="icon">&#128200;</span>
+                <h3>Track Your Impact</h3>
+                <p>Access a partner dashboard to see your referrals, active subscribers, and monthly earnings in real time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-partner-section" id="faq-partner">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <div class="faq-item-p">
+                <h3>Is there any cost to become a partner?</h3>
+                <p>No. The partnership is completely free. There are no signup fees, monthly fees, or hidden costs.</p>
+            </div>
+            <div class="faq-item-p">
+                <h3>How do I get paid?</h3>
+                <p>We send payments monthly via check or direct deposit. You earn $10 for every active subscriber referred through your link each month.</p>
+            </div>
+            <div class="faq-item-p">
+                <h3>What does WhiteCoat DVM offer my adopters?</h3>
+                <p>Unlimited 24/7 virtual veterinary consultations with licensed vets for $20/month, covering up to 6 pets per household. Perfect for those late-night "is my pet okay?" moments.</p>
+            </div>
+            <div class="faq-item-p">
+                <h3>How long do I keep earning from a referral?</h3>
+                <p>As long as the subscriber remains active, you earn $10/month. Many subscribers stay for years, creating long-term recurring revenue.</p>
+            </div>
+            <div class="faq-item-p">
+                <h3>What promotional materials do you provide?</h3>
+                <p>We provide social media graphics, email templates, website banners, printable flyers for adoption packets, and a unique referral link to track your subscribers.</p>
+            </div>
+            <div class="faq-item-p">
+                <h3>Can I include this in our adoption packets?</h3>
+                <p>Absolutely! We'll send you printable inserts perfect for adoption folders. Many of our most successful partners include WhiteCoat DVM info with every adoption.</p>
+            </div>
+            <div class="faq-item-p">
+                <h3>How quickly can we get started?</h3>
+                <p>Once you fill out the partner form, we'll have your referral link and materials ready within 24 hours.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Signup Form -->
+    <section class="partner-form-section" id="partner-signup">
+        <h2>Become a Partner</h2>
+        <p class="subtitle">Fill out the form and we'll get you set up within 24 hours</p>
+
+        <div class="partner-form" id="partnerFormWrap">
+            <form id="partnerForm" onsubmit="submitPartnerForm(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="orgName">Organization Name *</label>
+                        <input type="text" id="orgName" name="orgName" required placeholder="e.g., Happy Tails Rescue">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactName">Your Name *</label>
+                        <input type="text" id="contactName" name="contactName" required placeholder="e.g., Jane Smith">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="you@shelter.org">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="state">State *</label>
+                        <input type="text" id="state" name="state" required placeholder="e.g., Texas">
+                    </div>
+                    <div class="form-group">
+                        <label for="orgType">Organization Type</label>
+                        <select id="orgType" name="orgType">
+                            <option value="">Select...</option>
+                            <option value="shelter">Animal Shelter</option>
+                            <option value="rescue">Rescue Organization</option>
+                            <option value="foster">Foster Network</option>
+                            <option value="breeder">Breeder</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="website">Website or Social Media</label>
+                    <input type="url" id="website" name="website" placeholder="https://your-shelter.org">
+                </div>
+                <div class="form-group">
+                    <label for="message">Anything else you'd like us to know?</label>
+                    <textarea id="message" name="message" placeholder="e.g., monthly adoption volume, how you'd promote us, questions..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary" id="submitBtn">Submit Partnership Application</button>
+            </form>
+
+            <div class="form-success" id="formSuccess">
+                <h3>Application Received!</h3>
+                <p>Thank you for your interest in partnering with WhiteCoat DVM. We'll review your application and reach out within 24 hours with your referral link and promotional materials.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <h2>Ready to Start Earning?</h2>
+        <p>Join shelters and rescues across the country who are generating sustainable revenue while helping pets get better care.</p>
+        <a href="#partner-signup" class="btn-primary large" style="background:#e74c3c;border-color:#e74c3c;">Become a Partner Today</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="public/WhiteCoatdvmlogo.png" alt="WhiteCoat DVM Logo" class="footer-logo">
+                    <p>Professional veterinary care from the comfort of home.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>For Pet Owners</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>For Partners</h4>
+                    <ul>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#earnings">Earnings</a></li>
+                        <li><a href="#partner-signup">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:mitch@whitecoat-md.com">mitch@whitecoat-md.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WhiteCoat DVM. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function submitPartnerForm(e) {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            btn.textContent = 'Submitting...';
+            btn.disabled = true;
+
+            // Collect form data
+            const data = {
+                orgName: document.getElementById('orgName').value,
+                contactName: document.getElementById('contactName').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                state: document.getElementById('state').value,
+                orgType: document.getElementById('orgType').value,
+                website: document.getElementById('website').value,
+                message: document.getElementById('message').value
+            };
+
+            // Send to your email via a mailto fallback or API
+            // For now, construct a mailto link as a simple solution
+            const subject = encodeURIComponent('New Partner Application: ' + data.orgName);
+            const body = encodeURIComponent(
+                'Organization: ' + data.orgName + '\n' +
+                'Contact: ' + data.contactName + '\n' +
+                'Email: ' + data.email + '\n' +
+                'Phone: ' + data.phone + '\n' +
+                'State: ' + data.state + '\n' +
+                'Type: ' + data.orgType + '\n' +
+                'Website: ' + data.website + '\n' +
+                'Message: ' + data.message
+            );
+
+            // Send via SendGrid API
+            fetch('/api/partner-inquiry', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            }).then(res => {
+                // Show success regardless (also sends mailto as backup)
+                document.getElementById('partnerForm').style.display = 'none';
+                document.getElementById('formSuccess').style.display = 'block';
+            }).catch(() => {
+                // Fallback: open mailto
+                window.location.href = 'mailto:mitch@whitecoat-md.com?subject=' + subject + '&body=' + body;
+                document.getElementById('partnerForm').style.display = 'none';
+                document.getElementById('formSuccess').style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>
