@@ -2,6 +2,11 @@
   "buildCommand": "",
   "outputDirectory": ".",
   "framework": null,
+  "rewrites": [
+    { "source": "/partners", "destination": "/partners.html" },
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/emailbot", "destination": "/emailbot.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
