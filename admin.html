@@ -3,238 +3,761 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - WhiteCoat DVM Discount Codes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Admin Panel - WhiteCoat DVM</title>
     <style>
-        .admin-container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            display: flex;
         }
-        .admin-header {
+
+        /* Login Modal */
+        .login-overlay {
+            position: fixed; inset: 0;
+            background: rgba(0,0,0,0.8);
+            display: flex; align-items: center; justify-content: center;
+            z-index: 1000;
+        }
+        .login-box {
+            background: #1e2a3a;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 40px;
+            width: 380px;
             text-align: center;
-            margin-bottom: 2rem;
-            color: #8b1538;
         }
-        .discount-form {
-            background: #f8f9fa;
-            padding: 1.5rem;
+        .login-box h2 { color: #8b1538; margin-bottom: 8px; font-size: 1.5rem; }
+        .login-box p { color: #888; margin-bottom: 24px; font-size: 0.9rem; }
+        .login-box input {
+            width: 100%; padding: 12px 16px;
+            border: 1px solid rgba(255,255,255,0.2);
             border-radius: 8px;
-            margin-bottom: 2rem;
+            background: rgba(255,255,255,0.05);
+            color: #fff; font-size: 1rem;
+            margin-bottom: 16px;
         }
-        .form-row {
+        .login-box input:focus { outline: none; border-color: #8b1538; }
+        .login-box button {
+            width: 100%; padding: 12px;
+            background: #8b1538; color: #fff; border: none;
+            border-radius: 8px; font-size: 1rem; cursor: pointer;
+        }
+        .login-box button:hover { background: #a61d45; }
+        .login-error { color: #ef4444; font-size: 0.85rem; margin-bottom: 12px; display: none; }
+
+        /* Sidebar */
+        .sidebar {
+            width: 240px;
+            background: rgba(0,0,0,0.3);
+            border-right: 1px solid rgba(255,255,255,0.08);
+            padding: 24px 0;
+            flex-shrink: 0;
+            display: flex; flex-direction: column;
+        }
+        .sidebar-brand {
+            padding: 0 24px 24px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            margin-bottom: 16px;
+        }
+        .sidebar-brand h1 { font-size: 1.2rem; color: #8b1538; }
+        .sidebar-brand span { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 2px; }
+        .nav-item {
+            padding: 12px 24px; cursor: pointer;
+            color: #888; transition: all 0.2s;
+            border-left: 3px solid transparent;
+            font-size: 0.95rem;
+        }
+        .nav-item:hover { color: #fff; background: rgba(255,255,255,0.05); }
+        .nav-item.active {
+            color: #fff; background: rgba(139,21,56,0.2);
+            border-left-color: #8b1538;
+        }
+        .nav-item .nav-icon { margin-right: 10px; }
+        .sidebar-footer {
+            margin-top: auto; padding: 16px 24px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        .sidebar-footer a { color: #666; text-decoration: none; font-size: 0.85rem; }
+        .sidebar-footer a:hover { color: #fff; }
+
+        /* Main content */
+        .main { flex: 1; padding: 32px; overflow-y: auto; max-height: 100vh; }
+        .section { display: none; }
+        .section.active { display: block; }
+        .section-title { font-size: 1.6rem; margin-bottom: 24px; font-weight: 600; }
+
+        /* Stats grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px; margin-bottom: 32px;
+        }
+        .stat-card {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px; padding: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .stat-card .number { font-size: 2.4rem; font-weight: bold; margin-bottom: 4px; }
+        .stat-card .label {
+            color: #888; font-size: 0.78rem;
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+        .stat-card.green .number { color: #4ade80; }
+        .stat-card.blue .number { color: #60a5fa; }
+        .stat-card.yellow .number { color: #facc15; }
+        .stat-card.purple .number { color: #c084fc; }
+        .stat-card.red .number { color: #f87171; }
+
+        /* Cards / panels */
+        .panel {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px; padding: 24px;
+            margin-bottom: 24px;
+        }
+        .panel h3 { font-size: 1.1rem; margin-bottom: 16px; color: #60a5fa; }
+
+        /* Tables */
+        table { width: 100%; border-collapse: collapse; }
+        th, td {
+            padding: 10px 14px; text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            font-size: 0.9rem;
+        }
+        th {
+            color: #888; font-weight: 500;
+            text-transform: uppercase; font-size: 0.75rem;
+            letter-spacing: 1px;
+        }
+        tr:hover { background: rgba(255,255,255,0.03); }
+
+        /* Badges */
+        .badge {
+            padding: 3px 10px; border-radius: 20px;
+            font-size: 0.75rem; font-weight: 500;
+            display: inline-block;
+        }
+        .badge-green { background: rgba(74,222,128,0.15); color: #4ade80; }
+        .badge-red { background: rgba(248,113,113,0.15); color: #f87171; }
+        .badge-yellow { background: rgba(250,204,21,0.15); color: #facc15; }
+        .badge-blue { background: rgba(96,165,250,0.15); color: #60a5fa; }
+
+        /* Search */
+        .search-box {
+            width: 100%; padding: 10px 16px;
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 8px;
+            background: rgba(255,255,255,0.05);
+            color: #fff; font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+        .search-box::placeholder { color: #555; }
+        .search-box:focus { outline: none; border-color: #60a5fa; }
+
+        /* Tabs */
+        .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+        .tab {
+            padding: 8px 18px;
+            background: rgba(255,255,255,0.08);
+            border: none; border-radius: 8px;
+            color: #888; cursor: pointer; font-size: 0.85rem;
+        }
+        .tab:hover, .tab.active { background: #60a5fa; color: #fff; }
+
+        /* Forms */
+        .form-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            margin-bottom: 1rem;
+            gap: 14px;
         }
-        .form-group {
-            margin-bottom: 1rem;
-        }
+        .form-group { margin-bottom: 14px; }
         .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-            color: #333;
+            display: block; margin-bottom: 6px;
+            font-size: 0.85rem; color: #aaa; font-weight: 500;
         }
         .form-group input, .form-group select {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-        }
-        .stripe-command {
-            background: #f1f3f4;
-            padding: 1rem;
-            border-radius: 4px;
-            border-left: 4px solid #8b1538;
-            font-family: monospace;
-            font-size: 0.9rem;
-            margin: 1rem 0;
-            white-space: pre-wrap;
-        }
-        .example-codes {
-            background: #e8f5e8;
-            padding: 1.5rem;
+            width: 100%; padding: 10px 14px;
+            border: 1px solid rgba(255,255,255,0.15);
             border-radius: 8px;
-            margin-top: 2rem;
+            background: rgba(255,255,255,0.05);
+            color: #fff; font-size: 0.9rem;
         }
-        .example-codes h3 {
-            color: #2d5a2d;
-            margin-bottom: 1rem;
+        .form-group input:focus, .form-group select:focus {
+            outline: none; border-color: #60a5fa;
         }
-        .code-example {
-            background: white;
-            padding: 1rem;
-            border-radius: 4px;
-            margin-bottom: 0.5rem;
-            border-left: 3px solid #28a745;
+        .form-group select option { background: #1a1a2e; color: #fff; }
+
+        /* Buttons */
+        .btn {
+            padding: 8px 18px; border: none; border-radius: 8px;
+            cursor: pointer; font-size: 0.85rem; font-weight: 500;
+        }
+        .btn-primary { background: #8b1538; color: #fff; }
+        .btn-primary:hover { background: #a61d45; }
+        .btn-danger { background: rgba(248,113,113,0.15); color: #f87171; }
+        .btn-danger:hover { background: rgba(248,113,113,0.3); }
+        .btn-sm { padding: 5px 12px; font-size: 0.78rem; }
+
+        .loading-text { color: #666; padding: 30px; text-align: center; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            .sidebar { width: 100%; flex-direction: row; overflow-x: auto; padding: 0; }
+            .sidebar-brand { display: none; }
+            .sidebar-footer { display: none; }
+            .nav-item { padding: 12px 16px; white-space: nowrap; border-left: none; border-bottom: 3px solid transparent; }
+            .nav-item.active { border-bottom-color: #8b1538; border-left-color: transparent; }
+            .main { padding: 16px; max-height: none; }
+            .form-grid { grid-template-columns: 1fr; }
+            .stat-card .number { font-size: 1.8rem; }
         }
     </style>
 </head>
 <body>
-    <div class="admin-container">
-        <div class="admin-header">
-            <h1>🏥 WhiteCoat DVM Admin</h1>
-            <h2>Discount Code Management</h2>
-        </div>
 
-        <div class="discount-form">
-            <h3>Create New Discount Code</h3>
-            <p>Use this form to generate Stripe CLI commands for creating discount codes:</p>
+<!-- Login Modal -->
+<div class="login-overlay" id="loginOverlay">
+    <div class="login-box">
+        <h2>WhiteCoat DVM</h2>
+        <p>Admin Panel Login</p>
+        <div class="login-error" id="loginError">Invalid email or password</div>
+        <input type="email" id="loginEmail" placeholder="Admin email" onkeydown="if(event.key==='Enter')document.getElementById('loginPassword').focus()">
+        <input type="password" id="loginPassword" placeholder="Password" onkeydown="if(event.key==='Enter')doLogin()">
+        <button onclick="doLogin()">Sign In</button>
+    </div>
+</div>
 
-            <form id="discountForm">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="couponId">Coupon Code ID *</label>
-                        <input type="text" id="couponId" placeholder="e.g., SHELTER6MONTHS" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="couponName">Display Name</label>
-                        <input type="text" id="couponName" placeholder="e.g., Shelter Adoption Special">
-                    </div>
-                </div>
+<!-- Sidebar -->
+<div class="sidebar">
+    <div class="sidebar-brand">
+        <h1>WhiteCoat DVM</h1>
+        <span>Admin Panel</span>
+    </div>
+    <div class="nav-item active" onclick="showSection('dashboard')">
+        <span class="nav-icon">&#9632;</span> Dashboard
+    </div>
+    <div class="nav-item" onclick="showSection('users')">
+        <span class="nav-icon">&#9900;</span> Users
+    </div>
+    <div class="nav-item" onclick="showSection('subscriptions')">
+        <span class="nav-icon">&#9830;</span> Subscriptions
+    </div>
+    <div class="nav-item" onclick="showSection('outreach')">
+        <span class="nav-icon">&#9993;</span> Shelter Outreach
+    </div>
+    <div class="nav-item" onclick="showSection('coupons')">
+        <span class="nav-icon">&#9733;</span> Discount Codes
+    </div>
+    <div class="sidebar-footer">
+        <a href="/">Back to Site</a>
+    </div>
+</div>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="discountType">Discount Type *</label>
-                        <select id="discountType" required onchange="toggleDiscountInput()">
-                            <option value="">Select discount type</option>
-                            <option value="percent">Percentage Off</option>
-                            <option value="amount">Fixed Amount Off</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="discountValue">Discount Value *</label>
-                        <input type="number" id="discountValue" placeholder="e.g., 100 for 100% or 2500 for $25" required>
-                    </div>
-                </div>
+<!-- Main Content -->
+<div class="main">
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="duration">Duration *</label>
-                        <select id="duration" required onchange="toggleDurationMonths()">
-                            <option value="">Select duration</option>
-                            <option value="once">One-time use (first payment only)</option>
-                            <option value="repeating">Repeating (for X months)</option>
-                            <option value="forever">Forever</option>
-                        </select>
-                    </div>
-                    <div class="form-group" id="durationMonthsGroup" style="display: none;">
-                        <label for="durationMonths">Number of Months</label>
-                        <input type="number" id="durationMonths" placeholder="e.g., 6" min="1" max="12">
-                    </div>
-                </div>
-
-                <button type="button" class="btn-primary" onclick="generateStripeCommand()">Generate Stripe Command</button>
-            </form>
-
-            <div id="stripeCommandOutput" style="display: none;">
-                <h4>Stripe CLI Command:</h4>
-                <div class="stripe-command" id="commandText"></div>
-                <p><strong>Copy and run this command in your terminal with Stripe CLI installed.</strong></p>
+    <!-- Section 1: Dashboard -->
+    <div class="section active" id="sec-dashboard">
+        <h2 class="section-title">Dashboard Overview</h2>
+        <div class="stats-grid">
+            <div class="stat-card blue">
+                <div class="number" id="dash-users">-</div>
+                <div class="label">Total Users</div>
+            </div>
+            <div class="stat-card green">
+                <div class="number" id="dash-active-subs">-</div>
+                <div class="label">Active Subscriptions</div>
+            </div>
+            <div class="stat-card yellow">
+                <div class="number" id="dash-revenue">-</div>
+                <div class="label">Monthly Revenue</div>
+            </div>
+            <div class="stat-card purple">
+                <div class="number" id="dash-shelters">-</div>
+                <div class="label">Shelters Contacted</div>
+            </div>
+            <div class="stat-card red">
+                <div class="number" id="dash-states">-</div>
+                <div class="label">States Covered</div>
             </div>
         </div>
 
-        <div class="example-codes">
-            <h3>📋 Example Discount Codes</h3>
-
-            <div class="code-example">
-                <strong>SHELTER6MONTHS</strong> - 100% off for 6 months (Shelter adoption special)
-                <div class="stripe-command">stripe coupons create --id=SHELTER6MONTHS --name="Shelter Adoption Special" --percent-off=100 --duration=repeating --duration-in-months=6</div>
-            </div>
-
-            <div class="code-example">
-                <strong>FIRSTTIME50</strong> - 50% off first year only
-                <div class="stripe-command">stripe coupons create --id=FIRSTTIME50 --name="First Time Customer" --percent-off=50 --duration=once</div>
-            </div>
-
-            <div class="code-example">
-                <strong>RESCUE25</strong> - $25 off forever (Rescue organization)
-                <div class="stripe-command">stripe coupons create --id=RESCUE25 --name="Rescue Organization Discount" --amount-off=2500 --currency=usd --duration=forever</div>
-            </div>
-
-            <div class="code-example">
-                <strong>STUDENT20</strong> - 20% off for 12 months (Student discount)
-                <div class="stripe-command">stripe coupons create --id=STUDENT20 --name="Student Discount" --percent-off=20 --duration=repeating --duration-in-months=12</div>
-            </div>
-        </div>
-
-        <div style="margin-top: 2rem; padding: 1rem; background: #fff3cd; border-radius: 4px; border-left: 4px solid #ffc107;">
-            <h4>📝 Instructions:</h4>
-            <ol>
-                <li>Fill out the form above to generate Stripe CLI commands</li>
-                <li>Install Stripe CLI and authenticate: <code>stripe login</code></li>
-                <li>Run the generated command to create the coupon</li>
-                <li>The discount code will be immediately available for use</li>
-                <li>Test the code on your registration form</li>
-            </ol>
+        <div class="panel">
+            <h3>Quick Stats</h3>
+            <table>
+                <tr><td style="color:#888">Total Shelters in Database</td><td id="dash-total-shelters">-</td></tr>
+                <tr><td style="color:#888">Shelters Remaining in Queue</td><td id="dash-remaining">-</td></tr>
+                <tr><td style="color:#888">Last Outreach Run</td><td id="dash-last-run">-</td></tr>
+                <tr><td style="color:#888">Active Coupons</td><td id="dash-coupons">-</td></tr>
+            </table>
         </div>
     </div>
 
-    <script>
-        function toggleDiscountInput() {
-            const discountType = document.getElementById('discountType').value;
-            const valueInput = document.getElementById('discountValue');
+    <!-- Section 2: Users -->
+    <div class="section" id="sec-users">
+        <h2 class="section-title">Users</h2>
+        <div class="panel">
+            <input type="text" class="search-box" placeholder="Search by name or email..." oninput="filterUsers(this.value)">
+            <table>
+                <thead>
+                    <tr><th>Name</th><th>Email</th><th>Phone</th></tr>
+                </thead>
+                <tbody id="users-table-body">
+                    <tr><td colspan="3" class="loading-text">Loading...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-            if (discountType === 'percent') {
-                valueInput.placeholder = 'e.g., 50 for 50% off';
-            } else if (discountType === 'amount') {
-                valueInput.placeholder = 'e.g., 2500 for $25.00 off';
-            }
-        }
+    <!-- Section 3: Subscriptions -->
+    <div class="section" id="sec-subscriptions">
+        <h2 class="section-title">Subscriptions</h2>
+        <div class="panel">
+            <input type="text" class="search-box" placeholder="Search subscriptions..." oninput="filterSubs(this.value)">
+            <table>
+                <thead>
+                    <tr><th>Customer</th><th>Email</th><th>Plan</th><th>Amount</th><th>Status</th><th>Created</th><th>Action</th></tr>
+                </thead>
+                <tbody id="subs-table-body">
+                    <tr><td colspan="7" class="loading-text">Loading...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-        function toggleDurationMonths() {
-            const duration = document.getElementById('duration').value;
-            const monthsGroup = document.getElementById('durationMonthsGroup');
+    <!-- Section 4: Shelter Outreach -->
+    <div class="section" id="sec-outreach">
+        <h2 class="section-title">Shelter Outreach</h2>
+        <div class="stats-grid">
+            <div class="stat-card blue">
+                <div class="number" id="out-total">-</div>
+                <div class="label">Shelters Found</div>
+            </div>
+            <div class="stat-card green">
+                <div class="number" id="out-contacted">-</div>
+                <div class="label">Contacted</div>
+            </div>
+            <div class="stat-card yellow">
+                <div class="number" id="out-remaining">-</div>
+                <div class="label">In Queue</div>
+            </div>
+            <div class="stat-card purple">
+                <div class="number" id="out-states">-</div>
+                <div class="label">States Covered</div>
+            </div>
+        </div>
+        <div class="panel">
+            <h3>Shelter List</h3>
+            <div class="tabs">
+                <button class="tab active" onclick="showOutreachTab('all', this)">All</button>
+                <button class="tab" onclick="showOutreachTab('contacted', this)">Contacted</button>
+                <button class="tab" onclick="showOutreachTab('pending', this)">Pending</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search shelters..." oninput="filterShelters(this.value)">
+            <table>
+                <thead>
+                    <tr><th>Shelter Name</th><th>Email</th><th>City</th><th>State</th><th>Status</th></tr>
+                </thead>
+                <tbody id="shelters-table-body">
+                    <tr><td colspan="5" class="loading-text">Loading...</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="text-align:center;color:#555;margin-top:12px;font-size:0.85rem">
+            Last outreach run: <span id="out-last-run">-</span>
+        </div>
+    </div>
 
-            if (duration === 'repeating') {
-                monthsGroup.style.display = 'block';
-                document.getElementById('durationMonths').required = true;
-            } else {
-                monthsGroup.style.display = 'none';
-                document.getElementById('durationMonths').required = false;
-            }
-        }
+    <!-- Section 5: Discount Codes -->
+    <div class="section" id="sec-coupons">
+        <h2 class="section-title">Discount Codes</h2>
 
-        function generateStripeCommand() {
-            const couponId = document.getElementById('couponId').value;
-            const couponName = document.getElementById('couponName').value;
-            const discountType = document.getElementById('discountType').value;
-            const discountValue = document.getElementById('discountValue').value;
-            const duration = document.getElementById('duration').value;
-            const durationMonths = document.getElementById('durationMonths').value;
+        <div class="panel">
+            <h3>Create New Discount Code</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Code ID</label>
+                    <input type="text" id="cp-id" placeholder="e.g., SHELTER6MONTHS">
+                </div>
+                <div class="form-group">
+                    <label>Display Name</label>
+                    <input type="text" id="cp-name" placeholder="e.g., Shelter Adoption Special">
+                </div>
+                <div class="form-group">
+                    <label>Discount Type</label>
+                    <select id="cp-type">
+                        <option value="percent">Percentage Off</option>
+                        <option value="amount">Fixed Amount Off (cents)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Value</label>
+                    <input type="number" id="cp-value" placeholder="e.g., 50 for 50% or 2500 for $25">
+                </div>
+                <div class="form-group">
+                    <label>Duration</label>
+                    <select id="cp-duration" onchange="document.getElementById('cp-months-wrap').style.display=this.value==='repeating'?'block':'none'">
+                        <option value="once">One-time (first payment)</option>
+                        <option value="repeating">Repeating (X months)</option>
+                        <option value="forever">Forever</option>
+                    </select>
+                </div>
+                <div class="form-group" id="cp-months-wrap" style="display:none">
+                    <label>Months</label>
+                    <input type="number" id="cp-months" placeholder="e.g., 6" min="1" max="36">
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="createCoupon()">Create Discount Code</button>
+        </div>
 
-            if (!couponId || !discountType || !discountValue || !duration) {
-                alert('Please fill in all required fields');
+        <div class="panel">
+            <h3>Existing Codes</h3>
+            <table>
+                <thead>
+                    <tr><th>Code</th><th>Name</th><th>Discount</th><th>Duration</th><th>Times Used</th><th>Action</th></tr>
+                </thead>
+                <tbody id="coupons-table-body">
+                    <tr><td colspan="6" class="loading-text">Loading...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    // ---- State ----
+    let adminToken = sessionStorage.getItem('admin_token') || '';
+    let usersData = [];
+    let subsData = [];
+    let sheltersData = [];
+    let sentEmails = new Set();
+    let outreachTab = 'all';
+    let couponsData = [];
+
+    // ---- Auth ----
+    async function doLogin() {
+        const email = document.getElementById('loginEmail').value.trim();
+        const password = document.getElementById('loginPassword').value;
+        document.getElementById('loginError').style.display = 'none';
+
+        try {
+            const res = await fetch('/api/admin-auth', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email, password })
+            });
+            const data = await res.json();
+            if (!data.success) {
+                document.getElementById('loginError').style.display = 'block';
                 return;
             }
-
-            let command = `stripe coupons create --id=${couponId}`;
-
-            if (couponName) {
-                command += ` --name="${couponName}"`;
-            }
-
-            if (discountType === 'percent') {
-                command += ` --percent-off=${discountValue}`;
-            } else {
-                command += ` --amount-off=${discountValue} --currency=usd`;
-            }
-
-            command += ` --duration=${duration}`;
-
-            if (duration === 'repeating' && durationMonths) {
-                command += ` --duration-in-months=${durationMonths}`;
-            }
-
-            document.getElementById('commandText').textContent = command;
-            document.getElementById('stripeCommandOutput').style.display = 'block';
+            adminToken = data.token;
+            sessionStorage.setItem('admin_token', adminToken);
+            loadAll();
+        } catch (e) {
+            document.getElementById('loginError').style.display = 'block';
         }
-    </script>
+    }
+
+    function showLogin() {
+        adminToken = '';
+        sessionStorage.removeItem('admin_token');
+        document.getElementById('loginOverlay').style.display = 'flex';
+        document.getElementById('loginPassword').value = '';
+    }
+
+    function hideLogin() {
+        document.getElementById('loginOverlay').style.display = 'none';
+    }
+
+    // ---- API helper ----
+    async function api(url, options = {}) {
+        const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
+        if (adminToken) headers['x-admin-token'] = adminToken;
+        const res = await fetch(url, { ...options, headers });
+        if (res.status === 401) { showLogin(); throw new Error('Unauthorized'); }
+        return res.json();
+    }
+
+    // ---- Navigation ----
+    function showSection(name) {
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+        document.getElementById('sec-' + name).classList.add('active');
+        document.querySelectorAll('.nav-item')[
+            ['dashboard','users','subscriptions','outreach','coupons'].indexOf(name)
+        ].classList.add('active');
+    }
+
+    // ---- Load All Data ----
+    async function loadAll() {
+        try {
+            await Promise.all([loadStats(), loadSubscriptions(), loadOutreach(), loadCoupons()]);
+            hideLogin();
+        } catch (e) {
+            if (e.message !== 'Unauthorized') {
+                console.error('Load error:', e);
+                hideLogin();
+            }
+        }
+    }
+
+    // ---- Dashboard + Users ----
+    async function loadStats() {
+        const data = await api('/api/admin-stats');
+        usersData = data.users || [];
+
+        document.getElementById('dash-users').textContent = usersData.length;
+        document.getElementById('dash-shelters').textContent = data.shelterStats?.contacted || 0;
+        document.getElementById('dash-total-shelters').textContent = data.shelterStats?.total || 0;
+        document.getElementById('dash-remaining').textContent = data.shelterStats?.remaining || 0;
+        document.getElementById('dash-states').textContent = data.shelterStats?.states || 0;
+        document.getElementById('dash-last-run').textContent = data.lastOutreachRun
+            ? new Date(data.lastOutreachRun).toLocaleString() : 'Never';
+
+        renderUsers();
+    }
+
+    function renderUsers() {
+        const tbody = document.getElementById('users-table-body');
+        if (usersData.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="3" class="loading-text">No users found</td></tr>';
+            return;
+        }
+        tbody.innerHTML = usersData.map(u => {
+            const first = u['first name'] || u['firstname'] || u['first'] || '';
+            const last = u['last name'] || u['lastname'] || u['last'] || '';
+            const email = u['user email'] || u['email'] || u['user emai'] || '';
+            const phone = u['phone'] || u['phone number'] || '';
+            const name = (first + ' ' + last).trim() || '-';
+            return `<tr data-search="${(name + ' ' + email).toLowerCase()}">
+                <td>${esc(name)}</td><td>${esc(email)}</td><td>${esc(phone || '-')}</td>
+            </tr>`;
+        }).join('');
+    }
+
+    function filterUsers(q) {
+        q = q.toLowerCase();
+        document.querySelectorAll('#users-table-body tr').forEach(r => {
+            r.style.display = (r.dataset.search || '').includes(q) ? '' : 'none';
+        });
+    }
+
+    // ---- Subscriptions ----
+    async function loadSubscriptions() {
+        const data = await api('/api/admin-stripe', {
+            method: 'POST',
+            body: JSON.stringify({ action: 'listSubscriptions' })
+        });
+        subsData = data.data || [];
+
+        const active = subsData.filter(s => s.status === 'active');
+        document.getElementById('dash-active-subs').textContent = active.length;
+
+        let monthlyRevenue = 0;
+        active.forEach(s => {
+            const item = s.items?.data?.[0];
+            if (item) {
+                const amount = item.price?.unit_amount || 0;
+                const interval = item.price?.recurring?.interval || 'month';
+                const count = item.price?.recurring?.interval_count || 1;
+                if (interval === 'month') monthlyRevenue += amount / count;
+                else if (interval === 'year') monthlyRevenue += amount / (12 * count);
+                else if (interval === 'day') monthlyRevenue += (amount * 30) / count;
+            }
+        });
+        document.getElementById('dash-revenue').textContent = '$' + (monthlyRevenue / 100).toFixed(0);
+
+        renderSubs();
+    }
+
+    function renderSubs() {
+        const tbody = document.getElementById('subs-table-body');
+        if (subsData.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="7" class="loading-text">No subscriptions found</td></tr>';
+            return;
+        }
+        tbody.innerHTML = subsData.map(s => {
+            const cust = s.customer || {};
+            const name = cust.name || '-';
+            const email = cust.email || '-';
+            const item = s.items?.data?.[0];
+            const planName = item?.price?.nickname || item?.price?.id || '-';
+            const amount = item?.price?.unit_amount ? '$' + (item.price.unit_amount / 100).toFixed(2) : '-';
+            const interval = item?.price?.recurring ? '/' + item.price.recurring.interval : '';
+            const statusClass = s.status === 'active' ? 'badge-green' : s.status === 'canceled' ? 'badge-red' : 'badge-yellow';
+            const created = new Date(s.created * 1000).toLocaleDateString();
+            const cancelBtn = s.status === 'active'
+                ? `<button class="btn btn-danger btn-sm" onclick="cancelSub('${s.id}')">Cancel</button>` : '';
+
+            return `<tr data-search="${(name + ' ' + email).toLowerCase()}">
+                <td>${esc(name)}</td><td>${esc(email)}</td>
+                <td>${esc(planName)}</td><td>${amount}${interval}</td>
+                <td><span class="badge ${statusClass}">${s.status}</span></td>
+                <td>${created}</td><td>${cancelBtn}</td>
+            </tr>`;
+        }).join('');
+    }
+
+    function filterSubs(q) {
+        q = q.toLowerCase();
+        document.querySelectorAll('#subs-table-body tr').forEach(r => {
+            r.style.display = (r.dataset.search || '').includes(q) ? '' : 'none';
+        });
+    }
+
+    async function cancelSub(id) {
+        if (!confirm('Cancel this subscription? This cannot be undone.')) return;
+        try {
+            await api('/api/admin-stripe', {
+                method: 'POST',
+                body: JSON.stringify({ action: 'cancelSubscription', subscriptionId: id })
+            });
+            await loadSubscriptions();
+        } catch (e) { alert('Error: ' + e.message); }
+    }
+
+    // ---- Shelter Outreach ----
+    async function loadOutreach() {
+        const data = await api('/api/emailbot-stats');
+        sheltersData = data.shelters || [];
+        sentEmails = new Set((data.sent || []).map(e => e.toLowerCase()));
+
+        document.getElementById('out-total').textContent = sheltersData.length;
+        document.getElementById('out-contacted').textContent = sentEmails.size;
+        document.getElementById('out-remaining').textContent = sheltersData.length - sentEmails.size;
+        const states = new Set(sheltersData.map(s => s.state).filter(s => s && s !== '??'));
+        document.getElementById('out-states').textContent = states.size;
+        document.getElementById('out-last-run').textContent = data.lastRun
+            ? new Date(data.lastRun).toLocaleString() : 'Never';
+
+        renderShelters();
+    }
+
+    function renderShelters() {
+        let list = sheltersData;
+        if (outreachTab === 'contacted') list = list.filter(s => sentEmails.has(s.email.toLowerCase()));
+        if (outreachTab === 'pending') list = list.filter(s => !sentEmails.has(s.email.toLowerCase()));
+
+        const tbody = document.getElementById('shelters-table-body');
+        if (list.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="5" class="loading-text">No shelters found</td></tr>';
+            return;
+        }
+        tbody.innerHTML = list.map(s => {
+            const sent = sentEmails.has(s.email.toLowerCase());
+            return `<tr data-search="${(s.name + ' ' + s.email + ' ' + s.city).toLowerCase()}">
+                <td>${esc(s.name)}</td><td>${esc(s.email)}</td>
+                <td>${esc(s.city || '-')}</td>
+                <td><span class="badge badge-blue">${esc(s.state || '??')}</span></td>
+                <td><span class="${sent ? 'badge badge-green' : 'badge badge-yellow'}">${sent ? 'Sent' : 'Pending'}</span></td>
+            </tr>`;
+        }).join('');
+    }
+
+    function showOutreachTab(tab, el) {
+        outreachTab = tab;
+        document.querySelectorAll('#sec-outreach .tab').forEach(t => t.classList.remove('active'));
+        el.classList.add('active');
+        renderShelters();
+    }
+
+    function filterShelters(q) {
+        q = q.toLowerCase();
+        document.querySelectorAll('#shelters-table-body tr').forEach(r => {
+            r.style.display = (r.dataset.search || '').includes(q) ? '' : 'none';
+        });
+    }
+
+    // ---- Coupons ----
+    async function loadCoupons() {
+        const data = await api('/api/admin-stripe', {
+            method: 'POST',
+            body: JSON.stringify({ action: 'listCoupons' })
+        });
+        couponsData = data.data || [];
+        document.getElementById('dash-coupons').textContent = couponsData.filter(c => c.valid).length;
+        renderCoupons();
+    }
+
+    function renderCoupons() {
+        const tbody = document.getElementById('coupons-table-body');
+        if (couponsData.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="6" class="loading-text">No discount codes found</td></tr>';
+            return;
+        }
+        tbody.innerHTML = couponsData.map(c => {
+            const discount = c.percent_off ? c.percent_off + '% off' : '$' + (c.amount_off / 100).toFixed(2) + ' off';
+            let dur = c.duration;
+            if (c.duration === 'repeating') dur = c.duration_in_months + ' months';
+            return `<tr>
+                <td><strong>${esc(c.id)}</strong></td>
+                <td>${esc(c.name || '-')}</td>
+                <td>${discount}</td>
+                <td>${dur}</td>
+                <td>${c.times_redeemed || 0}</td>
+                <td><button class="btn btn-danger btn-sm" onclick="deleteCoupon('${c.id}')">Delete</button></td>
+            </tr>`;
+        }).join('');
+    }
+
+    async function createCoupon() {
+        const id = document.getElementById('cp-id').value.trim();
+        const name = document.getElementById('cp-name').value.trim();
+        const discountType = document.getElementById('cp-type').value;
+        const value = document.getElementById('cp-value').value;
+        const duration = document.getElementById('cp-duration').value;
+        const durationMonths = document.getElementById('cp-months').value;
+
+        if (!id || !value) { alert('Code ID and Value are required'); return; }
+
+        try {
+            await api('/api/admin-stripe', {
+                method: 'POST',
+                body: JSON.stringify({
+                    action: 'createCoupon',
+                    couponParams: { id, name, discountType, value, duration, durationMonths }
+                })
+            });
+            document.getElementById('cp-id').value = '';
+            document.getElementById('cp-name').value = '';
+            document.getElementById('cp-value').value = '';
+            await loadCoupons();
+        } catch (e) { alert('Error creating coupon: ' + e.message); }
+    }
+
+    async function deleteCoupon(id) {
+        if (!confirm('Delete coupon "' + id + '"? This cannot be undone.')) return;
+        try {
+            await api('/api/admin-stripe', {
+                method: 'POST',
+                body: JSON.stringify({ action: 'deleteCoupon', couponId: id })
+            });
+            await loadCoupons();
+        } catch (e) { alert('Error: ' + e.message); }
+    }
+
+    // ---- Utility ----
+    function esc(s) {
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    // ---- Init ----
+    if (adminToken) {
+        loadAll();
+    } else {
+        document.getElementById('loginOverlay').style.display = 'flex';
+    }
+</script>
 </body>
 </html>
