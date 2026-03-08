@@ -255,6 +255,9 @@
     <div class="nav-item" onclick="showSection('coupons')">
         <span class="nav-icon">&#9733;</span> Discount Codes
     </div>
+    <div class="nav-item" onclick="showSection('leads')">
+        <span class="nav-icon">&#9654;</span> Partner Leads
+    </div>
     <div class="sidebar-footer">
         <a href="/">Back to Site</a>
     </div>
@@ -430,6 +433,67 @@
         </div>
     </div>
 
+    <!-- Section 6: Partner Leads -->
+    <div class="section" id="sec-leads">
+        <h2 class="section-title">Partner Leads</h2>
+        <div class="stats-grid">
+            <div class="stat-card blue">
+                <div class="number" id="leads-total">-</div>
+                <div class="label">Total Applications</div>
+            </div>
+            <div class="stat-card green">
+                <div class="number" id="leads-new">-</div>
+                <div class="label">New</div>
+            </div>
+            <div class="stat-card yellow">
+                <div class="number" id="leads-contacted">-</div>
+                <div class="label">Contacted</div>
+            </div>
+            <div class="stat-card purple">
+                <div class="number" id="leads-partnered">-</div>
+                <div class="label">Partnered</div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="tabs">
+                <button class="tab active" onclick="showLeadsTab('all', this)">All</button>
+                <button class="tab" onclick="showLeadsTab('new', this)">New</button>
+                <button class="tab" onclick="showLeadsTab('contacted', this)">Contacted</button>
+                <button class="tab" onclick="showLeadsTab('partnered', this)">Partnered</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search leads..." oninput="filterLeads(this.value)">
+            <table>
+                <thead>
+                    <tr><th>Organization</th><th>Contact</th><th>Email</th><th>State</th><th>Type</th><th>Date</th><th>Status</th></tr>
+                </thead>
+                <tbody id="leads-table-body">
+                    <tr><td colspan="7" class="loading-text">Loading...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Lead Detail Modal -->
+    <div id="leadModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:100;display:none;align-items:center;justify-content:center;">
+        <div style="background:#1e2a3a;border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:30px;width:500px;max-width:90vw;max-height:80vh;overflow-y:auto;">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
+                <h3 style="color:#60a5fa;margin:0;" id="modal-title">Lead Details</h3>
+                <span style="cursor:pointer;font-size:1.5rem;color:#888;" onclick="closeLeadModal()">&times;</span>
+            </div>
+            <table style="width:100%;" id="modal-details"></table>
+            <div style="margin-top:20px;">
+                <label style="font-size:0.85rem;color:#aaa;display:block;margin-bottom:6px;">Update Status</label>
+                <select id="modal-status" style="width:100%;padding:10px;border:1px solid rgba(255,255,255,0.15);border-radius:8px;background:rgba(255,255,255,0.05);color:#fff;font-size:0.9rem;margin-bottom:12px;">
+                    <option value="new">New</option>
+                    <option value="contacted">Contacted</option>
+                    <option value="partnered">Partnered</option>
+                    <option value="declined">Declined</option>
+                </select>
+                <button class="btn btn-primary" onclick="updateLeadStatus()" style="width:100%;">Save Status</button>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <script>
@@ -441,6 +505,9 @@
     let sentEmails = new Set();
     let outreachTab = 'all';
     let couponsData = [];
+    let leadsData = [];
+    let leadsTab = 'all';
+    let selectedLeadId = null;
 
     // ---- Auth ----
     async function doLogin() {
@@ -493,14 +560,14 @@
         document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
         document.getElementById('sec-' + name).classList.add('active');
         document.querySelectorAll('.nav-item')[
-            ['dashboard','users','subscriptions','outreach','coupons'].indexOf(name)
+            ['dashboard','users','subscriptions','outreach','coupons','leads'].indexOf(name)
         ].classList.add('active');
     }
 
     // ---- Load All Data ----
     async function loadAll() {
         try {
-            await Promise.all([loadStats(), loadSubscriptions(), loadOutreach(), loadCoupons()]);
+            await Promise.all([loadStats(), loadSubscriptions(), loadOutreach(), loadCoupons(), loadLeads()]);
             hideLogin();
         } catch (e) {
             if (e.message !== 'Unauthorized') {
@@ -748,6 +815,96 @@
                 body: JSON.stringify({ action: 'deleteCoupon', couponId: id })
             });
             await loadCoupons();
+        } catch (e) { alert('Error: ' + e.message); }
+    }
+
+    // ---- Partner Leads ----
+    async function loadLeads() {
+        const data = await api('/api/partner-inquiry');
+        leadsData = data.leads || [];
+        document.getElementById('leads-total').textContent = leadsData.length;
+        document.getElementById('leads-new').textContent = leadsData.filter(l => l.status === 'new').length;
+        document.getElementById('leads-contacted').textContent = leadsData.filter(l => l.status === 'contacted').length;
+        document.getElementById('leads-partnered').textContent = leadsData.filter(l => l.status === 'partnered').length;
+        renderLeads();
+    }
+
+    function renderLeads() {
+        let list = leadsData;
+        if (leadsTab === 'new') list = list.filter(l => l.status === 'new');
+        else if (leadsTab === 'contacted') list = list.filter(l => l.status === 'contacted');
+        else if (leadsTab === 'partnered') list = list.filter(l => l.status === 'partnered');
+
+        const tbody = document.getElementById('leads-table-body');
+        if (list.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="7" class="loading-text">No leads found</td></tr>';
+            return;
+        }
+        tbody.innerHTML = list.map(l => {
+            const statusClass = l.status === 'new' ? 'badge-blue' : l.status === 'contacted' ? 'badge-yellow' : l.status === 'partnered' ? 'badge-green' : 'badge-red';
+            const date = new Date(l.submittedAt).toLocaleDateString();
+            return `<tr data-search="${(l.orgName + ' ' + l.contactName + ' ' + l.email).toLowerCase()}" style="cursor:pointer" onclick="openLeadModal('${l.id}')">
+                <td><strong>${esc(l.orgName)}</strong></td>
+                <td>${esc(l.contactName)}</td>
+                <td>${esc(l.email)}</td>
+                <td>${esc(l.state || '-')}</td>
+                <td>${esc(l.orgType || '-')}</td>
+                <td>${date}</td>
+                <td><span class="badge ${statusClass}">${l.status}</span></td>
+            </tr>`;
+        }).join('');
+    }
+
+    function showLeadsTab(tab, el) {
+        leadsTab = tab;
+        document.querySelectorAll('#sec-leads .tab').forEach(t => t.classList.remove('active'));
+        el.classList.add('active');
+        renderLeads();
+    }
+
+    function filterLeads(q) {
+        q = q.toLowerCase();
+        document.querySelectorAll('#leads-table-body tr').forEach(r => {
+            r.style.display = (r.dataset.search || '').includes(q) ? '' : 'none';
+        });
+    }
+
+    function openLeadModal(id) {
+        const lead = leadsData.find(l => l.id === id);
+        if (!lead) return;
+        selectedLeadId = id;
+        document.getElementById('modal-title').textContent = lead.orgName;
+        document.getElementById('modal-status').value = lead.status;
+        document.getElementById('modal-details').innerHTML = `
+            <tr><td style="padding:8px;color:#888;width:120px;">Organization</td><td style="padding:8px">${esc(lead.orgName)}</td></tr>
+            <tr><td style="padding:8px;color:#888">Contact</td><td style="padding:8px">${esc(lead.contactName)}</td></tr>
+            <tr><td style="padding:8px;color:#888">Email</td><td style="padding:8px"><a href="mailto:${esc(lead.email)}" style="color:#60a5fa">${esc(lead.email)}</a></td></tr>
+            <tr><td style="padding:8px;color:#888">Phone</td><td style="padding:8px">${esc(lead.phone || 'N/A')}</td></tr>
+            <tr><td style="padding:8px;color:#888">State</td><td style="padding:8px">${esc(lead.state || 'N/A')}</td></tr>
+            <tr><td style="padding:8px;color:#888">Type</td><td style="padding:8px">${esc(lead.orgType || 'N/A')}</td></tr>
+            <tr><td style="padding:8px;color:#888">Website</td><td style="padding:8px">${lead.website ? '<a href="' + esc(lead.website) + '" target="_blank" style="color:#60a5fa">' + esc(lead.website) + '</a>' : 'N/A'}</td></tr>
+            <tr><td style="padding:8px;color:#888">Message</td><td style="padding:8px">${esc(lead.message || 'N/A')}</td></tr>
+            <tr><td style="padding:8px;color:#888">Submitted</td><td style="padding:8px">${new Date(lead.submittedAt).toLocaleString()}</td></tr>
+        `;
+        const modal = document.getElementById('leadModal');
+        modal.style.display = 'flex';
+    }
+
+    function closeLeadModal() {
+        document.getElementById('leadModal').style.display = 'none';
+        selectedLeadId = null;
+    }
+
+    async function updateLeadStatus() {
+        if (!selectedLeadId) return;
+        const newStatus = document.getElementById('modal-status').value;
+        try {
+            await api('/api/partner-lead-update', {
+                method: 'POST',
+                body: JSON.stringify({ id: selectedLeadId, status: newStatus })
+            });
+            closeLeadModal();
+            await loadLeads();
         } catch (e) { alert('Error: ' + e.message); }
     }
 
