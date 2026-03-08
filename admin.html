@@ -258,6 +258,9 @@
     <div class="nav-item" onclick="showSection('leads')">
         <span class="nav-icon">&#9654;</span> Partner Leads
     </div>
+    <div class="nav-item" onclick="showSection('logins')">
+        <span class="nav-icon">&#9201;</span> Login History
+    </div>
     <div class="sidebar-footer">
         <a href="/">Back to Site</a>
     </div>
@@ -473,6 +476,45 @@
         </div>
     </div>
 
+    <!-- Section 7: Login History -->
+    <div class="section" id="sec-logins">
+        <h2 class="section-title">Login History</h2>
+        <div class="stats-grid">
+            <div class="stat-card green">
+                <div class="number" id="logins-success">-</div>
+                <div class="label">Successful Logins</div>
+            </div>
+            <div class="stat-card red">
+                <div class="number" id="logins-failed">-</div>
+                <div class="label">Failed Attempts</div>
+            </div>
+            <div class="stat-card blue">
+                <div class="number" id="logins-unique">-</div>
+                <div class="label">Unique Users</div>
+            </div>
+            <div class="stat-card yellow">
+                <div class="number" id="logins-today">-</div>
+                <div class="label">Today</div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="tabs">
+                <button class="tab active" onclick="showLoginsTab('all', this)">All</button>
+                <button class="tab" onclick="showLoginsTab('success', this)">Successful</button>
+                <button class="tab" onclick="showLoginsTab('failed', this)">Failed</button>
+            </div>
+            <input type="text" class="search-box" placeholder="Search by email..." oninput="filterLogins(this.value)">
+            <table>
+                <thead>
+                    <tr><th>Email</th><th>Status</th><th>IP Address</th><th>Date & Time</th></tr>
+                </thead>
+                <tbody id="logins-table-body">
+                    <tr><td colspan="4" class="loading-text">Loading...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
     <!-- Lead Detail Modal -->
     <div id="leadModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:100;display:none;align-items:center;justify-content:center;">
         <div style="background:#1e2a3a;border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:30px;width:500px;max-width:90vw;max-height:80vh;overflow-y:auto;">
@@ -508,6 +550,8 @@
     let leadsData = [];
     let leadsTab = 'all';
     let selectedLeadId = null;
+    let loginHistory = [];
+    let loginsTab = 'all';
 
     // ---- Auth ----
     async function doLogin() {
@@ -560,14 +604,14 @@
         document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
         document.getElementById('sec-' + name).classList.add('active');
         document.querySelectorAll('.nav-item')[
-            ['dashboard','users','subscriptions','outreach','coupons','leads'].indexOf(name)
+            ['dashboard','users','subscriptions','outreach','coupons','leads','logins'].indexOf(name)
         ].classList.add('active');
     }
 
     // ---- Load All Data ----
     async function loadAll() {
         try {
-            await Promise.all([loadStats(), loadSubscriptions(), loadOutreach(), loadCoupons(), loadLeads()]);
+            await Promise.all([loadStats(), loadSubscriptions(), loadOutreach(), loadCoupons(), loadLeads(), loadLoginHistory()]);
             hideLogin();
         } catch (e) {
             if (e.message !== 'Unauthorized') {
@@ -906,6 +950,60 @@
             closeLeadModal();
             await loadLeads();
         } catch (e) { alert('Error: ' + e.message); }
+    }
+
+    // ---- Login History ----
+    async function loadLoginHistory() {
+        const data = await api('/api/admin-login-history');
+        loginHistory = data.history || [];
+        const successful = loginHistory.filter(l => l.success);
+        const failed = loginHistory.filter(l => !l.success);
+        const uniqueUsers = new Set(successful.map(l => l.email.toLowerCase()));
+        const today = new Date().toISOString().slice(0, 10);
+        const todayLogins = loginHistory.filter(l => l.timestamp && l.timestamp.startsWith(today));
+
+        document.getElementById('logins-success').textContent = successful.length;
+        document.getElementById('logins-failed').textContent = failed.length;
+        document.getElementById('logins-unique').textContent = uniqueUsers.size;
+        document.getElementById('logins-today').textContent = todayLogins.length;
+        renderLogins();
+    }
+
+    function renderLogins() {
+        let list = loginHistory;
+        if (loginsTab === 'success') list = list.filter(l => l.success);
+        else if (loginsTab === 'failed') list = list.filter(l => !l.success);
+
+        const tbody = document.getElementById('logins-table-body');
+        if (list.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="4" class="loading-text">No login history yet</td></tr>';
+            return;
+        }
+        tbody.innerHTML = list.map(l => {
+            const statusClass = l.success ? 'badge-green' : 'badge-red';
+            const statusText = l.success ? 'Success' : 'Failed';
+            const date = new Date(l.timestamp).toLocaleString();
+            return `<tr data-search="${l.email.toLowerCase()}">
+                <td>${esc(l.email)}</td>
+                <td><span class="badge ${statusClass}">${statusText}</span></td>
+                <td style="color:#888;font-size:0.85rem">${esc(l.ip || 'unknown')}</td>
+                <td style="color:#888;font-size:0.85rem">${date}</td>
+            </tr>`;
+        }).join('');
+    }
+
+    function showLoginsTab(tab, el) {
+        loginsTab = tab;
+        document.querySelectorAll('#sec-logins .tab').forEach(t => t.classList.remove('active'));
+        el.classList.add('active');
+        renderLogins();
+    }
+
+    function filterLogins(q) {
+        q = q.toLowerCase();
+        document.querySelectorAll('#logins-table-body tr').forEach(r => {
+            r.style.display = (r.dataset.search || '').includes(q) ? '' : 'none';
+        });
     }
 
     // ---- Utility ----

@@ -1,4 +1,31 @@
 // Vercel serverless function to authenticate users against Google Sheets
+const fs = require('fs');
+const path = require('path');
+
+const LOGIN_LOG_FILE = path.join(process.cwd(), 'tools', 'output', 'login_history.json');
+
+function logLogin(email, success, ip) {
+    try {
+        let history = [];
+        if (fs.existsSync(LOGIN_LOG_FILE)) {
+            history = JSON.parse(fs.readFileSync(LOGIN_LOG_FILE, 'utf-8'));
+        }
+        history.unshift({
+            email: email,
+            success: success,
+            ip: ip || 'unknown',
+            timestamp: new Date().toISOString()
+        });
+        // Keep last 1000 entries
+        if (history.length > 1000) history = history.slice(0, 1000);
+        const dir = path.dirname(LOGIN_LOG_FILE);
+        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(LOGIN_LOG_FILE, JSON.stringify(history, null, 2));
+    } catch (err) {
+        console.error('Failed to log login:', err.message);
+    }
+}
+
 module.exports = async function handler(req, res) {
     // Set CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -144,6 +171,7 @@ module.exports = async function handler(req, res) {
                         break;
                     } else {
                         console.log('Password mismatch for user:', email);
+                        logLogin(email, false, req.headers['x-forwarded-for'] || req.socket?.remoteAddress);
                         return res.status(401).json({
                             success: false,
                             error: 'Invalid email or password'
@@ -164,6 +192,7 @@ module.exports = async function handler(req, res) {
 
         if (!userFound) {
             console.log('User not found:', email);
+            logLogin(email, false, req.headers['x-forwarded-for'] || req.socket?.remoteAddress);
             return res.status(401).json({
                 success: false,
                 error: 'Invalid email or password'
@@ -172,6 +201,7 @@ module.exports = async function handler(req, res) {
 
         if (!userData) {
             console.log('Authentication failed for:', email);
+            logLogin(email, false, req.headers['x-forwarded-for'] || req.socket?.remoteAddress);
             return res.status(401).json({
                 success: false,
                 error: 'Invalid email or password'
@@ -179,6 +209,7 @@ module.exports = async function handler(req, res) {
         }
 
         console.log('Authentication successful for:', email);
+        logLogin(email, true, req.headers['x-forwarded-for'] || req.socket?.remoteAddress);
 
         // Generate a simple session token (in production, use JWT or similar)
         const sessionToken = Buffer.from(`${email}:${Date.now()}`).toString('base64');
