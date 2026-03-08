@@ -1,4 +1,4 @@
-name: Daily Shelter Outreach
+name: Daily Outreach (Shelters + HR Benefits)
 
 on:
   schedule:
@@ -67,10 +67,15 @@ jobs:
           # Combine new data
           node tools/combine-and-clean.js
 
-      - name: Run outreach bot
+      - name: Run shelter outreach bot
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: node tools/daily-outreach-bot.js --force
+
+      - name: Run HR benefits outreach bot
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: node tools/hr-outreach-bot.js --force
 
       - name: Commit updates
         run: |
