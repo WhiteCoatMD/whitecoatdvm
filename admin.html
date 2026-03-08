@@ -592,7 +592,13 @@
             const item = s.items?.data?.[0];
             const planName = item?.price?.nickname || item?.price?.id || '-';
             const amount = item?.price?.unit_amount ? '$' + (item.price.unit_amount / 100).toFixed(2) : '-';
-            const interval = item?.price?.recurring ? '/' + item.price.recurring.interval : '';
+            const rec = item?.price?.recurring;
+            let interval = '';
+            if (rec) {
+                const count = rec.interval_count || 1;
+                if (count === 1) interval = '/' + rec.interval;
+                else interval = '/' + count + ' ' + rec.interval + 's';
+            }
             const statusClass = s.status === 'active' ? 'badge-green' : s.status === 'canceled' ? 'badge-red' : 'badge-yellow';
             const created = new Date(s.created * 1000).toLocaleDateString();
             const cancelBtn = s.status === 'active'
