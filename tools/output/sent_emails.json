@@ -1,262 +1,2205 @@
 {
-  "emails": [
-    "jerry@californiaspca.org",
-    "info@dallaspetsalive.org",
-    "info@fresnohumane.org",
-    "info@houstonhumane.org",
-    "info@houstonpetsalive.org",
-    "info@azhumane.org",
-    "info@petfinderfoundation.com",
-    "info@sdhumane.org",
-    "info@ddfl.org",
-    "info@ddfl.org",
-    "info@luckydoganimalrescue.org",
-    "partnerships@humanesociety.org",
-    "info@bfrr.org",
-    "adopt@spcaflorida.org",
-    "info@lrrof.org",
-    "info@atlantahumane.org",
-    "info@grra.com",
-    "info@gsrne.org",
-    "info@greyhoundpets.org",
-    "info@pbrc.net",
-    "info@anticruelty.org",
-    "info@pawschicago.org",
-    "info@animalhumanesociety.org",
-    "info@kcpetproject.org",
-    "partnerships@aspca.org",
-    "sales@longislandpetrescue.org",
-    "info@animalleague.org",
-    "info@oregonhumane.org",
-    "info@pspca.org",
-    "info@nashvillehumane.org",
-    "contact@newhopesaveslives.org",
-    "info@austinpetsalive.org",
-    "info@austinpetsalive.org",
-    "info@houstonspca.org",
-    "info@sanantoniopetsalive.org",
-    "info@bestfriends.org",
-    "info@seattlehumane.org",
-    "kennel@ghspets.org",
-    "info@harkalaska.org",
-    "adopt@aksofa.org",
-    "sshaffer01@bellsouth.net",
-    "4legs4justice@gmail.com",
-    "pets@anewleash.org",
-    "info@adoptagoldenbirmingham.com",
-    "marla@adopt-a-kitty.org",
-    "bhaas@aideforanimals.org",
-    "aaas2808@gmail.com",
-    "kristymobley17@hotmail.com",
-    "alabamarabbitrescue@gmail.com",
-    "info@alsiberianhuskyrescue.com",
-    "adopt@alabamaspca.org",
-    "allaboutdogscr@gmail.com",
-    "aahs@andycable.com",
-    "inquiries@animalrescuemobile.org",
-    "arabanimalshelter@gmail.com",
-    "aspci.org@gmail.com",
-    "thedogpound7889@yahoo.com",
-    "info@baldwinhumane.org",
-    "mail@bamabully.org",
-    "operations@bhral.org",
-    "friendsofbibbcountyalpound@yahoo.com",
-    "bigbeehumane@gmail.com",
-    "ron@fcdf.org",
-    "vw329@aol.com",
-    "bbar@rescueteam.com",
-    "charmheadland@gmail.com",
-    "caawarescue@yahoo.com",
-    "traceymrobertson@aol.com",
-    "challengershouse@mchsi.com",
-    "humanesociety@tds.net",
-    "lursene@cityofmobile.org",
-    "clarkecoshelter@gmail.com",
-    "claycountyanimalshelter@gmail.com",
-    "ccaca@bellsouth.net",
-    "corascrittersanimalrescue@gmail.com",
-    "met@otelco.net",
-    "dalesdenrescue@gmail.com",
-    "cwicks@decatur-al.gov",
-    "ljohnson@dekalbcountyal.us",
-    "dirtydawgrescue@gmail.com",
-    "eahs4pets@yahoo.com",
-    "info@fairhopecatcoalition.org",
-    "fairydogmother@gmail.com",
-    "info@ffhsv.org",
-    "jennyfcdf@gmail.com",
-    "friendsofmarshallcountyanimals@gmail.com",
-    "info@forrescue.net",
-    "info@adoptapetmobile.org",
-    "info@ffosk9resq.org",
-    "furrypets1@hughes.net",
-    "sara@gk9s.info",
-    "godsferalfelines@gmail.com",
-    "greatandsmall15@yahoo.com",
-    "info@ghhs.org",
-    "jeanniegah@chyoung.net",
-    "everycolorrescue@yahoo.com",
-    "info@holmesfelineclinic.com",
-    "alabamahart@gmail.com",
-    "hope4heartsar@gmail.com",
-    "lynnsanders01@gmail.com",
-    "hselco@bellsouth.net",
-    "adoptions@hsprac.com",
-    "huntsvillebunnies@hotmail.com",
-    "lkh5@mchsi.com",
-    "riverrun@farmerstel.com",
-    "jeremysboggle@gmail.com",
-    "jjdogworld@gmail.com",
-    "k9resqofal@gmail.com",
-    "catsnkeys@yahoo.com",
-    "kittykathaven1@gmail.com",
-    "krewemobile@gmail.com",
-    "lmhsdirector@gmail.com",
-    "were4dogs@gmail.com",
-    "lchs1140@leecountyhumane.org",
-    "pennyw@hiwaay.net",
-    "carousel36360@gmail.com",
-    "maconcountyhumanesociety@yahoo.com",
-    "madisonarf@gmail.com",
-    "marshallcoaco@gmail.com",
-    "jenna@mercyvets.com",
-    "mcacshelter@mobile-county.net",
-    "robin@mobilespca.org",
-    "monroecountyshelter@gmail.com",
-    "msspeedy307@hotmail.com",
-    "mchs@hughes.net",
-    "sloanp@mtnbrook.org",
-    "mustlovepawsrescue@gmail.com",
-    "info.newbeganimalrescue@gmail.com",
-    "nhrescueinc@gmail.com",
-    "adoptngl@gmail.com",
-    "obaccp@gmail.com",
-    "shelter@ozarkalabama.us",
-    "ablythestoddard@gmail.com",
-    "pawscrossedrescue@yahoo.com",
-    "pawsofdixie@yahoo.com",
-    "peacelovedogpawsrescue@gmail.com",
-    "peaceloveandanimals@gmail.com",
-    "animalcenter@cityofpellcity.net",
-    "labaumgardner13@charter.net",
-    "pickenscountypartnersforpets@gmail.com",
-    "poundonthehill@gmail.com",
-    "autaugahumane@yahoo.com",
-    "projectpurr@aol.com",
-    "purrfectlovecatrescue1@gmail.com",
-    "critterrescueandrehome@gmail.com",
-    "randolphanimal@centurytel.net",
-    "saveapreciouspaw@gmail.com",
-    "home4-3georges@charter.net",
-    "adopt@rescuek911.com",
-    "k9.rescue.rangers@gmail.com",
-    "jono@gate.net",
-    "angiepersch@me.com",
-    "crossroadsanimalhospital@yahoo.com",
-    "melissautech@yahoo.com",
-    "heidi.tbg@gmail.com",
-    "info@saveastray.org",
-    "kbailey772@gmail.com",
-    "schluv4u2@bellsouth.net",
-    "2ndchanceshelter2008@gmail.com",
-    "info@shelbyhumane.org",
-    "sosshelter1981@gmail.com",
-    "rescue@alsosbeagles.com",
-    "elisabethstewart50@gmail.com",
-    "southernsoulsanimalleague@gmail.com",
-    "maryann@adoptstardogs.org",
-    "helpsnap@yahoo.com",
-    "steelcitycatrescue@gmail.com",
-    "info@straylovefoundation.org",
-    "sugarbellefoundation@gmail.com",
-    "talladegaanimalcontrol@hotmail.com",
-    "ninaark@aol.com",
-    "a.melvin@caninecompassionfund.org",
-    "info@havenforanimals.org",
-    "thirdcoastanimalrescue@gmail.com",
-    "adopt@tlcpaws.org",
-    "troyanimalrescueproject@gmail.com",
-    "jearp@metroanimalshelter.org",
-    "debbie@twobytworescue.com",
-    "wagsandwhiskersrescuepets@yahoo.com",
-    "jill@wagshomewood.com",
-    "contactus@weimrescue.com",
-    "jonna@woofave.com",
-    "animalleaguewc@gmail.com",
-    "krun11@sbcglobal.net",
-    "info@arfarkansas.com",
-    "arkanpaws@gmail.com",
-    "aaha.adoptions@gmail.com",
-    "makgsprescue@gmail.com",
-    "bradforde81@hotmail.com",
-    "savinglives@arsoutherndogrescue.org",
-    "arweimrescue@gmail.com",
-    "bvas@sbcglobal.net",
-    "bigpawsoftheozarks@gmail.com",
-    "bluemooncatsanctuary@gmail.com",
-    "pam_ford@att.net",
-    "animalcontrol@cityofbryant.com",
-    "vetspet80@yahoo.com",
-    "tshadden@camdenpolice.com",
-    "reneas34@aol.com",
-    "shayes@tigersmail.org",
-    "mark.smithson@cityofgentry.com",
-    "mlstone@cityhs.net",
-    "mellodydolly@gmail.com",
-    "dschumacher@rogersar.gov",
-    "ckremer@springdalear.gov",
-    "contact@mycommunitycats.com",
-    "shona.osborne@cityofconway.org",
-    "cats@crystalcreekrescue.com",
-    "alphadogspunkyk@gmail.com",
-    "rickeyburke2@gmail.com",
-    "fabulousfelinesnwa@gmail.com",
-    "animal_services@ci.fayetteville.ar.us",
-    "ravfcahs@gmail.com",
-    "friendsofhba@yahoo.com",
-    "gailspets@hotmail.com",
-    "cynsan@windstream.net",
-    "goodshepherd6486@gmail.com",
-    "gdarescue@gmail.com",
-    "gacr@att.net",
-    "hpanimalalliance@gmail.com",
-    "haveaheartpetshelter@gmail.com",
-    "heavenlypawsrescuebv@gmail.com",
-    "heberspringshumanesociety@yahoo.com",
-    "helpinghandsforlittlepaws@yahoo.com",
-    "dogtiredjanet@hotmail.com",
-    "adoptions@hsvawl.org",
-    "hsicshelteroffice@yahoo.com",
-    "humanesocietyyellville@yahoo.com",
-    "hsnca@centurytel.net",
-    "hspc.ar.volunteers@gmail.com",
-    "wehelpanimals@aol.com",
-    "adoptionshsdelta@gmail.com",
-    "tinasball@aol.com",
-    "icare_ark@yahoo.com",
-    "arkansasjchs@yahoo.com",
-    "animalshelter@cityofjacksonville.net",
-    "ashelter@co.washington.ar.us",
-    "troark@littlerock.org",
-    "lizethedog@yahoo.com",
-    "lonepineshelter@yahoo.com",
-    "lostloveanimalrescue@hotmail.com",
-    "animalcontrol@lowellarkansas.gov",
-    "jeanwheelerlewis@gmail.com",
-    "mmarcatdog@yahoo.com",
-    "mcrgsd@yahoo.com",
-    "adoptions@neahs.org",
-    "needypawsanimalshelter@yahoo.com",
-    "northwestarkrescue@gmail.com",
-    "novastarrescue@gmail.com",
-    "contact@ootwrescue.org",
-    "ozarkdogs@yahoo.com",
-    "ohsshelter@gmail.com",
-    "pawsar@att.net",
-    "pawsandclawspetshelter@gmail.com",
-    "info@pawsandclawsrescue.org",
-    "chris@pawstoloveme.org",
-    "perrysorphans@gmail.com"
-  ],
-  "lastRun": "2026-03-06T13:45:21.505Z"
+  "shelters": {
+    "jerry@californiaspca.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@dallaspetsalive.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@fresnohumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@houstonhumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@houstonpetsalive.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@azhumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@petfinderfoundation.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@sdhumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@ddfl.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@luckydoganimalrescue.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "partnerships@humanesociety.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@bfrr.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adopt@spcaflorida.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@lrrof.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@atlantahumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@grra.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@gsrne.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@greyhoundpets.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@pbrc.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@anticruelty.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@pawschicago.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@animalhumanesociety.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@kcpetproject.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "partnerships@aspca.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "sales@longislandpetrescue.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@animalleague.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@oregonhumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@pspca.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@nashvillehumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "contact@newhopesaveslives.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@austinpetsalive.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@houstonspca.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@sanantoniopetsalive.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@bestfriends.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@seattlehumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "kennel@ghspets.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@harkalaska.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adopt@aksofa.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "sshaffer01@bellsouth.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "4legs4justice@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pets@anewleash.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@adoptagoldenbirmingham.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "marla@adopt-a-kitty.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "bhaas@aideforanimals.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "aaas2808@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "kristymobley17@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "alabamarabbitrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@alsiberianhuskyrescue.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adopt@alabamaspca.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "allaboutdogscr@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "aahs@andycable.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "inquiries@animalrescuemobile.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "arabanimalshelter@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "aspci.org@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "thedogpound7889@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@baldwinhumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mail@bamabully.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "operations@bhral.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "friendsofbibbcountyalpound@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "bigbeehumane@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ron@fcdf.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "vw329@aol.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "bbar@rescueteam.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "charmheadland@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "caawarescue@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "traceymrobertson@aol.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "challengershouse@mchsi.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "humanesociety@tds.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lursene@cityofmobile.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "clarkecoshelter@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "claycountyanimalshelter@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ccaca@bellsouth.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "corascrittersanimalrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "met@otelco.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "dalesdenrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "cwicks@decatur-al.gov": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ljohnson@dekalbcountyal.us": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "dirtydawgrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "eahs4pets@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@fairhopecatcoalition.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "fairydogmother@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@ffhsv.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jennyfcdf@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "friendsofmarshallcountyanimals@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@forrescue.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@adoptapetmobile.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@ffosk9resq.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "furrypets1@hughes.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "sara@gk9s.info": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "godsferalfelines@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "greatandsmall15@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@ghhs.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jeanniegah@chyoung.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "everycolorrescue@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@holmesfelineclinic.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "alabamahart@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "hope4heartsar@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lynnsanders01@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "hselco@bellsouth.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adoptions@hsprac.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "huntsvillebunnies@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lkh5@mchsi.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "riverrun@farmerstel.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jeremysboggle@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jjdogworld@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "k9resqofal@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "catsnkeys@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "kittykathaven1@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "krewemobile@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lmhsdirector@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "were4dogs@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lchs1140@leecountyhumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pennyw@hiwaay.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "carousel36360@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "maconcountyhumanesociety@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "madisonarf@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "marshallcoaco@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jenna@mercyvets.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mcacshelter@mobile-county.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "robin@mobilespca.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "monroecountyshelter@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "msspeedy307@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mchs@hughes.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "sloanp@mtnbrook.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mustlovepawsrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info.newbeganimalrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "nhrescueinc@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adoptngl@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "obaccp@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "shelter@ozarkalabama.us": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ablythestoddard@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pawscrossedrescue@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pawsofdixie@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "peacelovedogpawsrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "peaceloveandanimals@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "animalcenter@cityofpellcity.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "labaumgardner13@charter.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pickenscountypartnersforpets@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "poundonthehill@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "autaugahumane@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "projectpurr@aol.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "purrfectlovecatrescue1@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "critterrescueandrehome@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "randolphanimal@centurytel.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "saveapreciouspaw@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "home4-3georges@charter.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adopt@rescuek911.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "k9.rescue.rangers@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jono@gate.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "angiepersch@me.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "crossroadsanimalhospital@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "melissautech@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "heidi.tbg@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@saveastray.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "kbailey772@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "schluv4u2@bellsouth.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "2ndchanceshelter2008@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@shelbyhumane.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "sosshelter1981@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "rescue@alsosbeagles.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "elisabethstewart50@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "southernsoulsanimalleague@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "maryann@adoptstardogs.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "helpsnap@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "steelcitycatrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@straylovefoundation.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "sugarbellefoundation@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "talladegaanimalcontrol@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ninaark@aol.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "a.melvin@caninecompassionfund.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@havenforanimals.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "thirdcoastanimalrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adopt@tlcpaws.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "troyanimalrescueproject@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jearp@metroanimalshelter.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "debbie@twobytworescue.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "wagsandwhiskersrescuepets@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jill@wagshomewood.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "contactus@weimrescue.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jonna@woofave.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "animalleaguewc@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "krun11@sbcglobal.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@arfarkansas.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "arkanpaws@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "aaha.adoptions@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "makgsprescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "bradforde81@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "savinglives@arsoutherndogrescue.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "arweimrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "bvas@sbcglobal.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "bigpawsoftheozarks@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "bluemooncatsanctuary@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pam_ford@att.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "animalcontrol@cityofbryant.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "vetspet80@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "tshadden@camdenpolice.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "reneas34@aol.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "shayes@tigersmail.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mark.smithson@cityofgentry.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mlstone@cityhs.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mellodydolly@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "dschumacher@rogersar.gov": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ckremer@springdalear.gov": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "contact@mycommunitycats.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "shona.osborne@cityofconway.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "cats@crystalcreekrescue.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "alphadogspunkyk@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "rickeyburke2@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "fabulousfelinesnwa@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "animal_services@ci.fayetteville.ar.us": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ravfcahs@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "friendsofhba@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "gailspets@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "cynsan@windstream.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "goodshepherd6486@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "gdarescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "gacr@att.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "hpanimalalliance@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "haveaheartpetshelter@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "heavenlypawsrescuebv@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "heberspringshumanesociety@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "helpinghandsforlittlepaws@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "dogtiredjanet@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adoptions@hsvawl.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "hsicshelteroffice@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "humanesocietyyellville@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "hsnca@centurytel.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "hspc.ar.volunteers@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "wehelpanimals@aol.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adoptionshsdelta@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "tinasball@aol.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "icare_ark@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "arkansasjchs@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "animalshelter@cityofjacksonville.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ashelter@co.washington.ar.us": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "troark@littlerock.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lizethedog@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lonepineshelter@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "lostloveanimalrescue@hotmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "animalcontrol@lowellarkansas.gov": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "jeanwheelerlewis@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mmarcatdog@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "mcrgsd@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adoptions@neahs.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "needypawsanimalshelter@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "northwestarkrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "novastarrescue@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "contact@ootwrescue.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ozarkdogs@yahoo.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "ohsshelter@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pawsar@att.net": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "pawsandclawspetshelter@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "info@pawsandclawsrescue.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "chris@pawstoloveme.org": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "perrysorphans@gmail.com": {
+      "name": "",
+      "wave": 1,
+      "dates": [
+        "2026-03-06T13:45:21.505Z"
+      ],
+      "nextFollowUp": "2026-03-13"
+    },
+    "adoptionpbanwa@yahoo.com": {
+      "name": "Pit Bull Ambassador of Northwest Arkansas",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:56:50.815Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "pugrescuenwa@yahoo.com": {
+      "name": "Pug Rescue of Northwest Arkansas",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:56:53.833Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "info@purrnwa.com": {
+      "name": "Purr Catfe",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:56:56.849Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "tcase@rsvlar.org": {
+      "name": "Russellville Animal Shelter",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:56:59.863Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "animalcontrol@siloamsprings.com": {
+      "name": "Siloam Springs Animal Services",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:02.887Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "patkellim@live.com": {
+      "name": "Small K9 Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:05.903Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "contact@spenserslegacy.org": {
+      "name": "Spenser's Legacy Animal Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:08.917Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "schs@yelcot.net": {
+      "name": "Stone County Humane Society Inc.",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:11.931Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "mataft@netscape.com": {
+      "name": "Stop Animal Cruelty in Hot Spring County",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:14.947Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "blueskat@aol.com": {
+      "name": "Stray Central",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:17.962Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "greenecountyanimalfarm@yahoo.com": {
+      "name": "The Animal Farm",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:20.978Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "hss@cablelynx.com": {
+      "name": "The Humane Society of Searcy",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:23.992Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "animalservices@hsozarks.com": {
+      "name": "The Humane Society of the Ozarks",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:27.005Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "warmhearts@earthlink.net": {
+      "name": "Warm Hearts Humane Society Inc,",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:30.020Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "kakn6755@gmail.com": {
+      "name": "Wynne Friends of Animals",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:33.040Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "karen@2darescue.org": {
+      "name": "2DARESCUE",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:36.052Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "cdczar96@aol.com": {
+      "name": "2nd Chance Dog Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:39.065Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "ashtonshepherds@aol.com": {
+      "name": "4 The Love of German Shepherds Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:42.078Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "info@animalsbenefitclub.com": {
+      "name": "ABC (Animals Benefit Club of Arizona, Inc.)",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:45.092Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    },
+    "adorabledogrescue@yahoo.com": {
+      "name": "Adorable Dog Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-09T13:57:48.105Z"
+      ],
+      "nextFollowUp": "2026-03-16"
+    }
+  },
+  "lastRun": "2026-03-09T13:57:48.105Z"
 }
