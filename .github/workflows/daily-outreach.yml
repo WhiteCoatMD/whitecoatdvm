@@ -31,7 +31,7 @@ jobs:
           UNSENT=$(node -e "
             const fs = require('fs');
             const sent = fs.existsSync('tools/output/sent_emails.json')
-              ? JSON.parse(fs.readFileSync('tools/output/sent_emails.json')).emails.length
+              ? (() => { const d = JSON.parse(fs.readFileSync('tools/output/sent_emails.json')); return (d.emails || d.shelters || []).length; })()
               : 0;
             const csvFiles = fs.readdirSync('tools/output').filter(f => f.startsWith('CLEAN_') && f.endsWith('.csv'));
             if (csvFiles.length === 0) { console.log(0); process.exit(); }
