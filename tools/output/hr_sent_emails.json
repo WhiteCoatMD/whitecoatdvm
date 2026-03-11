@@ -119,7 +119,127 @@
         "2026-03-09T13:58:30.671Z"
       ],
       "nextFollowUp": "2026-03-16"
+    },
+    "info@namely.com": {
+      "name": "Namely",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:08.438Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "info@sequoia.com": {
+      "name": "Sequoia Consulting Group",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:11.476Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@perkspot.com": {
+      "name": "PerkSpot",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:14.514Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "hello@fond.co": {
+      "name": "Fond",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:17.545Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "hello@benepass.com": {
+      "name": "Benepass",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:20.591Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@fringe.us": {
+      "name": "Fringe",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:23.621Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@compt.io": {
+      "name": "Compt",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:26.652Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@virginpulse.com": {
+      "name": "Virgin Pulse",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:29.684Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@wellable.co": {
+      "name": "Wellable",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:32.711Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "info@limeade.com": {
+      "name": "Limeade",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:35.742Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@wellhub.com": {
+      "name": "Wellhub",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:38.774Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "hello@league.com": {
+      "name": "League Inc",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:41.805Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@businessolver.com": {
+      "name": "Businessolver",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:44.845Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "partnerships@plansource.com": {
+      "name": "PlanSource",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:47.877Z"
+      ],
+      "nextFollowUp": "2026-03-18"
+    },
+    "hello@ease.com": {
+      "name": "Ease (formerly EaseCentral)",
+      "wave": 1,
+      "dates": [
+        "2026-03-11T13:57:50.910Z"
+      ],
+      "nextFollowUp": "2026-03-18"
     }
   },
-  "lastRun": "2026-03-09T13:58:30.671Z"
+  "lastRun": "2026-03-11T13:57:50.910Z"
 }

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Namely",
+    "email": "info@namely.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:08.438Z"
+  },
+  {
+    "name": "Sequoia Consulting Group",
+    "email": "info@sequoia.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:11.476Z"
+  },
+  {
+    "name": "PerkSpot",
+    "email": "partnerships@perkspot.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:14.514Z"
+  },
+  {
+    "name": "Fond",
+    "email": "hello@fond.co",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:17.545Z"
+  },
+  {
+    "name": "Benepass",
+    "email": "hello@benepass.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:20.591Z"
+  },
+  {
+    "name": "Fringe",
+    "email": "partnerships@fringe.us",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:23.621Z"
+  },
+  {
+    "name": "Compt",
+    "email": "partnerships@compt.io",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:26.652Z"
+  },
+  {
+    "name": "Virgin Pulse",
+    "email": "partnerships@virginpulse.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:29.684Z"
+  },
+  {
+    "name": "Wellable",
+    "email": "partnerships@wellable.co",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:32.711Z"
+  },
+  {
+    "name": "Limeade",
+    "email": "info@limeade.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:35.742Z"
+  },
+  {
+    "name": "Wellhub",
+    "email": "partnerships@wellhub.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:38.774Z"
+  },
+  {
+    "name": "League Inc",
+    "email": "hello@league.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:41.805Z"
+  },
+  {
+    "name": "Businessolver",
+    "email": "partnerships@businessolver.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:44.845Z"
+  },
+  {
+    "name": "PlanSource",
+    "email": "partnerships@plansource.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:47.877Z"
+  },
+  {
+    "name": "Ease (formerly EaseCentral)",
+    "email": "hello@ease.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-11T13:57:50.910Z"
+  }
+]
