@@ -359,7 +359,127 @@
         "2026-03-12T13:55:25.348Z"
       ],
       "nextFollowUp": "2026-03-19"
+    },
+    "info@connerstrong.com": {
+      "name": "Conner Strong & Buckelew",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:02:52.646Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@higginbotham.net": {
+      "name": "Higginbotham",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:02:55.692Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@holmesmurphy.com": {
+      "name": "Holmes Murphy",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:02:58.762Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@plexusgroupe.com": {
+      "name": "The Plexus Groupe",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:01.795Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "partnerships@employeenavigator.com": {
+      "name": "Employee Navigator",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:04.837Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@aon.com": {
+      "name": "Aon",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:07.871Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@bbrown.com": {
+      "name": "Brown & Brown Insurance",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:10.911Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@alliant.com": {
+      "name": "Alliant Insurance Services",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:13.950Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@acrisure.com": {
+      "name": "Acrisure",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:16.986Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@mwepartnership.com": {
+      "name": "The MWE Partnership",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:20.016Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@adp.com": {
+      "name": "ADP TotalSource",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:23.067Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "info@paylocity.com": {
+      "name": "Paylocity",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:26.096Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "partnerships@deel.com": {
+      "name": "Deel",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:29.133Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "partnerships@getbenepass.com": {
+      "name": "Benepass",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:32.160Z"
+      ],
+      "nextFollowUp": "2026-03-20"
+    },
+    "partnerships@espresa.com": {
+      "name": "Espresa",
+      "wave": 1,
+      "dates": [
+        "2026-03-13T14:03:35.204Z"
+      ],
+      "nextFollowUp": "2026-03-20"
     }
   },
-  "lastRun": "2026-03-12T13:55:25.348Z"
+  "lastRun": "2026-03-13T14:03:35.204Z"
 }

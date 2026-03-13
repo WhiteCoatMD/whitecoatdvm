@@ -1,0 +1,2042 @@
+[
+  {
+    "name": "California SPCA",
+    "email": "jerry@californiaspca.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:04.408Z"
+  },
+  {
+    "name": "Fortworth Pets Alive",
+    "email": "info@dallaspetsalive.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:07.441Z"
+  },
+  {
+    "name": "Fresno Humane Society",
+    "email": "info@fresnohumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:10.469Z"
+  },
+  {
+    "name": "Houston Humane Society",
+    "email": "info@houstonhumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:13.495Z"
+  },
+  {
+    "name": "Houston Pets Alive",
+    "email": "info@houstonpetsalive.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:16.528Z"
+  },
+  {
+    "name": "Arizona Humane Society",
+    "email": "info@azhumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:19.552Z"
+  },
+  {
+    "name": "Petfinder Foundation",
+    "email": "info@petfinderfoundation.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:22.580Z"
+  },
+  {
+    "name": "San Diego Humane Society",
+    "email": "info@sdhumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:25.604Z"
+  },
+  {
+    "name": "Denver Dumb Friends League",
+    "email": "info@ddfl.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:28.629Z"
+  },
+  {
+    "name": "Lucky Dog Animal Rescue",
+    "email": "info@luckydoganimalrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:31.655Z"
+  },
+  {
+    "name": "The Humane Society of the United States",
+    "email": "partnerships@humanesociety.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:34.684Z"
+  },
+  {
+    "name": "Big Dog Ranch Rescue",
+    "email": "info@bfrr.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:37.708Z"
+  },
+  {
+    "name": "Florida SPCA",
+    "email": "adopt@spcaflorida.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:40.732Z"
+  },
+  {
+    "name": "Labrador Retriever Rescue of Florida",
+    "email": "info@lrrof.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:43.759Z"
+  },
+  {
+    "name": "Atlanta Humane Society",
+    "email": "info@atlantahumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:46.783Z"
+  },
+  {
+    "name": "Golden Retriever Rescue of Atlanta",
+    "email": "info@grra.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:49.808Z"
+  },
+  {
+    "name": "German Shepherd Rescue of New England",
+    "email": "info@gsrne.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:52.831Z"
+  },
+  {
+    "name": "Greyhound Pets of America",
+    "email": "info@greyhoundpets.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:55.859Z"
+  },
+  {
+    "name": "Pit Bull Rescue Central",
+    "email": "info@pbrc.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:50:58.884Z"
+  },
+  {
+    "name": "Anti-Cruelty Society",
+    "email": "info@anticruelty.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:01.907Z"
+  },
+  {
+    "name": "PAWS Chicago",
+    "email": "info@pawschicago.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:04.932Z"
+  },
+  {
+    "name": "Animal Humane Society",
+    "email": "info@animalhumanesociety.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:07.955Z"
+  },
+  {
+    "name": "KC Pet Project",
+    "email": "info@kcpetproject.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:10.982Z"
+  },
+  {
+    "name": "ASPCA",
+    "email": "partnerships@aspca.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:14.005Z"
+  },
+  {
+    "name": "Longisland Pet Rescue",
+    "email": "sales@longislandpetrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:17.029Z"
+  },
+  {
+    "name": "North Shore Animal League",
+    "email": "info@animalleague.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:20.059Z"
+  },
+  {
+    "name": "Oregon Humane Society",
+    "email": "info@oregonhumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:23.084Z"
+  },
+  {
+    "name": "Pennsylvania SPCA",
+    "email": "info@pspca.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:26.108Z"
+  },
+  {
+    "name": "Nashville Humane Association",
+    "email": "info@nashvillehumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:29.138Z"
+  },
+  {
+    "name": "Austin Animal Rescue",
+    "email": "contact@newhopesaveslives.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:32.166Z"
+  },
+  {
+    "name": "Austin Pets Alive",
+    "email": "info@austinpetsalive.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:35.191Z"
+  },
+  {
+    "name": "Houston SPCA",
+    "email": "info@houstonspca.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:38.215Z"
+  },
+  {
+    "name": "Sanantonio Pets Alive",
+    "email": "info@sanantoniopetsalive.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:41.239Z"
+  },
+  {
+    "name": "Best Friends Animal Society",
+    "email": "info@bestfriends.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:44.267Z"
+  },
+  {
+    "name": "Seattle Humane",
+    "email": "info@seattlehumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:47.290Z"
+  },
+  {
+    "name": "Gastineau Humane Society",
+    "email": "kennel@ghspets.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:50.313Z"
+  },
+  {
+    "name": "Haines Animal Rescue Kennel",
+    "email": "info@harkalaska.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:53.337Z"
+  },
+  {
+    "name": "Southeast Alaska Organization for Animals",
+    "email": "adopt@aksofa.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:56.365Z"
+  },
+  {
+    "name": "2nd Chance Animal Sanctuary",
+    "email": "sshaffer01@bellsouth.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:51:59.390Z"
+  },
+  {
+    "name": "4Legs4Justice Animal Advocate and Rescue",
+    "email": "4legs4justice@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:02.413Z"
+  },
+  {
+    "name": "A New Leash on Life, Inc.",
+    "email": "pets@anewleash.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:05.437Z"
+  },
+  {
+    "name": "Adopt A Golden Birmingham",
+    "email": "info@adoptagoldenbirmingham.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:08.461Z"
+  },
+  {
+    "name": "Adopt a Kitty",
+    "email": "marla@adopt-a-kitty.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:11.486Z"
+  },
+  {
+    "name": "Aide for Animals",
+    "email": "bhaas@aideforanimals.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:14.510Z"
+  },
+  {
+    "name": "Alabama Animal Adoption Society",
+    "email": "aaas2808@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:17.540Z"
+  },
+  {
+    "name": "Alabama Animal Welfare Organization",
+    "email": "kristymobley17@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:20.566Z"
+  },
+  {
+    "name": "Alabama Rabbit Rescue",
+    "email": "alabamarabbitrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:23.591Z"
+  },
+  {
+    "name": "Alabama Siberian Husky Rescue, Inc.",
+    "email": "info@alsiberianhuskyrescue.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:26.614Z"
+  },
+  {
+    "name": "Alabama SPCA",
+    "email": "adopt@alabamaspca.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:29.638Z"
+  },
+  {
+    "name": "All About Dogs Coastal Rescue",
+    "email": "allaboutdogscr@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:32.664Z"
+  },
+  {
+    "name": "Andalusia Area Humane Society",
+    "email": "aahs@andycable.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:35.686Z"
+  },
+  {
+    "name": "Animal Rescue Foundation",
+    "email": "inquiries@animalrescuemobile.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:38.709Z"
+  },
+  {
+    "name": "Arab Animal Shelter",
+    "email": "arabanimalshelter@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:41.732Z"
+  },
+  {
+    "name": "ASPCI",
+    "email": "aspci.org@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:44.755Z"
+  },
+  {
+    "name": "Athens Limestone Animal Shelter",
+    "email": "thedogpound7889@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:47.780Z"
+  },
+  {
+    "name": "Baldwin County Humane Society (BARC!)",
+    "email": "info@baldwinhumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:50.805Z"
+  },
+  {
+    "name": "Bama Bully Rescue",
+    "email": "mail@bamabully.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:53.829Z"
+  },
+  {
+    "name": "Basset Hound Rescue of Alabama Inc.",
+    "email": "operations@bhral.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:56.853Z"
+  },
+  {
+    "name": "Bibb County AL Pound",
+    "email": "friendsofbibbcountyalpound@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:52:59.880Z"
+  },
+  {
+    "name": "Bigbee Humane Society",
+    "email": "bigbeehumane@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:02.909Z"
+  },
+  {
+    "name": "Blair Humane Society",
+    "email": "ron@fcdf.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:05.940Z"
+  },
+  {
+    "name": "Bow Wows and Meows Pet Rescue",
+    "email": "vw329@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:08.964Z"
+  },
+  {
+    "name": "Buddy's Buddies Animal Rescue, Inc",
+    "email": "bbar@rescueteam.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:11.988Z"
+  },
+  {
+    "name": "C.H.A.R.M., Inc. (City of Headland Animal Rescue Mission)",
+    "email": "charmheadland@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:15.011Z"
+  },
+  {
+    "name": "CAAWA",
+    "email": "caawarescue@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:18.038Z"
+  },
+  {
+    "name": "Callie's Place",
+    "email": "traceymrobertson@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:21.064Z"
+  },
+  {
+    "name": "Challenger's House",
+    "email": "challengershouse@mchsi.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:24.089Z"
+  },
+  {
+    "name": "Cherokee Humane Society, Inc.",
+    "email": "humanesociety@tds.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:27.112Z"
+  },
+  {
+    "name": "City of Mobile Animal Shelter",
+    "email": "lursene@cityofmobile.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:30.136Z"
+  },
+  {
+    "name": "Clarke County Animal Shelter",
+    "email": "clarkecoshelter@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:33.160Z"
+  },
+  {
+    "name": "Clay County Animal Shelter",
+    "email": "claycountyanimalshelter@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:36.184Z"
+  },
+  {
+    "name": "Colbert County Animal Control Association",
+    "email": "ccaca@bellsouth.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:39.208Z"
+  },
+  {
+    "name": "Cora's Critters Animal Rescue",
+    "email": "corascrittersanimalrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:42.233Z"
+  },
+  {
+    "name": "Crossing Paths Animal Rescue",
+    "email": "met@otelco.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:45.257Z"
+  },
+  {
+    "name": "Dale's Den Rescue",
+    "email": "dalesdenrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:48.286Z"
+  },
+  {
+    "name": "Decatur Animal Services",
+    "email": "cwicks@decatur-al.gov",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:51.310Z"
+  },
+  {
+    "name": "Dekalb County Animal Adoption Center",
+    "email": "ljohnson@dekalbcountyal.us",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:54.336Z"
+  },
+  {
+    "name": "Dirty Dawg Rescue",
+    "email": "dirtydawgrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:53:57.366Z"
+  },
+  {
+    "name": "East Alabama Humane Society",
+    "email": "eahs4pets@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:00.393Z"
+  },
+  {
+    "name": "Fairhope Cat Coalition",
+    "email": "info@fairhopecatcoalition.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:03.417Z"
+  },
+  {
+    "name": "Fairy Dogmother Rescue, Inc.",
+    "email": "fairydogmother@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:06.442Z"
+  },
+  {
+    "name": "Forgotten Felines Inc.",
+    "email": "info@ffhsv.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:09.466Z"
+  },
+  {
+    "name": "Friends of Cats and Dogs Foundation",
+    "email": "jennyfcdf@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:12.491Z"
+  },
+  {
+    "name": "Friends of Marshall County Animals",
+    "email": "friendsofmarshallcountyanimals@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:15.515Z"
+  },
+  {
+    "name": "Friends of Rescue (FOR)",
+    "email": "info@forrescue.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:18.538Z"
+  },
+  {
+    "name": "Friends of the Mobile Animal Shelter",
+    "email": "info@adoptapetmobile.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:21.561Z"
+  },
+  {
+    "name": "Furever Friends of the South K-9 Rescue",
+    "email": "info@ffosk9resq.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:24.586Z"
+  },
+  {
+    "name": "Furry Friends Rescue",
+    "email": "furrypets1@hughes.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:27.610Z"
+  },
+  {
+    "name": "Global K9 Solutions",
+    "email": "sara@gk9s.info",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:30.638Z"
+  },
+  {
+    "name": "God's Feral Felines Inc.",
+    "email": "godsferalfelines@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:33.663Z"
+  },
+  {
+    "name": "Great and Small Foundation",
+    "email": "greatandsmall15@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:36.688Z"
+  },
+  {
+    "name": "Greater Huntsville Humane Society",
+    "email": "info@ghhs.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:39.720Z"
+  },
+  {
+    "name": "Guntersville Animal Shelter",
+    "email": "jeanniegah@chyoung.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:42.744Z"
+  },
+  {
+    "name": "Helping Shepherds of Every Color Rescue",
+    "email": "everycolorrescue@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:45.771Z"
+  },
+  {
+    "name": "Holmes Feline Clinic",
+    "email": "info@holmesfelineclinic.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:48.795Z"
+  },
+  {
+    "name": "Homeless Animals Rescue Team",
+    "email": "alabamahart@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:51.821Z"
+  },
+  {
+    "name": "Hope4Hearts Animal Rescue, Inc.",
+    "email": "hope4heartsar@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:54.845Z"
+  },
+  {
+    "name": "Humane Society of Central Alabama",
+    "email": "lynnsanders01@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:54:57.869Z"
+  },
+  {
+    "name": "Humane Society of Elmore County",
+    "email": "hselco@bellsouth.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:00.892Z"
+  },
+  {
+    "name": "Humane Society Pet Rescue and Adoption Center",
+    "email": "adoptions@hsprac.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:03.930Z"
+  },
+  {
+    "name": "Huntsville Friends of Rabbits",
+    "email": "huntsvillebunnies@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:07.121Z"
+  },
+  {
+    "name": "J & L Golden Retriever Rescue",
+    "email": "lkh5@mchsi.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:10.140Z"
+  },
+  {
+    "name": "Jackson County SPCA",
+    "email": "riverrun@farmerstel.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:13.160Z"
+  },
+  {
+    "name": "Jeremy's Boggle Ferret Bungalow",
+    "email": "jeremysboggle@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:16.176Z"
+  },
+  {
+    "name": "Joe Jackson's Dog World, Inc.",
+    "email": "jjdogworld@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:19.193Z"
+  },
+  {
+    "name": "K9 RESQ of AL",
+    "email": "k9resqofal@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:22.209Z"
+  },
+  {
+    "name": "Kee Kitty Friends",
+    "email": "catsnkeys@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:25.225Z"
+  },
+  {
+    "name": "Kitty Kat Haven and Rescue",
+    "email": "kittykathaven1@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:28.241Z"
+  },
+  {
+    "name": "Krewe de Rescue",
+    "email": "krewemobile@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:31.255Z"
+  },
+  {
+    "name": "Lake Martin Animal Shelter",
+    "email": "lmhsdirector@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:34.273Z"
+  },
+  {
+    "name": "Last Chance Dog Rescue Alabama",
+    "email": "were4dogs@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:37.289Z"
+  },
+  {
+    "name": "Lee County Humane Society",
+    "email": "lchs1140@leecountyhumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:40.304Z"
+  },
+  {
+    "name": "Lifeline Pet Rescue",
+    "email": "pennyw@hiwaay.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:43.321Z"
+  },
+  {
+    "name": "Lil' Tykes Rescue & Adoption",
+    "email": "carousel36360@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:46.338Z"
+  },
+  {
+    "name": "Macon County Humane Society",
+    "email": "maconcountyhumanesociety@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:49.354Z"
+  },
+  {
+    "name": "Madison Animal Rescue Foundation",
+    "email": "madisonarf@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:52.370Z"
+  },
+  {
+    "name": "Marshall County AL Animal Control",
+    "email": "marshallcoaco@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:55.386Z"
+  },
+  {
+    "name": "Mercy Animal Hospital",
+    "email": "jenna@mercyvets.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:55:58.402Z"
+  },
+  {
+    "name": "Mobile County Animal Shelter",
+    "email": "mcacshelter@mobile-county.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:01.418Z"
+  },
+  {
+    "name": "Mobile SPCA",
+    "email": "robin@mobilespca.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:04.434Z"
+  },
+  {
+    "name": "Monroe County Animal Shelter",
+    "email": "monroecountyshelter@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:07.450Z"
+  },
+  {
+    "name": "Montgomery Humane Society",
+    "email": "msspeedy307@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:10.465Z"
+  },
+  {
+    "name": "Morgan County Humane Society",
+    "email": "mchs@hughes.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:13.487Z"
+  },
+  {
+    "name": "Mountain Brook Animal Control",
+    "email": "sloanp@mtnbrook.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:16.503Z"
+  },
+  {
+    "name": "Must Love Paws Rescue",
+    "email": "mustlovepawsrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:19.519Z"
+  },
+  {
+    "name": "New Beginnings Animal Rescue and Transport",
+    "email": "info.newbeganimalrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:22.535Z"
+  },
+  {
+    "name": "New Hope Rescue, Inc",
+    "email": "nhrescueinc@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:25.551Z"
+  },
+  {
+    "name": "No Greater Love",
+    "email": "adoptngl@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:28.567Z"
+  },
+  {
+    "name": "Orange Beach Animal Care and Control Program",
+    "email": "obaccp@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:31.588Z"
+  },
+  {
+    "name": "Ozark Animal Shelter",
+    "email": "shelter@ozarkalabama.us",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:34.606Z"
+  },
+  {
+    "name": "PAWS (Pets Are Worth Saving)",
+    "email": "ablythestoddard@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:37.622Z"
+  },
+  {
+    "name": "Paws Crossed Dog Rescue, Inc",
+    "email": "pawscrossedrescue@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:40.638Z"
+  },
+  {
+    "name": "Paws of Dixie Animal Rescue",
+    "email": "pawsofdixie@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:43.654Z"
+  },
+  {
+    "name": "Peace Love & Dog Paws Rescue, Inc.",
+    "email": "peacelovedogpawsrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:46.671Z"
+  },
+  {
+    "name": "Peace, Love and Animals",
+    "email": "peaceloveandanimals@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:49.687Z"
+  },
+  {
+    "name": "Pell City Animal Control Center",
+    "email": "animalcenter@cityofpellcity.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:52.703Z"
+  },
+  {
+    "name": "Pets Are Worth Saving in Alabama, Inc.(PAWS-AL)",
+    "email": "labaumgardner13@charter.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:55.720Z"
+  },
+  {
+    "name": "Pickens County Partners for Pets",
+    "email": "pickenscountypartnersforpets@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:56:58.736Z"
+  },
+  {
+    "name": "Pound on the Hill Animal Rescue",
+    "email": "poundonthehill@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:01.752Z"
+  },
+  {
+    "name": "Prattville/Autauga Humane Society",
+    "email": "autaugahumane@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:04.772Z"
+  },
+  {
+    "name": "Project Purr Animal Rescue, Inc.",
+    "email": "projectpurr@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:07.788Z"
+  },
+  {
+    "name": "Purrfect Love Cat Rescue",
+    "email": "purrfectlovecatrescue1@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:10.808Z"
+  },
+  {
+    "name": "R.ehoming U.nsettled A.nimals",
+    "email": "critterrescueandrehome@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:13.824Z"
+  },
+  {
+    "name": "Randolph County Animal Shelter",
+    "email": "randolphanimal@centurytel.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:16.840Z"
+  },
+  {
+    "name": "Rebeccas Paws and Claws",
+    "email": "saveapreciouspaw@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:19.856Z"
+  },
+  {
+    "name": "Red Oak Rescue",
+    "email": "home4-3georges@charter.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:22.871Z"
+  },
+  {
+    "name": "Rescue K9-1-1",
+    "email": "adopt@rescuek911.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:25.886Z"
+  },
+  {
+    "name": "Rescue Rangers",
+    "email": "k9.rescue.rangers@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:28.903Z"
+  },
+  {
+    "name": "Rescued Pets",
+    "email": "jono@gate.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:31.919Z"
+  },
+  {
+    "name": "Rockin P Rescue, Inc. (Boxer Rescue)",
+    "email": "angiepersch@me.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:34.936Z"
+  },
+  {
+    "name": "Rotties & Notties, Inc. / Crossroads Animal Hospital",
+    "email": "crossroadsanimalhospital@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:37.952Z"
+  },
+  {
+    "name": "Safe Haven no kill pet rescue",
+    "email": "melissautech@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:40.967Z"
+  },
+  {
+    "name": "Sanctuary Animal Rescue",
+    "email": "heidi.tbg@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:43.984Z"
+  },
+  {
+    "name": "Save a Stray",
+    "email": "info@saveastray.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:47.001Z"
+  },
+  {
+    "name": "Saving Paws",
+    "email": "kbailey772@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:50.017Z"
+  },
+  {
+    "name": "Schnauzer Love Rescue Inc.",
+    "email": "schluv4u2@bellsouth.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:53.032Z"
+  },
+  {
+    "name": "Second Chance Shelter",
+    "email": "2ndchanceshelter2008@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:56.049Z"
+  },
+  {
+    "name": "Shelby Humane Society",
+    "email": "info@shelbyhumane.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:57:59.065Z"
+  },
+  {
+    "name": "SOS Animal Shelter",
+    "email": "sosshelter1981@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:02.082Z"
+  },
+  {
+    "name": "SOS Beagle Rescue-Alabama Chapter",
+    "email": "rescue@alsosbeagles.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:05.098Z"
+  },
+  {
+    "name": "Southern Skies Labrador Rescue & Adoption, Inc.",
+    "email": "elisabethstewart50@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:08.114Z"
+  },
+  {
+    "name": "Southern Souls Animal League",
+    "email": "southernsoulsanimalleague@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:11.130Z"
+  },
+  {
+    "name": "Southern Treasures Animal Rescue",
+    "email": "maryann@adoptstardogs.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:14.147Z"
+  },
+  {
+    "name": "Spay Neuter Action Project",
+    "email": "helpsnap@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:17.163Z"
+  },
+  {
+    "name": "Steel City Cat Rescue",
+    "email": "steelcitycatrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:20.179Z"
+  },
+  {
+    "name": "Stray Love Foundation, Inc.",
+    "email": "info@straylovefoundation.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:23.195Z"
+  },
+  {
+    "name": "Sugarbelle Foundation",
+    "email": "sugarbellefoundation@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:26.210Z"
+  },
+  {
+    "name": "Talladega City Animal Control",
+    "email": "talladegaanimalcontrol@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:29.226Z"
+  },
+  {
+    "name": "The Ark Inc.",
+    "email": "ninaark@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:32.241Z"
+  },
+  {
+    "name": "The Canine Compassion Fund, Inc.",
+    "email": "a.melvin@caninecompassionfund.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:35.257Z"
+  },
+  {
+    "name": "The Haven",
+    "email": "info@havenforanimals.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:38.273Z"
+  },
+  {
+    "name": "Third Coast Animal Rescue",
+    "email": "thirdcoastanimalrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:41.289Z"
+  },
+  {
+    "name": "TLC for Paws",
+    "email": "adopt@tlcpaws.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:44.306Z"
+  },
+  {
+    "name": "Troy Animal Rescue Project",
+    "email": "troyanimalrescueproject@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:47.323Z"
+  },
+  {
+    "name": "Tuscaloosa Metro Animal Shelter",
+    "email": "jearp@metroanimalshelter.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:50.342Z"
+  },
+  {
+    "name": "Two by Two Rescue",
+    "email": "debbie@twobytworescue.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:53.359Z"
+  },
+  {
+    "name": "Wags and Whiskers",
+    "email": "wagsandwhiskersrescuepets@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:56.375Z"
+  },
+  {
+    "name": "Wags N' Whiskers Rescue",
+    "email": "jill@wagshomewood.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:58:59.393Z"
+  },
+  {
+    "name": "Weimaraner Rescue of the South",
+    "email": "contactus@weimrescue.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:02.410Z"
+  },
+  {
+    "name": "Woof Ave Rescue",
+    "email": "jonna@woofave.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:05.426Z"
+  },
+  {
+    "name": "Animal League of Washington County",
+    "email": "animalleaguewc@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:08.441Z"
+  },
+  {
+    "name": "AR*RUFF",
+    "email": "krun11@sbcglobal.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:11.457Z"
+  },
+  {
+    "name": "ARFA",
+    "email": "info@arfarkansas.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:14.474Z"
+  },
+  {
+    "name": "ArkanPaws Animal Rescue",
+    "email": "arkanpaws@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:17.490Z"
+  },
+  {
+    "name": "Arkansans Assisting Homeless Animals",
+    "email": "aaha.adoptions@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:20.509Z"
+  },
+  {
+    "name": "Arkansas German Shorthaired Pointer Rescue",
+    "email": "makgsprescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:23.526Z"
+  },
+  {
+    "name": "Arkansas Pet Rabbit Network",
+    "email": "bradforde81@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:26.542Z"
+  },
+  {
+    "name": "Arkansas Southern Dog Rescue",
+    "email": "savinglives@arsoutherndogrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:29.558Z"
+  },
+  {
+    "name": "Arkansas Weimaraner Rescue",
+    "email": "arweimrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:32.577Z"
+  },
+  {
+    "name": "Bella Vista Animal Shelter",
+    "email": "bvas@sbcglobal.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:35.594Z"
+  },
+  {
+    "name": "Big Paws of the Ozarks",
+    "email": "bigpawsoftheozarks@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:38.610Z"
+  },
+  {
+    "name": "Blue Moon Cat Sanctuary",
+    "email": "bluemooncatsanctuary@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:41.627Z"
+  },
+  {
+    "name": "Blytheville Humane Society",
+    "email": "pam_ford@att.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:44.643Z"
+  },
+  {
+    "name": "Bryant Animal Control & Adoption Center",
+    "email": "animalcontrol@cityofbryant.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:47.663Z"
+  },
+  {
+    "name": "Cabot Animal Control",
+    "email": "vetspet80@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:50.679Z"
+  },
+  {
+    "name": "Camden City Pound",
+    "email": "tshadden@camdenpolice.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:53.696Z"
+  },
+  {
+    "name": "Central Arkansas SPCA",
+    "email": "reneas34@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:56.715Z"
+  },
+  {
+    "name": "Charleston Dog Shelter",
+    "email": "shayes@tigersmail.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T13:59:59.731Z"
+  },
+  {
+    "name": "City of Gentry Animal Services",
+    "email": "mark.smithson@cityofgentry.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:02.747Z"
+  },
+  {
+    "name": "City of Hot Springs Animal Services",
+    "email": "mlstone@cityhs.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:05.764Z"
+  },
+  {
+    "name": "City of Mena Animal Control",
+    "email": "mellodydolly@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:08.937Z"
+  },
+  {
+    "name": "City of Rogers-Animal Services",
+    "email": "dschumacher@rogersar.gov",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:11.973Z"
+  },
+  {
+    "name": "City of Springdale Animal Services",
+    "email": "ckremer@springdalear.gov",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:14.994Z"
+  },
+  {
+    "name": "Community Cats of Central AR",
+    "email": "contact@mycommunitycats.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:18.014Z"
+  },
+  {
+    "name": "Conway Animal Welfare Unit",
+    "email": "shona.osborne@cityofconway.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:21.060Z"
+  },
+  {
+    "name": "Crystal Creek Animal Rescue League",
+    "email": "cats@crystalcreekrescue.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:24.085Z"
+  },
+  {
+    "name": "Cynder Creek Animal Rescue and Sanctuary Inc",
+    "email": "alphadogspunkyk@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:27.114Z"
+  },
+  {
+    "name": "Decatur Animal Shelter",
+    "email": "rickeyburke2@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:30.134Z"
+  },
+  {
+    "name": "Fabulous Felines NWA",
+    "email": "fabulousfelinesnwa@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:33.152Z"
+  },
+  {
+    "name": "Fayetteville Animal Shelter",
+    "email": "animal_services@ci.fayetteville.ar.us",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:36.170Z"
+  },
+  {
+    "name": "Forrest City Area Humane Society",
+    "email": "ravfcahs@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:39.208Z"
+  },
+  {
+    "name": "Friends of Horseshoe Bend Animals",
+    "email": "friendsofhba@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:42.232Z"
+  },
+  {
+    "name": "Gails Pets Second Chance",
+    "email": "gailspets@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:45.253Z"
+  },
+  {
+    "name": "Glenwood Animal Control Shelter",
+    "email": "cynsan@windstream.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:48.275Z"
+  },
+  {
+    "name": "Good Shepherd Humane Society",
+    "email": "goodshepherd6486@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:51.294Z"
+  },
+  {
+    "name": "Greener Days Ahead Rescue",
+    "email": "gdarescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:54.314Z"
+  },
+  {
+    "name": "Guardian Angels Cat Rescue and Adoption Shelter",
+    "email": "gacr@att.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:00:57.338Z"
+  },
+  {
+    "name": "H&P Animal Alliance",
+    "email": "hpanimalalliance@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:00.355Z"
+  },
+  {
+    "name": "Have a Heart Humane Society",
+    "email": "haveaheartpetshelter@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:03.376Z"
+  },
+  {
+    "name": "Heavenly Paws NWA",
+    "email": "heavenlypawsrescuebv@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:06.400Z"
+  },
+  {
+    "name": "Heber Springs Humane Society",
+    "email": "heberspringshumanesociety@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:09.421Z"
+  },
+  {
+    "name": "Helping Hands For Little Paws",
+    "email": "helpinghandsforlittlepaws@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:12.449Z"
+  },
+  {
+    "name": "Homeless Pets Lifeline",
+    "email": "dogtiredjanet@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:15.476Z"
+  },
+  {
+    "name": "Hot Springs Village Animal Welfare League",
+    "email": "adoptions@hsvawl.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:18.508Z"
+  },
+  {
+    "name": "Humane Society of Independence County",
+    "email": "hsicshelteroffice@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:21.528Z"
+  },
+  {
+    "name": "Humane Society of Marion County",
+    "email": "humanesocietyyellville@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:24.553Z"
+  },
+  {
+    "name": "Humane Society of North Central Arkansas",
+    "email": "hsnca@centurytel.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:27.580Z"
+  },
+  {
+    "name": "Humane Society of Pulaski County",
+    "email": "hspc.ar.volunteers@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:30.634Z"
+  },
+  {
+    "name": "Humane Society of Saline County",
+    "email": "wehelpanimals@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:33.657Z"
+  },
+  {
+    "name": "Humane Society of the Delta",
+    "email": "adoptionshsdelta@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:36.680Z"
+  },
+  {
+    "name": "Humane Society of the Ouachitas",
+    "email": "tinasball@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:39.701Z"
+  },
+  {
+    "name": "Izard County Animal Rescue Effort (ICARE)",
+    "email": "icare_ark@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:42.786Z"
+  },
+  {
+    "name": "Jackson County Humane Society",
+    "email": "arkansasjchs@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:45.805Z"
+  },
+  {
+    "name": "Jacksonville Animal Shelter",
+    "email": "animalshelter@cityofjacksonville.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:48.824Z"
+  },
+  {
+    "name": "Lester C. Howick Animal Shelter of Washington County",
+    "email": "ashelter@co.washington.ar.us",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:51.844Z"
+  },
+  {
+    "name": "Little Rock Animal Services (LRAS)",
+    "email": "troark@littlerock.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:54.862Z"
+  },
+  {
+    "name": "Liz E.'s Pekingese Rescue and Sanctuary",
+    "email": "lizethedog@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:01:57.883Z"
+  },
+  {
+    "name": "Lone Pine Ranch Animal Shelter",
+    "email": "lonepineshelter@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:00.901Z"
+  },
+  {
+    "name": "Lost Love Animal Rescue",
+    "email": "lostloveanimalrescue@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:03.921Z"
+  },
+  {
+    "name": "Lowell Animal Shelter",
+    "email": "animalcontrol@lowellarkansas.gov",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:06.945Z"
+  },
+  {
+    "name": "Maumelle Friends of the Animals",
+    "email": "jeanwheelerlewis@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:09.960Z"
+  },
+  {
+    "name": "Morning Meadow Animal Rescue",
+    "email": "mmarcatdog@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:12.985Z"
+  },
+  {
+    "name": "Muttley Crew German Shepherd Rescue",
+    "email": "mcrgsd@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:16.012Z"
+  },
+  {
+    "name": "NEA Humane Society",
+    "email": "adoptions@neahs.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:19.030Z"
+  },
+  {
+    "name": "Needy Paws Animal Shelter",
+    "email": "needypawsanimalshelter@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:22.047Z"
+  },
+  {
+    "name": "Northwest Arkansas Rescue of Canines, Inc.",
+    "email": "northwestarkrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:25.065Z"
+  },
+  {
+    "name": "NovaStar Animal Rescue",
+    "email": "novastarrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:28.105Z"
+  },
+  {
+    "name": "Out Of The Woods Animal Rescue",
+    "email": "contact@ootwrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:31.128Z"
+  },
+  {
+    "name": "Ozark Dogs Rescue Organization",
+    "email": "ozarkdogs@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:34.149Z"
+  },
+  {
+    "name": "Ozark Humane Society",
+    "email": "ohsshelter@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:37.171Z"
+  },
+  {
+    "name": "Paragould Animal Welfare Society",
+    "email": "pawsar@att.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:40.190Z"
+  },
+  {
+    "name": "Paws & Claws Pet Shelter",
+    "email": "pawsandclawspetshelter@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:43.214Z"
+  },
+  {
+    "name": "Paws and Claws Rescue",
+    "email": "info@pawsandclawsrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:46.235Z"
+  },
+  {
+    "name": "Paws To Love Me",
+    "email": "chris@pawstoloveme.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:49.250Z"
+  },
+  {
+    "name": "Perry's Orphans Sanctuary Inc.",
+    "email": "perrysorphans@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-13T14:02:52.265Z"
+  }
+]
