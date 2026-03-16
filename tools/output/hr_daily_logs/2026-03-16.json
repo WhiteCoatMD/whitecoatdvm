@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Gallagher Benefit Services",
+    "email": "benefits@ajg.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:11:53.341Z"
+  },
+  {
+    "name": "Mercer",
+    "email": "info@mercer.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:11:56.386Z"
+  },
+  {
+    "name": "Willis Towers Watson",
+    "email": "contact@wtwco.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:11:59.430Z"
+  },
+  {
+    "name": "Lockton Companies",
+    "email": "info@lockton.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:02.477Z"
+  },
+  {
+    "name": "NFP Corp",
+    "email": "info@nfp.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:05.515Z"
+  },
+  {
+    "name": "OneDigital Health and Benefits",
+    "email": "info@onedigital.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:08.557Z"
+  },
+  {
+    "name": "Benefitfocus",
+    "email": "partnerships@benefitfocus.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:11.598Z"
+  },
+  {
+    "name": "TriNet",
+    "email": "info@trinet.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:14.643Z"
+  },
+  {
+    "name": "Insperity",
+    "email": "info@insperity.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:17.683Z"
+  },
+  {
+    "name": "Justworks",
+    "email": "partnerships@justworks.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:20.725Z"
+  },
+  {
+    "name": "Paychex",
+    "email": "info@paychex.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:23.765Z"
+  },
+  {
+    "name": "Rippling",
+    "email": "partnerships@rippling.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:26.806Z"
+  },
+  {
+    "name": "Gusto",
+    "email": "partnerships@gusto.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:29.851Z"
+  },
+  {
+    "name": "Zenefits",
+    "email": "hello@zenefits.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:32.890Z"
+  },
+  {
+    "name": "BambooHR",
+    "email": "partnerships@bamboohr.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-16T14:12:35.930Z"
+  }
+]

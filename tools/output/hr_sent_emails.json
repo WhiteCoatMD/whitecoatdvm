@@ -2,123 +2,138 @@
   "shelters": {
     "benefits@ajg.com": {
       "name": "Gallagher Benefit Services",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:57:48.401Z"
+        "2026-03-09T13:57:48.401Z",
+        "2026-03-16T14:11:53.341Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@mercer.com": {
       "name": "Mercer",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:57:51.417Z"
+        "2026-03-09T13:57:51.417Z",
+        "2026-03-16T14:11:56.386Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "contact@wtwco.com": {
       "name": "Willis Towers Watson",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:57:54.435Z"
+        "2026-03-09T13:57:54.435Z",
+        "2026-03-16T14:11:59.430Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@lockton.com": {
       "name": "Lockton Companies",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:57:57.453Z"
+        "2026-03-09T13:57:57.453Z",
+        "2026-03-16T14:12:02.477Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@nfp.com": {
       "name": "NFP Corp",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:00.468Z"
+        "2026-03-09T13:58:00.468Z",
+        "2026-03-16T14:12:05.515Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@onedigital.com": {
       "name": "OneDigital Health and Benefits",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:03.481Z"
+        "2026-03-09T13:58:03.481Z",
+        "2026-03-16T14:12:08.557Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "partnerships@benefitfocus.com": {
       "name": "Benefitfocus",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:06.494Z"
+        "2026-03-09T13:58:06.494Z",
+        "2026-03-16T14:12:11.598Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@trinet.com": {
       "name": "TriNet",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:09.510Z"
+        "2026-03-09T13:58:09.510Z",
+        "2026-03-16T14:12:14.643Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@insperity.com": {
       "name": "Insperity",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:12.525Z"
+        "2026-03-09T13:58:12.525Z",
+        "2026-03-16T14:12:17.683Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "partnerships@justworks.com": {
       "name": "Justworks",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:15.539Z"
+        "2026-03-09T13:58:15.539Z",
+        "2026-03-16T14:12:20.725Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@paychex.com": {
       "name": "Paychex",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:18.552Z"
+        "2026-03-09T13:58:18.552Z",
+        "2026-03-16T14:12:23.765Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "partnerships@rippling.com": {
       "name": "Rippling",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:21.626Z"
+        "2026-03-09T13:58:21.626Z",
+        "2026-03-16T14:12:26.806Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "partnerships@gusto.com": {
       "name": "Gusto",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:24.640Z"
+        "2026-03-09T13:58:24.640Z",
+        "2026-03-16T14:12:29.851Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "hello@zenefits.com": {
       "name": "Zenefits",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:27.657Z"
+        "2026-03-09T13:58:27.657Z",
+        "2026-03-16T14:12:32.890Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "partnerships@bamboohr.com": {
       "name": "BambooHR",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-09T13:58:30.671Z"
+        "2026-03-09T13:58:30.671Z",
+        "2026-03-16T14:12:35.930Z"
       ],
-      "nextFollowUp": "2026-03-16"
+      "nextFollowUp": "2026-03-30"
     },
     "info@namely.com": {
       "name": "Namely",
@@ -481,5 +496,5 @@
       "nextFollowUp": "2026-03-20"
     }
   },
-  "lastRun": "2026-03-13T14:03:35.204Z"
+  "lastRun": "2026-03-16T14:12:35.930Z"
 }
