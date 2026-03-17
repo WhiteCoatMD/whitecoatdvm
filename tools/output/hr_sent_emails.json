@@ -494,7 +494,55 @@
         "2026-03-13T14:03:35.204Z"
       ],
       "nextFollowUp": "2026-03-20"
+    },
+    "partnerships@joinforma.com": {
+      "name": "Forma",
+      "wave": 1,
+      "dates": [
+        "2026-03-17T14:10:45.867Z"
+      ],
+      "nextFollowUp": "2026-03-24"
+    },
+    "partnerships@bonusly.com": {
+      "name": "Bonusly",
+      "wave": 1,
+      "dates": [
+        "2026-03-17T14:10:48.924Z"
+      ],
+      "nextFollowUp": "2026-03-24"
+    },
+    "partnerships@awardco.com": {
+      "name": "Awardco",
+      "wave": 1,
+      "dates": [
+        "2026-03-17T14:10:51.967Z"
+      ],
+      "nextFollowUp": "2026-03-24"
+    },
+    "info@wellness360.co": {
+      "name": "Wellness360",
+      "wave": 1,
+      "dates": [
+        "2026-03-17T14:10:55.010Z"
+      ],
+      "nextFollowUp": "2026-03-24"
+    },
+    "info@goempyrean.com": {
+      "name": "Empyrean Benefit Solutions",
+      "wave": 1,
+      "dates": [
+        "2026-03-17T14:10:58.062Z"
+      ],
+      "nextFollowUp": "2026-03-24"
+    },
+    "info@petbenefits.com": {
+      "name": "Pet Benefit Solutions",
+      "wave": 1,
+      "dates": [
+        "2026-03-17T14:11:01.113Z"
+      ],
+      "nextFollowUp": "2026-03-24"
     }
   },
-  "lastRun": "2026-03-16T14:12:35.930Z"
+  "lastRun": "2026-03-17T14:11:01.113Z"
 }

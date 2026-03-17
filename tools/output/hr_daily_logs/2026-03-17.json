@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Forma",
+    "email": "partnerships@joinforma.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-17T14:10:45.867Z"
+  },
+  {
+    "name": "Bonusly",
+    "email": "partnerships@bonusly.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-17T14:10:48.924Z"
+  },
+  {
+    "name": "Awardco",
+    "email": "partnerships@awardco.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-17T14:10:51.967Z"
+  },
+  {
+    "name": "Wellness360",
+    "email": "info@wellness360.co",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-17T14:10:55.010Z"
+  },
+  {
+    "name": "Empyrean Benefit Solutions",
+    "email": "info@goempyrean.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-17T14:10:58.062Z"
+  },
+  {
+    "name": "Pet Benefit Solutions",
+    "email": "info@petbenefits.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-03-17T14:11:01.113Z"
+  }
+]
