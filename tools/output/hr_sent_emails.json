@@ -272,123 +272,138 @@
     },
     "info@bernardhealth.com": {
       "name": "Bernard Health",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:54:42.903Z"
+        "2026-03-12T13:54:42.903Z",
+        "2026-03-19T14:00:51.844Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "partnerships@navabenefits.com": {
       "name": "Nava Benefits",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:54:45.935Z"
+        "2026-03-12T13:54:45.935Z",
+        "2026-03-19T14:00:54.868Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "partnerships@collectivehealth.com": {
       "name": "Collective Health",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:54:48.974Z"
+        "2026-03-12T13:54:48.974Z",
+        "2026-03-19T14:00:57.897Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@alight.com": {
       "name": "Alight Solutions",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:54:52.010Z"
+        "2026-03-12T13:54:52.010Z",
+        "2026-03-19T14:01:00.934Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@buck.com": {
       "name": "Buck Global",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:54:55.040Z"
+        "2026-03-12T13:54:55.040Z",
+        "2026-03-19T14:01:03.957Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@segalgroup.com": {
       "name": "Segal Group",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:54:58.070Z"
+        "2026-03-12T13:54:58.070Z",
+        "2026-03-19T14:01:06.976Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@cbiz.com": {
       "name": "CBIZ Benefits",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:01.103Z"
+        "2026-03-12T13:55:01.103Z",
+        "2026-03-19T14:01:09.993Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@usi.com": {
       "name": "USI Insurance Services",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:04.133Z"
+        "2026-03-12T13:55:04.133Z",
+        "2026-03-19T14:01:13.010Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@marshmma.com": {
       "name": "Marsh McLennan Agency",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:07.162Z"
+        "2026-03-12T13:55:07.162Z",
+        "2026-03-19T14:01:16.028Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@assuredpartners.com": {
       "name": "AssuredPartners",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:10.196Z"
+        "2026-03-12T13:55:10.196Z",
+        "2026-03-19T14:01:19.043Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@hubinternational.com": {
       "name": "HUB International",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:13.225Z"
+        "2026-03-12T13:55:13.225Z",
+        "2026-03-19T14:01:22.062Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@aleragroup.com": {
       "name": "Alera Group",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:16.253Z"
+        "2026-03-12T13:55:16.253Z",
+        "2026-03-19T14:01:25.079Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@woodruffsawyer.com": {
       "name": "Woodruff Sawyer",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:19.282Z"
+        "2026-03-12T13:55:19.282Z",
+        "2026-03-19T14:01:28.103Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@imacorp.com": {
       "name": "IMA Financial Group",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:22.315Z"
+        "2026-03-12T13:55:22.315Z",
+        "2026-03-19T14:01:31.126Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@hylant.com": {
       "name": "Hylant",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-12T13:55:25.348Z"
+        "2026-03-12T13:55:25.348Z",
+        "2026-03-19T14:01:34.154Z"
       ],
-      "nextFollowUp": "2026-03-19"
+      "nextFollowUp": "2026-04-02"
     },
     "info@connerstrong.com": {
       "name": "Conner Strong & Buckelew",
@@ -559,5 +574,5 @@
       "nextFollowUp": "2026-03-24"
     }
   },
-  "lastRun": "2026-03-18T14:13:45.904Z"
+  "lastRun": "2026-03-19T14:01:34.155Z"
 }

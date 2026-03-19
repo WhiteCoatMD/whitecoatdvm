@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Bernard Health",
+    "email": "info@bernardhealth.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:00:51.844Z"
+  },
+  {
+    "name": "Nava Benefits",
+    "email": "partnerships@navabenefits.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:00:54.868Z"
+  },
+  {
+    "name": "Collective Health",
+    "email": "partnerships@collectivehealth.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:00:57.897Z"
+  },
+  {
+    "name": "Alight Solutions",
+    "email": "info@alight.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:00.934Z"
+  },
+  {
+    "name": "Buck Global",
+    "email": "info@buck.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:03.957Z"
+  },
+  {
+    "name": "Segal Group",
+    "email": "info@segalgroup.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:06.976Z"
+  },
+  {
+    "name": "CBIZ Benefits",
+    "email": "info@cbiz.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:09.993Z"
+  },
+  {
+    "name": "USI Insurance Services",
+    "email": "info@usi.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:13.010Z"
+  },
+  {
+    "name": "Marsh McLennan Agency",
+    "email": "info@marshmma.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:16.028Z"
+  },
+  {
+    "name": "AssuredPartners",
+    "email": "info@assuredpartners.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:19.043Z"
+  },
+  {
+    "name": "HUB International",
+    "email": "info@hubinternational.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:22.062Z"
+  },
+  {
+    "name": "Alera Group",
+    "email": "info@aleragroup.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:25.079Z"
+  },
+  {
+    "name": "Woodruff Sawyer",
+    "email": "info@woodruffsawyer.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:28.103Z"
+  },
+  {
+    "name": "IMA Financial Group",
+    "email": "info@imacorp.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:31.126Z"
+  },
+  {
+    "name": "Hylant",
+    "email": "info@hylant.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-03-19T14:01:34.154Z"
+  }
+]
