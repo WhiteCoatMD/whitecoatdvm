@@ -407,123 +407,138 @@
     },
     "info@connerstrong.com": {
       "name": "Conner Strong & Buckelew",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:02:52.646Z"
+        "2026-03-13T14:02:52.646Z",
+        "2026-03-20T13:52:49.495Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@higginbotham.net": {
       "name": "Higginbotham",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:02:55.692Z"
+        "2026-03-13T14:02:55.692Z",
+        "2026-03-20T13:52:52.520Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@holmesmurphy.com": {
       "name": "Holmes Murphy",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:02:58.762Z"
+        "2026-03-13T14:02:58.762Z",
+        "2026-03-20T13:52:55.543Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@plexusgroupe.com": {
       "name": "The Plexus Groupe",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:01.795Z"
+        "2026-03-13T14:03:01.795Z",
+        "2026-03-20T13:52:58.565Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "partnerships@employeenavigator.com": {
       "name": "Employee Navigator",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:04.837Z"
+        "2026-03-13T14:03:04.837Z",
+        "2026-03-20T13:53:01.584Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@aon.com": {
       "name": "Aon",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:07.871Z"
+        "2026-03-13T14:03:07.871Z",
+        "2026-03-20T13:53:04.604Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@bbrown.com": {
       "name": "Brown & Brown Insurance",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:10.911Z"
+        "2026-03-13T14:03:10.911Z",
+        "2026-03-20T13:53:07.625Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@alliant.com": {
       "name": "Alliant Insurance Services",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:13.950Z"
+        "2026-03-13T14:03:13.950Z",
+        "2026-03-20T13:53:10.644Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@acrisure.com": {
       "name": "Acrisure",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:16.986Z"
+        "2026-03-13T14:03:16.986Z",
+        "2026-03-20T13:53:13.665Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@mwepartnership.com": {
       "name": "The MWE Partnership",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:20.016Z"
+        "2026-03-13T14:03:20.016Z",
+        "2026-03-20T13:53:16.685Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@adp.com": {
       "name": "ADP TotalSource",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:23.067Z"
+        "2026-03-13T14:03:23.067Z",
+        "2026-03-20T13:53:19.707Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "info@paylocity.com": {
       "name": "Paylocity",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:26.096Z"
+        "2026-03-13T14:03:26.096Z",
+        "2026-03-20T13:53:22.723Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "partnerships@deel.com": {
       "name": "Deel",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:29.133Z"
+        "2026-03-13T14:03:29.133Z",
+        "2026-03-20T13:53:25.739Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "partnerships@getbenepass.com": {
       "name": "Benepass",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:32.160Z"
+        "2026-03-13T14:03:32.160Z",
+        "2026-03-20T13:53:28.760Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "partnerships@espresa.com": {
       "name": "Espresa",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-13T14:03:35.204Z"
+        "2026-03-13T14:03:35.204Z",
+        "2026-03-20T13:53:31.779Z"
       ],
-      "nextFollowUp": "2026-03-20"
+      "nextFollowUp": "2026-04-03"
     },
     "partnerships@joinforma.com": {
       "name": "Forma",
@@ -574,5 +589,5 @@
       "nextFollowUp": "2026-03-24"
     }
   },
-  "lastRun": "2026-03-19T14:01:34.155Z"
+  "lastRun": "2026-03-20T13:53:31.779Z"
 }
