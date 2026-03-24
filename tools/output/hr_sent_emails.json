@@ -542,52 +542,58 @@
     },
     "partnerships@joinforma.com": {
       "name": "Forma",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-17T14:10:45.867Z"
+        "2026-03-17T14:10:45.867Z",
+        "2026-03-24T14:10:41.006Z"
       ],
-      "nextFollowUp": "2026-03-24"
+      "nextFollowUp": "2026-04-07"
     },
     "partnerships@bonusly.com": {
       "name": "Bonusly",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-17T14:10:48.924Z"
+        "2026-03-17T14:10:48.924Z",
+        "2026-03-24T14:10:44.037Z"
       ],
-      "nextFollowUp": "2026-03-24"
+      "nextFollowUp": "2026-04-07"
     },
     "partnerships@awardco.com": {
       "name": "Awardco",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-17T14:10:51.967Z"
+        "2026-03-17T14:10:51.967Z",
+        "2026-03-24T14:10:47.067Z"
       ],
-      "nextFollowUp": "2026-03-24"
+      "nextFollowUp": "2026-04-07"
     },
     "info@wellness360.co": {
       "name": "Wellness360",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-17T14:10:55.010Z"
+        "2026-03-17T14:10:55.010Z",
+        "2026-03-24T14:10:50.109Z"
       ],
-      "nextFollowUp": "2026-03-24"
+      "nextFollowUp": "2026-04-07"
     },
     "info@goempyrean.com": {
       "name": "Empyrean Benefit Solutions",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-17T14:10:58.062Z"
+        "2026-03-17T14:10:58.062Z",
+        "2026-03-24T14:10:53.136Z"
       ],
-      "nextFollowUp": "2026-03-24"
+      "nextFollowUp": "2026-04-07"
     },
     "info@petbenefits.com": {
       "name": "Pet Benefit Solutions",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-03-17T14:11:01.113Z"
+        "2026-03-17T14:11:01.113Z",
+        "2026-03-24T14:10:56.171Z"
       ],
-      "nextFollowUp": "2026-03-24"
+      "nextFollowUp": "2026-04-07"
     }
   },
-  "lastRun": "2026-03-20T13:53:31.779Z"
+  "lastRun": "2026-03-24T14:10:56.171Z"
 }
