@@ -3334,7 +3334,167 @@
         "2026-03-23T14:05:50.139Z"
       ],
       "nextFollowUp": "2026-03-30"
+    },
+    "hopeforcats@cox.net": {
+      "name": "Hope for Cats",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:22.410Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "hs@humanesocietycentralaz.org": {
+      "name": "Humane Society of Central Arizona",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:25.432Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "petfinder@hssaz.org": {
+      "name": "Humane Society of Southern Arizona",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:28.451Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "hswm70@hotmail.com": {
+      "name": "Humane Society of the White Mountains",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:31.476Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "losteen@hsoyuma.com": {
+      "name": "Humane Society of Yuma",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:34.493Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "ivo.staff@yahoo.com": {
+      "name": "Integrative Veterinary Oncology",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:37.525Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "twotenpets@aol.com": {
+      "name": "K-9 Friends",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:40.543Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "k9clips5@aol.com": {
+      "name": "K9 Konnection",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:43.566Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "info@kittskittenrescue.org": {
+      "name": "Kitt's Kitten Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:46.587Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "kodiaksplace@gmail.com": {
+      "name": "Kodiak's Place: Rescue/ Rehabilitate/ Re-Home",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:49.604Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "shelter@co.la-paz.az.us": {
+      "name": "La Paz County Animal Shelter",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:52.623Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "rescueme@azlabfriends.com": {
+      "name": "Labrador Friends of Arizona",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:55.641Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "janders@saferlifeline.org": {
+      "name": "Lifeline Oro Valley Animal Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:08:58.658Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "lilbitofloverescue@gmail.com": {
+      "name": "Lil Bit of Love Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:09:01.678Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "laura@littleheartk9.com": {
+      "name": "Little Heart K9",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:09:04.699Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "littleleaguerescue@gmail.com": {
+      "name": "Little League Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:09:07.715Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "bu.ter.fly@hotmail.com": {
+      "name": "Little Rascals Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:09:10.735Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "samanthabrown.ltd@gmail.com": {
+      "name": "Living the Dream Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:09:13.753Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "chartipton1@msn.com": {
+      "name": "Living Water Ranch Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:09:16.771Z"
+      ],
+      "nextFollowUp": "2026-04-01"
+    },
+    "adoptions@lostourhome.org": {
+      "name": "Lost Our Home Pet Foundation",
+      "wave": 1,
+      "dates": [
+        "2026-03-25T14:09:19.789Z"
+      ],
+      "nextFollowUp": "2026-04-01"
     }
   },
-  "lastRun": "2026-03-24T14:10:40.741Z"
+  "lastRun": "2026-03-25T14:09:19.789Z"
 }
