@@ -152,138 +152,153 @@
     },
     "info@namely.com": {
       "name": "Namely",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:08.438Z",
-        "2026-03-18T14:13:03.643Z"
+        "2026-03-18T14:13:03.643Z",
+        "2026-04-01T14:24:54.472Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "info@sequoia.com": {
       "name": "Sequoia Consulting Group",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:11.476Z",
-        "2026-03-18T14:13:06.662Z"
+        "2026-03-18T14:13:06.662Z",
+        "2026-04-01T14:24:57.510Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@perkspot.com": {
       "name": "PerkSpot",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:14.514Z",
-        "2026-03-18T14:13:09.679Z"
+        "2026-03-18T14:13:09.679Z",
+        "2026-04-01T14:25:00.538Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "hello@fond.co": {
       "name": "Fond",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:17.545Z",
-        "2026-03-18T14:13:12.711Z"
+        "2026-03-18T14:13:12.711Z",
+        "2026-04-01T14:25:03.568Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "hello@benepass.com": {
       "name": "Benepass",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:20.591Z",
-        "2026-03-18T14:13:15.727Z"
+        "2026-03-18T14:13:15.727Z",
+        "2026-04-01T14:25:06.600Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@fringe.us": {
       "name": "Fringe",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:23.621Z",
-        "2026-03-18T14:13:18.745Z"
+        "2026-03-18T14:13:18.745Z",
+        "2026-04-01T14:25:09.630Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@compt.io": {
       "name": "Compt",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:26.652Z",
-        "2026-03-18T14:13:21.762Z"
+        "2026-03-18T14:13:21.762Z",
+        "2026-04-01T14:25:12.660Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@virginpulse.com": {
       "name": "Virgin Pulse",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:29.684Z",
-        "2026-03-18T14:13:24.779Z"
+        "2026-03-18T14:13:24.779Z",
+        "2026-04-01T14:25:15.689Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@wellable.co": {
       "name": "Wellable",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:32.711Z",
-        "2026-03-18T14:13:27.797Z"
+        "2026-03-18T14:13:27.797Z",
+        "2026-04-01T14:25:18.720Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "info@limeade.com": {
       "name": "Limeade",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:35.742Z",
-        "2026-03-18T14:13:30.812Z"
+        "2026-03-18T14:13:30.812Z",
+        "2026-04-01T14:25:21.748Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@wellhub.com": {
       "name": "Wellhub",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:38.774Z",
-        "2026-03-18T14:13:33.827Z"
+        "2026-03-18T14:13:33.827Z",
+        "2026-04-01T14:25:24.779Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "hello@league.com": {
       "name": "League Inc",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:41.805Z",
-        "2026-03-18T14:13:36.846Z"
+        "2026-03-18T14:13:36.846Z",
+        "2026-04-01T14:25:27.808Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@businessolver.com": {
       "name": "Businessolver",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:44.845Z",
-        "2026-03-18T14:13:39.870Z"
+        "2026-03-18T14:13:39.870Z",
+        "2026-04-01T14:25:30.836Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "partnerships@plansource.com": {
       "name": "PlanSource",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:47.877Z",
-        "2026-03-18T14:13:42.888Z"
+        "2026-03-18T14:13:42.888Z",
+        "2026-04-01T14:25:33.866Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "hello@ease.com": {
       "name": "Ease (formerly EaseCentral)",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-11T13:57:50.910Z",
-        "2026-03-18T14:13:45.904Z"
+        "2026-03-18T14:13:45.904Z",
+        "2026-04-01T14:25:36.893Z"
       ],
-      "nextFollowUp": "2026-04-01"
+      "nextFollowUp": null
     },
     "info@bernardhealth.com": {
       "name": "Bernard Health",
@@ -610,5 +625,5 @@
       "nextFollowUp": "2026-04-07"
     }
   },
-  "lastRun": "2026-03-30T14:20:26.874Z"
+  "lastRun": "2026-04-01T14:25:36.893Z"
 }
