@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Conner Strong & Buckelew",
+    "email": "info@connerstrong.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:14.021Z"
+  },
+  {
+    "name": "Higginbotham",
+    "email": "info@higginbotham.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:17.077Z"
+  },
+  {
+    "name": "Holmes Murphy",
+    "email": "info@holmesmurphy.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:20.128Z"
+  },
+  {
+    "name": "The Plexus Groupe",
+    "email": "info@plexusgroupe.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:23.180Z"
+  },
+  {
+    "name": "Employee Navigator",
+    "email": "partnerships@employeenavigator.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:26.232Z"
+  },
+  {
+    "name": "Aon",
+    "email": "info@aon.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:29.285Z"
+  },
+  {
+    "name": "Brown & Brown Insurance",
+    "email": "info@bbrown.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:32.337Z"
+  },
+  {
+    "name": "Alliant Insurance Services",
+    "email": "info@alliant.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:35.389Z"
+  },
+  {
+    "name": "Acrisure",
+    "email": "info@acrisure.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:38.440Z"
+  },
+  {
+    "name": "The MWE Partnership",
+    "email": "info@mwepartnership.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:41.491Z"
+  },
+  {
+    "name": "ADP TotalSource",
+    "email": "info@adp.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:44.544Z"
+  },
+  {
+    "name": "Paylocity",
+    "email": "info@paylocity.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:47.596Z"
+  },
+  {
+    "name": "Deel",
+    "email": "partnerships@deel.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:50.647Z"
+  },
+  {
+    "name": "Benepass",
+    "email": "partnerships@getbenepass.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:53.697Z"
+  },
+  {
+    "name": "Espresa",
+    "email": "partnerships@espresa.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-03T13:55:56.746Z"
+  }
+]
