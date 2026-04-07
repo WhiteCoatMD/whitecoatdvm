@@ -602,58 +602,64 @@
     },
     "partnerships@joinforma.com": {
       "name": "Forma",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-17T14:10:45.867Z",
-        "2026-03-24T14:10:41.006Z"
+        "2026-03-24T14:10:41.006Z",
+        "2026-04-07T14:25:19.979Z"
       ],
-      "nextFollowUp": "2026-04-07"
+      "nextFollowUp": null
     },
     "partnerships@bonusly.com": {
       "name": "Bonusly",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-17T14:10:48.924Z",
-        "2026-03-24T14:10:44.037Z"
+        "2026-03-24T14:10:44.037Z",
+        "2026-04-07T14:25:23.047Z"
       ],
-      "nextFollowUp": "2026-04-07"
+      "nextFollowUp": null
     },
     "partnerships@awardco.com": {
       "name": "Awardco",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-17T14:10:51.967Z",
-        "2026-03-24T14:10:47.067Z"
+        "2026-03-24T14:10:47.067Z",
+        "2026-04-07T14:25:26.112Z"
       ],
-      "nextFollowUp": "2026-04-07"
+      "nextFollowUp": null
     },
     "info@wellness360.co": {
       "name": "Wellness360",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-17T14:10:55.010Z",
-        "2026-03-24T14:10:50.109Z"
+        "2026-03-24T14:10:50.109Z",
+        "2026-04-07T14:25:29.179Z"
       ],
-      "nextFollowUp": "2026-04-07"
+      "nextFollowUp": null
     },
     "info@goempyrean.com": {
       "name": "Empyrean Benefit Solutions",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-17T14:10:58.062Z",
-        "2026-03-24T14:10:53.136Z"
+        "2026-03-24T14:10:53.136Z",
+        "2026-04-07T14:25:32.246Z"
       ],
-      "nextFollowUp": "2026-04-07"
+      "nextFollowUp": null
     },
     "info@petbenefits.com": {
       "name": "Pet Benefit Solutions",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-17T14:11:01.113Z",
-        "2026-03-24T14:10:56.171Z"
+        "2026-03-24T14:10:56.171Z",
+        "2026-04-07T14:25:35.315Z"
       ],
-      "nextFollowUp": "2026-04-07"
+      "nextFollowUp": null
     }
   },
-  "lastRun": "2026-04-03T13:55:56.746Z"
+  "lastRun": "2026-04-07T14:25:35.315Z"
 }
