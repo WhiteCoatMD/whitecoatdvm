@@ -3752,183 +3752,203 @@
     },
     "hopeforcats@cox.net": {
       "name": "Hope for Cats",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:22.410Z",
-        "2026-04-01T14:23:56.637Z"
+        "2026-04-01T14:23:56.637Z",
+        "2026-04-15T14:23:26.262Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "hs@humanesocietycentralaz.org": {
       "name": "Humane Society of Central Arizona",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:25.432Z",
-        "2026-04-01T14:23:59.664Z"
+        "2026-04-01T14:23:59.664Z",
+        "2026-04-15T14:23:29.310Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "petfinder@hssaz.org": {
       "name": "Humane Society of Southern Arizona",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:28.451Z",
-        "2026-04-01T14:24:02.694Z"
+        "2026-04-01T14:24:02.694Z",
+        "2026-04-15T14:23:32.354Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "hswm70@hotmail.com": {
       "name": "Humane Society of the White Mountains",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:31.476Z",
-        "2026-04-01T14:24:05.722Z"
+        "2026-04-01T14:24:05.722Z",
+        "2026-04-15T14:23:35.402Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "losteen@hsoyuma.com": {
       "name": "Humane Society of Yuma",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:34.493Z",
-        "2026-04-01T14:24:08.749Z"
+        "2026-04-01T14:24:08.749Z",
+        "2026-04-15T14:23:38.444Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "ivo.staff@yahoo.com": {
       "name": "Integrative Veterinary Oncology",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:37.525Z",
-        "2026-04-01T14:24:11.779Z"
+        "2026-04-01T14:24:11.779Z",
+        "2026-04-15T14:23:41.489Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "twotenpets@aol.com": {
       "name": "K-9 Friends",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:40.543Z",
-        "2026-04-01T14:24:14.806Z"
+        "2026-04-01T14:24:14.806Z",
+        "2026-04-15T14:23:44.534Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "k9clips5@aol.com": {
       "name": "K9 Konnection",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:43.566Z",
-        "2026-04-01T14:24:17.834Z"
+        "2026-04-01T14:24:17.834Z",
+        "2026-04-15T14:23:47.581Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "info@kittskittenrescue.org": {
       "name": "Kitt's Kitten Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:46.587Z",
-        "2026-04-01T14:24:20.864Z"
+        "2026-04-01T14:24:20.864Z",
+        "2026-04-15T14:23:50.628Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "kodiaksplace@gmail.com": {
       "name": "Kodiak's Place: Rescue/ Rehabilitate/ Re-Home",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:49.604Z",
-        "2026-04-01T14:24:23.892Z"
+        "2026-04-01T14:24:23.892Z",
+        "2026-04-15T14:23:53.676Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "shelter@co.la-paz.az.us": {
       "name": "La Paz County Animal Shelter",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:52.623Z",
-        "2026-04-01T14:24:26.925Z"
+        "2026-04-01T14:24:26.925Z",
+        "2026-04-15T14:23:56.720Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "rescueme@azlabfriends.com": {
       "name": "Labrador Friends of Arizona",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:55.641Z",
-        "2026-04-01T14:24:30.020Z"
+        "2026-04-01T14:24:30.020Z",
+        "2026-04-15T14:23:59.762Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "janders@saferlifeline.org": {
       "name": "Lifeline Oro Valley Animal Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:08:58.658Z",
-        "2026-04-01T14:24:33.047Z"
+        "2026-04-01T14:24:33.047Z",
+        "2026-04-15T14:24:02.806Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "lilbitofloverescue@gmail.com": {
       "name": "Lil Bit of Love Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:09:01.678Z",
-        "2026-04-01T14:24:36.075Z"
+        "2026-04-01T14:24:36.075Z",
+        "2026-04-15T14:24:05.850Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "laura@littleheartk9.com": {
       "name": "Little Heart K9",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:09:04.699Z",
-        "2026-04-01T14:24:39.104Z"
+        "2026-04-01T14:24:39.104Z",
+        "2026-04-15T14:24:08.892Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "littleleaguerescue@gmail.com": {
       "name": "Little League Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:09:07.715Z",
-        "2026-04-01T14:24:42.134Z"
+        "2026-04-01T14:24:42.134Z",
+        "2026-04-15T14:24:11.936Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "bu.ter.fly@hotmail.com": {
       "name": "Little Rascals Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:09:10.735Z",
-        "2026-04-01T14:24:45.164Z"
+        "2026-04-01T14:24:45.164Z",
+        "2026-04-15T14:24:14.988Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "samanthabrown.ltd@gmail.com": {
       "name": "Living the Dream Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:09:13.753Z",
-        "2026-04-01T14:24:48.191Z"
+        "2026-04-01T14:24:48.191Z",
+        "2026-04-15T14:24:18.031Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "chartipton1@msn.com": {
       "name": "Living Water Ranch Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:09:16.771Z",
-        "2026-04-01T14:24:51.218Z"
+        "2026-04-01T14:24:51.218Z",
+        "2026-04-15T14:24:21.076Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "adoptions@lostourhome.org": {
       "name": "Lost Our Home Pet Foundation",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-03-25T14:09:19.789Z",
-        "2026-04-01T14:24:54.248Z"
+        "2026-04-01T14:24:54.248Z",
+        "2026-04-15T14:24:24.144Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": null
     },
     "cristina@luckyangel.org": {
       "name": "Lucky Angel Animal Rescue",
@@ -4652,163 +4672,183 @@
     },
     "cowgirlvalerie@hotmail.com": {
       "name": "VJ Ranch",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:24.679Z"
+        "2026-04-08T14:25:24.679Z",
+        "2026-04-15T14:24:27.185Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "info@wowdogrescue.org": {
       "name": "W.O.W Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:27.715Z"
+        "2026-04-08T14:25:27.715Z",
+        "2026-04-15T14:24:30.233Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "waggintailchirescue@gmail.com": {
       "name": "Waggin Tail Chihuahua Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:30.749Z"
+        "2026-04-08T14:25:30.749Z",
+        "2026-04-15T14:24:33.274Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "azcatsmeow@gmail.com": {
       "name": "We're The Cat's Meow Pet Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:33.778Z"
+        "2026-04-08T14:25:33.778Z",
+        "2026-04-15T14:24:36.320Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "adoptions@westernarizonahumane.org": {
       "name": "Western Arizona Humane Society",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:36.809Z"
+        "2026-04-08T14:25:36.809Z",
+        "2026-04-15T14:24:39.367Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "shampton5@cox.net": {
       "name": "Westie & Friends AZ Rescue, Inc",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:39.846Z"
+        "2026-04-08T14:25:39.846Z",
+        "2026-04-15T14:24:42.411Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "westierescueaz@aol.com": {
       "name": "Westie Rescue of Arizona",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:42.875Z"
+        "2026-04-08T14:25:42.875Z",
+        "2026-04-15T14:24:45.462Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "pangaya@msn.com": {
       "name": "Where Wolves Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:45.906Z"
+        "2026-04-08T14:25:45.906Z",
+        "2026-04-15T14:24:48.507Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "yorkieluvrescue@yahoo.com": {
       "name": "Yorkie Luv Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:48.937Z"
+        "2026-04-08T14:25:48.937Z",
+        "2026-04-15T14:24:51.551Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "1lovedogrescue@gmail.com": {
       "name": "1 Love Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:51.967Z"
+        "2026-04-08T14:25:51.967Z",
+        "2026-04-15T14:24:54.594Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "info@13thstcats.org": {
       "name": "13th St Cats",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:54.997Z"
+        "2026-04-08T14:25:54.997Z",
+        "2026-04-15T14:24:57.640Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "tammye@2cruerescue.com": {
       "name": "2 Crue Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:25:58.028Z"
+        "2026-04-08T14:25:58.028Z",
+        "2026-04-15T14:25:00.768Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "coffee.luvr@yahoo.com": {
       "name": "2TheResQ",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:01.059Z"
+        "2026-04-08T14:26:01.059Z",
+        "2026-04-15T14:25:03.817Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "3rrescue@gmail.com": {
       "name": "3R Rescue, Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:04.089Z"
+        "2026-04-08T14:26:04.089Z",
+        "2026-04-15T14:25:06.861Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "4dogsfarmrescue@gmail.com": {
       "name": "4 Dogs Farm Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:07.122Z"
+        "2026-04-08T14:26:07.122Z",
+        "2026-04-15T14:25:09.906Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "4rfriends.mail@gmail.com": {
       "name": "4 R Friends",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:10.152Z"
+        "2026-04-08T14:26:10.152Z",
+        "2026-04-15T14:25:12.950Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "9livesrescuecenter@gmail.com": {
       "name": "9 Lives Rescue Center",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:13.183Z"
+        "2026-04-08T14:26:13.183Z",
+        "2026-04-15T14:25:15.997Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "abetterchancerescue@gmail.com": {
       "name": "A Better Chance Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:16.214Z"
+        "2026-04-08T14:26:16.214Z",
+        "2026-04-15T14:25:19.044Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "cathy@acatstale.org": {
       "name": "A Cat's Tale",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:19.244Z"
+        "2026-04-08T14:26:19.244Z",
+        "2026-04-15T14:25:22.092Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "ocacfp@yahoo.com": {
       "name": "A Cause For Paws OC",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-04-08T14:26:22.278Z"
+        "2026-04-08T14:26:22.278Z",
+        "2026-04-15T14:25:25.143Z"
       ],
-      "nextFollowUp": "2026-04-15"
+      "nextFollowUp": "2026-04-29"
     },
     "adoptions@adogsliferescue.org": {
       "name": "A Dog's Life Rescue",
@@ -5131,5 +5171,5 @@
       "nextFollowUp": "2026-04-21"
     }
   },
-  "lastRun": "2026-04-14T14:32:13.235Z"
+  "lastRun": "2026-04-15T14:25:25.143Z"
 }
