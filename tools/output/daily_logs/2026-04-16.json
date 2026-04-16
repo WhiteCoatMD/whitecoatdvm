@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Lucky Angel Animal Rescue",
+    "email": "cristina@luckyangel.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:29.945Z"
+  },
+  {
+    "name": "Lulubelle Animal Rescue",
+    "email": "lulubellerescue@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:32.963Z"
+  },
+  {
+    "name": "Luv of Dogz Fund, Inc",
+    "email": "luvofdogzfund@aol.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:35.975Z"
+  },
+  {
+    "name": "Mayday Pit Bull Rescue & Advocacy",
+    "email": "info@maydaypitbullrescue.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:38.988Z"
+  },
+  {
+    "name": "Medical Animals In Need (M.A.I.N.)",
+    "email": "medicalanimalsinneed@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:42.002Z"
+  },
+  {
+    "name": "MEOWness Cat Adoptions",
+    "email": "live.love.meow@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:45.015Z"
+  },
+  {
+    "name": "MildCats on Campus",
+    "email": "bhm@asu.edu",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:48.027Z"
+  },
+  {
+    "name": "Mini Mighty Mutts Rescue",
+    "email": "info@minimightymutts.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:51.041Z"
+  },
+  {
+    "name": "Miss Kittys Cat House",
+    "email": "suezq@commspeed.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:54.057Z"
+  },
+  {
+    "name": "Miss Maggie May's Rescue",
+    "email": "missmaggiemay@cox.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:46:57.072Z"
+  },
+  {
+    "name": "Mixed Up Mutts and Shepherds Too",
+    "email": "laura@scottsdalepethotel.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:00.086Z"
+  },
+  {
+    "name": "Morning Starr Animal Sanctuary, Inc.",
+    "email": "fran@morningstarr.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:03.100Z"
+  },
+  {
+    "name": "One Dog Arizona",
+    "email": "onedogrescued@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:06.112Z"
+  },
+  {
+    "name": "Page Animal Adoption Agency",
+    "email": "pageanimaladoption@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:09.125Z"
+  },
+  {
+    "name": "Pammy's Second Chance Rescue",
+    "email": "pammys2ndchancerescue@hotmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:12.139Z"
+  },
+  {
+    "name": "Paw Kindness",
+    "email": "pawkindness@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:15.157Z"
+  },
+  {
+    "name": "Paw Placement",
+    "email": "mjandersson@cox.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:18.166Z"
+  },
+  {
+    "name": "Paw Town Angels",
+    "email": "pawtownangels@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:21.181Z"
+  },
+  {
+    "name": "Paws & Claws Pet Fostering",
+    "email": "pet911@azpawsandclaws.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:24.193Z"
+  },
+  {
+    "name": "Paws Patrol",
+    "email": "pawspatrol@cox.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:27.213Z"
+  },
+  {
+    "name": "A Dog's Life Rescue",
+    "email": "adoptions@adogsliferescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:30.224Z"
+  },
+  {
+    "name": "A Home 4 Ever Rescue",
+    "email": "ahome4ever@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:33.300Z"
+  },
+  {
+    "name": "A Noah's B'Ark North Pet Rescue",
+    "email": "noahsbark.nc@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:36.314Z"
+  },
+  {
+    "name": "A Passion for Paws Rescue, Inc..",
+    "email": "apassionforpaws@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:39.326Z"
+  },
+  {
+    "name": "A Pawsitive Approach",
+    "email": "apawsitiveapproach2015@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:42.336Z"
+  },
+  {
+    "name": "A Purposeful Rescue",
+    "email": "apurprescue@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:45.345Z"
+  },
+  {
+    "name": "A SafeFurr Place Animal Rescue",
+    "email": "info@asafefurrplace.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:48.372Z"
+  },
+  {
+    "name": "Ace of Hearts",
+    "email": "aceofheartsmngr@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:51.386Z"
+  },
+  {
+    "name": "ACGSR, Inc",
+    "email": "vivatacgsinc@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:54.397Z"
+  },
+  {
+    "name": "Adopt A Bunny Rabbit Rescue",
+    "email": "bunnygroomer@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:47:57.406Z"
+  },
+  {
+    "name": "Adopt a Doggie",
+    "email": "contact@adoptadoggie.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:00.421Z"
+  },
+  {
+    "name": "Adopt a Friend Forever Rescue",
+    "email": "moyamarie@msn.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:03.455Z"
+  },
+  {
+    "name": "Adopt A Saint - Saint Bernard Rescue",
+    "email": "cmdiiullo@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:06.467Z"
+  },
+  {
+    "name": "Adopt Me Rescue",
+    "email": "adoptmerescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:09.478Z"
+  },
+  {
+    "name": "Adopt-A-Chow LA",
+    "email": "adoptachowla@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:12.488Z"
+  },
+  {
+    "name": "Adoptables at spcaLA",
+    "email": "info@spcala.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:15.497Z"
+  },
+  {
+    "name": "Ady Gil World Conservation",
+    "email": "info@agwc501.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:18.508Z"
+  },
+  {
+    "name": "AHPHA",
+    "email": "ahphaadoption@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:21.519Z"
+  },
+  {
+    "name": "AKarmic Connections Animal Rescue",
+    "email": "karmicrescues@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:24.531Z"
+  },
+  {
+    "name": "All About Equine Animal Rescue, Inc.",
+    "email": "adopt@allaboutequine.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-04-16T14:48:27.543Z"
+  }
+]
