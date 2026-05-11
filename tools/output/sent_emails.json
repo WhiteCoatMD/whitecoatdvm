@@ -5552,183 +5552,203 @@
     },
     "animalrescuers@sbcglobal.net": {
       "name": "Animal Rescuers Without Borders,Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:25:49.222Z",
-        "2026-04-27T14:53:37.683Z"
+        "2026-04-27T14:53:37.683Z",
+        "2026-05-11T15:50:20.136Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "rlinsell@animalsamaritans.org": {
       "name": "Animal Samaritans SPCA",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:25:52.255Z",
-        "2026-04-27T14:53:40.734Z"
+        "2026-04-27T14:53:40.734Z",
+        "2026-05-11T15:50:23.201Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "info@asapcats.org": {
       "name": "Animal Shelter Assistance Program (ASAP)",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:25:55.285Z",
-        "2026-04-27T14:53:43.776Z"
+        "2026-04-27T14:53:43.776Z",
+        "2026-05-11T15:50:26.262Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "amy@animalshelterrelief.org": {
       "name": "Animal Shelter Relief Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:25:58.319Z",
-        "2026-04-27T14:53:46.820Z"
+        "2026-04-27T14:53:46.820Z",
+        "2026-05-11T15:50:29.328Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "info@animalsynergy.org": {
       "name": "Animal Synergy",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:01.353Z",
-        "2026-04-27T14:53:49.861Z"
+        "2026-04-27T14:53:49.861Z",
+        "2026-05-11T15:50:32.389Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "animalsneedou@yahoo.com": {
       "name": "Animals Need U Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:04.387Z",
-        "2026-04-27T14:53:52.904Z"
+        "2026-04-27T14:53:52.904Z",
+        "2026-05-11T15:50:35.453Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "fosteradoption@animalsave.org": {
       "name": "AnimalSave",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:07.418Z",
-        "2026-04-27T14:53:55.946Z"
+        "2026-04-27T14:53:55.946Z",
+        "2026-05-11T15:50:38.511Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "anniesrescue@gmail.com": {
       "name": "Annie's Pet Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:10.445Z",
-        "2026-04-27T14:53:58.988Z"
+        "2026-04-27T14:53:58.988Z",
+        "2026-05-11T15:50:41.573Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "acawl.inc@gmail.com": {
       "name": "Another Chance Animal Welfare League Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:13.487Z",
-        "2026-04-27T14:54:02.035Z"
+        "2026-04-27T14:54:02.035Z",
+        "2026-05-11T15:50:44.636Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "easytospot@earthlink.net": {
       "name": "Antelope Valley Dalmatian Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:16.519Z",
-        "2026-04-27T14:54:05.078Z"
+        "2026-04-27T14:54:05.078Z",
+        "2026-05-11T15:50:47.697Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "antiochanimalservices@gmail.com": {
       "name": "Antioch Animal Services",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:19.550Z",
-        "2026-04-27T14:54:08.129Z"
+        "2026-04-27T14:54:08.129Z",
+        "2026-05-11T15:50:50.758Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "adoptions@apeaction.org": {
       "name": "APe Action (Animals People & Environment Action)",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:22.578Z",
-        "2026-04-27T14:54:11.349Z"
+        "2026-04-27T14:54:11.349Z",
+        "2026-05-11T15:50:53.818Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "apetrescue342@gmail.com": {
       "name": "APET Rescue and Kennels Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:25.606Z",
-        "2026-04-27T14:54:14.396Z"
+        "2026-04-27T14:54:14.396Z",
+        "2026-05-11T15:50:56.879Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "alleysangels@gmail.com": {
       "name": "ARA Canine Rescue Inc",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:28.635Z",
-        "2026-04-27T14:54:17.442Z"
+        "2026-04-27T14:54:17.442Z",
+        "2026-05-11T15:50:59.939Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "info@idyllwildarf.org": {
       "name": "ARF - Animal Rescue Friends/Idyllwild",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:31.669Z",
-        "2026-04-27T14:54:20.486Z"
+        "2026-04-27T14:54:20.486Z",
+        "2026-05-11T15:51:03.003Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "info@arielbullyrescue.com": {
       "name": "Ariel Bully Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:34.706Z",
-        "2026-04-27T14:54:23.531Z"
+        "2026-04-27T14:54:23.531Z",
+        "2026-05-11T15:51:06.065Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "adopt@rescuefreedomproject.org": {
       "name": "ARME (Animal Rescue Media Education)",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:37.736Z",
-        "2026-04-27T14:54:26.573Z"
+        "2026-04-27T14:54:26.573Z",
+        "2026-05-11T15:51:09.126Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "staff@arvsimi.org": {
       "name": "ARV (Animal Rescue Volunteers)",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:40.769Z",
-        "2026-04-27T14:54:29.618Z"
+        "2026-04-27T14:54:29.618Z",
+        "2026-05-11T15:51:12.190Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "contact@ahan.org": {
       "name": "Asians for Humans Animals and Nature",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:43.797Z",
-        "2026-04-27T14:54:32.662Z"
+        "2026-04-27T14:54:32.662Z",
+        "2026-05-11T15:51:15.251Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "jaydeen@astrofoundation.org": {
       "name": "ASTRO Foundation",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-04-20T14:26:46.831Z",
-        "2026-04-27T14:54:35.707Z"
+        "2026-04-27T14:54:35.707Z",
+        "2026-05-11T15:51:18.310Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": null
     },
     "oldhamranch@gmail.com": {
       "name": "Australian Shepherd Rescue San Diego and Friends",
@@ -6272,163 +6292,183 @@
     },
     "rescue@cagefreek9camp.com": {
       "name": "CageFree K9 Rescue Foundation",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:30.364Z"
+        "2026-05-04T14:59:30.364Z",
+        "2026-05-11T15:51:21.372Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "calstatedogrescue@outlook.com": {
       "name": "Cal State Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:33.403Z"
+        "2026-05-04T14:59:33.403Z",
+        "2026-05-11T15:51:24.432Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "califidrescue@gmail.com": {
       "name": "Cali_FID Parrot & Exotics Rescue Sanctuary",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:36.436Z"
+        "2026-05-04T14:59:36.436Z",
+        "2026-05-11T15:51:27.490Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "cashelterfriends@yahoo.com": {
       "name": "California Animal Shelter Friends",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:39.469Z"
+        "2026-05-04T14:59:39.469Z",
+        "2026-05-11T15:51:30.548Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "doginfo@labsandmore.org": {
       "name": "California Labradors Retrievers and More",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:42.501Z"
+        "2026-05-04T14:59:42.501Z",
+        "2026-05-11T15:51:33.610Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "schnauzer@dslextreme.com": {
       "name": "California Miniature Schnauzer Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:45.531Z"
+        "2026-05-04T14:59:45.531Z",
+        "2026-05-11T15:51:36.674Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "canada@dslextreme.com": {
       "name": "California Miniature Schnauzer Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:48.563Z"
+        "2026-05-04T14:59:48.563Z",
+        "2026-05-11T15:51:39.735Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "californiapitbullrescue@gmail.com": {
       "name": "California Pit Bull Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:51.591Z"
+        "2026-05-04T14:59:51.591Z",
+        "2026-05-11T15:51:42.798Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "sharon@calyscats.org": {
       "name": "Calys Cats Feline Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:54.623Z"
+        "2026-05-04T14:59:54.623Z",
+        "2026-05-11T15:51:45.860Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "campcockerinformation@gmail.com": {
       "name": "Camp Cocker Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T14:59:57.653Z"
+        "2026-05-04T14:59:57.653Z",
+        "2026-05-11T15:51:48.920Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "troy@campfourpaws.com": {
       "name": "Camp Four Paws",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:00.684Z"
+        "2026-05-04T15:00:00.684Z",
+        "2026-05-11T15:51:51.979Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "canineandkittycoop@gmail.com": {
       "name": "Canine & Kitty Co-op",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:03.719Z"
+        "2026-05-04T15:00:03.719Z",
+        "2026-05-11T15:51:55.186Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "care@carepets.org": {
       "name": "CARE Companion Animal Rescue Effort",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:06.749Z"
+        "2026-05-04T15:00:06.749Z",
+        "2026-05-11T15:51:58.249Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "info@carerescuela.org": {
       "name": "CARE Rescue LA",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:09.781Z"
+        "2026-05-04T15:00:09.781Z",
+        "2026-05-11T15:52:01.309Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "info@caring4kittens.com": {
       "name": "Caring 4 Kittens",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:12.820Z"
+        "2026-05-04T15:00:12.820Z",
+        "2026-05-11T15:52:04.371Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "helpingdogs76@gmail.com": {
       "name": "Caring Arms Rescue, Inc",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:15.859Z"
+        "2026-05-04T15:00:15.859Z",
+        "2026-05-11T15:52:07.431Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "caringfriendscatrescuetustin@gmail.com": {
       "name": "Caring Friends Cat Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:18.894Z"
+        "2026-05-04T15:00:18.894Z",
+        "2026-05-11T15:52:10.493Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "info@carsoncats.com": {
       "name": "Carson Cats Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:21.935Z"
+        "2026-05-04T15:00:21.935Z",
+        "2026-05-11T15:52:13.553Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "casadeloveanimalrescue@gmail.com": {
       "name": "Casa de Love",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:24.967Z"
+        "2026-05-04T15:00:24.967Z",
+        "2026-05-11T15:52:16.613Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "castawaypaws@gmail.com": {
       "name": "Castaway Paws",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-04T15:00:27.996Z"
+        "2026-05-04T15:00:27.996Z",
+        "2026-05-11T15:52:19.677Z"
       ],
-      "nextFollowUp": "2026-05-11"
+      "nextFollowUp": "2026-05-25"
     },
     "help2014@catadoptionservice.org": {
       "name": "Cat AdopTion Service",
@@ -6591,5 +6631,5 @@
       "nextFollowUp": "2026-05-14"
     }
   },
-  "lastRun": "2026-05-08T14:29:36.319Z"
+  "lastRun": "2026-05-11T15:52:19.677Z"
 }
