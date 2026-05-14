@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Bay Area Cat Rescue",
+    "email": "adoptions@bayareacatrescue.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:11:58.885Z"
+  },
+  {
+    "name": "Bay Area German Shepherd Rescue",
+    "email": "info@bayareagsr.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:01.926Z"
+  },
+  {
+    "name": "Bay Area Siberian Husky Rescue/Referral",
+    "email": "bashrr@com-ctl.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:04.964Z"
+  },
+  {
+    "name": "Be Their Voice Dog Rescue",
+    "email": "betheirvoicedogrescue@yahoo.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:07.999Z"
+  },
+  {
+    "name": "Beagles & Buddies",
+    "email": "beaglesandbuddies@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:11.031Z"
+  },
+  {
+    "name": "Bean's Beagles Dog Rescue",
+    "email": "chowsndoxies@aol.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:14.071Z"
+  },
+  {
+    "name": "Befriended Felines San Luis Obispo County",
+    "email": "befriendedfelines@charter.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:17.109Z"
+  },
+  {
+    "name": "Belleglen Sanctuary",
+    "email": "belleglen@hotmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:20.147Z"
+  },
+  {
+    "name": "Beople's Buddies Animal Rescue",
+    "email": "beoplesbuddies@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:23.182Z"
+  },
+  {
+    "name": "Berkeley Animal Care Services",
+    "email": "afunghi2@ci.berkeley.ca.us",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:26.217Z"
+  },
+  {
+    "name": "Berkeley Humane",
+    "email": "information@berkeleyhumane.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:29.252Z"
+  },
+  {
+    "name": "Best Friends Pet Adoption & Spay Neuter Center",
+    "email": "adoptla@bestfriends.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:32.289Z"
+  },
+  {
+    "name": "BFF K9 Rescue, Inc.",
+    "email": "info@bffk9rescue.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:35.324Z"
+  },
+  {
+    "name": "BFF Pet Rescue",
+    "email": "summer.parker@yahoo.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:38.361Z"
+  },
+  {
+    "name": "Bichon FurKids Rescue",
+    "email": "marti@bichonfurkids.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:41.395Z"
+  },
+  {
+    "name": "Bichon Rescue Brigade",
+    "email": "info@bichonrescuebrigade.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:44.434Z"
+  },
+  {
+    "name": "Bichon Rescue of Orange County",
+    "email": "info@bichonrescueoc.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:47.466Z"
+  },
+  {
+    "name": "Bichons and Buddies",
+    "email": "jc@bichonsandbuddies.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:50.502Z"
+  },
+  {
+    "name": "Big Dog Rescue",
+    "email": "cheryl@homelesshounds.us",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:53.536Z"
+  },
+  {
+    "name": "Bitten By A Kitten Rescue (BBAK)",
+    "email": "bittenbyakittn@yahoo.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:56.569Z"
+  },
+  {
+    "name": "Cat AdopTion Service",
+    "email": "help2014@catadoptionservice.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:12:59.603Z"
+  },
+  {
+    "name": "Cat Angel Network",
+    "email": "pamalah23@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:02.639Z"
+  },
+  {
+    "name": "Cat Clinic",
+    "email": "shelterkat@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:05.749Z"
+  },
+  {
+    "name": "Cat Connection",
+    "email": "catconnection@sbcglobal.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:08.780Z"
+  },
+  {
+    "name": "Cat Tales Rescue",
+    "email": "catinfo@catalesrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:11.818Z"
+  },
+  {
+    "name": "Catmandoo Rescue",
+    "email": "catsfordays@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:14.854Z"
+  },
+  {
+    "name": "CatPAWS",
+    "email": "catpawsdeborah@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:17.891Z"
+  },
+  {
+    "name": "Cats About Town Society",
+    "email": "andrea@catsabouttown.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:20.925Z"
+  },
+  {
+    "name": "Cats at the Studios, Inc. (CATS, INC.)",
+    "email": "catsatthestudios@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:23.955Z"
+  },
+  {
+    "name": "Cats Cradle Rescue",
+    "email": "adoptions@catscradlerescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:26.989Z"
+  },
+  {
+    "name": "Cats In Need",
+    "email": "catsinneed@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:30.022Z"
+  },
+  {
+    "name": "Cats in Need Chino",
+    "email": "gotcatrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:33.158Z"
+  },
+  {
+    "name": "Cats in Need of Human Care",
+    "email": "catsinneedfullerton@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:36.171Z"
+  },
+  {
+    "name": "Cats in Tow Rescue Sanctuary",
+    "email": "catsintow@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:39.185Z"
+  },
+  {
+    "name": "Cats' Crossroads",
+    "email": "catsxroads@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:42.199Z"
+  },
+  {
+    "name": "Cause for San Bernardino Paws",
+    "email": "cause4sbpaws@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:45.219Z"
+  },
+  {
+    "name": "Cavy House Guinea PIg Rescue",
+    "email": "cavyhouse@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:48.234Z"
+  },
+  {
+    "name": "Center for Animal Protection and Education",
+    "email": "info@capeanimals.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:51.247Z"
+  },
+  {
+    "name": "Central Coast Herding Dog Rescue",
+    "email": "info@cchdrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:54.260Z"
+  },
+  {
+    "name": "Central Coast SPCA",
+    "email": "centralcoastspca@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-05-14T15:13:57.268Z"
+  }
+]
