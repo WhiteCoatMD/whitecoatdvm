@@ -6152,183 +6152,203 @@
     },
     "shelterinfo@rivcocha.org": {
       "name": "Blythe Animal Shelter",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:16.747Z",
-        "2026-05-08T14:28:38.889Z"
+        "2026-05-08T14:28:38.889Z",
+        "2026-05-22T15:42:37.756Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "rescue@bordercolliesinneed.org": {
       "name": "Border Collies in Need",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:19.816Z",
-        "2026-05-08T14:28:41.906Z"
+        "2026-05-08T14:28:41.906Z",
+        "2026-05-22T15:42:40.788Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "borregoanimalrescue@gmail.com": {
       "name": "Borrego Animal Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:22.881Z",
-        "2026-05-08T14:28:44.927Z"
+        "2026-05-08T14:28:44.927Z",
+        "2026-05-22T15:42:43.802Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "contactus@bostonbuddies.org": {
       "name": "Boston Buddies -So. Calif. Boston Terrier Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:25.947Z",
-        "2026-05-08T14:28:47.952Z"
+        "2026-05-08T14:28:47.952Z",
+        "2026-05-22T15:42:46.818Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "adoptions@boxer-rescue-la.com": {
       "name": "Boxer Rescue LA",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:29.015Z",
-        "2026-05-08T14:28:50.973Z"
+        "2026-05-08T14:28:50.973Z",
+        "2026-05-22T15:42:49.893Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "bmwrescue17@gmail.com": {
       "name": "Boxers Mutts & Wiggle Butts Rescue Inc",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:32.083Z",
-        "2026-05-08T14:28:53.989Z"
+        "2026-05-08T14:28:53.989Z",
+        "2026-05-22T15:42:52.908Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "brandysleddogsrescue@gmail.com": {
       "name": "Brandy Sleddogs Rescue of Central California",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:35.151Z",
-        "2026-05-08T14:28:57.011Z"
+        "2026-05-08T14:28:57.011Z",
+        "2026-05-22T15:42:55.935Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "bravedogrescue@yahoo.com": {
       "name": "BraveDog Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:38.216Z",
-        "2026-05-08T14:29:00.032Z"
+        "2026-05-08T14:29:00.032Z",
+        "2026-05-22T15:42:58.950Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "susan_hoffman@yahoo.com": {
       "name": "BrightHaven, Bliss Adoption Program",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:41.279Z",
-        "2026-05-08T14:29:03.053Z"
+        "2026-05-08T14:29:03.053Z",
+        "2026-05-22T15:43:01.965Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "angierubin@me.com": {
       "name": "Buckingham Cats",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:44.347Z",
-        "2026-05-08T14:29:06.074Z"
+        "2026-05-08T14:29:06.074Z",
+        "2026-05-22T15:43:04.980Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "bulliesandbuddies@gmail.com": {
       "name": "Bullies and Buddies",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:47.412Z",
-        "2026-05-08T14:29:09.096Z"
+        "2026-05-08T14:29:09.096Z",
+        "2026-05-22T15:43:07.996Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "info@bunssb.org": {
       "name": "Bunnies Urgently Needing Shelter",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:50.476Z",
-        "2026-05-08T14:29:12.164Z"
+        "2026-05-08T14:29:12.164Z",
+        "2026-05-22T15:43:11.010Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "caroline@bunnybunch.org": {
       "name": "Bunny Bunch Rabbit Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:53.542Z",
-        "2026-05-08T14:29:15.188Z"
+        "2026-05-08T14:29:15.188Z",
+        "2026-05-22T15:43:14.023Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "info@bunnyworldfoundation.org": {
       "name": "Bunny World Foundation",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:56.606Z",
-        "2026-05-08T14:29:18.208Z"
+        "2026-05-08T14:29:18.208Z",
+        "2026-05-22T15:43:17.039Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "burbankanimalshelter@ci.burbank.ca.us": {
       "name": "Burbank Animal Shelter",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:11:59.667Z",
-        "2026-05-08T14:29:21.226Z"
+        "2026-05-08T14:29:21.226Z",
+        "2026-05-22T15:43:20.055Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "adoptions@buttehumane.org": {
       "name": "Butte Humane Society",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:12:02.740Z",
-        "2026-05-08T14:29:24.244Z"
+        "2026-05-08T14:29:24.244Z",
+        "2026-05-22T15:43:23.069Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "csanimalresq@gmail.com": {
       "name": "C-S Animal ResQ, Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:12:05.803Z",
-        "2026-05-08T14:29:27.264Z"
+        "2026-05-08T14:29:27.264Z",
+        "2026-05-22T15:43:26.082Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "thepetloversguide@comcast.net": {
       "name": "C.A.A.T. Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:12:08.867Z",
-        "2026-05-08T14:29:30.285Z"
+        "2026-05-08T14:29:30.285Z",
+        "2026-05-22T15:43:29.097Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "mail@care4pets.org": {
       "name": "C.A.R.E. aka: Cat/Canine Assist. Ref. Educ.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:12:11.928Z",
-        "2026-05-08T14:29:33.301Z"
+        "2026-05-08T14:29:33.301Z",
+        "2026-05-22T15:43:32.108Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "carrelabs@yahoo.com": {
       "name": "C.A.R.R.E. CA-AR Retriever Rescue Efforts",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-01T14:12:14.990Z",
-        "2026-05-08T14:29:36.319Z"
+        "2026-05-08T14:29:36.319Z",
+        "2026-05-22T15:43:35.123Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": null
     },
     "rescue@cagefreek9camp.com": {
       "name": "CageFree K9 Rescue Foundation",
@@ -6872,163 +6892,183 @@
     },
     "information@coastalgsrsd.org": {
       "name": "Coastal K9 German Shepherd Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:00.256Z"
+        "2026-05-15T15:08:00.256Z",
+        "2026-05-22T15:43:38.137Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "cockers2love@yahoo.com": {
       "name": "Cocker Connection",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:03.292Z"
+        "2026-05-15T15:08:03.292Z",
+        "2026-05-22T15:43:41.152Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "celliott@colusasheriff.com": {
       "name": "Colusa County Animal Control",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:06.321Z"
+        "2026-05-15T15:08:06.321Z",
+        "2026-05-22T15:43:44.165Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "commcatrescue@gmail.com": {
       "name": "Community Cat Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:09.355Z"
+        "2026-05-15T15:08:09.355Z",
+        "2026-05-22T15:43:47.177Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "communityconcernforcats@gmail.com": {
       "name": "Community Concern for Cats",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:12.386Z"
+        "2026-05-15T15:08:12.386Z",
+        "2026-05-22T15:43:50.191Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "companionsinwaiting@yahoo.com": {
       "name": "Companions In Waiting",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:15.414Z"
+        "2026-05-15T15:08:15.414Z",
+        "2026-05-22T15:43:53.208Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "adopt@cwob.org": {
       "name": "Compassion Without Borders",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:18.446Z"
+        "2026-05-15T15:08:18.446Z",
+        "2026-05-22T15:43:56.221Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "carmaoc@cox.net": {
       "name": "Compassionate Animal Rescue for Medical Aid",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:21.479Z"
+        "2026-05-15T15:08:21.479Z",
+        "2026-05-22T15:43:59.236Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "paula_hansen@att.net": {
       "name": "Compassionate Pet Sanctuary",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:24.511Z"
+        "2026-05-15T15:08:24.511Z",
+        "2026-05-22T15:44:02.249Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "adoptions@cchumane.org": {
       "name": "Contra Costa Humane Society",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:27.542Z"
+        "2026-05-15T15:08:27.542Z",
+        "2026-05-22T15:44:05.263Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "brooke@contracostarabbitrescue.org": {
       "name": "Contra Costa Rabbit Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:30.574Z"
+        "2026-05-15T15:08:30.574Z",
+        "2026-05-22T15:44:08.276Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "contracostaspca@yahoo.com": {
       "name": "Contra Costa SPCA",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:33.602Z"
+        "2026-05-15T15:08:33.602Z",
+        "2026-05-22T15:44:11.305Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "copperhillanimalclinic@gmail.com": {
       "name": "Copper Hill Animal Clinic",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:36.632Z"
+        "2026-05-15T15:08:36.632Z",
+        "2026-05-22T15:44:14.325Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "staff@coppersdream.org": {
       "name": "Copper's Dream Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:39.662Z"
+        "2026-05-15T15:08:39.662Z",
+        "2026-05-22T15:44:17.337Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "rescue@cornishrexfriends.org": {
       "name": "Cornish Rex Friends",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:42.691Z"
+        "2026-05-15T15:08:42.691Z",
+        "2026-05-22T15:44:20.352Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "info@nadovet.com": {
       "name": "Coronado Veterinary Hospital",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:45.723Z"
+        "2026-05-15T15:08:45.723Z",
+        "2026-05-22T15:44:23.366Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "countrysiderescuesr@gmail.com": {
       "name": "Countryside Rescue & Adoption Center",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:48.757Z"
+        "2026-05-15T15:08:48.757Z",
+        "2026-05-22T15:44:26.379Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "dasinfo@sdcounty.ca.gov": {
       "name": "County of San Diego Department of Animal Services",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:51.785Z"
+        "2026-05-15T15:08:51.785Z",
+        "2026-05-22T15:44:29.390Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "woof@couragetotrain.com": {
       "name": "Courage to Train",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:54.815Z"
+        "2026-05-15T15:08:54.815Z",
+        "2026-05-22T15:44:32.401Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "creaturekind@verizon.net": {
       "name": "creatureKIND",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-15T15:08:57.844Z"
+        "2026-05-15T15:08:57.844Z",
+        "2026-05-22T15:44:35.417Z"
       ],
-      "nextFollowUp": "2026-05-22"
+      "nextFollowUp": "2026-06-05"
     },
     "dreamanimalrescue@gmail.com": {
       "name": "D.R.E.A.M. Animal Rescue",
@@ -7511,5 +7551,5 @@
       "nextFollowUp": "2026-05-28"
     }
   },
-  "lastRun": "2026-05-21T16:10:51.666Z"
+  "lastRun": "2026-05-22T15:44:35.417Z"
 }
