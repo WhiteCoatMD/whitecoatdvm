@@ -1,0 +1,322 @@
+[
+  {
+    "name": "CENTRAL VALLEY RESCUE RAILROAD",
+    "email": "cvrr@cvrr.us",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:01.550Z"
+  },
+  {
+    "name": "Chako Pit Bull Rescue",
+    "email": "adoptions@chako.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:04.597Z"
+  },
+  {
+    "name": "Change of Heart Pit Bull Rescue",
+    "email": "cohpitbullrescue@yahoo.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:07.634Z"
+  },
+  {
+    "name": "Chasing Tails",
+    "email": "chasing_tails@hotmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:10.665Z"
+  },
+  {
+    "name": "Chesapeake Bay Retriever Relief and Rescue",
+    "email": "terrysc2@aol.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:13.698Z"
+  },
+  {
+    "name": "Chews Life Dog Rescue",
+    "email": "chewslifedogrescue@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:16.728Z"
+  },
+  {
+    "name": "Chihuahua Haven Rescue",
+    "email": "resqpuppies@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:19.755Z"
+  },
+  {
+    "name": "Chows Plus",
+    "email": "crazy4chows@sbcglobal.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:22.785Z"
+  },
+  {
+    "name": "Chula Vista Animal Care Facility",
+    "email": "lsepton@ci.chula-vista.ca.us",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:25.814Z"
+  },
+  {
+    "name": "Cirby Sunrise Veterinary Clinic",
+    "email": "cirbysunrise@aol.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:28.846Z"
+  },
+  {
+    "name": "City Lights Foundation",
+    "email": "citylightsfoundation@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:31.875Z"
+  },
+  {
+    "name": "City of Chico Animal Shelter",
+    "email": "chicoanimalshelter@yahoo.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:34.908Z"
+  },
+  {
+    "name": "City of Newman",
+    "email": "jfragoza@cityofnewman.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:37.937Z"
+  },
+  {
+    "name": "City of Oakdale Animal Shelter",
+    "email": "albertscoles@hotmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:40.969Z"
+  },
+  {
+    "name": "City of Sacramento Animal Care Services",
+    "email": "animalcare@cityofsacramento.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:44.000Z"
+  },
+  {
+    "name": "City of Shasta Lake Animal Control",
+    "email": "acontrol@cityofshastalake.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:47.029Z"
+  },
+  {
+    "name": "Clearlake Animal Control",
+    "email": "mwymer@clearlakepd.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:50.058Z"
+  },
+  {
+    "name": "Clearlake Veterinary Clinic",
+    "email": "justinew@clearlakevetclinic.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:53.088Z"
+  },
+  {
+    "name": "Cloud 10 Cat Rescue",
+    "email": "adoptme@cloud10catrescue.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:56.117Z"
+  },
+  {
+    "name": "Coastal German Shepherd Rescue of Southern California",
+    "email": "inquiries@coastalgsr.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:12:59.144Z"
+  },
+  {
+    "name": "Field Of Dreams Rescue",
+    "email": "fieldofdreamsrescue1@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:02.173Z"
+  },
+  {
+    "name": "FieldHaven Feline Center",
+    "email": "info@fieldhaven.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:05.200Z"
+  },
+  {
+    "name": "First Responders Animal ResQ",
+    "email": "fraresq@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:08.230Z"
+  },
+  {
+    "name": "Fluff Buddies",
+    "email": "info@fluffbuddies.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:11.259Z"
+  },
+  {
+    "name": "Fluffs and Scruffs, A Dog Rescue",
+    "email": "fluffsandscruffs@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:14.284Z"
+  },
+  {
+    "name": "FOCHP",
+    "email": "fochp@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:17.316Z"
+  },
+  {
+    "name": "Forever Home Cat Rescue",
+    "email": "dtfhcr@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:20.344Z"
+  },
+  {
+    "name": "Foreverhome Pet Rescue",
+    "email": "foreverhomepetrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:23.373Z"
+  },
+  {
+    "name": "ForeverMeow",
+    "email": "david@forevermeow.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:26.401Z"
+  },
+  {
+    "name": "Forgotten Felines of Sonoma County",
+    "email": "shannon@forgottenfelines.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:29.430Z"
+  },
+  {
+    "name": "Forgotten Paws Animal Rescue",
+    "email": "admin@forgottenpaws.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:32.457Z"
+  },
+  {
+    "name": "Forsaken Cats Rescue",
+    "email": "alana@forsakencatsrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:35.844Z"
+  },
+  {
+    "name": "Forte Animal Rescue",
+    "email": "petfinder@farescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:38.861Z"
+  },
+  {
+    "name": "FOSMAS",
+    "email": "adopt@fosmas.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:41.879Z"
+  },
+  {
+    "name": "Foster Army Animal Rescue",
+    "email": "info@fosterarmy.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:44.896Z"
+  },
+  {
+    "name": "Foundation for the Care of Indigent Animals",
+    "email": "fciaadoptions@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:47.915Z"
+  },
+  {
+    "name": "Four Paws Coonhound Rescue and Friends Inc.",
+    "email": "fourpawsrescue777@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:50.931Z"
+  },
+  {
+    "name": "Four Paws to Love",
+    "email": "annette@fourpawstolove.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:53.945Z"
+  },
+  {
+    "name": "Four-Legged Friends Pet Rescue",
+    "email": "flfpetrescue@yahoo.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:56.965Z"
+  },
+  {
+    "name": "Foxy Doxy Dachshund Rescue",
+    "email": "ttpiggles@hotmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-06-02T17:13:59.980Z"
+  }
+]

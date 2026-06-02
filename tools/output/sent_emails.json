@@ -6752,183 +6752,203 @@
     },
     "cvrr@cvrr.us": {
       "name": "CENTRAL VALLEY RESCUE RAILROAD",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:34:46.216Z",
-        "2026-05-19T16:12:13.926Z"
+        "2026-05-19T16:12:13.926Z",
+        "2026-06-02T17:12:01.550Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "adoptions@chako.org": {
       "name": "Chako Pit Bull Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:34:49.257Z",
-        "2026-05-19T16:12:16.976Z"
+        "2026-05-19T16:12:16.976Z",
+        "2026-06-02T17:12:04.597Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "cohpitbullrescue@yahoo.com": {
       "name": "Change of Heart Pit Bull Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:34:52.290Z",
-        "2026-05-19T16:12:20.018Z"
+        "2026-05-19T16:12:20.018Z",
+        "2026-06-02T17:12:07.634Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "chasing_tails@hotmail.com": {
       "name": "Chasing Tails",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:34:55.324Z",
-        "2026-05-19T16:12:23.064Z"
+        "2026-05-19T16:12:23.064Z",
+        "2026-06-02T17:12:10.665Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "terrysc2@aol.com": {
       "name": "Chesapeake Bay Retriever Relief and Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:34:58.353Z",
-        "2026-05-19T16:12:26.109Z"
+        "2026-05-19T16:12:26.109Z",
+        "2026-06-02T17:12:13.698Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "chewslifedogrescue@gmail.com": {
       "name": "Chews Life Dog Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:01.383Z",
-        "2026-05-19T16:12:29.153Z"
+        "2026-05-19T16:12:29.153Z",
+        "2026-06-02T17:12:16.728Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "resqpuppies@gmail.com": {
       "name": "Chihuahua Haven Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:04.415Z",
-        "2026-05-19T16:12:32.197Z"
+        "2026-05-19T16:12:32.197Z",
+        "2026-06-02T17:12:19.755Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "crazy4chows@sbcglobal.net": {
       "name": "Chows Plus",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:07.448Z",
-        "2026-05-19T16:12:35.241Z"
+        "2026-05-19T16:12:35.241Z",
+        "2026-06-02T17:12:22.785Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "lsepton@ci.chula-vista.ca.us": {
       "name": "Chula Vista Animal Care Facility",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:10.484Z",
-        "2026-05-19T16:12:38.284Z"
+        "2026-05-19T16:12:38.284Z",
+        "2026-06-02T17:12:25.814Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "cirbysunrise@aol.com": {
       "name": "Cirby Sunrise Veterinary Clinic",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:13.515Z",
-        "2026-05-19T16:12:41.327Z"
+        "2026-05-19T16:12:41.327Z",
+        "2026-06-02T17:12:28.846Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "citylightsfoundation@gmail.com": {
       "name": "City Lights Foundation",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:16.547Z",
-        "2026-05-19T16:12:44.376Z"
+        "2026-05-19T16:12:44.376Z",
+        "2026-06-02T17:12:31.875Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "chicoanimalshelter@yahoo.com": {
       "name": "City of Chico Animal Shelter",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:19.577Z",
-        "2026-05-19T16:12:47.420Z"
+        "2026-05-19T16:12:47.420Z",
+        "2026-06-02T17:12:34.908Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "jfragoza@cityofnewman.com": {
       "name": "City of Newman",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:22.608Z",
-        "2026-05-19T16:12:50.462Z"
+        "2026-05-19T16:12:50.462Z",
+        "2026-06-02T17:12:37.937Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "albertscoles@hotmail.com": {
       "name": "City of Oakdale Animal Shelter",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:25.642Z",
-        "2026-05-19T16:12:53.506Z"
+        "2026-05-19T16:12:53.506Z",
+        "2026-06-02T17:12:40.969Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "animalcare@cityofsacramento.org": {
       "name": "City of Sacramento Animal Care Services",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:28.672Z",
-        "2026-05-19T16:12:56.548Z"
+        "2026-05-19T16:12:56.548Z",
+        "2026-06-02T17:12:44.000Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "acontrol@cityofshastalake.org": {
       "name": "City of Shasta Lake Animal Control",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:31.702Z",
-        "2026-05-19T16:12:59.592Z"
+        "2026-05-19T16:12:59.592Z",
+        "2026-06-02T17:12:47.029Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "mwymer@clearlakepd.org": {
       "name": "Clearlake Animal Control",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:34.731Z",
-        "2026-05-19T16:13:02.638Z"
+        "2026-05-19T16:13:02.638Z",
+        "2026-06-02T17:12:50.058Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "justinew@clearlakevetclinic.com": {
       "name": "Clearlake Veterinary Clinic",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:37.766Z",
-        "2026-05-19T16:13:05.680Z"
+        "2026-05-19T16:13:05.680Z",
+        "2026-06-02T17:12:53.088Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "adoptme@cloud10catrescue.com": {
       "name": "Cloud 10 Cat Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:40.801Z",
-        "2026-05-19T16:13:08.725Z"
+        "2026-05-19T16:13:08.725Z",
+        "2026-06-02T17:12:56.117Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "inquiries@coastalgsr.org": {
       "name": "Coastal German Shepherd Rescue of Southern California",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-05-12T15:35:43.829Z",
-        "2026-05-19T16:13:11.767Z"
+        "2026-05-19T16:13:11.767Z",
+        "2026-06-02T17:12:59.144Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": null
     },
     "information@coastalgsrsd.org": {
       "name": "Coastal K9 German Shepherd Rescue",
@@ -7652,163 +7672,183 @@
     },
     "fieldofdreamsrescue1@gmail.com": {
       "name": "Field Of Dreams Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:00.059Z"
+        "2026-05-26T16:34:00.059Z",
+        "2026-06-02T17:13:02.173Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "info@fieldhaven.com": {
       "name": "FieldHaven Feline Center",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:03.078Z"
+        "2026-05-26T16:34:03.078Z",
+        "2026-06-02T17:13:05.200Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "fraresq@gmail.com": {
       "name": "First Responders Animal ResQ",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:06.094Z"
+        "2026-05-26T16:34:06.094Z",
+        "2026-06-02T17:13:08.230Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "info@fluffbuddies.org": {
       "name": "Fluff Buddies",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:09.108Z"
+        "2026-05-26T16:34:09.108Z",
+        "2026-06-02T17:13:11.259Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "fluffsandscruffs@aol.com": {
       "name": "Fluffs and Scruffs, A Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:12.124Z"
+        "2026-05-26T16:34:12.124Z",
+        "2026-06-02T17:13:14.284Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "fochp@yahoo.com": {
       "name": "FOCHP",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:15.137Z"
+        "2026-05-26T16:34:15.137Z",
+        "2026-06-02T17:13:17.316Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "dtfhcr@yahoo.com": {
       "name": "Forever Home Cat Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:18.149Z"
+        "2026-05-26T16:34:18.149Z",
+        "2026-06-02T17:13:20.344Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "foreverhomepetrescue@gmail.com": {
       "name": "Foreverhome Pet Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:21.168Z"
+        "2026-05-26T16:34:21.168Z",
+        "2026-06-02T17:13:23.373Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "david@forevermeow.org": {
       "name": "ForeverMeow",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:24.180Z"
+        "2026-05-26T16:34:24.180Z",
+        "2026-06-02T17:13:26.401Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "shannon@forgottenfelines.com": {
       "name": "Forgotten Felines of Sonoma County",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:27.194Z"
+        "2026-05-26T16:34:27.194Z",
+        "2026-06-02T17:13:29.430Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "admin@forgottenpaws.org": {
       "name": "Forgotten Paws Animal Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:30.206Z"
+        "2026-05-26T16:34:30.206Z",
+        "2026-06-02T17:13:32.457Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "alana@forsakencatsrescue.org": {
       "name": "Forsaken Cats Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:33.218Z"
+        "2026-05-26T16:34:33.218Z",
+        "2026-06-02T17:13:35.844Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "petfinder@farescue.org": {
       "name": "Forte Animal Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:36.230Z"
+        "2026-05-26T16:34:36.230Z",
+        "2026-06-02T17:13:38.861Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "adopt@fosmas.org": {
       "name": "FOSMAS",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:39.245Z"
+        "2026-05-26T16:34:39.245Z",
+        "2026-06-02T17:13:41.879Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "info@fosterarmy.org": {
       "name": "Foster Army Animal Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:42.257Z"
+        "2026-05-26T16:34:42.257Z",
+        "2026-06-02T17:13:44.896Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "fciaadoptions@aol.com": {
       "name": "Foundation for the Care of Indigent Animals",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:45.274Z"
+        "2026-05-26T16:34:45.274Z",
+        "2026-06-02T17:13:47.915Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "fourpawsrescue777@gmail.com": {
       "name": "Four Paws Coonhound Rescue and Friends Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:48.304Z"
+        "2026-05-26T16:34:48.304Z",
+        "2026-06-02T17:13:50.931Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "annette@fourpawstolove.org": {
       "name": "Four Paws to Love",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:51.318Z"
+        "2026-05-26T16:34:51.318Z",
+        "2026-06-02T17:13:53.945Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "flfpetrescue@yahoo.com": {
       "name": "Four-Legged Friends Pet Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:54.332Z"
+        "2026-05-26T16:34:54.332Z",
+        "2026-06-02T17:13:56.965Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "ttpiggles@hotmail.com": {
       "name": "Foxy Doxy Dachshund Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-05-26T16:34:57.344Z"
+        "2026-05-26T16:34:57.344Z",
+        "2026-06-02T17:13:59.980Z"
       ],
-      "nextFollowUp": "2026-06-02"
+      "nextFollowUp": "2026-06-16"
     },
     "freedomrescue1@yahoo.com": {
       "name": "Freedom Rescue, Inc",
@@ -8131,5 +8171,5 @@
       "nextFollowUp": "2026-06-08"
     }
   },
-  "lastRun": "2026-06-01T18:32:23.094Z"
+  "lastRun": "2026-06-02T17:13:59.980Z"
 }
