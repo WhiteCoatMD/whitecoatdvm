@@ -8809,7 +8809,167 @@
         "2026-06-09T15:47:43.854Z"
       ],
       "nextFollowUp": "2026-06-16"
+    },
+    "hsimc@pacific.net": {
+      "name": "Humane Society for Inland Mendocino County",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:00:58.347Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "hsdnanimals@yahoo.com": {
+      "name": "Humane Society of Del Norte",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:01.389Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "wwelling@sonomahumane.org": {
+      "name": "Humane Society of Sonoma County - Healdsburg",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:04.422Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "hsscadoptions@humanesocietysoco.org": {
+      "name": "Humane Society of Sonoma County - Santa Rosa",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:07.453Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "info@hsnb.org": {
+      "name": "Humane Society of the North Bay",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:10.485Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "adoptions@hstt.org": {
+      "name": "Humane Society of Truckee-Tahoe",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:13.512Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "operations@hsotc.org": {
+      "name": "Humane Society of Tuolumne County",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:16.538Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "animals@humanesocietyvc.org": {
+      "name": "Humane Society of Ventura County",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:19.566Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "adoptions@hssv.org": {
+      "name": "Humane Society Silicon Valley",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:22.613Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "info@humanimalconnection.com": {
+      "name": "Humanimal Connection Inc.",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:25.647Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "hsoanimalshelter@co.humboldt.ca.us": {
+      "name": "Humboldt County Animal Shelter",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:28.683Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "info@idohr.org": {
+      "name": "I Dream of Home Rescue, Inc.",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:31.720Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "adopt@iswmp.org": {
+      "name": "I Stand With My Pack",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:34.746Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "rescue@icaredogrescue.org": {
+      "name": "I.C.A.R.E. Dog Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:37.814Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "igrescue3@aol.com": {
+      "name": "IGCA Rescue Central California",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:40.838Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "allthatca@aol.com": {
+      "name": "IMPS - Internet Miniature Pinscher Service, Inc. - Southern CA/NV region",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:43.875Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "lorie.armbruster@gmail.com": {
+      "name": "Independent Rescuers",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:46.900Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "indiandane@aol.com": {
+      "name": "Indian Dane Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:49.928Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "adoptions@startrescue.org": {
+      "name": "Indie Rescue Team",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:52.956Z"
+      ],
+      "nextFollowUp": "2026-06-19"
+    },
+    "adopter@ivhsspca.org": {
+      "name": "Inland Valley Humane Society S.P.C.A.",
+      "wave": 1,
+      "dates": [
+        "2026-06-12T16:01:55.986Z"
+      ],
+      "nextFollowUp": "2026-06-19"
     }
   },
-  "lastRun": "2026-06-11T16:44:23.517Z"
+  "lastRun": "2026-06-12T16:01:55.986Z"
 }
