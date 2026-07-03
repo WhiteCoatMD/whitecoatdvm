@@ -8952,183 +8952,203 @@
     },
     "hsimc@pacific.net": {
       "name": "Humane Society for Inland Mendocino County",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:00:58.347Z",
-        "2026-06-19T15:55:20.041Z"
+        "2026-06-19T15:55:20.041Z",
+        "2026-07-03T14:58:55.137Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "hsdnanimals@yahoo.com": {
       "name": "Humane Society of Del Norte",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:01.389Z",
-        "2026-06-19T15:55:23.069Z"
+        "2026-06-19T15:55:23.069Z",
+        "2026-07-03T14:58:58.190Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "wwelling@sonomahumane.org": {
       "name": "Humane Society of Sonoma County - Healdsburg",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:04.422Z",
-        "2026-06-19T15:55:26.097Z"
+        "2026-06-19T15:55:26.097Z",
+        "2026-07-03T14:59:01.237Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "hsscadoptions@humanesocietysoco.org": {
       "name": "Humane Society of Sonoma County - Santa Rosa",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:07.453Z",
-        "2026-06-19T15:55:29.124Z"
+        "2026-06-19T15:55:29.124Z",
+        "2026-07-03T14:59:04.282Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "info@hsnb.org": {
       "name": "Humane Society of the North Bay",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:10.485Z",
-        "2026-06-19T15:55:32.154Z"
+        "2026-06-19T15:55:32.154Z",
+        "2026-07-03T14:59:07.327Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "adoptions@hstt.org": {
       "name": "Humane Society of Truckee-Tahoe",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:13.512Z",
-        "2026-06-19T15:55:35.182Z"
+        "2026-06-19T15:55:35.182Z",
+        "2026-07-03T14:59:10.373Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "operations@hsotc.org": {
       "name": "Humane Society of Tuolumne County",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:16.538Z",
-        "2026-06-19T15:55:38.213Z"
+        "2026-06-19T15:55:38.213Z",
+        "2026-07-03T14:59:13.419Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "animals@humanesocietyvc.org": {
       "name": "Humane Society of Ventura County",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:19.566Z",
-        "2026-06-19T15:55:41.243Z"
+        "2026-06-19T15:55:41.243Z",
+        "2026-07-03T14:59:16.469Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "adoptions@hssv.org": {
       "name": "Humane Society Silicon Valley",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:22.613Z",
-        "2026-06-19T15:55:44.273Z"
+        "2026-06-19T15:55:44.273Z",
+        "2026-07-03T14:59:19.519Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "info@humanimalconnection.com": {
       "name": "Humanimal Connection Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:25.647Z",
-        "2026-06-19T15:55:47.301Z"
+        "2026-06-19T15:55:47.301Z",
+        "2026-07-03T14:59:22.564Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "hsoanimalshelter@co.humboldt.ca.us": {
       "name": "Humboldt County Animal Shelter",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:28.683Z",
-        "2026-06-19T15:55:50.330Z"
+        "2026-06-19T15:55:50.330Z",
+        "2026-07-03T14:59:25.610Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "info@idohr.org": {
       "name": "I Dream of Home Rescue, Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:31.720Z",
-        "2026-06-19T15:55:53.422Z"
+        "2026-06-19T15:55:53.422Z",
+        "2026-07-03T14:59:28.654Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "adopt@iswmp.org": {
       "name": "I Stand With My Pack",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:34.746Z",
-        "2026-06-19T15:55:56.445Z"
+        "2026-06-19T15:55:56.445Z",
+        "2026-07-03T14:59:31.699Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "rescue@icaredogrescue.org": {
       "name": "I.C.A.R.E. Dog Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:37.814Z",
-        "2026-06-19T15:55:59.465Z"
+        "2026-06-19T15:55:59.465Z",
+        "2026-07-03T14:59:34.745Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "igrescue3@aol.com": {
       "name": "IGCA Rescue Central California",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:40.838Z",
-        "2026-06-19T15:56:02.486Z"
+        "2026-06-19T15:56:02.486Z",
+        "2026-07-03T14:59:37.792Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "allthatca@aol.com": {
       "name": "IMPS - Internet Miniature Pinscher Service, Inc. - Southern CA/NV region",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:43.875Z",
-        "2026-06-19T15:56:05.508Z"
+        "2026-06-19T15:56:05.508Z",
+        "2026-07-03T14:59:40.837Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "lorie.armbruster@gmail.com": {
       "name": "Independent Rescuers",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:46.900Z",
-        "2026-06-19T15:56:08.526Z"
+        "2026-06-19T15:56:08.526Z",
+        "2026-07-03T14:59:43.881Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "indiandane@aol.com": {
       "name": "Indian Dane Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:49.928Z",
-        "2026-06-19T15:56:11.546Z"
+        "2026-06-19T15:56:11.546Z",
+        "2026-07-03T14:59:46.925Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "adoptions@startrescue.org": {
       "name": "Indie Rescue Team",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:52.956Z",
-        "2026-06-19T15:56:14.567Z"
+        "2026-06-19T15:56:14.567Z",
+        "2026-07-03T14:59:49.970Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "adopter@ivhsspca.org": {
       "name": "Inland Valley Humane Society S.P.C.A.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-12T16:01:55.986Z",
-        "2026-06-19T15:56:17.588Z"
+        "2026-06-19T15:56:17.588Z",
+        "2026-07-03T14:59:53.016Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": null
     },
     "animalcare@cityofirvine.org": {
       "name": "Irvine Animal Care Center",
@@ -9852,163 +9872,183 @@
     },
     "lynne@lovingallanimals.org": {
       "name": "Loving All Animals, Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:17.925Z"
+        "2026-06-26T15:18:17.925Z",
+        "2026-07-03T14:59:56.064Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "nancy@luckybunnyrescue.org": {
       "name": "Lucky Bunny Rabbit Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:20.944Z"
+        "2026-06-26T15:18:20.944Z",
+        "2026-07-03T14:59:59.111Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "olveiry@gmail.com": {
       "name": "Lucky Dog Rescue Inc",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:23.958Z"
+        "2026-06-26T15:18:23.958Z",
+        "2026-07-03T15:00:02.158Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "adopt@luckypawssite.org": {
       "name": "Lucky Paws Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:26.971Z"
+        "2026-06-26T15:18:26.971Z",
+        "2026-07-03T15:00:05.203Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "lunasiberianrescue@aol.com": {
       "name": "Luna Siberian Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:29.983Z"
+        "2026-06-26T15:18:29.983Z",
+        "2026-07-03T15:00:08.247Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "darfler.ryan@maddogrescue.net": {
       "name": "MAD Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:32.994Z"
+        "2026-06-26T15:18:32.994Z",
+        "2026-07-03T15:00:11.293Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "mainecoonadoptions@gmail.com": {
       "name": "Maine Coon Adoptions (MCA)",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:36.005Z"
+        "2026-06-26T15:18:36.005Z",
+        "2026-07-03T15:00:14.337Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "hello@makingbiscuits.org": {
       "name": "Making Biscuits Cat Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:39.016Z"
+        "2026-06-26T15:18:39.016Z",
+        "2026-07-03T15:00:17.385Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "info@malteserescuecalifornia.org": {
       "name": "Maltese Rescue California",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:42.033Z"
+        "2026-06-26T15:18:42.033Z",
+        "2026-07-03T15:00:20.436Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "webmaster@marincatconnection.org": {
       "name": "Marin Cat Connection",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:45.042Z"
+        "2026-06-26T15:18:45.042Z",
+        "2026-07-03T15:00:23.477Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "adoptions@marinhumanesociety.org": {
       "name": "Marin Humane Society",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:48.054Z"
+        "2026-06-26T15:18:48.054Z",
+        "2026-07-03T15:00:26.522Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "inquiries@marleysmutts.com": {
       "name": "Marley's Mutts Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:51.067Z"
+        "2026-06-26T15:18:51.067Z",
+        "2026-07-03T15:00:30.076Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "pitstoprescue@ca.rr.com": {
       "name": "Marley's Pit Stop Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:54.077Z"
+        "2026-06-26T15:18:54.077Z",
+        "2026-07-03T15:00:33.117Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "jmclaug@me.com": {
       "name": "Martin's Home, Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:18:57.090Z"
+        "2026-06-26T15:18:57.090Z",
+        "2026-07-03T15:00:36.162Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "adopt1@petsadoption.org": {
       "name": "Mary S. Roberts Pet Adoption Center",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:19:00.100Z"
+        "2026-06-26T15:19:00.100Z",
+        "2026-07-03T15:00:39.211Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "matchmadeinheavenrescue@gmail.com": {
       "name": "Match Made in Heaven Animal Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:19:03.112Z"
+        "2026-06-26T15:19:03.112Z",
+        "2026-07-03T15:00:42.286Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "miamorinc@mayte.com": {
       "name": "Mayte's Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:19:06.123Z"
+        "2026-06-26T15:19:06.123Z",
+        "2026-07-03T15:00:45.323Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "memoriesofbesarescue@gmail.com": {
       "name": "Memories of Besa Rescue, Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:19:09.135Z"
+        "2026-06-26T15:19:09.135Z",
+        "2026-07-03T15:00:48.386Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "mendingfencesca@gmail.com": {
       "name": "Mending Fences",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:19:12.143Z"
+        "2026-06-26T15:19:12.143Z",
+        "2026-07-03T15:00:51.423Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "alana@mendoshelterpets.com": {
       "name": "Mendo Shelter Pets Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-06-26T15:19:15.158Z"
+        "2026-06-26T15:19:15.158Z",
+        "2026-07-03T15:00:54.461Z"
       ],
-      "nextFollowUp": "2026-07-03"
+      "nextFollowUp": "2026-07-17"
     },
     "admin_assistant@mendocinohumane.org": {
       "name": "Mendocino Coast Humane Society",
@@ -10491,5 +10531,5 @@
       "nextFollowUp": "2026-07-09"
     }
   },
-  "lastRun": "2026-07-02T15:02:16.949Z"
+  "lastRun": "2026-07-03T15:00:54.461Z"
 }

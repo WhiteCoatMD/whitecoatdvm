@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Humane Society for Inland Mendocino County",
+    "email": "hsimc@pacific.net",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:58:55.137Z"
+  },
+  {
+    "name": "Humane Society of Del Norte",
+    "email": "hsdnanimals@yahoo.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:58:58.190Z"
+  },
+  {
+    "name": "Humane Society of Sonoma County - Healdsburg",
+    "email": "wwelling@sonomahumane.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:01.237Z"
+  },
+  {
+    "name": "Humane Society of Sonoma County - Santa Rosa",
+    "email": "hsscadoptions@humanesocietysoco.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:04.282Z"
+  },
+  {
+    "name": "Humane Society of the North Bay",
+    "email": "info@hsnb.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:07.327Z"
+  },
+  {
+    "name": "Humane Society of Truckee-Tahoe",
+    "email": "adoptions@hstt.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:10.373Z"
+  },
+  {
+    "name": "Humane Society of Tuolumne County",
+    "email": "operations@hsotc.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:13.419Z"
+  },
+  {
+    "name": "Humane Society of Ventura County",
+    "email": "animals@humanesocietyvc.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:16.469Z"
+  },
+  {
+    "name": "Humane Society Silicon Valley",
+    "email": "adoptions@hssv.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:19.519Z"
+  },
+  {
+    "name": "Humanimal Connection Inc.",
+    "email": "info@humanimalconnection.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:22.564Z"
+  },
+  {
+    "name": "Humboldt County Animal Shelter",
+    "email": "hsoanimalshelter@co.humboldt.ca.us",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:25.610Z"
+  },
+  {
+    "name": "I Dream of Home Rescue, Inc.",
+    "email": "info@idohr.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:28.654Z"
+  },
+  {
+    "name": "I Stand With My Pack",
+    "email": "adopt@iswmp.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:31.699Z"
+  },
+  {
+    "name": "I.C.A.R.E. Dog Rescue",
+    "email": "rescue@icaredogrescue.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:34.745Z"
+  },
+  {
+    "name": "IGCA Rescue Central California",
+    "email": "igrescue3@aol.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:37.792Z"
+  },
+  {
+    "name": "IMPS - Internet Miniature Pinscher Service, Inc. - Southern CA/NV region",
+    "email": "allthatca@aol.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:40.837Z"
+  },
+  {
+    "name": "Independent Rescuers",
+    "email": "lorie.armbruster@gmail.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:43.881Z"
+  },
+  {
+    "name": "Indian Dane Rescue",
+    "email": "indiandane@aol.com",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:46.925Z"
+  },
+  {
+    "name": "Indie Rescue Team",
+    "email": "adoptions@startrescue.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:49.970Z"
+  },
+  {
+    "name": "Inland Valley Humane Society S.P.C.A.",
+    "email": "adopter@ivhsspca.org",
+    "wave": 3,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:53.016Z"
+  },
+  {
+    "name": "Loving All Animals, Inc.",
+    "email": "lynne@lovingallanimals.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:56.064Z"
+  },
+  {
+    "name": "Lucky Bunny Rabbit Rescue",
+    "email": "nancy@luckybunnyrescue.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T14:59:59.111Z"
+  },
+  {
+    "name": "Lucky Dog Rescue Inc",
+    "email": "olveiry@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:02.158Z"
+  },
+  {
+    "name": "Lucky Paws Rescue",
+    "email": "adopt@luckypawssite.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:05.203Z"
+  },
+  {
+    "name": "Luna Siberian Rescue",
+    "email": "lunasiberianrescue@aol.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:08.247Z"
+  },
+  {
+    "name": "MAD Dog Rescue",
+    "email": "darfler.ryan@maddogrescue.net",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:11.293Z"
+  },
+  {
+    "name": "Maine Coon Adoptions (MCA)",
+    "email": "mainecoonadoptions@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:14.337Z"
+  },
+  {
+    "name": "Making Biscuits Cat Rescue",
+    "email": "hello@makingbiscuits.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:17.385Z"
+  },
+  {
+    "name": "Maltese Rescue California",
+    "email": "info@malteserescuecalifornia.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:20.436Z"
+  },
+  {
+    "name": "Marin Cat Connection",
+    "email": "webmaster@marincatconnection.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:23.477Z"
+  },
+  {
+    "name": "Marin Humane Society",
+    "email": "adoptions@marinhumanesociety.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:26.522Z"
+  },
+  {
+    "name": "Marley's Mutts Dog Rescue",
+    "email": "inquiries@marleysmutts.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:30.076Z"
+  },
+  {
+    "name": "Marley's Pit Stop Rescue",
+    "email": "pitstoprescue@ca.rr.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:33.117Z"
+  },
+  {
+    "name": "Martin's Home, Inc.",
+    "email": "jmclaug@me.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:36.162Z"
+  },
+  {
+    "name": "Mary S. Roberts Pet Adoption Center",
+    "email": "adopt1@petsadoption.org",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:39.211Z"
+  },
+  {
+    "name": "Match Made in Heaven Animal Rescue",
+    "email": "matchmadeinheavenrescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:42.286Z"
+  },
+  {
+    "name": "Mayte's Rescue",
+    "email": "miamorinc@mayte.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:45.323Z"
+  },
+  {
+    "name": "Memories of Besa Rescue, Inc.",
+    "email": "memoriesofbesarescue@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:48.386Z"
+  },
+  {
+    "name": "Mending Fences",
+    "email": "mendingfencesca@gmail.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:51.423Z"
+  },
+  {
+    "name": "Mendo Shelter Pets Rescue",
+    "email": "alana@mendoshelterpets.com",
+    "wave": 2,
+    "type": "follow-up",
+    "status": "sent",
+    "timestamp": "2026-07-03T15:00:54.461Z"
+  }
+]
