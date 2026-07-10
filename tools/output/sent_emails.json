@@ -10809,7 +10809,167 @@
         "2026-07-07T15:37:57.433Z"
       ],
       "nextFollowUp": "2026-07-14"
+    },
+    "psrdirector@siameserescue.org": {
+      "name": "Pacific Siamese Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:04.699Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "lynxcat@comcast.net": {
+      "name": "Paddington Station",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:07.762Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "pal@palrescue.org": {
+      "name": "PAL Rescue & Adoption",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:10.822Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "info@psanimalshelter.org": {
+      "name": "Palm Springs Animal Shelter",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:13.882Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "palmsnpaws@29palms.org": {
+      "name": "Palms n Paws Animal Shelter",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:16.945Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "animalservices@cityofpaloalto.org": {
+      "name": "Palo Alto Animal Services",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:20.005Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "pardonmeinc@yahoo.com": {
+      "name": "Pardon . . . Me, Inc.",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:23.064Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "parroted@peac.org": {
+      "name": "Parrot Education & Adoption Center",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:26.130Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "savepitties@yahoo.com": {
+      "name": "Passion for Pitties",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:29.195Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "patchrescue@gmail.com": {
+      "name": "PATCH Rescue Inc",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:32.255Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "pause4pawsrescuemission@yahoo.com": {
+      "name": "Pause 4 Paws Rescue Mission",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:35.316Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "adoptions@pawfund.org": {
+      "name": "PAW FUND",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:38.376Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "pawparent@gmail.com": {
+      "name": "Paw Parent",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:41.438Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "pawprintzrescue@gmail.com": {
+      "name": "Paw Printz Pitbull Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:44.501Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "chad@pawworks.org": {
+      "name": "Paw Works",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:47.559Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "pattyf2000@gmail.com": {
+      "name": "Paws Crossed Small Dog Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:50.616Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "infosc@pawspetresorts.com": {
+      "name": "Paws Pet Resorts Rescue San Clemente",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:53.675Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "foster@pawsworldwide.org": {
+      "name": "Paws Worldwide",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:56.733Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "paws4thoughtrescue@gmail.com": {
+      "name": "PAWS4thought Animal Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:24:59.794Z"
+      ],
+      "nextFollowUp": "2026-07-17"
+    },
+    "info@pawsitiveconnections.org": {
+      "name": "Pawsitive Connections",
+      "wave": 1,
+      "dates": [
+        "2026-07-10T15:25:02.853Z"
+      ],
+      "nextFollowUp": "2026-07-17"
     }
   },
-  "lastRun": "2026-07-09T15:51:07.833Z"
+  "lastRun": "2026-07-10T15:25:02.853Z"
 }
