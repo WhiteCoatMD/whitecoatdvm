@@ -10152,183 +10152,203 @@
     },
     "admin_assistant@mendocinohumane.org": {
       "name": "Mendocino Coast Humane Society",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:29:43.823Z",
-        "2026-07-06T16:11:59.808Z"
+        "2026-07-06T16:11:59.808Z",
+        "2026-07-20T14:59:18.985Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "campbella@co.mendocino.ca.us": {
       "name": "Mendocino County Animal Care Services",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:29:46.858Z",
-        "2026-07-06T16:12:02.833Z"
+        "2026-07-06T16:12:02.833Z",
+        "2026-07-20T14:59:22.005Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "info@mvhumanesociety.com": {
       "name": "Menifee Valley Humane Society",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:29:49.895Z",
-        "2026-07-06T16:12:05.853Z"
+        "2026-07-06T16:12:05.853Z",
+        "2026-07-20T14:59:25.021Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "meoowzresq@aol.com": {
       "name": "MeoowzResQ",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:29:52.923Z",
-        "2026-07-06T16:12:08.874Z"
+        "2026-07-06T16:12:08.874Z",
+        "2026-07-20T14:59:28.037Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "adoption@mightymuttsrescue.org": {
       "name": "Mighty Mutts Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:29:55.958Z",
-        "2026-07-06T16:12:11.893Z"
+        "2026-07-06T16:12:11.893Z",
+        "2026-07-20T14:59:31.054Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "milosadopt@gmail.com": {
       "name": "Milo's Sanctuary & Special Needs Cat Rescue, Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:29:58.990Z",
-        "2026-07-06T16:12:14.914Z"
+        "2026-07-06T16:12:14.914Z",
+        "2026-07-20T14:59:34.075Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "msfrescue@gmail.com": {
       "name": "Miniature Schnauzers & Friends Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:02.023Z",
-        "2026-07-06T16:12:17.935Z"
+        "2026-07-06T16:12:17.935Z",
+        "2026-07-20T14:59:37.089Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "miracledogrescue@gmail.com": {
       "name": "Miracle Dog Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:05.059Z",
-        "2026-07-06T16:12:20.961Z"
+        "2026-07-06T16:12:20.961Z",
+        "2026-07-20T14:59:40.101Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "petadoptioncenter@cityofclovis.com": {
       "name": "Miss Winkles Pet Adoption Center, Clovis",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:08.091Z",
-        "2026-07-06T16:12:23.983Z"
+        "2026-07-06T16:12:23.983Z",
+        "2026-07-20T14:59:43.114Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "ask-shelter@cityofmissionviejo.org": {
       "name": "Mission Viejo Animal Services Center",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:11.120Z",
-        "2026-07-06T16:12:27.005Z"
+        "2026-07-06T16:12:27.005Z",
+        "2026-07-20T14:59:46.128Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "mixedmutts@gmail.com": {
       "name": "Mixed Mutts",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:14.152Z",
-        "2026-07-06T16:12:30.028Z"
+        "2026-07-06T16:12:30.028Z",
+        "2026-07-20T14:59:49.151Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "mollysplacerescuesanctuary@gmail.com": {
       "name": "Molly's Place Rescue Sanctuary",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:17.182Z",
-        "2026-07-06T16:12:33.354Z"
+        "2026-07-06T16:12:33.354Z",
+        "2026-07-20T14:59:52.167Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "westrada@montereypark.ca.gov": {
       "name": "Monterey Park Police / Animal Services",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:20.212Z",
-        "2026-07-06T16:12:36.382Z"
+        "2026-07-06T16:12:36.382Z",
+        "2026-07-20T14:59:55.180Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "animalshelter@moval.org": {
       "name": "Moreno Valley Animal Services",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:23.247Z",
-        "2026-07-06T16:12:39.404Z"
+        "2026-07-06T16:12:39.404Z",
+        "2026-07-20T14:59:58.198Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "morongobasinhumanesociety@gmail.com": {
       "name": "Morongo Basin Humane Society",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:26.278Z",
-        "2026-07-06T16:12:42.422Z"
+        "2026-07-06T16:12:42.422Z",
+        "2026-07-20T15:00:01.213Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "mountainshumanesociety@hotmail.com": {
       "name": "Mountains Humane Society",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:29.312Z",
-        "2026-07-06T16:12:45.442Z"
+        "2026-07-06T16:12:45.442Z",
+        "2026-07-20T15:00:04.233Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "info@muchlove.org": {
       "name": "Much Love Animal Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:32.347Z",
-        "2026-07-06T16:12:48.464Z"
+        "2026-07-06T16:12:48.464Z",
+        "2026-07-20T15:00:07.245Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "mutthutrescue@gmail.com": {
       "name": "Mutt Hut Rescue, Inc",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:35.382Z",
-        "2026-07-06T16:12:51.485Z"
+        "2026-07-06T16:12:51.485Z",
+        "2026-07-20T15:00:10.330Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "info@muttmatchla.org": {
       "name": "Mutt Match LA",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:38.414Z",
-        "2026-07-06T16:12:54.510Z"
+        "2026-07-06T16:12:54.510Z",
+        "2026-07-20T15:00:13.704Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "muttlycrewinc@gmail.com": {
       "name": "Muttly Crew",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-06-29T16:30:41.447Z",
-        "2026-07-06T16:12:57.537Z"
+        "2026-07-06T16:12:57.537Z",
+        "2026-07-20T15:00:16.720Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": null
     },
     "pawboutique@yahoo.com": {
       "name": "Mutts and Moms",
@@ -11052,163 +11072,183 @@
     },
     "rescue@pawsitivetailstoremember.org": {
       "name": "Pawsitive Tails to Remember",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:36:52.297Z"
+        "2026-07-13T15:36:52.297Z",
+        "2026-07-20T15:00:19.875Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "info@peaceofminddogrescue.org": {
       "name": "Peace of Mind Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:36:55.314Z"
+        "2026-07-13T15:36:55.314Z",
+        "2026-07-20T15:00:22.911Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "adopt@peipeople.com": {
       "name": "Pei People Shar Pei Rescue, Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:36:58.329Z"
+        "2026-07-13T15:36:58.329Z",
+        "2026-07-20T15:00:25.925Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "adoptions@peninsulacatworks.org": {
       "name": "Peninsula CatWorks",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:01.341Z"
+        "2026-07-13T15:37:01.341Z",
+        "2026-07-20T15:00:29.007Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "adoptinquire@peninsulahumanesociety.org": {
       "name": "Peninsula Humane Society & SPCA",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:04.355Z"
+        "2026-07-13T15:37:04.355Z",
+        "2026-07-20T15:00:32.023Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "pactcats@aol.com": {
       "name": "People And Cats Together",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:07.366Z"
+        "2026-07-13T15:37:07.366Z",
+        "2026-07-20T15:00:35.845Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "pals.lodi@yahoo.com": {
       "name": "People Assisting Lodi Shelter (PALS)",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:10.379Z"
+        "2026-07-13T15:37:10.379Z",
+        "2026-07-20T15:00:38.867Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "inquiries@peopleforpets.com": {
       "name": "People for Pets",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:13.390Z"
+        "2026-07-13T15:37:13.390Z",
+        "2026-07-20T15:00:41.999Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "nancy@perfectpetrescue.com": {
       "name": "Perfect Pet Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:16.407Z"
+        "2026-07-13T15:37:16.407Z",
+        "2026-07-20T15:00:45.015Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "performanceresq@att.net": {
       "name": "Performance Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:19.418Z"
+        "2026-07-13T15:37:19.418Z",
+        "2026-07-20T15:00:48.086Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "info@pawspetadoption.org": {
       "name": "Pet Adoption and Wellness Services (PAWS)",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:22.429Z"
+        "2026-07-13T15:37:22.429Z",
+        "2026-07-20T15:00:51.099Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "petadoptconnect@gmail.com": {
       "name": "Pet Adoption Connection",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:25.446Z"
+        "2026-07-13T15:37:25.446Z",
+        "2026-07-20T15:00:54.122Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "admin@petadoptionfund.org": {
       "name": "Pet Adoption Fund",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:28.463Z"
+        "2026-07-13T15:37:28.463Z",
+        "2026-07-20T15:00:57.139Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "palofnorcal@gmail.com": {
       "name": "Pet Assistance League of Northern California",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:31.479Z"
+        "2026-07-13T15:37:31.479Z",
+        "2026-07-20T15:01:00.152Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "office@petfriends.org": {
       "name": "Pet Friends",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:34.490Z"
+        "2026-07-13T15:37:34.490Z",
+        "2026-07-20T15:01:03.165Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "sparegoldens@aol.com": {
       "name": "Pet Harbor",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:37.500Z"
+        "2026-07-13T15:37:37.500Z",
+        "2026-07-20T15:01:06.184Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "adoptpetmatch@gmail.com": {
       "name": "Pet Match Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:40.515Z"
+        "2026-07-13T15:37:40.515Z",
+        "2026-07-20T15:01:09.418Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "petmatchmakerca@gmail.com": {
       "name": "Pet Matchmaker Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:43.527Z"
+        "2026-07-13T15:37:43.527Z",
+        "2026-07-20T15:01:12.580Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "joanmarie123@cox.net": {
       "name": "Pet Place International, Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:46.537Z"
+        "2026-07-13T15:37:46.537Z",
+        "2026-07-20T15:01:16.390Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "info@petprojectfoundation.org": {
       "name": "Pet Project Foundation",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-07-13T15:37:49.550Z"
+        "2026-07-13T15:37:49.550Z",
+        "2026-07-20T15:01:20.148Z"
       ],
-      "nextFollowUp": "2026-07-20"
+      "nextFollowUp": "2026-08-03"
     },
     "petrescue_1@msn.com": {
       "name": "Pet Rescue Association",
@@ -11531,5 +11571,5 @@
       "nextFollowUp": "2026-07-23"
     }
   },
-  "lastRun": "2026-07-17T14:23:44.004Z"
+  "lastRun": "2026-07-20T15:01:20.148Z"
 }
