@@ -1,0 +1,162 @@
+[
+  {
+    "name": "The Pet Food Bank",
+    "email": "woof@thepetfoodbank.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:32:47.112Z"
+  },
+  {
+    "name": "The Pet Rescue Center",
+    "email": "adopt@thepetrescuecenter.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:32:50.143Z"
+  },
+  {
+    "name": "The Pet Rescue Center Inc.",
+    "email": "petrescuecenter@gmail.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:32:53.170Z"
+  },
+  {
+    "name": "The Power of Chi",
+    "email": "info@powerofchi.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:32:56.204Z"
+  },
+  {
+    "name": "The Rabbit Haven",
+    "email": "ava_haven@comcast.net",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:32:59.232Z"
+  },
+  {
+    "name": "The Real Bark",
+    "email": "therealbark@gmail.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:02.260Z"
+  },
+  {
+    "name": "The Rescue Team, Inc.",
+    "email": "info@rescueteamla.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:05.290Z"
+  },
+  {
+    "name": "The Rescue Train",
+    "email": "info@therescuetrain.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:08.320Z"
+  },
+  {
+    "name": "The Rescued Dog",
+    "email": "info@therescueddog.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:11.348Z"
+  },
+  {
+    "name": "The Robert T. Brentnall Pawsibilities Foundation",
+    "email": "thertbpawsibilitiesfoundation@gmail.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:14.382Z"
+  },
+  {
+    "name": "The Sam Simon Foundation",
+    "email": "info@samsimonfoundation.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:17.412Z"
+  },
+  {
+    "name": "The SPCA for Monterey County",
+    "email": "info@spcamc.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:20.443Z"
+  },
+  {
+    "name": "The Veterinary Care Center",
+    "email": "stephanie@veterinarycarecenter.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:23.471Z"
+  },
+  {
+    "name": "The Zuri Pet Rescue",
+    "email": "adoptions@thezuripetrescue.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:26.499Z"
+  },
+  {
+    "name": "Throw Me A Bone Dog Rescue",
+    "email": "throwmeabonerescue@gmail.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:29.525Z"
+  },
+  {
+    "name": "Thulani Senior German Shepherd Rescue",
+    "email": "info@thulaniseniorgsr.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:32.553Z"
+  },
+  {
+    "name": "Tiramisu Dog Rescue",
+    "email": "tiramisudogrescue@gmail.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:35.586Z"
+  },
+  {
+    "name": "TLC (Tiny Loving Canines)",
+    "email": "tlctinylovingcanines@aol.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:38.615Z"
+  },
+  {
+    "name": "TLC with PUPS",
+    "email": "beaglesrbest@yahoo.com",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:41.643Z"
+  },
+  {
+    "name": "TnT Small Animal Rescue",
+    "email": "tina@tntrescue.org",
+    "wave": 1,
+    "type": "new",
+    "status": "sent",
+    "timestamp": "2026-08-18T13:33:44.672Z"
+  }
+]

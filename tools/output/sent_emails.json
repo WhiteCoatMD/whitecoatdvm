@@ -13569,7 +13569,167 @@
         "2026-08-13T14:12:09.672Z"
       ],
       "nextFollowUp": "2026-08-20"
+    },
+    "woof@thepetfoodbank.com": {
+      "name": "The Pet Food Bank",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:32:47.112Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "adopt@thepetrescuecenter.org": {
+      "name": "The Pet Rescue Center",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:32:50.143Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "petrescuecenter@gmail.com": {
+      "name": "The Pet Rescue Center Inc.",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:32:53.170Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "info@powerofchi.org": {
+      "name": "The Power of Chi",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:32:56.204Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "ava_haven@comcast.net": {
+      "name": "The Rabbit Haven",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:32:59.232Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "therealbark@gmail.com": {
+      "name": "The Real Bark",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:02.260Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "info@rescueteamla.org": {
+      "name": "The Rescue Team, Inc.",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:05.290Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "info@therescuetrain.org": {
+      "name": "The Rescue Train",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:08.320Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "info@therescueddog.org": {
+      "name": "The Rescued Dog",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:11.348Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "thertbpawsibilitiesfoundation@gmail.com": {
+      "name": "The Robert T. Brentnall Pawsibilities Foundation",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:14.382Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "info@samsimonfoundation.org": {
+      "name": "The Sam Simon Foundation",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:17.412Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "info@spcamc.org": {
+      "name": "The SPCA for Monterey County",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:20.443Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "stephanie@veterinarycarecenter.com": {
+      "name": "The Veterinary Care Center",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:23.471Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "adoptions@thezuripetrescue.com": {
+      "name": "The Zuri Pet Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:26.499Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "throwmeabonerescue@gmail.com": {
+      "name": "Throw Me A Bone Dog Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:29.525Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "info@thulaniseniorgsr.org": {
+      "name": "Thulani Senior German Shepherd Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:32.553Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "tiramisudogrescue@gmail.com": {
+      "name": "Tiramisu Dog Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:35.586Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "tlctinylovingcanines@aol.com": {
+      "name": "TLC (Tiny Loving Canines)",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:38.615Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "beaglesrbest@yahoo.com": {
+      "name": "TLC with PUPS",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:41.643Z"
+      ],
+      "nextFollowUp": "2026-08-25"
+    },
+    "tina@tntrescue.org": {
+      "name": "TnT Small Animal Rescue",
+      "wave": 1,
+      "dates": [
+        "2026-08-18T13:33:44.672Z"
+      ],
+      "nextFollowUp": "2026-08-25"
     }
   },
-  "lastRun": "2026-08-17T13:31:26.004Z"
+  "lastRun": "2026-08-18T13:33:44.672Z"
 }
