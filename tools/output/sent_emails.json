@@ -12752,183 +12752,203 @@
     },
     "adoptions@svpetproject.org": {
       "name": "Silicon Valley Pet Project",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:31.410Z",
-        "2026-08-11T14:09:26.357Z"
+        "2026-08-11T14:09:26.357Z",
+        "2026-08-25T13:37:52.909Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "silkyrescueapps@gmail.com": {
       "name": "Silky Terrier Rescue Charitable Trust",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:34.448Z",
-        "2026-08-11T14:09:29.404Z"
+        "2026-08-11T14:09:29.404Z",
+        "2026-08-25T13:37:55.942Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "sheltermanager@siskiyouhumane.org": {
       "name": "Siskiyou Humane Society Inc.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:37.482Z",
-        "2026-08-11T14:09:32.446Z"
+        "2026-08-11T14:09:32.446Z",
+        "2026-08-25T13:37:58.972Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "sistersisterrescue@yahoo.com": {
       "name": "Sister Sister Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:40.517Z",
-        "2026-08-11T14:09:35.487Z"
+        "2026-08-11T14:09:35.487Z",
+        "2026-08-25T13:38:02.009Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "sistersanimalsanctuary@frontiernet.net": {
       "name": "Sisters Animal Sanctuary",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:43.558Z",
-        "2026-08-11T14:09:38.532Z"
+        "2026-08-11T14:09:38.532Z",
+        "2026-08-25T13:38:05.038Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "smashfacerescue911@yahoo.com": {
       "name": "Smashface Rescue/Rehab",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:46.591Z",
-        "2026-08-11T14:09:41.579Z"
+        "2026-08-11T14:09:41.579Z",
+        "2026-08-25T13:38:08.074Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "smoochrescue@yahoo.com": {
       "name": "Smooch Pooch Dog Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:49.626Z",
-        "2026-08-11T14:09:44.624Z"
+        "2026-08-11T14:09:44.624Z",
+        "2026-08-25T13:38:11.102Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "info@snapcats.org": {
       "name": "SNAP Cats",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:52.659Z",
-        "2026-08-11T14:09:47.668Z"
+        "2026-08-11T14:09:47.668Z",
+        "2026-08-25T13:38:14.133Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "snippp@frontiernet.net": {
       "name": "SNIPPP",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:55.694Z",
-        "2026-08-11T14:09:50.710Z"
+        "2026-08-11T14:09:50.710Z",
+        "2026-08-25T13:38:17.164Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "softpawsrescue@gmail.com": {
       "name": "Soft Paws Rescue and Rehab",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:12:58.735Z",
-        "2026-08-11T14:09:53.753Z"
+        "2026-08-11T14:09:53.753Z",
+        "2026-08-25T13:38:20.196Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "tm2004@comcast.net": {
       "name": "Solano County Animal Rescue Foundation",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:01.767Z",
-        "2026-08-11T14:09:56.795Z"
+        "2026-08-11T14:09:56.795Z",
+        "2026-08-25T13:38:23.227Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "scfoahelpme@gmail.com": {
       "name": "Solano County Friends of Animals",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:04.803Z",
-        "2026-08-11T14:09:59.922Z"
+        "2026-08-11T14:09:59.922Z",
+        "2026-08-25T13:38:26.257Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "solanospca@gmail.com": {
       "name": "Solano County S.P.C.A.",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:07.836Z",
-        "2026-08-11T14:10:02.966Z"
+        "2026-08-11T14:10:02.966Z",
+        "2026-08-25T13:38:29.288Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "riversidebunnylady@gmail.com": {
       "name": "Somebunny Luvs Me",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:10.867Z",
-        "2026-08-11T14:10:06.007Z"
+        "2026-08-11T14:10:06.007Z",
+        "2026-08-25T13:38:32.317Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "jro@woodside-road.net": {
       "name": "Sonora Cat Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:13.899Z",
-        "2026-08-11T14:10:09.048Z"
+        "2026-08-11T14:10:09.048Z",
+        "2026-08-25T13:38:35.353Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "connect@soulplaymates.org": {
       "name": "SoulPlayMates",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:16.937Z",
-        "2026-08-11T14:10:12.090Z"
+        "2026-08-11T14:10:12.090Z",
+        "2026-08-25T13:38:38.381Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "komodo@sisp.net": {
       "name": "Sounds of Silent Spirits",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:19.972Z",
-        "2026-08-11T14:10:15.136Z"
+        "2026-08-11T14:10:15.136Z",
+        "2026-08-25T13:38:41.410Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "tharrington@cox.net": {
       "name": "South Bay Cats",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:23.003Z",
-        "2026-08-11T14:10:18.184Z"
+        "2026-08-11T14:10:18.184Z",
+        "2026-08-25T13:38:44.443Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "southbaydogrescue@gmail.com": {
       "name": "South Bay Dog Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:26.043Z",
-        "2026-08-11T14:10:21.229Z"
+        "2026-08-11T14:10:21.229Z",
+        "2026-08-25T13:38:47.471Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "adoptarescuedog@aol.com": {
       "name": "South Bay Purebred Rescue",
-      "wave": 2,
+      "wave": 3,
       "dates": [
         "2026-08-04T15:13:29.087Z",
-        "2026-08-11T14:10:24.275Z"
+        "2026-08-11T14:10:24.275Z",
+        "2026-08-25T13:38:50.499Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": null
     },
     "southbayrabbitrescue@gmail.com": {
       "name": "South Bay Rabbit Rescue",
@@ -13652,163 +13672,183 @@
     },
     "woof@thepetfoodbank.com": {
       "name": "The Pet Food Bank",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:32:47.112Z"
+        "2026-08-18T13:32:47.112Z",
+        "2026-08-25T13:38:53.529Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "adopt@thepetrescuecenter.org": {
       "name": "The Pet Rescue Center",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:32:50.143Z"
+        "2026-08-18T13:32:50.143Z",
+        "2026-08-25T13:38:56.558Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "petrescuecenter@gmail.com": {
       "name": "The Pet Rescue Center Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:32:53.170Z"
+        "2026-08-18T13:32:53.170Z",
+        "2026-08-25T13:38:59.586Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "info@powerofchi.org": {
       "name": "The Power of Chi",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:32:56.204Z"
+        "2026-08-18T13:32:56.204Z",
+        "2026-08-25T13:39:02.615Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "ava_haven@comcast.net": {
       "name": "The Rabbit Haven",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:32:59.232Z"
+        "2026-08-18T13:32:59.232Z",
+        "2026-08-25T13:39:05.646Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "therealbark@gmail.com": {
       "name": "The Real Bark",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:02.260Z"
+        "2026-08-18T13:33:02.260Z",
+        "2026-08-25T13:39:08.678Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "info@rescueteamla.org": {
       "name": "The Rescue Team, Inc.",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:05.290Z"
+        "2026-08-18T13:33:05.290Z",
+        "2026-08-25T13:39:11.706Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "info@therescuetrain.org": {
       "name": "The Rescue Train",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:08.320Z"
+        "2026-08-18T13:33:08.320Z",
+        "2026-08-25T13:39:14.733Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "info@therescueddog.org": {
       "name": "The Rescued Dog",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:11.348Z"
+        "2026-08-18T13:33:11.348Z",
+        "2026-08-25T13:39:17.770Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "thertbpawsibilitiesfoundation@gmail.com": {
       "name": "The Robert T. Brentnall Pawsibilities Foundation",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:14.382Z"
+        "2026-08-18T13:33:14.382Z",
+        "2026-08-25T13:39:20.803Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "info@samsimonfoundation.org": {
       "name": "The Sam Simon Foundation",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:17.412Z"
+        "2026-08-18T13:33:17.412Z",
+        "2026-08-25T13:39:23.840Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "info@spcamc.org": {
       "name": "The SPCA for Monterey County",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:20.443Z"
+        "2026-08-18T13:33:20.443Z",
+        "2026-08-25T13:39:26.995Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "stephanie@veterinarycarecenter.com": {
       "name": "The Veterinary Care Center",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:23.471Z"
+        "2026-08-18T13:33:23.471Z",
+        "2026-08-25T13:39:30.025Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "adoptions@thezuripetrescue.com": {
       "name": "The Zuri Pet Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:26.499Z"
+        "2026-08-18T13:33:26.499Z",
+        "2026-08-25T13:39:33.053Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "throwmeabonerescue@gmail.com": {
       "name": "Throw Me A Bone Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:29.525Z"
+        "2026-08-18T13:33:29.525Z",
+        "2026-08-25T13:39:36.081Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "info@thulaniseniorgsr.org": {
       "name": "Thulani Senior German Shepherd Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:32.553Z"
+        "2026-08-18T13:33:32.553Z",
+        "2026-08-25T13:39:39.109Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "tiramisudogrescue@gmail.com": {
       "name": "Tiramisu Dog Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:35.586Z"
+        "2026-08-18T13:33:35.586Z",
+        "2026-08-25T13:39:42.138Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "tlctinylovingcanines@aol.com": {
       "name": "TLC (Tiny Loving Canines)",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:38.615Z"
+        "2026-08-18T13:33:38.615Z",
+        "2026-08-25T13:39:45.165Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "beaglesrbest@yahoo.com": {
       "name": "TLC with PUPS",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:41.643Z"
+        "2026-08-18T13:33:41.643Z",
+        "2026-08-25T13:39:48.192Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "tina@tntrescue.org": {
       "name": "TnT Small Animal Rescue",
-      "wave": 1,
+      "wave": 2,
       "dates": [
-        "2026-08-18T13:33:44.672Z"
+        "2026-08-18T13:33:44.672Z",
+        "2026-08-25T13:39:51.225Z"
       ],
-      "nextFollowUp": "2026-08-25"
+      "nextFollowUp": "2026-09-08"
     },
     "bukido@comcast.net": {
       "name": "TOPCats on the Ridge Inc.",
@@ -14131,5 +14171,5 @@
       "nextFollowUp": "2026-08-31"
     }
   },
-  "lastRun": "2026-08-24T13:40:26.100Z"
+  "lastRun": "2026-08-25T13:39:51.225Z"
 }
